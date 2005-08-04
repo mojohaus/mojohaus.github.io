@@ -10,7 +10,8 @@
   <name>Codehaus Mojo</name>
   <distributionManagement>
     <site>
-      <id>apache</id>
+      <id>mojo.website</id>
+      <name>Mojo Website</name>
       <url>scp://beaver.codehaus.org/home/projects/mojo/public_html/</url>
     </site>
     <repository>
