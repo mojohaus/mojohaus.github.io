@@ -11,7 +11,12 @@
   </bannerRight>
   <body>
   <menu name="Plugins">
-    <item name="SableCC" href="/maven-sablecc-plugin/" />
+    <item name="SableCC" href="maven-sablecc-plugin/"/>
+    <item name="WSDL2Java" href="maven-wsdl2java-plugin/"/>
+  </menu>
+  <menu name="Plugins (sandbox)">
+    <item name="Execute" href="mojo/maven-execute-plugin/"/>
+    <item name="JDBC" href="mojo/maven-jdbc-plugin/"/>
   </menu>
   </body>
 
