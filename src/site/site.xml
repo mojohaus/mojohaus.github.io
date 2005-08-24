@@ -11,8 +11,8 @@
    </bannerRight>
    <body>
       <links>
-         <item name="Mojo" href="."/>
-         <item name="Maven" href="http://maven.gallup.com/maven2"/>
+         <item name="Mojo" href="http://mojo.codehaus.org"/>
+         <item name="Maven" href="http://maven.apache.org/maven2"/>
       </links>
       <menu name="Plugins">
          <item name="SableCC" href="maven-sablecc-plugin/"/>
