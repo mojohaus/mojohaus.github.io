@@ -15,8 +15,8 @@
       <item name="WSDL2Java" href="maven-wsdl2java-plugin/"/>
     </menu>
     <menu name="Plugins (sandbox)">
-      <item name="Execute" href="mojo/maven-execute-plugin/"/>
-      <item name="JDBC" href="mojo/maven-jdbc-plugin/"/>
+      <item name="Execute" href="maven-execute-plugin/"/>
+      <item name="JDBC" href="maven-jdbc-plugin/"/>
     </menu>
     <menu name="Misc">
       <item name="FAQ" href="faq.html"/>
