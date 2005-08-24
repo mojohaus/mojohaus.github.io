@@ -1,16 +1,16 @@
  ------
  Mojo - Maven 2 Plugins Project
  ------
- Trygve Laugstøl
+ Trygve Laugst?l
  ------
  Fri July 22 2005
 
 Welcome To The Mojo Project
 
- The Mojo Project is not currently publishing releases of the plugins contains herein.  You can however checkout the repository and build them yourself for general usage.  If you have problems or concerns with plugins in the mojo project please contact the author, ask on the mailing list the 'Maven Users List <users@maven.apache.org>' or join us on irc at <irc://irc.codehaus.org> on #maven.
+ The Mojo Project is not currently publishing releases of the plugins contains herein. You can however checkout
+ the repository and build them yourself for general usage.
 
- The Mojo Project repository can be obtained at: 
- 
- > svn co https://svn.codehaus.org/mojo/trunk mojo
+ If you have problems or concerns with plugins in the Mojo project please contact the author, ask on
+ {{{mail-lists.html}the users mailing list}} or join us on irc at <irc://irc.codehaus.org> on #maven.
 
- If you don't know what any of this mean, well the Mojo Project is a collection of {{{http://maven.apache.org/maven2}Maven 2}} plugins. And yes, it could really use a better site and some more documentation.
+ If you would like to contribute to the project, either through fixing an existing plugin or by donating a new plugin

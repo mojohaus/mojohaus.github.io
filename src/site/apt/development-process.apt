@@ -1,0 +1,44 @@
+ ------
+ Development Process
+ ------
+ Brett Porter
+ Trygve Laugstol
+ ------
+ Fri July 22 2005
+
+Development Process
+
+ * Anyone can start a plugin in the sandbox at any time.
+
+ * If there is agreeance that it is going to be generally useful, it is promoted to the top level and put on the web
+ site
+
+ * Plugins on the website should gather people willing to work on them. I hope at least 2 people will know how an
+ individual plugin works
+
+* Versioning and Release Strategy
+
+ We follow the versioning from Maven itself:
+
+ [x.y.z-alpha-n] Alpha version, not feature complete.
+
+ [x.y.z-beta-n] Beta version, complete for the next release, not tested/documented.
+
+ [x.y.z] "Proper" release. Pushed to the central repositories on release.
+
+ []
+
+ Where:
+
+ * x is the major version: updated when it is not backwards compat with the last version.
+
+ * y is the minor version: updated when features added
+
+ * z is the micro version: service release, only bugfixes.
+
+ []
+
+ Plugins can have snapshot releases for testing, or beta releases for wider testing and a bit more stability.
+
+ Plugins should be voted on before release. All open jiras should be closed or agreed to be scheduled for a future
+ version. Plugin must be documented and preferably have unit and integration tests.

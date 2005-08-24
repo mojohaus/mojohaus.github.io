@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<faqs title="About Mojo">
+  <part id="about">
+    <faq id="why-mojo">
+      <question>Why was the Mojo project created?</question>
+      <answer>
+        <p>
+          Well, this allows a bunch of people not necessarily involved with the Maven project to come along and build
+          some plugins. They are free to look after just that plugin, though I hope that they'll get involved in the
+          community of people here and work on other plugins as well as help maintain the common infrastructure like the
+          site.
+        </p>
+        <p>
+          Plugins might also be developed here because they don't have a license that is friendly with being distributed
+          from the ASF (anything BSD like). This is sometimes necessary because of the toolkits used by the plugin,
+          while the plugin itself should be under the ASLv2.
+        </p>
+      </answer>
+    </faq>
+    <faq id="how-can-we-communicate">
+      <question>How can we communicate</question>
+      <answer>
+        <ul>
+          <li>Use the mailing list where possible as more people can get involved and so an archive is available</li>
+          <li>If it is specific to a plugin, prefix the subject with the plugin name, eg [jalopy]</li>
+          <li>Use IRC for realtime discussion. Try and summarise that and send it to the list if there was some
+            decisions made there.</li>
+        </ul>
+      </answer>
+    </faq>
+  </part>
+</faqs>
