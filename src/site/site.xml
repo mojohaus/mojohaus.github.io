@@ -15,6 +15,7 @@
          <item name="Maven" href="http://maven.apache.org/maven2"/>
       </links>
       <menu name="Plugins">
+         <item name="JavaCC" href="maven-javacc-plugin"/>
          <item name="SableCC" href="maven-sablecc-plugin/"/>
          <item name="WSDL2Java" href="maven-wsdl2java-plugin/"/>
       </menu>
