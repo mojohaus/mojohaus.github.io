@@ -1,0 +1,43 @@
+ ------
+ Performing a Release
+ ------
+ Trygve Laugstol
+ ------
+ Fri July 22 2005
+
+Performing a Release
+
+ This document is a check list for stuff that has to be done before a release of a Mojo is released.
+
+ * Make sure the documentation is up to date.
+
+  * Update <<<changes.xml>>> to include all issues in JIRA the was fixed.
+
+  * If the release is a bugfix release (incrementing z): explicitly document the bugs fixed
+
+  * If the release is a minor release (incrementing y): document the new features added. Make sure that these new
+    features are properly documented, including:
+
+   * Javadoc tags if the Mojo is written in Java
+
+   * Examples
+
+   []
+
+  []
+
+ * Resolve all SNAPSHOTs if it's a proper release on all dependencies:
+
+  * Normal dependencies, build plugins, report plugins.
+
+  * <<I would say that it's OK to have SNAPSHOT dependencies for alpha versions - Trygve>>
+
+  []
+
+ * If it is a proper release (e.g. not an alpha or beta release) publish the artifact to the release repository
+   that's synched to Ibiblio.org
+
+ * Send out an annoucement email. TODO: Figure out where to send, announce@mojo.codehaus.org for sure, possible
+   user@mojo.codehaus.org and user@maven.apache.org too.
+
+ * TODO: if there's a feed containing all releases, get the release into that feed

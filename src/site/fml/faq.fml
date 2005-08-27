@@ -28,5 +28,18 @@
         </ul>
       </answer>
     </faq>
+    <faq id="what-is-the-sandbox">
+      <question>What is the sandbox</question>
+      <answer>
+        <p>
+          The sandbox is used to "incubate" new plugins. Plugin will not make releases to the repositories and if you
+          are interrested in trying it out you will probably have to build it from the repository.
+        </p>
+        <p>
+          All new code should be put in the sandbox so we can make sure that the plugin uses the correct code style,
+          that is has proper documentation and generally has the expected quality.
+        </p>
+      </answer>
+    </faq>
   </part>
 </faqs>
