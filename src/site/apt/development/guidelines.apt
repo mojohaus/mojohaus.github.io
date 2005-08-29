@@ -1,0 +1,25 @@
+ ------
+ Development Guidelines
+ ------
+ Trygve Laugstol
+ ------
+ Mon Aug 29 2005
+
+Development Guidelines
+
+ All plug-ins in the Mojo project should follow these guidelines although they might not always apply.
+
+ * Use the package "org.codehaus.mojo.<plugin name>", e.g.: <<<org.codehaus.mojo.jpox>>>.
+
+ * Name the Mojos like this: <<<FooMojo>>>. This mojo should be available as <<<foo>>> inside a plugin configuration
+ in Maven.
+
+ * Use the {{{http://maven.apache.org/developers/code-style.html}Maven code style}} when formatting your code.
+
+ * License: We accept any plug-ins that follow Codehaus's rules for licensing. We recomend you use
+ {{{http://hausmates.codehaus.org/}Codehaus's recomended license}} which is the MIT license. This license is usable
+ for both ASL and GPL covered software. For other acceptable licenses please read the
+ {{{http://www.codehaus.org/FAQ}Codehaus FAQ}}
+
+ Make sure that you include the the license in a file called <<<LICENSE.txt>>> in the root of your project and that
+ all files include the license in the top of the file.

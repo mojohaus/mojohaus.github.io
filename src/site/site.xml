@@ -28,6 +28,8 @@
       <item name="JDBC" href="maven-jdbc-plugin/"/>
     </menu>
     <menu name="Development">
+      <item name="Submitting a Plugin" href="development/submitting-a-plugin.html"/>
+      <item name="Guidelines" href="development/guidelines.html"/>
       <item name="The Process" href="development/process.html"/>
       <item name="Performing a Release" href="development/performing-a-release.html"/>
     </menu>
