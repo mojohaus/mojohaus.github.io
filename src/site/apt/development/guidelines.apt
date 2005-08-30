@@ -9,7 +9,7 @@ Development Guidelines
 
  All plug-ins in the Mojo project should follow these guidelines although they might not always apply.
 
- * Use the package "org.codehaus.mojo.<plugin name>", e.g.: <<<org.codehaus.mojo.jpox>>>.
+ * Use the package "org.codehaus.mojo.<plugin>", e.g.: <<<org.codehaus.mojo.jpox>>>.
 
  * Name the Mojos like this: <<<FooMojo>>>. This mojo should be available as <<<foo>>> inside a plugin configuration
  in Maven.
