@@ -20,7 +20,7 @@
     <menu name="Plugins">
       <item name="JavaCC" href="maven-javacc-plugin"/>
       <item name="SableCC" href="maven-sablecc-plugin/"/>
-      <item name="WSDL2Java" href="maven-wsdl2java-plugin/"/>
+      <item name="WSDL2Java" href="wsdl2java-maven-plugin/"/>
     </menu>
     <menu name="Plugins Sandbox">
       <item name="What is the sandbox" href="faq.html#what-is-the-sandbox"/>
