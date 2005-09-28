@@ -42,3 +42,11 @@ Development Process
 
  Plugins should be voted on before release. All open jiras should be closed or agreed to be scheduled for a future
  version. Plugin must be documented and preferably have unit and integration tests.
+
+* Debugging Tips
+
+ To debug Maven 2 with IDEA use this command:
++-----+
+MAVEN_OPTS="-Xdebug -Xnoagent -Djava.compiler=NONE -Xrunjdwp:transport=dt_socket,server=y,suspend=y,address=5005" 
+m2 install
++-----+
