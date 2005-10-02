@@ -19,6 +19,7 @@
     </menu>
     <menu name="Plugins">
       <item name="JavaCC" href="maven-javacc-plugin"/>
+      <item name="JBoss" href="jboss-maven-plugin"/>
       <item name="SableCC" href="maven-sablecc-plugin/"/>
       <item name="WSDL2Java" href="wsdl2java-maven-plugin/"/>
       <item name="XDoclet" href="xdoclet-maven-plugin/"/>
