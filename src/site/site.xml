@@ -20,13 +20,16 @@
     <menu name="Plugins">
       <item name="Castor" href="castor-maven-plugin"/>
       <item name="Changelog" href="changelog-maven-plugin"/>
+      <item name="Changes" href="changes-maven-plugin"/>
       <item name="JavaCC" href="maven-javacc-plugin"/>
       <item name="Jalopy" href="jalopy-maven-plugin"/>
       <item name="JDepend" href="jdepend-maven-plugin"/>
       <item name="Jetty" href="jetty-maven-plugin"/>
       <item name="JBoss" href="jboss-maven-plugin"/>
+      <item name="JXR" href="jxr-maven-plugin"/>
       <item name="SableCC" href="maven-sablecc-plugin/"/>
       <item name="Surefire Report" href="surefire-report-maven-plugin"/>
+      <item name="Taglist" href="taglist-maven-plugin"/>
       <item name="WSDL2Java" href="wsdl2java-maven-plugin/"/>
       <item name="XDoclet" href="xdoclet-maven-plugin/"/>
       <item name="XMLBeans" href="xmlbeans-maven-plugin/"/>
