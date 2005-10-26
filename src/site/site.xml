@@ -38,6 +38,7 @@
       <item name="What is the sandbox" href="faq.html#what-is-the-sandbox"/>
       <item name="Execute" href="maven-execute-plugin/"/>
       <item name="JDBC" href="maven-jdbc-plugin/"/>
+      <item name="Xjc" href="xjc-maven-plugin/"/>
     </menu>
     <menu name="Development">
       <item name="Submitting a Plugin" href="development/submitting-a-plugin.html"/>
