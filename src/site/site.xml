@@ -26,6 +26,7 @@
       <item name="JDepend" href="jdepend-maven-plugin"/>
       <item name="Jetty" href="jetty-maven-plugin"/>
       <item name="JBoss" href="jboss-maven-plugin"/>
+      <item name="Jspc" href="jspc-maven-plugin"/>
       <item name="JXR" href="jxr-maven-plugin"/>
       <item name="SableCC" href="maven-sablecc-plugin/"/>
       <item name="Surefire Report" href="surefire-report-maven-plugin"/>
