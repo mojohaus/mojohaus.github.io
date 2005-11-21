@@ -21,7 +21,7 @@
       <item name="Castor" href="castor-maven-plugin"/>
       <item name="Changelog" href="changelog-maven-plugin"/>
       <item name="Changes" href="changes-maven-plugin"/>
-      <item name="JavaCC" href="maven-javacc-plugin"/>
+      <item name="JavaCC" href="javacc-maven-plugin"/>
       <item name="Jalopy" href="jalopy-maven-plugin"/>
       <item name="JDepend" href="jdepend-maven-plugin"/>
       <item name="Jetty" href="jetty-maven-plugin"/>
