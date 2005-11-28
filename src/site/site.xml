@@ -40,6 +40,7 @@
       <item name="Axis Tools" href="axistools-maven-plugin/"/>
       <item name="Execute" href="maven-execute-plugin/"/>
       <item name="JDBC" href="maven-jdbc-plugin/"/>
+      <item name="Tomcat" href="tomcat-maven-plugin/"/>
       <item name="Xjc" href="xjc-maven-plugin/"/>
     </menu>
     <menu name="Development">
