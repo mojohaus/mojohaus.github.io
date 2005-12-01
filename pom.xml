@@ -8,10 +8,11 @@
   <artifactId>mojo-site</artifactId>
   <version>1.0-SNAPSHOT</version>
   <name>Codehaus Mojo Site</name>
-  <!-- Repeated here as Maven will by default append the artifact id to the path -->
+  <!-- Repeated here as Maven will by default append the artifact id to the path in the reports -->
   <scm>
-    <connection>scm:svn:svn://svn.codehaus.org/mojo/scm/trunk/</connection>
-    <developerConnection>scm:svn:https://svn.codehaus.org/mojo/trunk</developerConnection>
+    <connection>scm:svn:svn://svn.codehaus.org/mojo/scm/trunk/mojo</connection>
+    <developerConnection>scm:svn:https://svn.codehaus.org/mojo/trunk/mojo</developerConnection>
+    <url>http://svn.mojo.codehaus.org/trunk/mojo</url>
   </scm>
   <distributionManagement>
     <site>
