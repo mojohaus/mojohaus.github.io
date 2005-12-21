@@ -38,6 +38,7 @@
     <menu name="Plugins Sandbox">
       <item name="What is the sandbox" href="faq.html#what-is-the-sandbox"/>
       <item name="Axis Tools" href="axistools-maven-plugin/"/>
+      <item name="Dependency" href="dependency-maven-plugin/"/>
       <item name="Execute" href="maven-execute-plugin/"/>
       <item name="JDBC" href="maven-jdbc-plugin/"/>
       <item name="Tomcat" href="tomcat-maven-plugin/"/>
