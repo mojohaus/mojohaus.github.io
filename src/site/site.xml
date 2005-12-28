@@ -28,6 +28,7 @@
       <item name="JBoss" href="jboss-maven-plugin"/>
       <item name="Jspc" href="jspc-maven-plugin"/>
       <item name="JXR" href="jxr-maven-plugin"/>
+      <item name="Native" href="maven-native/native-maven-plugin"/>
       <item name="SableCC" href="maven-sablecc-plugin/"/>
       <item name="Surefire Report" href="surefire-report-maven-plugin"/>
       <item name="Taglist" href="taglist-maven-plugin"/>
