@@ -23,8 +23,7 @@
         <ul>
           <li>Use the mailing list where possible as more people can get involved and so an archive is available</li>
           <li>If it is specific to a plugin, prefix the subject with the plugin name, eg [jalopy]</li>
-          <li>Use IRC for realtime discussion. Try and summarise that and send it to the list if there was some
-            decisions made there.</li>
+          <li>Use IRC (irc://irc.codehaus.org on #maven) for realtime discussion. Try and summarise that and send it to the list if there was some decisions were made there.</li>
         </ul>
       </answer>
     </faq>

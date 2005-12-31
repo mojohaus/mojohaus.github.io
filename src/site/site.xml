@@ -15,6 +15,7 @@
       <item name="Maven" href="http://maven.apache.org/maven2"/>
     </links>
     <menu name="Mojo">
+      <item name="Introduction" href="index.html"/>
       <item name="FAQ" href="faq.html"/>
     </menu>
     <menu name="Plugins">

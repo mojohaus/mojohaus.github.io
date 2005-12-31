@@ -3,14 +3,33 @@
  ------
  Trygve Laugstol
  ------
- Fri July 22 2005
+Jan 1, 2006
 
 Welcome To The Mojo Project
 
- The Mojo Project is not currently publishing releases of the plugins contains herein. You can however checkout
- the repository and build them yourself for general usage.
+ The Mojo Project is currently publishing the following plugins on {{{http://www.ibiblio.org/pub/packages/maven2/org/codehaus/mojo/}ibiblio}}:
+
+	*castor
+	
+	*changelog
+	
+	*changes
+
+	*jxr
+
+	*jpox
+
+	*surefire-report
+
+	*taglist
+
+	*xdoclet
+
+	*xmlbeans
+
+ You can however checkout other plugins from the repository and build them yourself for general usage.
 
  If you have problems or concerns with plugins in the Mojo project please contact the author, ask on
  {{{mail-lists.html}the users mailing list}} or join us on irc at <irc://irc.codehaus.org> on #maven.
 
- If you would like to contribute to the project, either through fixing an existing plugin or by donating a new plugin
+ If you would like to contribute to the project, either through fixing an existing plugin or by donating a new plugin, contact us on on {{{mail-lists.html}the development mailing list}} or join us on irc at <irc://irc.codehaus.org> on #maven
