@@ -9,7 +9,7 @@ Performing a Release
 
  This document is a check list for stuff that has to be done before a release of a Mojo is released.
 
- * Make sure the documentation is up to date.
+ * Make sure the site documentation is up to date and follows the {{{site-guidelines.html}Site Guidelines}} 
 
   * Update <<<changes.xml>>> to include all issues in JIRA the was fixed.
 

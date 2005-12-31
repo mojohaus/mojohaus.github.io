@@ -21,5 +21,7 @@ Development Guidelines
  for both ASL and GPL covered software. For other acceptable licenses please read the
  {{{http://www.codehaus.org/FAQ}Codehaus FAQ}}
 
+ * Create a site using the {{{site-guidelines.html}Site Guidelines}}
+
  Make sure that you include the the license in a file called <<<LICENSE.txt>>> in the root of your project and that
  all files include the license in the top of the file.

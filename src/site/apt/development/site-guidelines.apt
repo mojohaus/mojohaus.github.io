@@ -1,0 +1,100 @@
+ ------
+ Site Template
+ ------
+ Brian Fox
+ ------
+ Sat, Dec 31, 2005
+
+Plugin Site Template
+
+ Plugins should have a site that conforms with the Codehaus template. Place this in /src/site/site.xml for a starting point:
+
+-----------------------------------------
+<project name="Maven XXXXX Plugin">
+   <bannerLeft>
+      <name>Mojo</name>
+      <src>http://mojo.codehaus.org/images/mojo_logo.png</src>
+      <href>http://mojo.codehaus.org</href>
+   </bannerLeft>
+   <bannerRight>
+      <name>Codehaus</name>
+      <src>http://mojo.codehaus.org/images/codehaus-small.png</src>
+      <href>http://www.codehaus.org</href>
+   </bannerRight>
+   <body>
+      <links>
+         <item name="Mojo" href="http://mojo.codehaus.org"/>
+         <item name="Maven" href="http://maven.apache.org/maven2"/>
+      </links>
+
+    <menu name="Overview">
+      <item name="Introduction" href="introduction.html"/>
+      <item name="How to Use" href="howto.html"/>
+      <item name="Javadoc" href="javadoc/index.html"/>
+    </menu>
+    ${reports}
+  </body>
+</project>
+-----------------------------------------
+
+Plugin Plugin Report
+
+ Plugins should also generate the plugin-plugin report as part of their site. This is accomplished by using the latest mojo parent in your pom:
+
+-----------------------------------------
+<project>
+  ...
+   <parent>
+     <groupId>org.codehaus.mojo</groupId>
+     <artifactId>mojo</artifactId>
+     <version>5</version>
+   </parent>
+  ...
+</project>
+-----------------------------------------
+
+Plugin Javadocs
+
+ The site template above includes a link to Javadocs. Although not required, it is encouraged to publish updated javadocs. Add the following to your pom to generate Javadocs in your site and then create your site like this: mvn javadoc:javadoc site:site
+
+  TODO: Figure out how to generate jdocs automatically as part of site:site
+
+----------------------------------------------
+<project>
+  ...  
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-javadoc-plugin</artifactId>
+        <configuration>
+          <source>1.4</source>
+          <destDir>${project.build.directory}/site/javadoc</destDir>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+  ...
+</project>
+----------------------------------------------
+
+Plugin Changes Report
+
+ Plugins that are released should use the {{{http://mojo.codehaus.org/changes-maven-plugin/howto.html}changes report}} to publish changes. Add changes.xml to src/changes/ and add the following to your pom:
+
+-----------------------------------------
+<project>
+  ...
+    <reporting>
+       <plugins>
+         <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+            <artifactId>changes-maven-plugin</artifactId>
+            <version>2.0-beta-1</version>
+         </plugin>
+       </plugins>
+    </reporting>
+  ...
+<project>
+-----------------------------------------
+
