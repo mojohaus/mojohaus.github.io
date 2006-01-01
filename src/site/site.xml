@@ -22,6 +22,7 @@
       <item name="Castor" href="castor-maven-plugin"/>
       <item name="Changelog" href="changelog-maven-plugin"/>
       <item name="Changes" href="changes-maven-plugin"/>
+      <item name="Dependency" href="dependency-maven-plugin/"/>
       <item name="JavaCC" href="javacc-maven-plugin"/>
       <item name="Jalopy" href="jalopy-maven-plugin"/>
       <item name="JDepend" href="jdepend-maven-plugin"/>
@@ -41,7 +42,6 @@
       <item name="What is the sandbox" href="faq.html#what-is-the-sandbox"/>
       <item name="Axis Tools" href="axistools-maven-plugin/"/>
       <item name="Build Helper" href="build-helper-maven-plugin/"/>
-      <item name="Dependency" href="dependency-maven-plugin/"/>
       <item name="Execute" href="maven-execute-plugin/"/>
       <item name="JDBC" href="maven-jdbc-plugin/"/>
       <item name="Kodo" href="kodo-maven-plugin/"/>
