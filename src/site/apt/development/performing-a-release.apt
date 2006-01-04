@@ -3,13 +3,29 @@
  ------
  Trygve Laugstol
  ------
- Fri July 22 2005
+ Tue Jan 3rd, 2006
 
-Performing a Release
 
- This document is a check list for stuff that has to be done before a release of a Mojo is released.
+ This is a check list for stuff that has to be done before a release of a Mojo is released.
 
- * Make sure the site documentation is up to date and follows the {{{site-guidelines.html}Site Guidelines}} 
+Graduating from the Sandbox
+
+ If the plugin is making its first official release, it should graduate from the sandbox. When this occurs, the following steps should be followed:
+
+  * Make sure the site follows the {{{site-guidelines.html}Site Guidelines}} 
+
+  * Move the svn project from mojo/mojo-sandbox to mojo/
+
+  * Move the mojo site link from the sandbox section to plugins by editing the mojo/mojo-site project. Redeploy it and verify that the site is functional.
+
+  * Update the modules section of the mojo/pom.xml
+
+  * Add the plugin to the list on the mojo-site index.apt.
+
+Preparing to Release
+
+
+  * Make sure the site documentation is up to date and follows the {{{site-guidelines.html}Site Guidelines}} 
 
   * Update <<<changes.xml>>> to include all issues in JIRA the was fixed.
 
@@ -34,10 +50,23 @@ Performing a Release
 
   []
 
- * If it is a proper release (e.g. not an alpha or beta release) publish the artifact to the release repository
-   that's synched to Ibiblio.org
+Performing the Release
 
- * Send out an annoucement email. TODO: Figure out where to send, announce@mojo.codehaus.org for sure, possible
+ If it is a proper release (e.g. not an alpha or beta release), the release process should be done using the release plugin:
+
+  * Execute mvn release:prepare
+
+    This will make sure all code is checked in, tag the release and make sure the pom has not snapshot dependencies. If your local username is not the same as your codehaus username, be sure to add -Dusername=codehaus username.
+
+  * Execute mvn release:perform
+
+     This will build the plugin, javadocs and source. Everything will be deployed to the repository for synchronization to ibiblio. The synchronization occurs every 4 hours.
+
+  * Deploy the site using mvn site:site site:deploy
+
+  * Verify that the ibiblio synchronization and the site:deploy occurred successfully.
+
+  * Send out an annoucement email. TODO: Figure out where to send, announce@mojo.codehaus.org for sure, possibly
    user@mojo.codehaus.org and user@maven.apache.org too.
 
- * TODO: if there's a feed containing all releases, get the release into that feed
+  * TODO: if there's a feed containing all releases, get the release into that feed

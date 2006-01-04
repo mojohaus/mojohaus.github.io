@@ -59,6 +59,8 @@ Plugin Javadocs
 
   TODO: Figure out how to generate jdocs automatically as part of site:site
 
+  NOTE: This will currently cause a problem with the release:perform process because of {{{http://jira.codehaus.org/browse/MJAVADOC-40} MJAVADOC-40}}
+
 ----------------------------------------------
 <project>
   ...  
