@@ -31,7 +31,7 @@ Welcome To The Mojo Project
 
  You can however checkout other plugins from the repository and build them yourself for general usage.
 
- Some plugins may be available via the snapshot repository. To access them, add the following to your pom or a profile in your settings:
+ Some plugins may be available via the snapshot {{{http://snapshots.maven.codehaus.org/maven2/org/codehaus/mojo/}repository}}. To access them, add the following to your pom or a profile in your settings:
 
 ----------------------
 <repositories>
