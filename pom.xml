@@ -10,9 +10,9 @@
   <name>Codehaus Mojo Site</name>
   <!-- Repeated here as Maven will by default append the artifact id to the path in the reports -->
   <scm>
-    <connection>scm:svn:svn://svn.codehaus.org/mojo/scm/trunk/mojo</connection>
+    <connection>scm:svn:https://svn.codehaus.org/mojo/trunk/mojo</connection>
     <developerConnection>scm:svn:https://svn.codehaus.org/mojo/trunk/mojo</developerConnection>
-    <url>http://svn.mojo.codehaus.org/trunk/mojo</url>
+    <url>https://svn.mojo.codehaus.org/mojo/trunk/mojo</url>
   </scm>
   <distributionManagement>
     <site>
