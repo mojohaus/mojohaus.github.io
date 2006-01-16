@@ -10,8 +10,9 @@ Development Process
 
  * Anyone can start a plugin in the sandbox at any time.
 
- * If there is agreeance that it is going to be generally useful, it is promoted to the top level and put on the web
- site
+ * Once in a fairly useable state, the plugin should be listed on the sandbox section of the mojo site and snapshots deployed. If no site is available, try to at least post a link to the SVN location. This advertises the existence of the plugin, which will hopefully generate more interest and developers. 
+
+ * Deploying snapshots lowers the bar to entrance for potential users.
 
  * Plugins on the website should gather people willing to work on them. I hope at least 2 people will know how an
  individual plugin works
@@ -40,8 +41,10 @@ Development Process
 
  Plugins can have snapshot releases for testing, or beta releases for wider testing and a bit more stability.
 
- Plugins should be voted on before release. All open jiras should be closed or agreed to be scheduled for a future
- version. Plugin must be documented and preferably have unit and integration tests.
+ Sandbox plugins should only use snapshot versions. Once ready for a regular release, follow these {{{performing-a-release.html}steps}} to graduate from the sandbox.
+
+ Plugins should follow these {{{performing-a-release.html}steps}} to perform a release.
+be voted on before release.
 
 * Debugging Tips
 

@@ -40,20 +40,52 @@
     </menu>
     <menu name="Plugins Sandbox">
       <item name="What is the sandbox" href="faq.html#what-is-the-sandbox"/>
+      <item name="Api Docs" href="apidocs-maven-plugin/"/>
+      <item name="AspectJ" href="https://svn.mojo.codehaus.org/mojo/trunk/mojo/mojo-sandbox/aspectj-maven-plugin/"/>
       <item name="Axis Tools" href="axistools-maven-plugin/"/>
       <item name="Build Helper" href="build-helper-maven-plugin/"/>
-      <item name="Execute" href="maven-execute-plugin/"/>
-      <item name="JDBC" href="maven-jdbc-plugin/"/>
+      <item name="Cobertura" href="cobertura-maven-plugin/"/>
+      <item name="Deb" href="https://svn.mojo.codehaus.org/mojo/trunk/mojo/mojo-sandbox/deb-maven-plugin/"/>
+      <item name="Delicious" href="https://svn.mojo.codehaus.org/mojo/trunk/mojo/mojo-sandbox/delicious-maven-plugin"/>
+      <item name="Docbook" href="docbook-maven-plugin"/>
+      <item name="Ejb Doclet" href="ejbdoclet-maven-plugin"/>
+      <item name="Eve" href="https://svn.mojo.codehaus.org/mojo/trunk/mojo/mojo-sandbox/eve-maven-plugin/"/>
+      <item name="Execute" href="https://svn.mojo.codehaus.org/mojo/trunk/mojo/mojo-sandbox/exec-maven-plugin/"/>
+      <item name="Graphing" href="graphing-maven-plugin/"/>
+      <item name="Groovy" href="groovy-maven-plugin/"/>
+      <item name="Hibernate3" href=""/>
+      <item name="Hibernate Doclet" href="hibernatedoclet-maven-plugin/"/>
+      <item name="Idlj" href="idlj-maven-plugin/"/>      
+      <item name="Javancss" href="javancss-maven-plugin/"/>
+      <item name="Graphing" href="graphing-maven-plugin/"/>
+      <item name="JarJar" href="https://svn.mojo.codehaus.org/mojo/trunk/mojo/mojo-sandbox/jarjar-maven-plugin"/>
+      <item name="Jboss Sar" href="jboss-sar-maven-plugin/"/>
+      <item name="JDBC" href="jdbc-maven-plugin/"/>
+      <item name="Key Tool" href="keytool-maven-plugin/"/>
       <item name="Kodo" href="kodo-maven-plugin/"/>
+      <item name="Mant" href="mant-maven-plugin/"/>
       <item name="MiniJar" href="minijar-maven-plugin/"/>
+      <item name="Netbeans Freeform" href="https://svn.mojo.codehaus.org/mojo/trunk/mojo/mojo-sandbox/netbeans-freeform-maven-plugin/"/>
+      <item name="Pom Tools" href="pomtools-maven-plugin/"/>
+      <item name="Retro Translator" href="https://svn.mojo.codehaus.org/mojo/trunk/mojo/mojo-sandbox/retrotranslator-maven-plugin/"/>
+      <item name="Retro Weaver" href="retroweaver-maven-plugin/"/>
+      <item name="Rmic" href="rmic-maven-plugin/"/>
+      <item name="RPM" href="rpm-maven-plugin/"/>
+      <item name="Ruby Script" href="Ruby Script-maven-plugin/"/>
+      <item name="Runtime" href="https://svn.mojo.codehaus.org/mojo/trunk/mojo/mojo-sandbox/runtime-maven-plugin/"/>
+      <item name="Slimdog" href="https://svn.mojo.codehaus.org/mojo/trunk/mojo/mojo-sandbox/slimdog-maven-plugin/"/>
+      <item name="Spring Doclet" href="springdoclet-maven-plugin/"/>
       <item name="Tomcat" href="tomcat-maven-plugin/"/>
+      <item name="Web Doclet" href="webdoclet-maven-plugin/"/>
+      <item name="Webstart" href="webstart-maven-plugin/"/>      
       <item name="Xjc" href="xjc-maven-plugin/"/>
+      <item name="Xslt" href="Xslt-maven-plugin/"/>
     </menu>
     <menu name="Development">
       <item name="Submitting a Plugin" href="development/submitting-a-plugin.html"/>
-      <item name="Guidelines" href="development/guidelines.html"/>
+      <item name="Development Guidelines" href="development/guidelines.html"/>
       <item name="Site Guidelines" href="development/site-guidelines.html"/>
-      <item name="The Process" href="development/process.html"/>
+      <item name="Development Process" href="development/process.html"/>
       <item name="Performing a Release" href="development/performing-a-release.html"/>
     </menu>
     ${reports}

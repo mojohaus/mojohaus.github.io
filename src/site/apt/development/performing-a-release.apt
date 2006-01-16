@@ -8,24 +8,14 @@
 
  This is a check list for stuff that has to be done before a release of a Mojo is released.
 
-Graduating from the Sandbox
-
- If the plugin is making its first official release, it should graduate from the sandbox. When this occurs, the following steps should be followed:
-
-  * Make sure the site follows the {{{site-guidelines.html}Site Guidelines}} 
-
-  * Move the svn project from mojo/mojo-sandbox to mojo/
-
-  * Move the mojo site link from the sandbox section to plugins by editing the mojo/mojo-site project. Redeploy it and verify that the site is functional.
-
-  * Update the modules section of the mojo/pom.xml
-
-  * Add the plugin to the list on the mojo-site index.apt.
-
 Preparing to Release
 
-
   * Make sure the site documentation is up to date and follows the {{{site-guidelines.html}Site Guidelines}} 
+
+  * All open jiras should be closed or agreed to be scheduled for a future
+ version. 
+
+  * Plugin must be documented and preferably have unit and integration tests.
 
   * Update <<<changes.xml>>> to include all issues in JIRA the was fixed.
 
@@ -42,13 +32,29 @@ Preparing to Release
 
   []
 
- * Resolve all SNAPSHOTs if it's a proper release on all dependencies:
-
-  * Normal dependencies, build plugins, report plugins.
-
-  * <<I would say that it's OK to have SNAPSHOT dependencies for alpha versions - Trygve>>
+ * Resolve all SNAPSHOTs if it's a proper release on all dependencies: Normal dependencies, build plugins, report plugins.
 
   []
+
+Call a Vote
+ 
+ Before a release can occur, a vote typically takes place. This is initiated with an email to the dev list, preferrably with [vote] beginning the subject. Explain the plugin, status and any other info you feel relevant. The standard is to wait 72hrs for responses. This gives other developers time to verify the quality of the plugin before placing their vote. See {{{http://www.apache.org/foundation/voting.html}here}} for Apache guidelines on voting.
+
+Graduating from the Sandbox
+
+ If the plugin is making its first official release, it should graduate from the sandbox. When this occurs, the following steps should be followed:
+
+  * Make sure the site follows the {{{site-guidelines.html}Site Guidelines}} 
+
+  * Move the svn project from mojo/mojo-sandbox to mojo/
+
+  * Change the pom parent from mojo-sandbox to mojo
+
+  * Move the mojo site link from the sandbox section to plugins by editing the mojo/mojo-site project. Redeploy it and verify that the site is functional.
+
+  * Add the plugin the modules section of the mojo/pom.xml and remove it from mojo-sandmox/pom.xml
+
+  * Add the plugin to the list on the mojo-site index.apt.
 
 Performing the Release
 

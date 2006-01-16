@@ -18,7 +18,7 @@
     <site>
       <id>mojo.website</id>
       <name>Mojo Website</name>
-      <url>scpexe://beaver.codehaus.org/home/projects/mojo/public_html/</url>
+      <url>scp://beaver.codehaus.org/home/projects/mojo/public_html/</url>
     </site>
     <repository>
       <id>repo1</id>

@@ -40,5 +40,13 @@
         </p>
       </answer>
     </faq>
+    <faq id="where-is-sandbox">
+      <question>Where is the sandbox</question>
+      <answer>
+        <p>
+          Most plugins have sites published and linked from the mojo navigation menu. Others can be found in SVN: https://svn.mojo.codehaus.org/mojo/trunk/mojo/mojo-sandbox/
+        </p>
+       </answer>
+    </faq>
   </part>
 </faqs>
