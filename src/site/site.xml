@@ -75,6 +75,7 @@
       <item name="Ruby Tools" href="https://svn.mojo.codehaus.org/mojo/trunk/mojo/mojo-sandbox/ruby-maven-tools/"/>
       <item name="Ruby Script" href="rubyscript-maven-plugin/"/>
       <item name="Runtime" href="https://svn.mojo.codehaus.org/mojo/trunk/mojo/mojo-sandbox/runtime-maven-plugin/"/>
+      <item name="Simian Report" href="simian-report-maven-plugin/"/>
       <item name="Slimdog" href="https://svn.mojo.codehaus.org/mojo/trunk/mojo/mojo-sandbox/slimdog-maven-plugin/"/>
       <item name="Spring Doclet" href="springdoclet-maven-plugin/"/>
       <item name="Tomcat" href="tomcat-maven-plugin/"/>
