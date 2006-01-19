@@ -22,6 +22,18 @@ Snapshot Repository
     </releases>
   </repository>
 </repositories>
+<pluginRepositories>
+  <pluginRepository>
+    <id>Maven Snapshots</id>
+    <url>http://snapshots.maven.codehaus.org/maven2/</url>
+    <snapshots>
+      <enabled>true</enabled>
+    </snapshots>
+    <releases>
+      <enabled>false</enabled>
+    </releases>
+  </pluginRepository>
+</pluginRepositories>
 ----------------------
 
  or a profile in your settings:
@@ -42,6 +54,18 @@ Snapshot Repository
         </releases>
      </repository>
    </repositories>
+   <pluginRepositories>
+     <pluginRepository>
+       <id>Maven Snapshots</id>
+       <url>http://snapshots.maven.codehaus.org/maven2/</url>
+       <snapshots>
+         <enabled>true</enabled>
+       </snapshots>
+       <releases>
+         <enabled>false</enabled>
+       </releases>
+     </pluginRepository>
+   </pluginRepositories>
   </profile>
 </profiles>
 <activeProfiles>
