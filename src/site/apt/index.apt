@@ -29,24 +29,8 @@ Welcome To The Mojo Project
 
 	*xmlbeans
 
- You can however checkout other plugins from the repository and build them yourself for general usage.
+ You can however checkout other plugins from the repository and build them yourself for general usage. See {{{using-sandbox-plugins.html}here}} for information about building from source and retrieving sandbox snapshot releases.
 
- Most plugins are also available via the snapshot {{{http://snapshots.maven.codehaus.org/maven2/org/codehaus/mojo/}repository}}. To access them, add the following to your pom or a profile in your settings:
-
-----------------------
-<repositories>
-  <repository>
-    <id>Maven Snapshots</id>
-    <url>http://snapshots.maven.codehaus.org/maven2/</url>
-    <snapshots>
-      <enabled>true</enabled>
-    </snapshots>
-    <releases>
-      <enabled>false</enabled>
-    </releases>
-  </repository>
-</repositories>
-----------------------
 
  If you have problems or concerns with plugins in the Mojo project please contact the author, ask on
  {{{mail-lists.html}the users mailing list}} or join us on irc at <irc://irc.codehaus.org> on #maven.

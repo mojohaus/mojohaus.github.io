@@ -40,6 +40,7 @@
     </menu>
     <menu name="Plugins Sandbox">
       <item name="What is the sandbox" href="faq.html#what-is-the-sandbox"/>
+      <item name="Using Sandbox Plugins" href="using-sandbox-plugins.html"/>
       <item name="Api Docs" href="apidocs-maven-plugin/"/>
       <item name="AspectJ" href="https://svn.mojo.codehaus.org/mojo/trunk/mojo/mojo-sandbox/aspectj-maven-plugin/"/>
       <item name="Axis Tools" href="axistools-maven-plugin/"/>
@@ -91,6 +92,6 @@
       <item name="Development Process" href="development/process.html"/>
       <item name="Performing a Release" href="development/performing-a-release.html"/>
     </menu>
-    ${reports}
+${reports}
   </body>
 </project>

@@ -1,0 +1,54 @@
+  ------
+ Mojo - Maven 2 Plugins Project
+ ------
+ Brian Fox
+ ------
+Jan 19, 2006
+
+Snapshot Repository
+
+ Most plugins are available via the snapshot {{{http://snapshots.maven.codehaus.org/maven2/org/codehaus/mojo/}repository}}. To access them, add the following to your pom:
+
+----------------------
+<repositories>
+  <repository>
+    <id>Maven Snapshots</id>
+    <url>http://snapshots.maven.codehaus.org/maven2/</url>
+    <snapshots>
+      <enabled>true</enabled>
+    </snapshots>
+    <releases>
+      <enabled>false</enabled>
+    </releases>
+  </repository>
+</repositories>
+----------------------
+
+ or a profile in your settings:
+
+----------------------
+<profiles>
+  <profile>
+    <id>Snapshots</id>
+    <repositories>
+      <repository>
+        <id>Maven Snapshots</id>
+        <url>http://snapshots.maven.codehaus.org/maven2/</url>
+        <snapshots>
+          <enabled>true</enabled>
+        </snapshots>
+        <releases>
+          <enabled>false</enabled>
+        </releases>
+     </repository>
+   </repositories>
+  </profile>
+</profiles>
+<activeProfiles>
+  <activeProfile>Snapshots</activeProfile>
+</activeProfiles>
+----------------------
+
+Building plugins
+
+ To build a plugin, check out the {{{source-repository.html}source}}. Then add the repositories shown above so that parent versions can be retreived. Cd into the source folder and run "mvn install"
