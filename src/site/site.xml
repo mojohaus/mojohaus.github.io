@@ -88,7 +88,6 @@
     <menu name="Development">
       <item name="Submitting a Plugin" href="development/submitting-a-plugin.html"/>
       <item name="Development Guidelines" href="development/guidelines.html"/>
-      <item name="Site Guidelines" href="development/site-guidelines.html"/>
       <item name="Development Process" href="development/process.html"/>
       <item name="Performing a Release" href="development/performing-a-release.html"/>
     </menu>

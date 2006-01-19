@@ -5,9 +5,9 @@
  ------
  Mon Aug 29 2005
 
-Development Guidelines
+Plugin Guidelines
 
- All plug-ins in the Mojo project should follow these guidelines although they might not always apply.
+ All plugins in the Mojo project should follow these guidelines although they might not always apply.
 
  * Use the package "org.codehaus.mojo.<plugin>", e.g.: <<<org.codehaus.mojo.jpox>>>.
 
@@ -16,16 +16,78 @@ Development Guidelines
 
  * Use the {{{http://maven.apache.org/developers/code-style.html}Maven code style}} when formatting your code.
 
- * License: We accept any plug-ins that follow Codehaus's rules for licensing. We recomend you use
+Licensing
+
+  We accept any plug-ins that follow Codehaus's rules for licensing. We recomend you use
  {{{http://hausmates.codehaus.org/}Codehaus's recomended license}} which is the MIT license. This license is usable
  for both ASL and GPL covered software. For other acceptable licenses please read the
  {{{http://www.codehaus.org/FAQ}Codehaus FAQ}}
 
- * Create a site using the {{{site-guidelines.html}Site Guidelines}}
-
- * Sandbox plugins should derive from the org.codehaus.mojo.mojo-sandbox parent.
-
- * Released plugins should derive from the org.codehaus.mojo.mojo parent.
-
- Make sure that you include the the license in a file called <<<LICENSE.txt>>> in the root of your project and that
+  Make sure that you include the the license in a file called <<<LICENSE.txt>>> in the root of your project and that
  all files include the license in the top of the file.
+
+Mojo Parents
+
+ Released plugins should derive from the mojo parent:
+
+-----------------------------------------
+<project>
+  ...
+   <parent>
+     <groupId>org.codehaus.mojo</groupId>
+     <artifactId>mojo</artifactId>
+     <version>6</version>
+   </parent>
+  ...
+</project>
+-----------------------------------------
+
+ Sandbox (new) plugins should derive from the mojo-sandbox parent:
+
+-----------------------------------------
+<project>
+  ...
+   <parent>
+     <groupId>org.codehaus.mojo</groupId>
+     <artifactId>mojo-sandbox</artifactId>
+     <version>2.0-SNAPSHOT</version>
+   </parent>
+  ...
+</project>
+-----------------------------------------
+
+Plugin Site Template
+
+ Plugins should have a site that conforms with the Codehaus template. Place this in /src/site/site.xml for a starting point:
+
+-----------------------------------------
+<project name="Maven XXXXX Plugin">
+   <bannerLeft>
+      <name>Mojo</name>
+      <src>http://mojo.codehaus.org/images/mojo_logo.png</src>
+      <href>http://mojo.codehaus.org</href>
+   </bannerLeft>
+   <bannerRight>
+      <name>Codehaus</name>
+      <src>http://mojo.codehaus.org/images/codehaus-small.png</src>
+      <href>http://www.codehaus.org</href>
+   </bannerRight>
+   <body>
+      <links>
+         <item name="Mojo" href="http://mojo.codehaus.org"/>
+         <item name="Maven" href="http://maven.apache.org/"/>
+      </links>
+    <menu name="Mojo">
+         <item name="Back to Mojo" href="http://mojo.codehaus.org"/>
+    </menu>
+    <menu name="Overview">
+      <item name="Plugin Goals" href="index.html"/>
+      <item name="Introduction" href="introduction.html"/>
+      <item name="How to Use" href="howto.html"/>
+      <item name="Javadoc" href="apidocs/index.html"/>
+    </menu>
+    ${reports}
+  </body>
+</project>
+-----------------------------------------
+
