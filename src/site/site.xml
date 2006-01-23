@@ -52,6 +52,7 @@
       <item name="Ejb Doclet" href="ejbdoclet-maven-plugin"/>
       <item name="Eve" href="https://svn.mojo.codehaus.org/mojo/trunk/mojo/mojo-sandbox/eve-maven-plugin/"/>
       <item name="Execute" href="https://svn.mojo.codehaus.org/mojo/trunk/mojo/mojo-sandbox/exec-maven-plugin/"/>
+      <item name="Findbugs" href="findbugs-maven-plugin/"/>
       <item name="Graphing" href="graphing-maven-plugin/"/>
       <item name="Groovy" href="groovy-maven-plugin/"/>
       <item name="Groovy Tools" href="https://svn.mojo.codehaus.org/mojo/trunk/mojo/mojo-sandbox/groovy-maven-tools/"/>
