@@ -43,7 +43,7 @@
       <item name="What is the sandbox" href="faq.html#what-is-the-sandbox"/>
       <item name="Using Sandbox Plugins" href="using-sandbox-plugins.html"/>
       <item name="Api Docs" href="apidocs-maven-plugin/"/>
-      <item name="AspectJ" href="https://svn.mojo.codehaus.org/mojo/trunk/mojo/mojo-sandbox/aspectj-maven-plugin/"/>
+      <item name="AspectJ" href="aspectj-maven-plugin/"/>
       <item name="Axis Tools" href="axistools-maven-plugin/"/>
       <item name="Build Helper" href="build-helper-maven-plugin/"/>
       <item name="Cobertura" href="cobertura-maven-plugin/"/>
