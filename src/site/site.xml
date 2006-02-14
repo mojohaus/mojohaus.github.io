@@ -63,6 +63,7 @@
       <item name="Idlj" href="idlj-maven-plugin/"/>      
       <item name="Javancss" href="javancss-maven-plugin/"/>
       <item name="JarJar" href="https://svn.mojo.codehaus.org/mojo/trunk/mojo/mojo-sandbox/jarjar-maven-plugin"/>
+      <item name="JAXB 2.0" href="jaxb2-maven-plugin/"/>
       <item name="Jelly Tools" href="https://svn.mojo.codehaus.org/mojo/trunk/mojo/mojo-sandbox/jelly-maven-tools/"/>
       <item name="Jboss Sar" href="jboss-sar-maven-plugin/"/>
       <item name="JDBC" href="jdbc-maven-plugin/"/>
