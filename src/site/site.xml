@@ -60,7 +60,8 @@
       <item name="Groovy Tools" href="https://svn.mojo.codehaus.org/mojo/trunk/mojo/mojo-sandbox/groovy-maven-tools/"/>
       <item name="Hibernate3" href=""/>
       <item name="Hibernate Doclet" href="hibernatedoclet-maven-plugin/"/>
-      <item name="Idlj" href="idlj-maven-plugin/"/>      
+      <item name="Idlj" href="idlj-maven-plugin/"/>
+      <item name="IDEA UI Designer" href="ideauidesigner-maven-plugin"/>
       <item name="Javancss" href="javancss-maven-plugin/"/>
       <item name="JarJar" href="https://svn.mojo.codehaus.org/mojo/trunk/mojo/mojo-sandbox/jarjar-maven-plugin"/>
       <item name="JAXB 2.0" href="jaxb2-maven-plugin/"/>
