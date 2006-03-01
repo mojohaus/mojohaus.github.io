@@ -88,6 +88,7 @@
       <item name="Web Doclet" href="webdoclet-maven-plugin/"/>
       <item name="Webstart" href="webstart-maven-plugin-parent/webstart-maven-plugin/"/>  
        <item name="Weblogic" href="weblogic-maven-plugin/"/>    
+      <item name="XFire" href="xfire-maven-plugin/"/>
       <item name="Xjc" href="xjc-maven-plugin/"/>
       <item name="Xslt" href="Xslt-maven-plugin/"/>
     </menu>
