@@ -47,6 +47,7 @@
       <item name="Api Docs" href="apidocs-maven-plugin/"/>
       <item name="AspectJ" href="aspectj-maven-plugin/"/>
       <item name="Axis Tools" href="axistools-maven-plugin/"/>
+      <item name="Axis Archetype" href="https://svn.mojo.codehaus.org/mojo/trunk/mojo/mojo-sandbox/axis-archetype-maven-plugin/"/>
       <item name="Cobertura" href="cobertura-maven-plugin/"/>
       <item name="Deb" href="https://svn.mojo.codehaus.org/mojo/trunk/mojo/mojo-sandbox/deb-maven-plugin/"/>
       <item name="Delicious" href="https://svn.mojo.codehaus.org/mojo/trunk/mojo/mojo-sandbox/delicious-maven-plugin"/>
