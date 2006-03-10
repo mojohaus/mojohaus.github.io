@@ -9,6 +9,8 @@ Welcome To The Mojo Project
 
  The Mojo Project is currently publishing the following plugins on {{{http://www.ibiblio.org/pub/packages/maven2/org/codehaus/mojo/}ibiblio}}:
 
+        *aspectj
+
         *build-helper
         
 	*castor

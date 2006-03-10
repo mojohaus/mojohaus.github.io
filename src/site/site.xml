@@ -19,6 +19,7 @@
       <item name="FAQ" href="faq.html"/>
     </menu>
     <menu name="Plugins">
+      <item name="AspectJ" href="aspectj-maven-plugin/"/>
       <item name="Build Helper" href="build-helper-maven-plugin"/>
       <item name="Castor" href="castor-maven-plugin"/>
       <item name="Changelog" href="changelog-maven-plugin"/>
@@ -45,7 +46,6 @@
       <item name="What is the sandbox" href="faq.html#what-is-the-sandbox"/>
       <item name="Using Sandbox Plugins" href="using-sandbox-plugins.html"/>
       <item name="Api Docs" href="apidocs-maven-plugin/"/>
-      <item name="AspectJ" href="aspectj-maven-plugin/"/>
       <item name="Axis Tools" href="axistools-maven-plugin/"/>
       <item name="Axis Archetype" href="https://svn.mojo.codehaus.org/mojo/trunk/mojo/mojo-sandbox/axis-archetype-maven-plugin/"/>
       <item name="Cobertura" href="cobertura-maven-plugin/"/>
