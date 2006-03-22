@@ -22,8 +22,6 @@
       <item name="AspectJ" href="aspectj-maven-plugin/"/>
       <item name="Build Helper" href="build-helper-maven-plugin"/>
       <item name="Castor" href="castor-maven-plugin"/>
-      <item name="Changelog" href="changelog-maven-plugin"/>
-      <item name="Changes" href="changes-maven-plugin"/>
       <item name="Commons-attributes" href="commons-attributes-maven-plugin"/>
       <item name="Dependency" href="dependency-maven-plugin/"/>
       <item name="JavaCC" href="javacc-maven-plugin"/>
@@ -33,10 +31,8 @@
       <item name="Jetty" href="jetty-maven-plugin"/>
       <item name="JBoss" href="jboss-maven-plugin"/>
       <item name="Jspc" href="jspc-maven-plugin"/>
-      <item name="JXR" href="jxr-maven-plugin"/>
       <item name="Native" href="maven-native/native-maven-plugin"/>
       <item name="SableCC" href="sablecc-maven-plugin/"/>
-      <item name="Surefire Report" href="surefire-report-maven-plugin"/>
       <item name="Taglist" href="taglist-maven-plugin"/>
       <item name="WSDL2Java" href="wsdl2java-maven-plugin/"/>
       <item name="XDoclet" href="xdoclet-maven-plugin/"/>
