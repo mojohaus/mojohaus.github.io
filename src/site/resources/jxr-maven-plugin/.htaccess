@@ -1,2 +1,3 @@
-Redirect permanent http://maven.apache.org/plugins/maven-jxr-plugin
+RedirectMatch permanent jxr-maven-plugin http://maven.apache.org/plugins/maven-jxr-plugin
+RedirectMatch permanent jxr-maven-plugin/(.*)$ http://maven.apache.org/plugins/maven-jxr-plugin/$1
 

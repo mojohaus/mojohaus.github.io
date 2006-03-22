@@ -1,2 +1,3 @@
-Redirect permanent http://maven.apache.org/plugins/maven-changes-plugin
+RedirectMatch permanent changes-maven-plugin http://maven.apache.org/plugins/maven-changes-plugin
+RedirectMatch permanent changes-maven-plugin/(.*)$ http://maven.apache.org/plugins/maven-changes-plugin/$1
 

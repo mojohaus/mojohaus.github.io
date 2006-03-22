@@ -1,2 +1,3 @@
-Redirect permanent http://maven.apache.org/plugins/maven-surefire-report-plugin
+RedirectMatch permanent surefire-report-maven-plugin http://maven.apache.org/plugins/maven-surefire-report-plugin
+RedirectMatch permanent surefire-report-maven-plugin/(.*)$ http://maven.apache.org/plugins/maven-surefire-report-plugin/$1
 
