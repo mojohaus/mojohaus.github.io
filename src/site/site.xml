@@ -55,7 +55,7 @@
       <item name="Graphing" href="graphing-maven-plugin/"/>
       <item name="Groovy" href="groovy-maven-plugin/"/>
       <item name="Groovy Tools" href="https://svn.mojo.codehaus.org/mojo/trunk/mojo/mojo-sandbox/groovy-maven-tools/"/>
-      <item name="Hibernate3" href="hibernate3-maven-plugin/"/>
+      <item name="Hibernate3" href="maven-hibernate3/hibernate3-maven-plugin/"/>
       <item name="Hibernate Doclet" href="hibernatedoclet-maven-plugin/"/>
       <item name="Idlj" href="idlj-maven-plugin/"/>
       <item name="IDEA UI Designer" href="ideauidesigner-maven-plugin"/>
