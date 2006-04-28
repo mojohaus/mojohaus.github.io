@@ -76,7 +76,7 @@
       <item name="Retro Weaver" href="retroweaver-maven-plugin/"/>
       <item name="Rmic" href="https://svn.mojo.codehaus.org/mojo/trunk/mojo/mojo-sandbox/rmic-maven-plugin/"/>
       <item name="RPM" href="rpm-maven-plugin/"/>
-      <item name="Ruby Tools" href="https://svn.mojo.codehaus.org/mojo/trunk/mojo/mojo-sandbox/ruby-maven-tools/"/>
+      <item name="Ruby Tools" href="https://svn.mojo.codehaus.org/mojo/trunk/mojo/mojo-sandbox/rubyscript-maven-tools/"/>
       <item name="Ruby Script" href="rubyscript-maven-plugin/"/>
       <item name="Runtime" href="https://svn.mojo.codehaus.org/mojo/trunk/mojo/mojo-sandbox/runtime-maven-plugin/"/>
       <item name="Simian Report" href="simian-report-maven-plugin/"/>
