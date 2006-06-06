@@ -12,7 +12,7 @@
   <scm>
     <connection>scm:svn:https://svn.codehaus.org/mojo/trunk/mojo</connection>
     <developerConnection>scm:svn:https://svn.codehaus.org/mojo/trunk/mojo</developerConnection>
-    <url>https://svn.mojo.codehaus.org/mojo/trunk/mojo</url>
+    <url>https://svn.codehaus.org/mojo/trunk/mojo</url>
   </scm>
   <distributionManagement>
     <site>
