@@ -3,7 +3,7 @@
   <parent>
     <groupId>org.codehaus.mojo</groupId>
     <artifactId>mojo</artifactId>
-    <version>6</version>
+    <version>8</version>
   </parent>
   <artifactId>mojo-site</artifactId>
   <version>1.0-SNAPSHOT</version>
@@ -16,15 +16,15 @@
   </scm>
   <distributionManagement>
     <site>
-      <id>mojo.website</id>
+      <id>mojo-site</id>
       <name>Mojo Website</name>
-      <url>scp://beaver.codehaus.org/home/projects/mojo/public_html/</url>
+      <url>dav:https://dav.codehaus.org/mojo/</url>
     </site>
-    <repository>
+    <!--repository>
       <id>repo1</id>
       <name>Maven Central Repository</name>
       <url>scp://repo1.maven.org/home/projects/maven/repository-staging/to-ibiblio/maven2/plugins</url>
-    </repository>
+    </repository-->
   </distributionManagement>
   <reporting>
     <!-- TODO: disable dependencies -->
