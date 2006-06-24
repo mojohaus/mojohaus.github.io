@@ -34,6 +34,7 @@
       <item name="JBoss" href="jboss-maven-plugin"/>
       <item name="Jspc" href="jspc-maven-plugin"/>
       <item name="Native" href="maven-native/native-maven-plugin"/>
+      <item name="NBM" href="nbm-maven-plugin"/>
       <item name="Netbeans freeform" href="netbeans-freeform-maven-plugin/"/>
       <item name="SableCC" href="sablecc-maven-plugin/"/>
       <item name="Taglist" href="taglist-maven-plugin"/>
