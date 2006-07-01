@@ -65,6 +65,7 @@
       <item name="IDEA UI Designer" href="ideauidesigner-maven-plugin"/>     
       <item name="J2ME" href="j2me-maven-plugin/"/>
       <item name="JarJar" href="https://svn.mojo.codehaus.org/mojo/trunk/mojo/mojo-sandbox/jarjar-maven-plugin"/>
+      <item name="Jasper Reports" href="jasperreports-maven-plugin"/>
       <item name="JAXB 2.0" href="jaxb2-maven-plugin/"/>
       <item name="Jelly Tools" href="https://svn.mojo.codehaus.org/mojo/trunk/mojo/mojo-sandbox/jelly-maven-tools/"/>
       <item name="Jboss Sar" href="jboss-sar-maven-plugin/"/>

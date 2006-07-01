@@ -18,7 +18,7 @@
     <site>
       <id>mojo-site</id>
       <name>Mojo Website</name>
-      <url>dav:https://dav.codehaus.org/mojo/</url>
+      <url>dav:https://dav.codehaus.org/mojo</url>
     </site>
     <!--repository>
       <id>repo1</id>
