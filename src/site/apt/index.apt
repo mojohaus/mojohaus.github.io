@@ -8,11 +8,17 @@ Jan 1, 2006
 Welcome To The Mojo Project
 
  The Mojo Project is currently publishing the plugins from the left menu (not under sandbox)
- on the {{{http://www.ibiblio.org/pub/packages/maven2/org/codehaus/mojo/}Maven Central repository}}.
+ on the {{{http://repository.codehaus.org/org/codehaus/mojo/}Codehaus repository}}. 
+Previous releases have also been published on the 
+{{{http://www.ibiblio.org/pub/packages/maven2/org/codehaus/mojo/}Maven Central repository}}. 
+{{{http://snapshots.repository.codehaus.org}Snapshots}} are available on request through 
+the user mailing list or by emailing the maintainer. Each plugin has a list of people 
+involved in creating or supporting it.
 
- You can however checkout other plugins from the repository and build them yourself for general usage.
- See {{{using-sandbox-plugins.html}using sandbox plugins}} for information about building from source and
- retrieving sandbox snapshot releases.
+ You can also check out other plugins from the repository and build them yourself for 
+general usage, including the sandbox plugins. See {{{using-sandbox-plugins.html}using 
+sandbox plugins}} for information about building from source and retrieving sandbox snapshot
+ releases.
 
 
  If you have problems or concerns with plugins in the Mojo project please contact the author, ask on
