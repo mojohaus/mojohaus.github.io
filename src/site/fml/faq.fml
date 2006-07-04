@@ -11,9 +11,11 @@
           site.
         </p>
         <p>
-          Plugins might also be developed here because they don't have a license that is friendly with being distributed
-          from the ASF (anything BSD like). This is sometimes necessary because of the toolkits used by the plugin,
-          while the plugin itself should be under the ASLv2.
+          Maven plugins may also be developed here because they are not compatible with the Apache license. Plugin
+          authors may choose to use other licenses (BSD, GPL, MPL ...) to license their work or may be forced to because
+          of the nature of the plugin and its dependencies. These plugin authors are responsible for working with their
+          plugins license but the mailing lists are a great place to get help if people get confused on what can or can
+          not be done within the mojo project. 
         </p>
       </answer>
     </faq>
