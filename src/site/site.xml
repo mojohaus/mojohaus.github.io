@@ -31,7 +31,6 @@
       <item name="Jalopy" href="jalopy-maven-plugin"/>
       <item name="JDepend" href="jdepend-maven-plugin"/>
       <item name="JDiff" href="jdiff-maven-plugin"/>
-      <item name="Jetty" href="jetty-maven-plugin"/>
       <item name="JBoss" href="jboss-maven-plugin"/>
       <item name="Jspc" href="jspc-maven-plugin"/>
       <item name="Native" href="maven-native/native-maven-plugin"/>
@@ -67,10 +66,11 @@
       <item name="JarJar" href="https://svn.mojo.codehaus.org/mojo/trunk/mojo/mojo-sandbox/jarjar-maven-plugin"/>
       <item name="Jasper Reports" href="jasperreports-maven-plugin"/>
       <item name="JAXB 2.0" href="jaxb2-maven-plugin/"/>
-      <item name="Jelly Tools" href="https://svn.mojo.codehaus.org/mojo/trunk/mojo/mojo-sandbox/jelly-maven-tools/"/>
       <item name="Jboss Packaging" href="jboss-packaging-maven-plugin/"/>
       <item name="Jboss Sar (deprecated - see Jboss Packaging)" href="jboss-sar-maven-plugin/"/>
       <item name="JDBC" href="jdbc-maven-plugin/"/>
+      <item name="Jelly Tools" href="https://svn.mojo.codehaus.org/mojo/trunk/mojo/mojo-sandbox/jelly-maven-tools/"/>
+      <item name="Jetty" href="jetty-maven-plugin"/>
       <item name="Key Tool" href="keytool-maven-plugin/"/>
       <item name="Kodo" href="kodo-maven-plugin/"/>
       <item name="Mant" href="mant-maven-plugin/"/>
