@@ -75,7 +75,7 @@
       <item name="Mant" href="mant-maven-plugin/"/>
       <item name="MiniJar" href="minijar-maven-plugin/"/>
       <item name="Pom Tools" href="pomtools-maven-plugin/"/>
-      <item name="Retro Translator" href="https://svn.mojo.codehaus.org/mojo/trunk/mojo/mojo-sandbox/retrotranslator-maven-plugin/"/>
+      <item name="Retro Translator" href="retrotranslator-maven-plugin/"/>
       <item name="Retro Weaver" href="retroweaver-maven-plugin/"/>
       <item name="Rmic" href="https://svn.mojo.codehaus.org/mojo/trunk/mojo/mojo-sandbox/rmic-maven-plugin/"/>
       <item name="RPM" href="rpm-maven-plugin/"/>
