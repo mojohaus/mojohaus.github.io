@@ -141,7 +141,7 @@ Plugins Hosted At the Mojo Project
 *-------------------------------------------------------------------------------+----------------------------------------------+
 | {{{pomtools-maven-plugin} <<<pomtools-maven-plugin>>>}}                       |  POM Tools Plug-in.
 *-------------------------------------------------------------------------------+----------------------------------------------+
-| {{{retrotranslator-maven-plugin} <<<retrotranslator-maven-plugin>>>}}         |  Retro-Translator Plug-in.
+| {{{retrotranslator-maven-plugin} <<<retrotranslator-maven-plugin>>>}}         |  Retrotranslator Plug-in.
 *-------------------------------------------------------------------------------+----------------------------------------------+
 | {{{retroweaver-maven-plugin} <<<retroweaver-maven-plugin>>>}}                 |  Retro-Weaver Plug-in.
 *-------------------------------------------------------------------------------+----------------------------------------------+
