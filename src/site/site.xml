@@ -18,89 +18,18 @@
       <item name="Introduction" href="index.html"/>
       <item name="FAQ" href="faq.html"/>
     </menu>
-    <menu name="Plugins">
-      <item name="AspectJ" href="aspectj-maven-plugin/"/>
-      <item name="Build Helper" href="build-helper-maven-plugin"/>
-      <item name="Castor" href="castor-maven-plugin"/>
-      <item name="Commons-attributes" href="commons-attributes-maven-plugin"/>
-      <item name="Dependency" href="dependency-maven-plugin/"/>
-      <item name="Execute" href="exec-maven-plugin/"/>
-      <item name="Idlj" href="idlj-maven-plugin/"/>
-      <item name="JavaCC" href="javacc-maven-plugin"/>
-      <item name="Javancss" href="javancss-maven-plugin/"/>
-      <item name="Jalopy" href="jalopy-maven-plugin"/>
-      <item name="JDepend" href="jdepend-maven-plugin"/>
-      <item name="JDiff" href="jdiff-maven-plugin"/>
-      <item name="JBoss" href="jboss-maven-plugin"/>
-      <item name="Jspc" href="jspc-maven-plugin"/>
-      <item name="Native" href="maven-native/native-maven-plugin"/>
-      <item name="NBM" href="nbm-maven-plugin"/>
-      <item name="Netbeans freeform" href="netbeans-freeform-maven-plugin/"/>
-      <item name="SableCC" href="sablecc-maven-plugin/"/>
-      <item name="Taglist" href="taglist-maven-plugin"/>
-      <item name="WSDL2Java" href="wsdl2java-maven-plugin/"/>
-      <item name="XDoclet" href="xdoclet-maven-plugin/"/>
-      <item name="XMLBeans" href="xmlbeans-maven-plugin/"/>
-    </menu>
-    <menu name="Plugins Sandbox">
-      <item name="What is the sandbox" href="faq.html#what-is-the-sandbox"/>
-      <item name="Using Sandbox Plugins" href="using-sandbox-plugins.html"/>
-      <item name="Api Docs" href="apidocs-maven-plugin/"/>
-      <item name="Axis Tools" href="axistools-maven-plugin/"/>
-      <item name="Axis Archetype" href="https://svn.mojo.codehaus.org/mojo/trunk/mojo/mojo-sandbox/axis-archetype-maven-plugin/"/>
-      <item name="Batik" href="batik-maven-plugin/"/>
-      <item name="Cobertura" href="cobertura-maven-plugin/"/>
-      <item name="Deb" href="https://svn.mojo.codehaus.org/mojo/trunk/mojo/mojo-sandbox/deb-maven-plugin/"/>
-      <item name="Delicious" href="https://svn.mojo.codehaus.org/mojo/trunk/mojo/mojo-sandbox/delicious-maven-plugin"/>
-      <item name="Docbook" href="docbook-maven-plugin"/>
-      <item name="Ejb Doclet" href="ejbdoclet-maven-plugin"/>
-      <item name="Eve" href="https://svn.mojo.codehaus.org/mojo/trunk/mojo/mojo-sandbox/eve-maven-plugin/"/>
-      <item name="Findbugs" href="findbugs-maven-plugin/"/>
-      <item name="Graphing" href="graphing-maven-plugin/"/>
-      <item name="Groovy" href="groovy-maven-plugin/"/>
-      <item name="Groovy Tools" href="https://svn.mojo.codehaus.org/mojo/trunk/mojo/mojo-sandbox/groovy-maven-tools/"/>
-      <item name="Hibernate3" href="hibernate3-maven-plugin/"/>
-      <item name="Hibernate Doclet" href="hibernatedoclet-maven-plugin/"/>
-      <item name="IDEA UI Designer" href="ideauidesigner-maven-plugin"/>     
-      <item name="J2ME" href="j2me-maven-plugin/"/>
-      <item name="JarJar" href="https://svn.mojo.codehaus.org/mojo/trunk/mojo/mojo-sandbox/jarjar-maven-plugin"/>
-      <item name="Jasper Reports" href="jasperreports-maven-plugin"/>
-      <item name="JAXB 2.0" href="jaxb2-maven-plugin/"/>
-      <item name="Jboss Packaging" href="jboss-packaging-maven-plugin/"/>
-      <item name="Jboss Sar (deprecated - see Jboss Packaging)" href="jboss-sar-maven-plugin/"/>
-      <item name="Jelly Tools" href="https://svn.mojo.codehaus.org/mojo/trunk/mojo/mojo-sandbox/jelly-maven-tools/"/>
-      <item name="Jetty" href="jetty-maven-plugin"/>
-      <item name="Key Tool" href="keytool-maven-plugin/"/>
-      <item name="Kodo" href="kodo-maven-plugin/"/>
-      <item name="Mant" href="mant-maven-plugin/"/>
-      <item name="MiniJar" href="minijar-maven-plugin/"/>
-      <item name="Pom Tools" href="pomtools-maven-plugin/"/>
-      <item name="Retrotranslator" href="retrotranslator-maven-plugin/"/>
-      <item name="Retro Weaver" href="retroweaver-maven-plugin/"/>
-      <item name="Rmic" href="https://svn.mojo.codehaus.org/mojo/trunk/mojo/mojo-sandbox/rmic-maven-plugin/"/>
-      <item name="RPM" href="rpm-maven-plugin/"/>
-      <item name="Ruby Tools" href="https://svn.mojo.codehaus.org/mojo/trunk/mojo/mojo-sandbox/rubyscript-maven-tools/"/>
-      <item name="Ruby Script" href="rubyscript-maven-plugin/"/>
-      <item name="Runtime" href="https://svn.mojo.codehaus.org/mojo/trunk/mojo/mojo-sandbox/runtime-maven-plugin/"/>
-      <item name="Simian Report" href="simian-report-maven-plugin/"/>
-      <item name="Slimdog" href="https://svn.mojo.codehaus.org/mojo/trunk/mojo/mojo-sandbox/slimdog-maven-plugin/"/>
-      <item name="SQL" href="sql-maven-plugin/"/>
-      <item name="State Machine Compiler" href="smc-maven-plugin/"/>
-      <item name="Spring Doclet" href="springdoclet-maven-plugin/"/>
-      <item name="Tomcat" href="tomcat-maven-plugin/"/>
-      <item name="Web Doclet" href="webdoclet-maven-plugin/"/>
-      <item name="Webstart" href="webstart-maven-plugin-parent/webstart-maven-plugin/"/>  
-       <item name="Weblogic" href="weblogic-maven-plugin/"/>    
-      <item name="XFire" href="xfire-maven-plugin/"/>
-      <item name="Xjc" href="xjc-maven-plugin/"/>
-      <item name="Xslt" href="Xslt-maven-plugin/"/>
-    </menu>
     <menu name="Development">
       <item name="Submitting a Plugin" href="development/submitting-a-plugin.html"/>
       <item name="Development Guidelines" href="development/guidelines.html"/>
       <item name="Development Process" href="development/process.html"/>
       <item name="Performing a Release" href="development/performing-a-release.html"/>
     </menu>
-${reports}
+    <menu name="The Sandbox">
+      <item name="What is the Sandbox" href="faq.html#what-is-the-sandbox"/>
+      <item name="Using Sandbox Plugins" href="using-sandbox-plugins.html"/>
+    </menu>
+    <menu name="Project Information">
+      <item name="Mailing Lists" href="mail-lists.html"/>
+    </menu>
   </body>
 </project>

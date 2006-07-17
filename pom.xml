@@ -1,18 +1,40 @@
 <project>
   <modelVersion>4.0.0</modelVersion>
-  <parent>
-    <groupId>org.codehaus.mojo</groupId>
-    <artifactId>mojo</artifactId>
-    <version>8</version>
-  </parent>
+  <groupId>org.codehaus.mojo</groupId>
   <artifactId>mojo-site</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>2-SNAPSHOT</version>
   <name>Codehaus Mojo Site</name>
   <!-- Repeated here as Maven will by default append the artifact id to the path in the reports -->
+  <mailingLists>
+    <mailingList>
+      <name>Development List</name>
+      <subscribe>dev-subscribe@mojo.codehaus.org</subscribe>
+      <unsubscribe>dev-unsubscribe@mojo.codehaus.org</unsubscribe>
+      <post>dev@mojo.codehaus.org</post>
+      <archive>http://archive.mojo.codehaus.org/dev/</archive>
+    </mailingList>
+    <mailingList>
+      <name>User List</name>
+      <subscribe>user-subscribe@mojo.codehaus.org</subscribe>
+      <unsubscribe>user-unsubscribe@mojo.codehaus.org</unsubscribe>
+      <post>user@mojo.codehaus.org</post>
+      <archive>http://archive.mojo.codehaus.org/user/</archive>
+    </mailingList>
+    <mailingList>
+      <name>Commits List</name>
+      <subscribe>scm-subscribe@mojo.codehaus.org</subscribe>
+      <unsubscribe>scm-unsubscribe@mojo.codehaus.org</unsubscribe>
+      <archive>http://archive.mojo.codehaus.org/scm/</archive>
+    </mailingList>
+  </mailingLists>
+  <issueManagement>
+    <system>jira</system>
+    <url>http://jira.codehaus.org/browse/MOJO</url>
+  </issueManagement>
   <scm>
-    <connection>scm:svn:https://svn.codehaus.org/mojo/trunk/mojo</connection>
-    <developerConnection>scm:svn:https://svn.codehaus.org/mojo/trunk/mojo</developerConnection>
-    <url>https://svn.codehaus.org/mojo/trunk/mojo</url>
+    <connection>scm:svn:https://svn.codehaus.org/mojo/site</connection>
+    <developerConnection>scm:svn:https://svn.codehaus.org/mojo/site</developerConnection>
+    <url>https://svn.codehaus.org/mojo/site</url>
   </scm>
   <distributionManagement>
     <site>
@@ -20,14 +42,9 @@
       <name>Mojo Website</name>
       <url>dav:https://dav.codehaus.org/mojo</url>
     </site>
-    <!--repository>
-      <id>repo1</id>
-      <name>Maven Central Repository</name>
-      <url>scp://repo1.maven.org/home/projects/maven/repository-staging/to-ibiblio/maven2/plugins</url>
-    </repository-->
   </distributionManagement>
   <reporting>
-    <!-- TODO: disable dependencies -->
+    <excludeDefaults>true</excludeDefaults>
     <plugins>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
