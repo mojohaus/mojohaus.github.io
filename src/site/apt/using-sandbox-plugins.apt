@@ -3,17 +3,17 @@
  ------
  Brian Fox
  ------
-Jan 19, 2006
+Sep 29, 2006
 
 Snapshot Repository
 
- Most plugins are available via the snapshot {{{http://snapshots.maven.codehaus.org/maven2/org/codehaus/mojo/}repository}}. To access them, add the following to your pom:
+ Most plugins are available via the snapshot {{{http://snapshots.repository.codehaus.org/org/codehaus/mojo/}repository}}. To access them, add the following to your pom:
 
 ----------------------
 <repositories>
   <repository>
-    <id>Maven Snapshots</id>
-    <url>http://snapshots.maven.codehaus.org/maven2/</url>
+    <id>Codehaus Snapshots</id>
+    <url>http://snapshots.repository.codehaus.org/</url>
     <snapshots>
       <enabled>true</enabled>
     </snapshots>
@@ -24,8 +24,8 @@ Snapshot Repository
 </repositories>
 <pluginRepositories>
   <pluginRepository>
-    <id>Maven Snapshots</id>
-    <url>http://snapshots.maven.codehaus.org/maven2/</url>
+    <id>Codehaus Snapshots</id>
+    <url>http://snapshots.repository.codehaus.org/</url>
     <snapshots>
       <enabled>true</enabled>
     </snapshots>
@@ -44,8 +44,8 @@ Snapshot Repository
     <id>Snapshots</id>
     <repositories>
       <repository>
-        <id>Maven Snapshots</id>
-        <url>http://snapshots.maven.codehaus.org/maven2/</url>
+        <id>Codehaus Snapshots</id>
+        <url>http://snapshots.repository.codehaus.org/</url>
         <snapshots>
           <enabled>true</enabled>
         </snapshots>
@@ -56,8 +56,8 @@ Snapshot Repository
    </repositories>
    <pluginRepositories>
      <pluginRepository>
-       <id>Maven Snapshots</id>
-       <url>http://snapshots.maven.codehaus.org/maven2/</url>
+       <id>Codehaus Snapshots</id>
+       <url>http://snapshots.repository.codehaus.org/</url>
        <snapshots>
          <enabled>true</enabled>
        </snapshots>
