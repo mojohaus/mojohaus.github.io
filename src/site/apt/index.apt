@@ -75,6 +75,8 @@ Plugins Hosted At the Mojo Project
 *-------------------------------------------------------------------------------+----------------------------------------------+
 | {{{netbeans-freeform-maven-plugin} <<<netbeans-freeform-maven-plugin>>>}}     | Netbeans Free-Form Plug-in.
 *-------------------------------------------------------------------------------+----------------------------------------------+
+| {{{retrotranslator-maven-plugin} <<<retrotranslator-maven-plugin>>>}}         | Retrotranslator Plug-in.
+*-------------------------------------------------------------------------------+----------------------------------------------+
 | {{{sablecc-maven-plugin} <<<sablecc-maven-plugin>>>}}                         | SableCC Plug-in.
 *-------------------------------------------------------------------------------+----------------------------------------------+
 | {{{smc-maven-plugin} <<<smc-maven-plugin>>>}}                                 |  SMC Plug-in.
@@ -158,8 +160,6 @@ Plugins Hosted At the Mojo Project
 | {{{minijar-maven-plugin} <<<minijar-maven-plugin>>>}}                         |  Minijar Plug-in.
 *-------------------------------------------------------------------------------+----------------------------------------------+
 | {{{pomtools-maven-plugin} <<<pomtools-maven-plugin>>>}}                       |  POM Tools Plug-in.
-*-------------------------------------------------------------------------------+----------------------------------------------+
-| {{{retrotranslator-maven-plugin} <<<retrotranslator-maven-plugin>>>}}         |  Retrotranslator Plug-in.
 *-------------------------------------------------------------------------------+----------------------------------------------+
 | {{{retroweaver-maven-plugin} <<<retroweaver-maven-plugin>>>}}                 |  Retro-Weaver Plug-in.
 *-------------------------------------------------------------------------------+----------------------------------------------+
