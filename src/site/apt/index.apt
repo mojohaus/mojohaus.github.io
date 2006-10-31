@@ -131,7 +131,7 @@ Plugins Hosted At the Mojo Project
 *-------------------------------------------------------------------------------+----------------------------------------------+
 | {{{groovy-maven-tools} <<<groovy-maven-tools>>>}}                             |  Groovy Tools Plug-in.
 *-------------------------------------------------------------------------------+----------------------------------------------+
-| {{{hibernate3-maven-plugin} <<<hibernate3-maven-plugin>>>}}                   |  Hibernate 3 Plug-in.
+| {{{maven-hibernate3/hibernate3-maven-plugin} <<<hibernate3-maven-plugin>>>}}                   |  Hibernate 3 Plug-in.
 *-------------------------------------------------------------------------------+----------------------------------------------+
 | {{{hibernatedoclet-maven-plugin} <<<hibernatedoclet-maven-plugin>>>}}         |  Hibernate Doclet Plug-in.
 *-------------------------------------------------------------------------------+----------------------------------------------+
