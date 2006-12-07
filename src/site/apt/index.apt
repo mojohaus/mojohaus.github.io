@@ -117,6 +117,8 @@ Plugins Hosted At the Mojo Project
 *-------------------------------------------------------------------------------+----------------------------------------------+
 | {{{cruisecontrol-maven-plugin} <<<cruisecontrol-maven-plugin>>>}}             |  CruiseControl Configuration Maven Plugin.
 *-------------------------------------------------------------------------------+----------------------------------------------+
+| {{{dashboard-maven-plugin} <<<dashboard-maven-plugin>>>}}                     |  Dashboard Plug-in.
+*-------------------------------------------------------------------------------+----------------------------------------------+
 | {{{deb-maven-plugin} <<<deb-maven-plugin>>>}}                                 |  Debian Packaging Plug-in.
 *-------------------------------------------------------------------------------+----------------------------------------------+
 | {{{delicious-maven-plugin} <<<delicious-maven-plugin>>>}}                     |  Delicious Plug-in.
