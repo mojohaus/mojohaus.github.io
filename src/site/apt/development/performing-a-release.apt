@@ -46,11 +46,11 @@ Graduating from the Sandbox
 
   * Make sure the site follows the {{{site-guidelines.html}Site Guidelines}} 
 
-  * Move the svn project from mojo/mojo-sandbox to mojo/
+  * Move the svn project from {{{http://svn.codehaus.org/mojo/trunk/mojo/mojo-sandbox}mojo/mojo-sandbox}} to {{{http://svn.codehaus.org/mojo/trunk/mojo/}mojo/}}
 
   * Change the pom parent from mojo-sandbox to mojo
 
-  * Move the mojo site link from the sandbox section to plugins by editing the mojo/mojo-site project. Redeploy it and verify that the site is functional.
+  * Move the mojo site link from the sandbox section to plugins by editing the {{{http://svn.codehaus.org/mojo/site/}mojo/mojo-site}} project. Redeploy it and verify that the site is functional.
 
   * Add the plugin the modules section of the mojo/pom.xml and remove it from mojo-sandmox/pom.xml
 
