@@ -54,7 +54,7 @@ Graduating from the Sandbox
 
   * Add the plugin the modules section of <<<mojo/pom.xml>>> and remove it from <<<mojo-sandbox/pom.xml>>>.
 
-  * Add the plugin to the list on the mojo site's {{{http://svn.codehaus.org/mojo/site/src/site/apt/index.apt}index.apt}}}.
+  * Add the plugin to the list on the mojo site's {{{http://svn.codehaus.org/mojo/site/src/site/apt/index.apt}index.apt}}.
 
 Performing the Release
 
