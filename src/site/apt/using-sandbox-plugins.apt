@@ -7,72 +7,72 @@ Sep 29, 2006
 
 Snapshot Repository
 
- Most plugins are available via the snapshot {{{http://snapshots.repository.codehaus.org/org/codehaus/mojo/}repository}}. To access them, add the following to your pom:
+ Most plugins are available via the snapshot {{{http://snapshots.repository.codehaus.org/org/codehaus/mojo/}repository}}. To access them, add the following to your <<<pom.xml>>>:
 
 ----------------------
-<repositories>
-  <repository>
-    <id>Codehaus Snapshots</id>
-    <url>http://snapshots.repository.codehaus.org/</url>
-    <snapshots>
-      <enabled>true</enabled>
-    </snapshots>
-    <releases>
-      <enabled>false</enabled>
-    </releases>
-  </repository>
-</repositories>
-<pluginRepositories>
-  <pluginRepository>
-    <id>Codehaus Snapshots</id>
-    <url>http://snapshots.repository.codehaus.org/</url>
-    <snapshots>
-      <enabled>true</enabled>
-    </snapshots>
-    <releases>
-      <enabled>false</enabled>
-    </releases>
-  </pluginRepository>
-</pluginRepositories>
+  <repositories>
+    <repository>
+      <id>Codehaus Snapshots</id>
+      <url>http://snapshots.repository.codehaus.org/</url>
+      <snapshots>
+        <enabled>true</enabled>
+      </snapshots>
+      <releases>
+        <enabled>false</enabled>
+      </releases>
+    </repository>
+  </repositories>
+  <pluginRepositories>
+    <pluginRepository>
+      <id>Codehaus Snapshots</id>
+      <url>http://snapshots.repository.codehaus.org/</url>
+      <snapshots>
+        <enabled>true</enabled>
+      </snapshots>
+      <releases>
+        <enabled>false</enabled>
+      </releases>
+    </pluginRepository>
+  </pluginRepositories>
 ----------------------
 
- or a profile in your settings:
+ or add a profile in your <<<settings.xml>>>:
 
 ----------------------
-<profiles>
-  <profile>
-    <id>Snapshots</id>
-    <repositories>
-      <repository>
-        <id>Codehaus Snapshots</id>
-        <url>http://snapshots.repository.codehaus.org/</url>
-        <snapshots>
-          <enabled>true</enabled>
-        </snapshots>
-        <releases>
-          <enabled>false</enabled>
-        </releases>
-     </repository>
-   </repositories>
-   <pluginRepositories>
-     <pluginRepository>
-       <id>Codehaus Snapshots</id>
-       <url>http://snapshots.repository.codehaus.org/</url>
-       <snapshots>
-         <enabled>true</enabled>
-       </snapshots>
-       <releases>
-         <enabled>false</enabled>
-       </releases>
-     </pluginRepository>
-   </pluginRepositories>
-  </profile>
-</profiles>
-<activeProfiles>
-  <activeProfile>Snapshots</activeProfile>
-</activeProfiles>
+  <profiles>
+    <profile>
+      <id>Snapshots</id>
+      <repositories>
+        <repository>
+          <id>Codehaus Snapshots</id>
+          <url>http://snapshots.repository.codehaus.org/</url>
+          <snapshots>
+            <enabled>true</enabled>
+          </snapshots>
+          <releases>
+            <enabled>false</enabled>
+          </releases>
+       </repository>
+     </repositories>
+     <pluginRepositories>
+       <pluginRepository>
+         <id>Codehaus Snapshots</id>
+         <url>http://snapshots.repository.codehaus.org/</url>
+         <snapshots>
+           <enabled>true</enabled>
+         </snapshots>
+         <releases>
+           <enabled>false</enabled>
+         </releases>
+       </pluginRepository>
+     </pluginRepositories>
+    </profile>
+  </profiles>
+  <activeProfiles>
+    <activeProfile>Snapshots</activeProfile>
+  </activeProfiles>
 ----------------------
 
 Building plugins
 
- To build a plugin, check out the {{{source-repository.html}source}}. Then add the repositories shown above so that parent versions can be retreived. Cd into the source folder and run "mvn install"
+ To build a plugin, check out the {{{source-repository.html}source}}. Then add the repositories shown above so that parent versions can be retreived. Cd into the source folder and run "<<<mvn install>>>".

@@ -11,7 +11,7 @@ Submitting a Plugin
  everyone, but should be a general guideline.
 
  Subscribe to the {{{../mail-lists.html}developer mailing list}} and ask if there is an interrest in the plugin. If there
- is an interrest; package the plugin in a tarball or a zip file, create a issue in JIRA and attach the source code
+ is an interrest; package the plugin in a tarball or a zip file, create an issue in JIRA and attach the source code
  there. Make sure that you try to follow our {{{guidelines.html}development guidelines}}.
 
  Once accepted it will be put in the sandbox where you can continue to develop and maintain it. The plug-in will

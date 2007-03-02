@@ -6,11 +6,11 @@
  Tue Jan 3rd, 2006
 
 
- This is a check list for stuff that has to be done before a release of a Mojo is released.
+ This is a check list of stuff that has to be done before a release of a Mojo is released.
 
 Preparing to Release
 
-  * Make sure the site documentation is up to date and follows the {{{site-guidelines.html}Site Guidelines}} 
+  * Make sure the site documentation is up to date and follows the {{{site-guidelines.html}Site Guidelines}}.
 
   * All open jiras should be closed or agreed to be scheduled for a future
  version. 
@@ -19,7 +19,7 @@ Preparing to Release
 
   * Update <<<changes.xml>>> to include all issues in JIRA the was fixed.
 
-  * If the release is a bugfix release (incrementing z): explicitly document the bugs fixed
+  * If the release is a bugfix release (incrementing z): explicitly document the bugs fixed.
 
   * If the release is a minor release (incrementing y): document the new features added. Make sure that these new
     features are properly documented, including:
@@ -32,47 +32,47 @@ Preparing to Release
 
   []
 
- * Resolve all SNAPSHOTs if it's a proper release on all dependencies: Normal dependencies, build plugins, report plugins.
+ * Resolve all SNAPSHOTs if it's a proper release on all dependencies: Normal dependencies, build plugins, reporting plugins.
 
   []
 
 Call a Vote
  
- Before a release can occur, a vote typically takes place. This is initiated with an email to the dev list, preferrably with [vote] beginning the subject. Explain the plugin, status and any other info you feel relevant. The standard is to wait 72hrs for responses. This gives other developers time to verify the quality of the plugin before placing their vote. See {{{http://www.apache.org/foundation/voting.html}here}} for Apache guidelines on voting.
+ Before a release can occur, a vote typically takes place. This is initiated with an email to the dev list, preferrably with a subject that starts with [vote]. Explain the plugin, status and any other info you feel relevant. The standard is to wait 72 hours for responses. This gives other developers time to verify the quality of the plugin before placing their vote. See {{{http://www.apache.org/foundation/voting.html}here}} for Apache guidelines on voting.
 
 Graduating from the Sandbox
 
  If the plugin is making its first official release, it should graduate from the sandbox. When this occurs, the following steps should be followed:
 
-  * Make sure the site follows the {{{site-guidelines.html}Site Guidelines}} 
+  * Make sure the site follows the {{{site-guidelines.html}Site Guidelines}}.
 
-  * Move the svn project from {{{http://svn.codehaus.org/mojo/trunk/mojo/mojo-sandbox}mojo/mojo-sandbox}} to {{{http://svn.codehaus.org/mojo/trunk/mojo/}mojo/}}
+  * Move the svn project from {{{http://svn.codehaus.org/mojo/trunk/mojo/mojo-sandbox}mojo/mojo-sandbox}} to {{{http://svn.codehaus.org/mojo/trunk/mojo/}mojo/}}.
 
-  * Change the pom parent from mojo-sandbox to mojo
+  * Change the pom parent from <<<mojo-sandbox>>> to <<<mojo>>>.
 
-  * Move the mojo site link from the sandbox section to plugins by editing the {{{http://svn.codehaus.org/mojo/site/}mojo/mojo-site}} project. Redeploy it and verify that the site is functional.
+  * Move the mojo site link from the sandbox section to plugins by editing the {{{http://svn.codehaus.org/mojo/site/}mojo/site}} project. Redeploy it and verify that the site is functional.
 
-  * Add the plugin the modules section of the mojo/pom.xml and remove it from mojo-sandmox/pom.xml
+  * Add the plugin the modules section of <<<mojo/pom.xml>>> and remove it from <<<mojo-sandbox/pom.xml>>>.
 
-  * Add the plugin to the list on the mojo-site index.apt.
+  * Add the plugin to the list on the mojo site's {{{http://svn.codehaus.org/mojo/site/src/site/apt/index.apt}index.apt}}}.
 
 Performing the Release
 
  If it is a proper release (e.g. not an alpha or beta release), the release process should be done using the release plugin:
 
-  * Execute mvn release:prepare
+  * Execute <<<mvn release:prepare>>>
 
-    This will make sure all code is checked in, tag the release and make sure the pom has not snapshot dependencies. If your local username is not the same as your codehaus username, be sure to add -Dusername=codehaus username.
+    This will make sure all code is checked in, tag the release and make sure the pom has no snapshot dependencies. If your local username is not the same as your codehaus username, be sure to add <<<-Dusername=codehaus username>>>.
 
-  * Execute mvn release:perform
+  * Execute <<<mvn release:perform>>>
 
      This will build the plugin, javadocs and source. Everything will be deployed to the repository for synchronization to ibiblio. The synchronization occurs every 4 hours.
 
-  * Deploy the site using mvn site:site site:deploy
+  * Deploy the site using <<<mvn site:site site:deploy>>>
 
-  * Verify that the ibiblio synchronization and the site:deploy occurred successfully.
+  * Verify that the ibiblio synchronization and that the <<<site:deploy>>> occurred successfully.
 
   * Send out an annoucement email. TODO: Figure out where to send, announce@mojo.codehaus.org for sure, possibly
    user@mojo.codehaus.org and user@maven.apache.org too.
 
-  * TODO: if there's a feed containing all releases, get the release into that feed
+  * TODO: if there's a feed containing all releases, get the release into that feed.

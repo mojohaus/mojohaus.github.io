@@ -5,7 +5,7 @@
       <question>Why was the Mojo project created?</question>
       <answer>
         <p>
-          Well, this allows a bunch of people not necessarily involved with the Maven project to come along and build
+          Well, this allows a bunch of people, not necessarily involved with the Maven project, to come along and build
           some plugins. They are free to look after just that plugin, though I hope that they'll get involved in the
           community of people here and work on other plugins as well as help maintain the common infrastructure like the
           site.
@@ -25,7 +25,7 @@
         <ul>
           <li>Use the mailing list where possible as more people can get involved and so an archive is available</li>
           <li>If it is specific to a plugin, prefix the subject with the plugin name, eg [jalopy]</li>
-          <li>Use IRC (irc://irc.codehaus.org on #maven) for realtime discussion. Try and summarise that and send it to the list if there was some decisions were made there.</li>
+          <li>Use IRC (irc://irc.codehaus.org on #maven) for realtime discussion. Try and summarise and send it to the list if there was some decisions were made there.</li>
         </ul>
       </answer>
     </faq>
@@ -33,8 +33,8 @@
       <question>What is the sandbox</question>
       <answer>
         <p>
-          The sandbox is used to "incubate" new plugins. Plugin will not make releases to the repositories and if you
-          are interrested in trying it out you will probably have to build it from the repository.
+          The sandbox is used to "incubate" new plugins. Sandbox plugins will not be released to the repositories and if you
+          are interrested in trying it out you will probably have to build it from source.
         </p>
         <p>
           All new code should be put in the sandbox so we can make sure that the plugin uses the correct code style,
