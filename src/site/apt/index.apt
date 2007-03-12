@@ -49,6 +49,8 @@ Plugins Hosted At the Mojo Project
 *-------------------------------------------------------------------------------+----------------------------------------------+
 | {{{findbugs-maven-plugin} <<<findbugs-maven-plugin>>>}}                       | Find Bugs Plug-in.
 *-------------------------------------------------------------------------------+----------------------------------------------+
+| {{{groovy-maven-plugin} <<<groovy-maven-plugin>>>}}                           | Groovy Plug-in.
+*-------------------------------------------------------------------------------+----------------------------------------------+
 | {{{maven-hibernate3/hibernate3-maven-plugin} <<<hibernate3-maven-plugin>>>}}  |  Hibernate 3 Plug-in.
 *-------------------------------------------------------------------------------+----------------------------------------------+
 | {{{ideauidesigner-maven-plugin} <<<ideauidesigner-maven-plugin>>>}}           | IDEA UI Designer Plugin.
@@ -149,8 +151,6 @@ Plugins Hosted At the Mojo Project
 *-------------------------------------------------------------------------------+----------------------------------------------+
 | {{{graphing-maven-plugin} <<<graphing-maven-plugin>>>}}                       |  Graphing Plug-in.
 *-------------------------------------------------------------------------------+----------------------------------------------+
-| {{{groovy-maven-plugin} <<<groovy-maven-plugin>>>}}                           |  Groovy Plug-in.
-*-------------------------------------------------------------------------------+----------------------------------------------+
 | {{{groovy-maven-tools} <<<groovy-maven-tools>>>}}                             |  Groovy Tools Plug-in.
 *-------------------------------------------------------------------------------+----------------------------------------------+
 | {{{hibernatedoclet-maven-plugin} <<<hibernatedoclet-maven-plugin>>>}}         |  Hibernate Doclet Plug-in.
@@ -203,7 +203,6 @@ Plugins Hosted At the Mojo Project
 *-------------------------------------------------------------------------------+----------------------------------------------+
 | {{{xjc-maven-plugin} <<<xjc-maven-plugin>>>}}                                 |  XJC Plug-in.
 *-------------------------------------------------------------------------------+----------------------------------------------+
-
 
  If you have problems or concerns with plugins in the Mojo project please contact the author, ask on
  {{{mail-lists.html}the users mailing list}} or join us on irc at <irc://irc.codehaus.org> on #maven.
