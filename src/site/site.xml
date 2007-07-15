@@ -12,7 +12,7 @@
   <body>
     <links>
       <item name="Mojo" href="http://mojo.codehaus.org"/>
-      <item name="Maven" href="http://maven.apache.org/maven2"/>
+      <item name="Maven" href="http://maven.apache.org/"/>
     </links>
     <menu name="Mojo">
       <item name="Introduction" href="index.html"/>
