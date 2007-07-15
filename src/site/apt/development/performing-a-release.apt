@@ -10,7 +10,7 @@
 
 Preparing to Release
 
-  * Make sure the site documentation is up to date and follows the {{{site-guidelines.html}Site Guidelines}}.
+  * Make sure the site documentation is up to date and follows the {{{guidelines.html}guidelines}}.
 
   * All open jiras should be closed or agreed to be scheduled for a future
  version. 
