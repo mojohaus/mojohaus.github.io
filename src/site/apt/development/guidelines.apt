@@ -14,12 +14,13 @@ Plugin Guidelines
  * Name the Mojos like this: <<<FooMojo>>>. This mojo should be available as <<<foo>>> inside a plugin configuration
  in Maven.
 
- * Use the {{{http://maven.apache.org/developers/code-style.html}Maven code style}} when formatting your code.
+ * Use the {{{http://maven.apache.org/developers/committer-environment.html#maven_code_style}Maven code style}} when
+   formatting your code.
 
 Licensing
 
   We accept any plug-ins that follow Codehaus's rules for licensing. We recommend that you use
- {{{http://hausmates.codehaus.org/}Codehaus's recomended license}} which is the MIT license. This license is usable
+ {{{http://hausmates.codehaus.org/}Codehaus's recommended license}} which is the MIT license. This license is usable
  for both ASL and GPL covered software. For other acceptable licenses please read the
  {{{http://www.codehaus.org/FAQ}Codehaus FAQ}}.
 
