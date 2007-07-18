@@ -1,0 +1,2 @@
+RedirectMatch permanent groovy-maven-plugin http://mojo.codehaus.org/groovy
+RedirectMatch permanent groovy-maven-plugin/(.*)$ http://mojo.codehaus.org/groovy/groovy-maven-plugin/$1
