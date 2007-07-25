@@ -4,6 +4,7 @@
  Trygve Laugstol
  ------
  Mon Aug 29 2005
+ ------
 
 Plugin Guidelines
 
@@ -33,12 +34,11 @@ Mojo Parents
 
 -----------------------------------------
 <project>
-  ...
-   <parent>
-     <groupId>org.codehaus.mojo</groupId>
-     <artifactId>mojo</artifactId>
-     <version>6</version>
-   </parent>
+  <parent>
+    <groupId>org.codehaus.mojo</groupId>
+    <artifactId>mojo</artifactId>
+    <version>15</version>
+  </parent>
   ...
 </project>
 -----------------------------------------
@@ -47,12 +47,11 @@ Mojo Parents
 
 -----------------------------------------
 <project>
-  ...
-   <parent>
-     <groupId>org.codehaus.mojo</groupId>
-     <artifactId>mojo-sandbox</artifactId>
-     <version>2-SNAPSHOT</version>
-   </parent>
+  <parent>
+    <groupId>org.codehaus.mojo</groupId>
+    <artifactId>mojo-sandbox</artifactId>
+    <version>4-SNAPSHOT</version>
+  </parent>
   ...
 </project>
 -----------------------------------------
