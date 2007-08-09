@@ -46,13 +46,13 @@ Plugins
 *-----------------------------------------------------------*-------------+----------------------------------------------+
 | {{{aspectj-maven-plugin} <<<aspectj>>>}}                  | 1.0-beta-2  | Weaves aspects with aspectJ.
 *-----------------------------------------------------------+-------------+----------------------------------------------+
-| {{{axistools-maven-plugin} <<<axistools>>>}}              | 1.0         | Axis wsdl2java and java2wsdl support.
+| {{{axistools-maven-plugin} <<<axistools>>>}}              | 1.1         | Axis wsdl2java and java2wsdl support.
 *-----------------------------------------------------------+-------------+----------------------------------------------+
 | {{{castor-maven-plugin} <<<castor>>>}}                    | 1.0         | Provides the functionality of Castor's SourceGenerator.
 *-----------------------------------------------------------+-------------+----------------------------------------------+
-| {{{commons-attributes-maven-plugin} <<<commons-attributes>>>}} | 1.0   | Source generation for Commons Attributes.
+| {{{commons-attributes-maven-plugin} <<<commons-attributes>>>}} | 1.0    | Source generation for Commons Attributes.
 *-----------------------------------------------------------+-------------+----------------------------------------------+
-| {{{maven-hibernate3/hibernate3-maven-plugin} <<<hibernate3>>>}} | 2.0-alpha-1 | Integration with Hibernate 3.x
+| {{{maven-hibernate3/hibernate3-maven-plugin} <<<hibernate3>>>}} | 2.0-alpha-2 | Integration with Hibernate 3.x
 *-----------------------------------------------------------+-------------+----------------------------------------------+
 | {{{idlj-maven-plugin} <<<idlj>>>}}                        | 1.0         | Process IDL files into Java sources.
 *-----------------------------------------------------------+-------------+----------------------------------------------+
@@ -74,17 +74,17 @@ Plugins
 *-----------------------------------------------------------+-------------+----------------------------------------------+
 | {{{xdoclet-maven-plugin} <<<xdoclet>>>}}                  | 1.0-alpha-2 | Provides XDoclet functionality to Maven.
 *-----------------------------------------------------------+-------------+----------------------------------------------+
-| {{{xmlbeans-maven-plugin} <<<xmlbeans>>>}}                | 2.0         | XML to Java binding via XMLBeans.
+| {{{xmlbeans-maven-plugin} <<<xmlbeans>>>}}                | 2.3.1       | XML to Java binding via XMLBeans.
 *-----------------------------------------------------------+-------------+----------------------------------------------+
 |
 *-----------------------------------------------------------+-------------+----------------------------------------------+
 | <<IDEs>> | | <Plugins that support integration with integrated developer environments.>
 *-----------------------------------------------------------+-------------+----------------------------------------------+
-| {{{ideauidesigner-maven-plugin} <<<ideauidesigner>>>}}    | 1.0-alpha-1 | Intellij IDEA form generation.
+| {{{ideauidesigner-maven-plugin} <<<ideauidesigner>>>}}    | 1.0-alpha-2 | Intellij IDEA form generation.
 *-----------------------------------------------------------+-------------+----------------------------------------------+
-| {{{netbeans-freeform-maven-plugin} <<<netbeans-freeform>>>}} | 2.0     | Generates a NetBeans project from a Maven 2 project.
+| {{{netbeans-freeform-maven-plugin} <<<netbeans-freeform>>>}} | 2.0      | Generates a NetBeans project from a Maven 2 project.
 *-----------------------------------------------------------+-------------+----------------------------------------------+
-| {{{nbm-maven-plugin} <<<nbm>>>}}                          | 2.4         | Creates NetBeans NBM modules.
+| {{{nbm-maven-plugin} <<<nbm>>>}}                          | 2.5         | Creates NetBeans NBM modules.
 *-----------------------------------------------------------+-------------+----------------------------------------------+
 | {{{pde-maven-plugin} <<<pde>>>}}                          | 1.0-alpha-1 | Support Eclipse PDE projects.
 *-----------------------------------------------------------+-------------+----------------------------------------------+
@@ -92,7 +92,7 @@ Plugins
 *-----------------------------------------------------------+-------------+----------------------------------------------+
 | <<Reporting>> | | <Plugins which generate reports.>
 *-----------------------------------------------------------+-------------+----------------------------------------------+
-| {{{clirr-maven-plugin} <<<clirr>>>}}                      | 2.0         | Checks Java libraries for binary and source compatibility with older releases.
+| {{{clirr-maven-plugin} <<<clirr>>>}}                      | 2.1.1       | Checks Java libraries for binary and source compatibility with older releases.
 *-----------------------------------------------------------+-------------+----------------------------------------------+
 | {{{cobertura-maven-plugin} <<<cobertura>>>}}              | 2.1         | Code coverage via Cobertura.
 *-----------------------------------------------------------+-------------+----------------------------------------------+
@@ -102,7 +102,7 @@ Plugins
 *-----------------------------------------------------------+-------------+----------------------------------------------+
 | {{{jdepend-maven-plugin} <<<jdepend>>>}}                  | 2.0-beta-1  | Generates JDepend reports.
 *-----------------------------------------------------------+-------------+----------------------------------------------+
-| {{{rat-maven-plugin} <<<rat>>>}}                          | 1.0-alpha-1 | Support for Google's Release Audit Tool.
+| {{{rat-maven-plugin} <<<rat>>>}}                          | 1.0-alpha-2 | Support for Google's Release Audit Tool.
 *-----------------------------------------------------------+-------------+----------------------------------------------+
 | {{{taglist-maven-plugin} <<<taglist>>>}}                  | 2.0         | Generates a report on various tags found in the code.
 *-----------------------------------------------------------+-------------+----------------------------------------------+
@@ -118,7 +118,7 @@ Plugins
 *-----------------------------------------------------------+-------------+----------------------------------------------+
 | {{{dbunit-maven-plugin} <<<dbunit>>>}}                    | 1.0-beta-1  | Support for using DBunit.
 *-----------------------------------------------------------+-------------+----------------------------------------------+
-| {{{findbugs-maven-plugin} <<<findbugs>>>}}                | 1.0.0       | Generates a FindBugs report.
+| {{{findbugs-maven-plugin} <<<findbugs>>>}}                | 1.1.1       | Generates a FindBugs report.
 *-----------------------------------------------------------+-------------+----------------------------------------------+
 | {{{selenium-maven-plugin} <<<selenium>>>}}                | 1.0-beta-1  | Supports automated web-application testing.
 *-----------------------------------------------------------+-------------+----------------------------------------------+
@@ -140,7 +140,7 @@ Plugins
 *-----------------------------------------------------------+-------------+----------------------------------------------+
 | {{{webstart-maven-plugin-parent/webstart-maven-plugin} <<<webstart>>>}} | 1.0-alpha-1 | Prepare webstart applications.
 *-----------------------------------------------------------+-------------+----------------------------------------------+
-| {{{xml-maven-plugin} <<<xml>>>}}                          | 1.0-beta-1  | XML transformation and validation.
+| {{{xml-maven-plugin} <<<xml>>>}}                          | 1.0-beta-2  | XML transformation and validation.
 *-----------------------------------------------------------+-------------+----------------------------------------------+
 
 * Sandboxed Plugins
