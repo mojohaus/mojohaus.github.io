@@ -4,7 +4,7 @@
  ------
  $Id$
 
-~~ 
+~~
 ~~ Licensed to the Apache Software Foundation (ASF) under one
 ~~ or more contributor license agreements.  See the NOTICE file
 ~~ distributed with this work for additional information
@@ -145,14 +145,16 @@ Plugins
 
 * Sandboxed Plugins
 
- These are plugins which have been contributed but have not gained the attention of users or 
+ These are plugins which have been contributed but have not gained the attention of users or
  a committer interested in seeing it released. If you are looking for a plugin but do not see
- it in this list or the plugins above, you should also check the 
+ it in this list or the plugins above, you should also check the
  {{{https://svn.codehaus.org/mojo/trunk/mojo/mojo-sandbox}subversion repository}}
  in case the plugin hasn't been added to the list below yet.
 
 *-----------------------------------------------------------+------------------------------------------------------------+
 | <<Plugin>>                                                | <<Description>>
+*-----------------------------------------------------------+------------------------------------------------------------+
+| {{{argouml-maven-plugin} <<<argouml>>>}}                  | Generates images from ArgoUML diagrams
 *-----------------------------------------------------------+------------------------------------------------------------+
 | {{{appbundler-maven-plugin} <<<appbundler>>>}}            | Bundles OS X applications.
 *-----------------------------------------------------------+------------------------------------------------------------+
@@ -203,6 +205,8 @@ Plugins
 | {{{kodo-maven-plugin} <<<kodo>>>}}                        | Enhance files using Solarmetric's Kodo-JDO.
 *-----------------------------------------------------------+------------------------------------------------------------+
 | {{{mant-maven-plugin} <<<mant>>>}}                        | ???
+*-----------------------------------------------------------+------------------------------------------------------------+
+| {{{maven-springbeandoc-plugin} <<<springbeandoc>>>}}      | Generates String BeanDoc reports from Spring configs
 *-----------------------------------------------------------+------------------------------------------------------------+
 | {{{pomtools-maven-plugin} <<<pomtools>>>}}                | Provides console based editing of the project's pom.xml.
 *-----------------------------------------------------------+------------------------------------------------------------+
