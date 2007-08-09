@@ -3,10 +3,28 @@
  ------
  Trygve Laugstol
  ------
- Mon Aug 29 2005
- ------
+ $Id$
 
-Development Guidelines
+~~ 
+~~ Licensed to the Apache Software Foundation (ASF) under one
+~~ or more contributor license agreements.  See the NOTICE file
+~~ distributed with this work for additional information
+~~ regarding copyright ownership.  The ASF licenses this file
+~~ to you under the Apache License, Version 2.0 (the
+~~ "License"); you may not use this file except in compliance
+~~ with the License.  You may obtain a copy of the License at
+~~
+~~  http://www.apache.org/licenses/LICENSE-2.0
+~~
+~~ Unless required by applicable law or agreed to in writing,
+~~ software distributed under the License is distributed on an
+~~ "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+~~ KIND, either express or implied.  See the License for the
+~~ specific language governing permissions and limitations
+~~ under the License.
+~~
+
+Plugin Guidelines
 
  All plugins in the Mojo project should follow these guidelines although they might not always apply.
 
@@ -18,7 +36,7 @@ Development Guidelines
  * Use the {{{http://maven.apache.org/developers/committer-environment.html#maven_code_style}Maven code style}} when
    formatting your code.
 
-*Licensing
+Licensing
 
   We accept any plug-ins that follow Codehaus's rules for licensing. We recommend that you use
  {{{http://hausmates.codehaus.org/}Codehaus's recommended license}} which is the MIT license. This license is usable
@@ -28,17 +46,18 @@ Development Guidelines
   Make sure that you include the license in a file called <<<LICENSE.txt>>> in the root of your project and that
  all files include the license at the top of the file.
 
-*Mojo Parents
+Mojo Parents
 
  Released plugins should derive from the mojo parent:
 
 -----------------------------------------
 <project>
-  <parent>
-    <groupId>org.codehaus.mojo</groupId>
-    <artifactId>mojo</artifactId>
-    <version>16</version>
-  </parent>
+  ...
+   <parent>
+     <groupId>org.codehaus.mojo</groupId>
+     <artifactId>mojo</artifactId>
+     <version>6</version>
+   </parent>
   ...
 </project>
 -----------------------------------------
@@ -47,65 +66,31 @@ Development Guidelines
 
 -----------------------------------------
 <project>
-  <parent>
-    <groupId>org.codehaus.mojo</groupId>
-    <artifactId>mojo-sandbox</artifactId>
-    <version>4-SNAPSHOT</version>
-  </parent>
+  ...
+   <parent>
+     <groupId>org.codehaus.mojo</groupId>
+     <artifactId>mojo-sandbox</artifactId>
+     <version>2-SNAPSHOT</version>
+   </parent>
   ...
 </project>
 -----------------------------------------
 
-*Plugin Site Template
+Plugin Site Template
 
  Plugins should have a site that conforms to:
  
-   * The Codehaus template, see below
+   * The Codehaus template
    
    * {{{http://maven.apache.org/guides/development/guide-plugin-documentation.html}
-     Plugin Documentation Standard}}
+     Plugin Documentation Standard}}. 
      
    * {{{http://maven.apache.org/plugins/maven-docck-plugin/}maven-docck-plugin}}
    
    [] 
    
-** For Mojo Parent 16 and Newer
-
-  Mojo parent 16 introduces a common <<<site.xml>>> file that is included in
-  the parent artifact. It is inherited by the projects that use this parent.
-  This means that there are less things that you have to specify yourself. If
-  you are using mojo parent 16 or newer, place this in your plugin's
-  <<</src/site/site.xml>>>:
    
------------------------------------------
-<project>
-  <body>
-    <menu name="Overview">
-      <item name="Introduction" href="index.html"/>
-      <item name="Goals" href="plugin-info.html"/>
-      <item name="Usage" href="usage.html"/>
-      <item name="FAQ" href="faq.html"/>
-    </menu>
-    <menu name="Examples">
-      <item name="description1" href="examples/example-one.html"/>
-      <item name="description2" href="examples/example-two.html"/>
-    </menu>
-  </body>
-</project>
------------------------------------------
-
-  Also make sure that the <<<\<name\>>>> element in your plugin's
-  <<<pom.xml>>> contains this text:
-   
------
-  <name>XXXXX Maven Plugin</name>
------   
-  
-  This name is used in the title of the pages in the generated site.  
-   
-** For Mojo Parent 15 and Older
-   
-  Place this in your plugin's <<</src/site/site.xml>>> for a starting point:
+   Place this in <<</src/site/site.xml>>> for a starting point:
 
 -----------------------------------------
 <project name="XXXXX Maven Plugin">

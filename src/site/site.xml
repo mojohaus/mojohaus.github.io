@@ -1,37 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Licensed to the Apache Software Foundation (ASF) under one or more
+    contributor license agreements.  See the NOTICE file distributed with
+    this work for additional information regarding copyright ownership.
+    The ASF licenses this file to You under the Apache License, Version 2.0
+    (the "License"); you may not use this file except in compliance with
+    the License.  You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+
+<!-- $Id$ -->
+
 <project name="Mojo">
-  <bannerLeft>
-    <name>Mojo</name>
-    <src>/images/mojo_logo.png</src>
-    <href>http://mojo.codehaus.org</href>
-  </bannerLeft>
-  <bannerRight>
-    <name>Codehaus</name>
-    <src>http://mojo.codehaus.org/images/codehaus-small.png</src>
-    <href>http://www.codehaus.org</href>
-  </bannerRight>
-  <body>
-    <links>
-      <item name="Mojo" href="http://mojo.codehaus.org"/>
-      <item name="Maven" href="http://maven.apache.org/"/>
-    </links>
-    <menu name="Mojo">
-      <item name="Introduction" href="index.html"/>
-      <item name="FAQ" href="faq.html"/>
-    </menu>
-    <menu name="Development">
-      <item name="Submitting a Plugin" href="development/submitting-a-plugin.html"/>
-      <item name="Development Guidelines" href="development/guidelines.html"/>
-      <item name="Development Process" href="development/process.html"/>
-      <item name="Performing a Release" href="development/performing-a-release.html"/>
-    </menu>
-    <menu name="The Sandbox">
-      <item name="What is the Sandbox" href="faq.html#what-is-the-sandbox"/>
-      <item name="Using Sandbox Plugins" href="using-sandbox-plugins.html"/>
-    </menu>
-    <menu name="Project Information">
-      <item name="Source code" href="source-repository.html"/>
-      <item name="Mailing Lists" href="mail-lists.html"/>
-      <item name="Issue Tracking" href="issue-tracking.html"/>
-    </menu>
-  </body>
+    <bannerLeft>
+        <name>Mojo</name>
+        <src>/images/mojo_logo.png</src>
+        <href>http://mojo.codehaus.org</href>
+    </bannerLeft>
+    
+    <bannerRight>
+        <name>Codehaus</name>
+        <src>http://mojo.codehaus.org/images/codehaus-small.png</src>
+        <href>http://www.codehaus.org</href>
+    </bannerRight>
+    
+    <body>
+        <links>
+            <item name="Mojo" href="http://mojo.codehaus.org"/>
+            <item name="Maven" href="http://maven.apache.org/"/>
+        </links>
+        
+        <menu name="Mojo">
+            <item name="Introduction" href="index.html"/>
+            <item name="Plugins" href="plugins.html"/>
+            <item name="FAQ" href="faq.html"/>
+        </menu>
+        
+        <menu name="Development">
+            <item name="Submitting a Plugin" href="development/submitting-a-plugin.html"/>
+            <item name="Development Guidelines" href="development/guidelines.html"/>
+            <item name="Development Process" href="development/process.html"/>
+            <item name="Performing a Release" href="development/performing-a-release.html"/>
+        </menu>
+        
+        <menu name="The Sandbox">
+            <item name="What is the Sandbox" href="faq.html#what-is-the-sandbox"/>
+            <item name="Using Sandbox Plugins" href="using-sandbox-plugins.html"/>
+        </menu>
+        
+        <menu name="Project Information">
+            <item name="Source code" href="source-repository.html"/>
+            <item name="Mailing Lists" href="mail-lists.html"/>
+            <item name="Issue Tracking" href="issue-tracking.html"/>
+        </menu>
+    </body>
 </project>

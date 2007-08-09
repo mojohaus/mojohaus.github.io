@@ -1,54 +1,81 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Licensed to the Apache Software Foundation (ASF) under one or more
+    contributor license agreements.  See the NOTICE file distributed with
+    this work for additional information regarding copyright ownership.
+    The ASF licenses this file to You under the Apache License, Version 2.0
+    (the "License"); you may not use this file except in compliance with
+    the License.  You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+
+<!-- $Id$ -->
+
 <faqs title="About Mojo">
-  <part id="about">
-    <faq id="why-mojo">
-      <question>Why was the Mojo project created?</question>
-      <answer>
-        <p>
-          Well, this allows a bunch of people, not necessarily involved with the Maven project, to come along and build
-          some plugins. They are free to look after just that plugin, though I hope that they'll get involved in the
-          community of people here and work on other plugins as well as help maintain the common infrastructure like the
-          site.
-        </p>
-        <p>
-          Maven plugins may also be developed here because they are not compatible with the Apache license. Plugin
-          authors may choose to use other licenses (BSD, GPL, MPL ...) to license their work or may be forced to because
-          of the nature of the plugin and its dependencies. These plugin authors are responsible for working with their
-          plugins license but the mailing lists are a great place to get help if people get confused on what can or can
-          not be done within the mojo project. 
-        </p>
-      </answer>
-    </faq>
-    <faq id="how-can-we-communicate">
-      <question>How can we communicate</question>
-      <answer>
-        <ul>
-          <li>Use the mailing list where possible as more people can get involved and so an archive is available</li>
-          <li>If it is specific to a plugin, prefix the subject with the plugin name, eg [jalopy]</li>
-          <li>Use IRC (irc://irc.codehaus.org on #maven) for realtime discussion. Try and summarise and send it to the list if there was some decisions were made there.</li>
-        </ul>
-      </answer>
-    </faq>
-    <faq id="what-is-the-sandbox">
-      <question>What is the sandbox</question>
-      <answer>
-        <p>
-          The sandbox is used to "incubate" new plugins. Sandbox plugins will not be released to the repositories and if you
-          are interrested in trying it out you will probably have to build it from source.
-        </p>
-        <p>
-          All new code should be put in the sandbox so we can make sure that the plugin uses the correct code style,
-          that is has proper documentation and generally has the expected quality.
-        </p>
-      </answer>
-    </faq>
-    <faq id="where-is-sandbox">
-      <question>Where is the sandbox</question>
-      <answer>
-        <p>
-          Most plugins have sites published and linked from the mojo navigation menu. Others can be found in SVN: https://svn.mojo.codehaus.org/mojo/trunk/mojo/mojo-sandbox/
-        </p>
-       </answer>
-    </faq>
-  </part>
+
+    <part id="about">
+        <faq id="why-mojo">
+            <question>Why was the Mojo project created?</question>
+            <answer>
+                <p>
+                    Well, this allows a bunch of people, not necessarily involved with the Maven project, to come along and build
+                    some plugins. They are free to look after just that plugin, though I hope that they'll get involved in the
+                    community of people here and work on other plugins as well as help maintain the common infrastructure like the
+                    site.
+                </p>
+                
+                <p>
+                    Maven plugins may also be developed here because they are not compatible with the Apache license. Plugin
+                    authors may choose to use other licenses (BSD, GPL, MPL ...) to license their work or may be forced to because
+                    of the nature of the plugin and its dependencies. These plugin authors are responsible for working with their
+                    plugins license but the mailing lists are a great place to get help if people get confused on what can or can
+                    not be done within the mojo project. 
+                </p>
+            </answer>
+        </faq>
+        
+        <faq id="how-can-we-communicate">
+            <question>How can we communicate</question>
+            <answer>
+                <ul>
+                    <li>Use the mailing list where possible as more people can get involved and so an archive is available</li>
+                    <li>If it is specific to a plugin, prefix the subject with the plugin name, eg [jalopy]</li>
+                    <li>Use IRC (irc://irc.codehaus.org on <a href="irc://irc.codehaus.org#maven">#maven</a>) for realtime discussion.
+                        Try and summarise and send it to the list if there was some decisions were made there.</li>
+                </ul>
+            </answer>
+        </faq>
+        <faq id="what-is-the-sandbox">
+            <question>What is the sandbox</question>
+            <answer>
+                <p>
+                    The sandbox is used to "incubate" new plugins. Sandbox plugins will not be released to the repositories and if you
+                    are interrested in trying it out you will probably have to build it from source.
+                </p>
+                
+                <p>
+                    All new code should be put in the sandbox so we can make sure that the plugin uses the correct code style,
+                    that is has proper documentation and generally has the expected quality.
+                </p>
+            </answer>
+        </faq>
+        
+        <faq id="where-is-sandbox">
+            <question>Where is the sandbox</question>
+            <answer>
+                <p>
+                    Most plugins have sites published and linked from the mojo navigation menu. Others can be found in SVN:
+                    <a href="https://svn.mojo.codehaus.org/mojo/trunk/mojo/mojo-sandbox">https://svn.mojo.codehaus.org/mojo/trunk/mojo/mojo-sandbox</a>.
+                </p>
+            </answer>
+        </faq>
+    </part>
+
 </faqs>

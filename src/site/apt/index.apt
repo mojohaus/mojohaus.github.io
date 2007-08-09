@@ -3,215 +3,55 @@
  ------
  Trygve Laugstol
  ------
-Jan 1, 2006
+ $Id$
+
+~~ 
+~~ Licensed to the Apache Software Foundation (ASF) under one
+~~ or more contributor license agreements.  See the NOTICE file
+~~ distributed with this work for additional information
+~~ regarding copyright ownership.  The ASF licenses this file
+~~ to you under the Apache License, Version 2.0 (the
+~~ "License"); you may not use this file except in compliance
+~~ with the License.  You may obtain a copy of the License at
+~~
+~~  http://www.apache.org/licenses/LICENSE-2.0
+~~
+~~ Unless required by applicable law or agreed to in writing,
+~~ software distributed under the License is distributed on an
+~~ "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+~~ KIND, either express or implied.  See the License for the
+~~ specific language governing permissions and limitations
+~~ under the License.
+~~
 
 Welcome To The Mojo Project
 
- The Mojo Project is currently publishing plugins to the 
- {{{http://repository.codehaus.org/org/codehaus/mojo/}Codehaus repository}}. 
- Previous releases have also been published on the 
- {{{http://www.ibiblio.org/pub/packages/maven2/org/codehaus/mojo/}Maven Central repository}}. 
+ The Mojo project is a collection of plugins for Maven 2.
+
+ Plugins are currently being published to the {{{http://repository.codehaus.org/org/codehaus/mojo/}Codehaus repository}}.
+ Previous releases have also been published on the {{{http://repo1.maven.org/maven2/org/codehaus/mojo/}Maven Central repository}}.
  {{{http://snapshots.repository.codehaus.org}Snapshots}} are available on request through 
  the user mailing list or by emailing the maintainer. Each plugin has a list of people 
  involved in creating or supporting it.
+
+Plugins
+
+ For information on the plugins hosted at the Mojo project see the {{{plugins.html}plugin list}}.
 
  You can also check out other plugins from the subversion repository and build them yourself for 
  general usage, including the sandbox plugins. See {{{using-sandbox-plugins.html}using 
  sandbox plugins}} for information about building from source and retrieving sandbox snapshot
  releases.
 
-Plugins Hosted At the Mojo Project
-
-*-------------------------------------------------------------------------------+----------------------------------------------+
-| <<Plugin>>                                                                    | <<Description>>
-*-------------------------------------------------------------------------------+----------------------------------------------+
-| {{{antlr-maven-plugin} <<<antlr-maven-plugin>>>}}                             | Antlr Plug-in.
-*-------------------------------------------------------------------------------+----------------------------------------------+
-| {{{appassembler/appassembler-maven-plugin} <<<appassembler-maven-plugin>>>}}  | Application Assembler Plug-in.
-*-------------------------------------------------------------------------------+----------------------------------------------+
-| {{{aspectj-maven-plugin} <<<aspectj-maven-plugin>>>}}                         | AspectJ Plug-in.
-*-------------------------------------------------------------------------------+----------------------------------------------+
-| {{{axistools-maven-plugin} <<<axistools-maven-plugin>>>}}                     | Axis WS Tools Plug-in.
-*-------------------------------------------------------------------------------+----------------------------------------------+
-| {{{build-helper-maven-plugin} <<<build-helper-maven-plugin>>>}}               | Build Helper Plug-in.
-*-------------------------------------------------------------------------------+----------------------------------------------+
-| {{{castor-maven-plugin} <<<castor-maven-plugin>>>}}                           | Castor Plug-in.
-*------------------------------------------------------------------------------------------------------------------------------+
-| {{{clirr-maven-plugin} <<<clirr-maven-plugin>>>}}                             | Clirr Plugin.
-*------------------------------------------------------------------------------------------------------------------------------+
-| {{{cobertura-maven-plugin} <<<cobertura-maven-plugin>>>}}                     | Cobertura Plug-in.
-*-------------------------------------------------------------------------------+----------------------------------------------+
-| {{{commons-attributes-maven-plugin} <<<commons-attributes-maven-plugin>>>}}   | Commons Attributes Plug-in.
-*-------------------------------------------------------------------------------+----------------------------------------------+
-| {{{dbunit-maven-plugin} <<<dbunit-maven-plugin>>>}}                           | DBUnit Plug-in.
-*-------------------------------------------------------------------------------+----------------------------------------------+
-| {{{docbook-maven-plugin} <<<docbook-maven-plugin>>>}}                         | Docbook Plug-in.
-*-------------------------------------------------------------------------------+----------------------------------------------+
-| {{{exec-maven-plugin} <<<exec-maven-plugin>>>}}                               | Exec Plug-in.
-*-------------------------------------------------------------------------------+----------------------------------------------+
-| {{{findbugs-maven-plugin} <<<findbugs-maven-plugin>>>}}                       | Find Bugs Plug-in.
-*-------------------------------------------------------------------------------+----------------------------------------------+
-| {{{groovy} <<<groovy-maven-plugin>>>}}                                        | Groovy Plug-in.
-*-------------------------------------------------------------------------------+----------------------------------------------+
-| {{{maven-hibernate3/hibernate3-maven-plugin} <<<hibernate3-maven-plugin>>>}}  | Hibernate 3 Plug-in.
-*-------------------------------------------------------------------------------+----------------------------------------------+
-| {{{ideauidesigner-maven-plugin} <<<ideauidesigner-maven-plugin>>>}}           | IDEA UI Designer Plugin.
-*------------------------------------------------------------------------------------------------------------------------------+
-| {{{idlj-maven-plugin} <<<idlj-maven-plugin>>>}}                               | IDLJ Plug-in.
-*-------------------------------------------------------------------------------+----------------------------------------------+
-| {{{jalopy-maven-plugin} <<<jalopy-maven-plugin>>>}}                           | Jalopy Plug-in.
-*-------------------------------------------------------------------------------+----------------------------------------------+
-| {{{javacc-maven-plugin} <<<javacc-maven-plugin>>>}}                           | JavaCC Plug-in.
-*-------------------------------------------------------------------------------+----------------------------------------------+
-| {{{javancss-maven-plugin} <<<javancss-maven-plugin>>>}}                       | JavaNCSS Plug-in.
-*-------------------------------------------------------------------------------+----------------------------------------------+
-| {{{jaxb2-maven-plugin} <<<jaxb2-maven-plugin>>>}}                             | JAXB 2 Plug-in.
-*-------------------------------------------------------------------------------+----------------------------------------------+
-| {{{jboss-maven-plugin} <<<jboss-maven-plugin>>>}}                             | JBoss Plug-in.
-*-------------------------------------------------------------------------------+----------------------------------------------+
-| {{{jdepend-maven-plugin} <<<jdepend-maven-plugin>>>}}                         | JDepend Plug-in.
-*-------------------------------------------------------------------------------+----------------------------------------------+
-| {{{jdiff-maven-plugin} <<<jdiff-maven-plugin>>>}}                             | JDiff Plug-in.
-*-------------------------------------------------------------------------------+----------------------------------------------+
-| {{{jpox-maven-plugin} <<<jpox-maven-plugin>>>}}                               | JPox Plug-in.
-*-------------------------------------------------------------------------------+----------------------------------------------+
-| {{{jruby-maven-plugin} <<<jruby-maven-plugin>>>}}                             | JRuby Plug-in.
-*-------------------------------------------------------------------------------+----------------------------------------------+
-| {{{jspc-maven-plugin} <<<jspc-maven-plugin>>>}}                               | JSP Compiler Plug-in.
-*-------------------------------------------------------------------------------+----------------------------------------------+
-| {{{keytool-maven-plugin} <<<keytool-maven-plugin>>>}}                         | Keytool Plug-in.
-*-------------------------------------------------------------------------------+----------------------------------------------+
-| {{{maven-native/native-maven-plugin} <<<native-maven-plugin>>>}}              | Native Plug-in.
-*-------------------------------------------------------------------------------+----------------------------------------------+
-| {{{minijar-maven-plugin} <<<minijar-maven-plugin>>>}}                         | Minijar Plug-in.
-*-------------------------------------------------------------------------------+----------------------------------------------+
-| {{{native2ascii-maven-plugin} <<<native2ascii-maven-plugin>>>}}               | Native2Ascii Plugin.
-*-------------------------------------------------------------------------------+----------------------------------------------+
-| {{{nbm-maven-plugin} <<<nbm-maven-plugin>>>}}                                 | Netbeans Module Plug-in.
-*-------------------------------------------------------------------------------+----------------------------------------------+
-| {{{netbeans-freeform-maven-plugin} <<<netbeans-freeform-maven-plugin>>>}}     | Netbeans Free-Form Plug-in.
-*-------------------------------------------------------------------------------+----------------------------------------------+
-| {{{pde-maven-plugin} <<<pde-maven-plugin>>>}}                                 | Eclipse PDE Plug-in.
-*-------------------------------------------------------------------------------+----------------------------------------------+
-| {{{rat-maven-plugin} <<<rat-maven-plugin>>>}}                                 | RAT Plug-in.
-*-------------------------------------------------------------------------------+----------------------------------------------+
-| {{{retrotranslator-maven-plugin} <<<retrotranslator-maven-plugin>>>}}         | Retrotranslator Plug-in.
-*-------------------------------------------------------------------------------+----------------------------------------------+
-| {{{sablecc-maven-plugin} <<<sablecc-maven-plugin>>>}}                         | SableCC Plug-in.
-*-------------------------------------------------------------------------------+----------------------------------------------+
-| {{{selenium-maven-plugin} <<<selenium-maven-plugin>>>}}                       | Selenium Plug-in.
-*-------------------------------------------------------------------------------+----------------------------------------------+
-| {{{smc-maven-plugin} <<<smc-maven-plugin>>>}}                                 | SMC Plug-in.
-*-------------------------------------------------------------------------------+----------------------------------------------+
-| {{{sql-maven-plugin} <<<sql-maven-plugin>>>}}                                 | SQL Plug-in.
-*-------------------------------------------------------------------------------+----------------------------------------------+
-| {{{taglist-maven-plugin} <<<taglist-maven-plugin>>>}}                         | Tag list Plug-in.
-*-------------------------------------------------------------------------------+----------------------------------------------+
-| {{{tomcat-maven-plugin} <<<tomcat-maven-plugin>>>}}                           | Tomcat Plug-in.
-*-------------------------------------------------------------------------------+----------------------------------------------+
-| {{{weblogic-maven-plugin} <<<weblogic-maven-plugin>>>}}                       | Weblogic Plug-in.
-*-------------------------------------------------------------------------------+----------------------------------------------+
-| {{{webstart-maven-plugin-parent/webstart-maven-plugin} <<<webstart-maven-plugin>>>}} | Java Webstart Plug-in.
-*-------------------------------------------------------------------------------+----------------------------------------------+
-| {{{wsdl2java-maven-plugin} <<<wsdl2java-maven-plugin>>>}}                     | WSDL To Java Plug-in.
-*-------------------------------------------------------------------------------+----------------------------------------------+
-| {{{xdoclet-maven-plugin} <<<xdoclet-maven-plugin>>>}}                         | XDoclet Plug-in.
-*-------------------------------------------------------------------------------+----------------------------------------------+
-| {{{xml-maven-plugin} <<<xml-maven-plugin>>>}}                                 | XML/XSLT Plug-in.
-*-------------------------------------------------------------------------------+----------------------------------------------+
-| {{{xmlbeans-maven-plugin} <<<xmlbeans-maven-plugin>>>}}                       | XML Beans Plug-in.
-*-------------------------------------------------------------------------------+----------------------------------------------+
-
-* Sandboxed Plugins
-
- These are plugins which have been contributed but have not gained the attention of users or 
- a committer interested in seeing it released. If you are looking for a plugin but do not see
- it in this list or the plugins above, you should also check the 
- {{{https://svn.codehaus.org/mojo/trunk/mojo/mojo-sandbox}subversion repository}}
- in case the plugin hasn't been added to the list below yet.
-
-*-------------------------------------------------------------------------------+----------------------------------------------+
-| <<Plugin>>                                                                    | <<Description>>
-*-------------------------------------------------------------------------------+----------------------------------------------+
-| {{{apidocs-maven-plugin} <<<apidocs-maven-plugin>>>}}                         | API Docs Plug-in.
-*-------------------------------------------------------------------------------+----------------------------------------------+
-| {{{appbundler-maven-plugin} <<<appbundler-maven-plugin>>>}}                   | OS X Application Bundle Plug-in.
-*-------------------------------------------------------------------------------+----------------------------------------------+
-| {{{axis-archetype-maven-plugin} <<<axis-archetype-maven-plugin>>>}}           | Axis Archetype Plug-in.
-*-------------------------------------------------------------------------------+----------------------------------------------+
-| {{{batik-maven-plugin} <<<batik-maven-plugin>>>}}                             | Batik Plug-in.
-*-------------------------------------------------------------------------------+----------------------------------------------+
-| {{{cruisecontrol-maven-plugin} <<<cruisecontrol-maven-plugin>>>}}             | CruiseControl Configuration Maven Plugin.
-*-------------------------------------------------------------------------------+----------------------------------------------+
-| {{{dashboard-maven-plugin} <<<dashboard-maven-plugin>>>}}                     | Dashboard Plug-in.
-*-------------------------------------------------------------------------------+----------------------------------------------+
-| {{{deb-maven-plugin} <<<deb-maven-plugin>>>}}                                 | Debian Packaging Plug-in.
-*-------------------------------------------------------------------------------+----------------------------------------------+
-| {{{delicious-maven-plugin} <<<delicious-maven-plugin>>>}}                     | Delicious Plug-in.
-*-------------------------------------------------------------------------------+----------------------------------------------+
-| {{{ejbdoclet-maven-plugin} <<<ejbdoclet-maven-plugin>>>}}                     | EJB Doclet Plug-in.
-*-------------------------------------------------------------------------------+----------------------------------------------+
-| {{{eve-maven-plugin} <<<eve-maven-plugin>>>}}                                 | Eve Plug-in.
-*-------------------------------------------------------------------------------+----------------------------------------------+
-| {{{graphing-maven-plugin} <<<graphing-maven-plugin>>>}}                       | Graphing Plug-in.
-*-------------------------------------------------------------------------------+----------------------------------------------+
-| {{{fit-maven-plugin} <<<fit-maven-plugin>>>}}                                 | Fit Plug-in.
-*-------------------------------------------------------------------------------+----------------------------------------------+
-| {{{fitnesse-maven-plugin} <<<fitnesse-maven-plugin>>>}}                       | FitNesse Plug-in.
-*-------------------------------------------------------------------------------+----------------------------------------------+
-| {{{hibernatedoclet-maven-plugin} <<<hibernatedoclet-maven-plugin>>>}}         | Hibernate Doclet Plug-in.
-*-------------------------------------------------------------------------------+----------------------------------------------+
-| {{{jarjar-maven-plugin} <<<jarjar-maven-plugin>>>}}                           | Jar Jar Plug-in.
-*-------------------------------------------------------------------------------+----------------------------------------------+
-| {{{j2me-maven-plugin} <<<j2me-maven-plugin>>>}}                               | J2ME Plug-in.
-*-------------------------------------------------------------------------------+----------------------------------------------+
-| {{{jasperreports-maven-plugin} <<<jasperreports-maven-plugin>>>}}             | Jasper Reports Plug-in.
-*-------------------------------------------------------------------------------+----------------------------------------------+
-| {{{jaxws-maven-plugin} <<<jaxws-maven-plugin>>>}}                             | JAXWS Plug-in.
-*-------------------------------------------------------------------------------+----------------------------------------------+
-| {{{jboss-packaging-maven-plugin} <<<jboss-packaging-maven-plugin>>>}}         | JBoss Packaging Plug-in.
-*-------------------------------------------------------------------------------+----------------------------------------------+
-| {{{jboss-sar-maven-plugin} <<<jboss-sar-maven-plugin>>>}}                     | deprecated - see Jboss Packaging Plug-in.
-*-------------------------------------------------------------------------------+----------------------------------------------+
-| {{{jcoverage-maven-plugin} <<<jcoverage-maven-plugin>>>}}                     | JCoverage Plugin.
-*-------------------------------------------------------------------------------+----------------------------------------------+
-| {{{jelly-maven-tools} <<<jelly-maven-tools>>>}}                               | Jelly Plug-in.
-*-------------------------------------------------------------------------------+----------------------------------------------+
-| {{{jetty-maven-plugin} <<<jetty-maven-plugin>>>}}                             | Jetty Plug-in.
-*-------------------------------------------------------------------------------+----------------------------------------------+
-| {{{kodo-maven-plugin} <<<kodo-maven-plugin>>>}}                               | Kodo Plug-in.
-*-------------------------------------------------------------------------------+----------------------------------------------+
-| {{{maven-springbeandoc-plugin} <<<maven-springbeandoc-plugin>>>}}             | Maven Spring BeanDoc Plug-in.
-*-------------------------------------------------------------------------------+----------------------------------------------+
-| {{{mant-maven-plugin} <<<mant-maven-plugin>>>}}                               | Mant Plug-in.
-*-------------------------------------------------------------------------------+----------------------------------------------+
-| {{{pomtools-maven-plugin} <<<pomtools-maven-plugin>>>}}                       | POM Tools Plug-in.
-*-------------------------------------------------------------------------------+----------------------------------------------+
-| {{{retroweaver-maven-plugin} <<<retroweaver-maven-plugin>>>}}                 | Retro-Weaver Plug-in.
-*-------------------------------------------------------------------------------+----------------------------------------------+
-| {{{rmic-maven-plugin} <<<rmic-maven-plugin>>>}}                               | RMIC Plug-in.
-*-------------------------------------------------------------------------------+----------------------------------------------+
-| {{{rpm-maven-plugin} <<<rpm-maven-plugin>>>}}                                 | RPM Packaging Plug-in.
-*-------------------------------------------------------------------------------+----------------------------------------------+
-| {{{runtime-maven-plugin} <<<runtime-maven-plugin>>>}}                         | Runtime Plug-in.
-*-------------------------------------------------------------------------------+----------------------------------------------+
-| {{{simian-report-maven-plugin} <<<simian-report-maven-plugin>>>}}             | Simian Report Plug-in.
-*-------------------------------------------------------------------------------+----------------------------------------------+
-| {{{slimdog-maven-plugin} <<<slimdog-maven-plugin>>>}}                         | Slimdog Plug-in.
-*-------------------------------------------------------------------------------+----------------------------------------------+
-| {{{springdoclet-maven-plugin} <<<springdoclet-maven-plugin>>>}}               | Spring Doclet Plug-in.
-*-------------------------------------------------------------------------------+----------------------------------------------+
-| {{{visibroker-maven-plugin} <<<visibroker-maven-plugin>>>}}                   | VisiBroker Plug-in.
-*-------------------------------------------------------------------------------+----------------------------------------------+
-| {{{webdoclet-maven-plugin} <<<webdoclet-maven-plugin>>>}}                     | Webdoclet Plug-in.
-*-------------------------------------------------------------------------------+----------------------------------------------+
-| {{{xfire-maven-plugin} <<<xfire-maven-plugin>>>}}                             | XFire Plug-in.
-*-------------------------------------------------------------------------------+----------------------------------------------+
-| {{{xjc-maven-plugin} <<<xjc-maven-plugin>>>}}                                 | XJC Plug-in.
-*-------------------------------------------------------------------------------+----------------------------------------------+
+Getting Support
 
  If you have problems or concerns with plugins in the Mojo project please contact the author, ask on
- {{{mail-lists.html}the users mailing list}} or join us on irc at <irc://irc.codehaus.org> on #maven.
+ {{{mail-lists.html}the users mailing list}} or join us on IRC at <irc://irc.codehaus.org> on
+ {{{irc://irc.codehaus.org#maven}<#maven>}}.
+
+Development
 
  If you would like to contribute to the project, either through fixing an existing plugin or by donating a new plugin,
- contact us on {{{mail-lists.html}the development mailing list}} or join us on irc at <irc://irc.codehaus.org> on #maven.
+ contact us on {{{mail-lists.html}the development mailing list}} or join us on IRC at <irc://irc.codehaus.org> on
+ {{{irc://irc.codehaus.org#maven}<#maven>}}.
+
