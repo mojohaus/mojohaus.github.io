@@ -166,6 +166,8 @@ Plugins
 *-----------------------------------------------------------+------------------------------------------------------------+
 | {{{batik-maven-plugin} <<<batik>>>}}                      | Rasterize SVGs.
 *-----------------------------------------------------------+------------------------------------------------------------+
+| {{{ckjm-maven-plugin} <<<ckjm>>>}}                        | Executes the Ckjm bytecode analysis utility against a project.
+*-----------------------------------------------------------+------------------------------------------------------------+
 | {{{cruisecontrol-maven-plugin} <<<cruisecontrol>>>}}      | No site.
 *-----------------------------------------------------------+------------------------------------------------------------+
 | {{{dashboard-maven-plugin} <<<dashboard>>>}}              | Aggregate results from Checkstyle, Cobertura, Surefire, PMD, CPD reports.
@@ -206,6 +208,8 @@ Plugins
 *-----------------------------------------------------------+------------------------------------------------------------+
 | {{{kodo-maven-plugin} <<<kodo>>>}}                        | Enhance files using Solarmetric's Kodo-JDO.
 *-----------------------------------------------------------+------------------------------------------------------------+
+| {{{macker-maven-plugin} <<<macker>>>}}                    | Executes the Macker architectural rule checking utility against a project.
+*-----------------------------------------------------------+------------------------------------------------------------+
 | {{{mant-maven-plugin} <<<mant>>>}}                        | ???
 *-----------------------------------------------------------+------------------------------------------------------------+
 | {{{maven-springbeandoc-plugin} <<<springbeandoc>>>}}      | Generates String BeanDoc reports from Spring configs
@@ -239,6 +243,8 @@ Plugins
 | {{{wsdl2java-maven-plugin} <<<wsdl2java>>>}}              | Generates stubs for WSDL files using Axis WSDL2Java.
 *-----------------------------------------------------------+------------------------------------------------------------+
 | {{{xfire-maven-plugin} <<<xfire>>>}}                      | XFire integration.
+*-----------------------------------------------------------+------------------------------------------------------------+
+| {{{xstlc-maven-plugin} <<<xsltc>>>}}                      | Uses XSLTC to compile an XSL stylesheet into a translet (a set of Java classes).
 *-----------------------------------------------------------+------------------------------------------------------------+
 | {{{xjc-maven-plugin} <<<xjc>>>}}                          | Uses JaxMe 2 to generate JAXB source files from an XML schema.
 *-----------------------------------------------------------+------------------------------------------------------------+
