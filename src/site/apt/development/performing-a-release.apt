@@ -86,9 +86,9 @@ Performing the Release
 
      This will build the plugin, javadocs and source. Everything will be deployed to the repository for synchronization to ibiblio. The synchronization occurs every 4 hours.
 
-  * Deploy the site using <<<mvn site:site site:deploy>>>
+     It will also build and deploy the site.
 
-  * Verify that the ibiblio synchronization and that the <<<site:deploy>>> occurred successfully.
+  * Verify that the ibiblio synchronization and the site deployment occurred successfully.
 
   * Send out an annoucement email. TODO: Figure out where to send, announce@mojo.codehaus.org for sure, possibly
    user@mojo.codehaus.org and user@maven.apache.org too.
