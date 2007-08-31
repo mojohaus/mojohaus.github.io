@@ -36,113 +36,113 @@ Plugins
 *-----------------------------------------------------------+-------------+----------------------------------------------+
 | <<Application Server>> | | <Plugins that support integration with application servers.>
 *-----------------------------------------------------------+-------------+----------------------------------------------+
-| {{{jboss-maven-plugin} <<<jboss>>>}}                      | 1.3.1       | Control a JBoss server from Maven.
+| {{{jboss-maven-plugin/} <<<jboss>>>}}                     | 1.3.1       | Control a JBoss server from Maven.
 *-----------------------------------------------------------+-------------+----------------------------------------------+
-| {{{tomcat-maven-plugin} <<<tomcat>>>}}                    | 1.0-alpha-1 | Manipulate WAR projects within Tomcat.
+| {{{tomcat-maven-plugin/} <<<tomcat>>>}}                   | 1.0-alpha-1 | Manipulate WAR projects within Tomcat.
 *-----------------------------------------------------------+-------------+----------------------------------------------+
 |
 *-----------------------------------------------------------+-------------+----------------------------------------------+
 | <<Generators / Compilers / Translators>> | | <Plugins providing support for code generation, compilation and translation.>
 *-----------------------------------------------------------*-------------+----------------------------------------------+
-| {{{aspectj-maven-plugin} <<<aspectj>>>}}                  | 1.0-beta-2  | Weaves aspects with aspectJ.
+| {{{aspectj-maven-plugin/} <<<aspectj>>>}}                 | 1.0-beta-2  | Weaves aspects with aspectJ.
 *-----------------------------------------------------------+-------------+----------------------------------------------+
-| {{{axistools-maven-plugin} <<<axistools>>>}}              | 1.1         | Axis wsdl2java and java2wsdl support.
+| {{{axistools-maven-plugin/} <<<axistools>>>}}             | 1.1         | Axis wsdl2java and java2wsdl support.
 *-----------------------------------------------------------+-------------+----------------------------------------------+
-| {{{castor-maven-plugin} <<<castor>>>}}                    | 1.0         | Provides the functionality of Castor's SourceGenerator.
+| {{{castor-maven-plugin/} <<<castor>>>}}                   | 1.0         | Provides the functionality of Castor's SourceGenerator.
 *-----------------------------------------------------------+-------------+----------------------------------------------+
-| {{{commons-attributes-maven-plugin} <<<commons-attributes>>>}} | 1.0    | Source generation for Commons Attributes.
+| {{{commons-attributes-maven-plugin/} <<<commons-attributes>>>}} | 1.0    | Source generation for Commons Attributes.
 *-----------------------------------------------------------+-------------+----------------------------------------------+
-| {{{maven-hibernate3/hibernate3-maven-plugin} <<<hibernate3>>>}} | 2.0-alpha-2 | Integration with Hibernate 3.x
+| {{{maven-hibernate3/hibernate3-maven-plugin/} <<<hibernate3>>>}} | 2.0-alpha-2 | Integration with Hibernate 3.x
 *-----------------------------------------------------------+-------------+----------------------------------------------+
-| {{{idlj-maven-plugin} <<<idlj>>>}}                        | 1.0         | Process IDL files into Java sources.
+| {{{idlj-maven-plugin/} <<<idlj>>>}}                       | 1.0         | Process IDL files into Java sources.
 *-----------------------------------------------------------+-------------+----------------------------------------------+
-| {{{javacc-maven-plugin} <<<javacc>>>}}                    | 2.1         | Process JavaCC grammars.
+| {{{javacc-maven-plugin/} <<<javacc>>>}}                   | 2.1         | Process JavaCC grammars.
 *-----------------------------------------------------------+-------------+----------------------------------------------+
-| {{{jaxb2-maven-plugin} <<<jaxb2>>>}}                      | 1.2         | Create object graph from XSDs based on JAXB 2.0.
+| {{{jaxb2-maven-plugin/} <<<jaxb2>>>}}                     | 1.2         | Create object graph from XSDs based on JAXB 2.0.
 *-----------------------------------------------------------+-------------+----------------------------------------------+
-| {{{jpox-maven-plugin} <<<jpox>>>}}                        | 1.1.6       | Support for JPOX JDO.
+| {{{jpox-maven-plugin/} <<<jpox>>>}}                       | 1.1.6       | Support for JPOX JDO.
 *-----------------------------------------------------------+-------------+----------------------------------------------+
-| {{{jspc-maven-plugin} <<<jspc>>>}}                        | 1.4.6       | Provides support for JSP compilation.
+| {{{jspc-maven-plugin/} <<<jspc>>>}}                       | 1.4.6       | Provides support for JSP compilation.
 *-----------------------------------------------------------+-------------+----------------------------------------------+
-| {{{jspc} <<<jspc>>>}}                                     | 2.0-alpha-1 | Support for JSP compilation w/pluggable JSP compiler implementations
+| {{{jspc/} <<<jspc>>>}}                                    | 2.0-alpha-1 | Support for JSP compilation w/pluggable JSP compiler implementations
 *-----------------------------------------------------------+-------------+----------------------------------------------+
-| {{{maven-native/native-maven-plugin} <<<native>>>}}       | 1.0-alpha-2 | Compile c and c++ sources.
+| {{{maven-native/native-maven-plugin/} <<<native>>>}}      | 1.0-alpha-2 | Compile c and c++ sources.
 *-----------------------------------------------------------+-------------+----------------------------------------------+
-| {{{retrotranslator-maven-plugin} <<<retrotranslator>>>}}  | 1.0-alpha-2 | Translates JDK 5.0 classes to be compatbile with a 1.4 JVM.
+| {{{retrotranslator-maven-plugin/} <<<retrotranslator>>>}} | 1.0-alpha-2 | Translates JDK 5.0 classes to be compatbile with a 1.4 JVM.
 *-----------------------------------------------------------+-------------+----------------------------------------------+
-| {{{sablecc-maven-plugin} <<<sablecc>>>}}                  | 2.0         | Process SableCC grammars.
+| {{{sablecc-maven-plugin/} <<<sablecc>>>}}                 | 2.0         | Process SableCC grammars.
 *-----------------------------------------------------------+-------------+----------------------------------------------+
-| {{{smc-maven-plugin} <<<smc>>>}}                          | 1.0-alpha-1 | State Machine Compiler.
+| {{{smc-maven-plugin/} <<<smc>>>}}                         | 1.0-alpha-1 | State Machine Compiler.
 *-----------------------------------------------------------+-------------+----------------------------------------------+
-| {{{xdoclet-maven-plugin} <<<xdoclet>>>}}                  | 1.0-alpha-2 | Provides XDoclet functionality to Maven.
+| {{{xdoclet-maven-plugin/} <<<xdoclet>>>}}                 | 1.0-alpha-2 | Provides XDoclet functionality to Maven.
 *-----------------------------------------------------------+-------------+----------------------------------------------+
-| {{{xmlbeans-maven-plugin} <<<xmlbeans>>>}}                | 2.3.1       | XML to Java binding via XMLBeans.
+| {{{xmlbeans-maven-plugin/} <<<xmlbeans>>>}}               | 2.3.1       | XML to Java binding via XMLBeans.
 *-----------------------------------------------------------+-------------+----------------------------------------------+
 |
 *-----------------------------------------------------------+-------------+----------------------------------------------+
 | <<IDEs>> | | <Plugins that support integration with integrated developer environments.>
 *-----------------------------------------------------------+-------------+----------------------------------------------+
-| {{{ideauidesigner-maven-plugin} <<<ideauidesigner>>>}}    | 1.0-alpha-2 | Intellij IDEA form generation.
+| {{{ideauidesigner-maven-plugin/} <<<ideauidesigner>>>}}   | 1.0-alpha-2 | Intellij IDEA form generation.
 *-----------------------------------------------------------+-------------+----------------------------------------------+
-| {{{netbeans-freeform-maven-plugin} <<<netbeans-freeform>>>}} | 2.0      | Generates a NetBeans project from a Maven 2 project.
+| {{{netbeans-freeform-maven-plugin/} <<<netbeans-freeform>>>}} | 2.0      | Generates a NetBeans project from a Maven 2 project.
 *-----------------------------------------------------------+-------------+----------------------------------------------+
-| {{{nbm-maven-plugin} <<<nbm>>>}}                          | 2.5         | Creates NetBeans NBM modules.
+| {{{nbm-maven-plugin/} <<<nbm>>>}}                         | 2.5         | Creates NetBeans NBM modules.
 *-----------------------------------------------------------+-------------+----------------------------------------------+
-| {{{pde-maven-plugin} <<<pde>>>}}                          | 1.0-alpha-1 | Support Eclipse PDE projects.
+| {{{pde-maven-plugin/} <<<pde>>>}}                         | 1.0-alpha-1 | Support Eclipse PDE projects.
 *-----------------------------------------------------------+-------------+----------------------------------------------+
 |
 *-----------------------------------------------------------+-------------+----------------------------------------------+
 | <<Reporting>> | | <Plugins which generate reports.>
 *-----------------------------------------------------------+-------------+----------------------------------------------+
-| {{{clirr-maven-plugin} <<<clirr>>>}}                      | 2.1.1       | Checks Java libraries for binary and source compatibility with older releases.
+| {{{clirr-maven-plugin/} <<<clirr>>>}}                     | 2.1.1       | Checks Java libraries for binary and source compatibility with older releases.
 *-----------------------------------------------------------+-------------+----------------------------------------------+
-| {{{cobertura-maven-plugin} <<<cobertura>>>}}              | 2.1         | Code coverage via Cobertura.
+| {{{cobertura-maven-plugin/} <<<cobertura>>>}}             | 2.1         | Code coverage via Cobertura.
 *-----------------------------------------------------------+-------------+----------------------------------------------+
-| {{{docbook-maven-plugin} <<<docbook>>>}}                  | 1.0.0-alpha-1 | Support for Docbook transformations.
+| {{{docbook-maven-plugin/} <<<docbook>>>}}                 | 1.0.0-alpha-1 | Support for Docbook transformations.
 *-----------------------------------------------------------+-------------+----------------------------------------------+
-| {{{javancss-maven-plugin} <<<javancss>>>}}                | 2.0-beta-2  | Source measurement suite for Java.
+| {{{javancss-maven-plugin/} <<<javancss>>>}}               | 2.0-beta-2  | Source measurement suite for Java.
 *-----------------------------------------------------------+-------------+----------------------------------------------+
-| {{{jdepend-maven-plugin} <<<jdepend>>>}}                  | 2.0-beta-1  | Generates JDepend reports.
+| {{{jdepend-maven-plugin/} <<<jdepend>>>}}                 | 2.0-beta-1  | Generates JDepend reports.
 *-----------------------------------------------------------+-------------+----------------------------------------------+
-| {{{rat-maven-plugin} <<<rat>>>}}                          | 1.0-alpha-3 | Support for Google's Release Audit Tool.
+| {{{rat-maven-plugin/} <<<rat>>>}}                         | 1.0-alpha-3 | Support for Google's Release Audit Tool.
 *-----------------------------------------------------------+-------------+----------------------------------------------+
-| {{{taglist-maven-plugin} <<<taglist>>>}}                  | 2.0         | Generates a report on various tags found in the code.
+| {{{taglist-maven-plugin/} <<<taglist>>>}}                 | 2.0         | Generates a report on various tags found in the code.
 *-----------------------------------------------------------+-------------+----------------------------------------------+
 |
 *-----------------------------------------------------------+-------------+----------------------------------------------+
 | <<Scripting>> | | <Plugins providing support for scripting.>
 *-----------------------------------------------------------+-------------+----------------------------------------------+
-| {{{groovy} <<<groovy>>>}}                                 | 1.0-beta-2  | Integration of Groovy into Maven 2.
+| {{{groovy/} <<<groovy>>>}}                                | 1.0-beta-2  | Integration of Groovy into Maven 2.
 *-----------------------------------------------------------+-------------+----------------------------------------------+
 |
 *-----------------------------------------------------------+-------------+----------------------------------------------+
 | <<Testing>> | | <Plugins which support testing.>
 *-----------------------------------------------------------+-------------+----------------------------------------------+
-| {{{dbunit-maven-plugin} <<<dbunit>>>}}                    | 1.0-beta-1  | Support for using DBunit.
+| {{{dbunit-maven-plugin/} <<<dbunit>>>}}                   | 1.0-beta-1  | Support for using DBunit.
 *-----------------------------------------------------------+-------------+----------------------------------------------+
-| {{{findbugs-maven-plugin} <<<findbugs>>>}}                | 1.1.1       | Generates a FindBugs report.
+| {{{findbugs-maven-plugin/} <<<findbugs>>>}}               | 1.1.1       | Generates a FindBugs report.
 *-----------------------------------------------------------+-------------+----------------------------------------------+
-| {{{selenium-maven-plugin} <<<selenium>>>}}                | 1.0-beta-1  | Supports automated web-application testing.
+| {{{selenium-maven-plugin/} <<<selenium>>>}}               | 1.0-beta-1  | Supports automated web-application testing.
 *-----------------------------------------------------------+-------------+----------------------------------------------+
 |
 *-----------------------------------------------------------+-------------+----------------------------------------------+
 | <<Tools>> | | <Miscellaneous tools available through Maven.>
 *-----------------------------------------------------------+-------------+----------------------------------------------+
-| {{{build-helper-maven-plugin} <<<build-helper>>>}}        | 1.0         | Miscellaneous goals to support build process.
+| {{{build-helper-maven-plugin/} <<<build-helper>>>}}       | 1.0         | Miscellaneous goals to support build process.
 *-----------------------------------------------------------+-------------+----------------------------------------------+
-| {{{exec-maven-plugin} <<<exec>>>}}                        | 1.1-beta-1  | Execution of system and Java programs.
+| {{{exec-maven-plugin/} <<<exec>>>}}                       | 1.1-beta-1  | Execution of system and Java programs.
 *-----------------------------------------------------------+-------------+----------------------------------------------+
-| {{{keytool-maven-plugin} <<<keytool>>>}}                  | 1.0-beta-1  | Manipulate keys and keystores.
+| {{{keytool-maven-plugin/} <<<keytool>>>}}                 | 1.0-beta-1  | Manipulate keys and keystores.
 *-----------------------------------------------------------+-------------+----------------------------------------------+
-| {{{minijar-maven-plugin} <<<minijar>>>}}                  | 1.0-alpha-3 | Creates small jars with only referenced classes.
+| {{{minijar-maven-plugin/} <<<minijar>>>}}                 | 1.0-alpha-3 | Creates small jars with only referenced classes.
 *-----------------------------------------------------------+-------------+----------------------------------------------+
-| {{{native2ascii-maven-plugin} <<<native2ascii>>>}}        | 1.0-alpha-1 | Convert text file encodings.
+| {{{native2ascii-maven-plugin/} <<<native2ascii>>>}}       | 1.0-alpha-1 | Convert text file encodings.
 *-----------------------------------------------------------+-------------+----------------------------------------------+
-| {{{sql-maven-plugin} <<<sql>>>}}                          | 1.0         | Execution of SQL statements.
+| {{{sql-maven-plugin/} <<<sql>>>}}                         | 1.0         | Execution of SQL statements.
 *-----------------------------------------------------------+-------------+----------------------------------------------+
-| {{{webstart-maven-plugin-parent/webstart-maven-plugin} <<<webstart>>>}} | 1.0-alpha-1 | Prepare webstart applications.
+| {{{webstart-maven-plugin-parent/webstart-maven-plugin/} <<<webstart>>>}} | 1.0-alpha-1 | Prepare webstart applications.
 *-----------------------------------------------------------+-------------+----------------------------------------------+
-| {{{xml-maven-plugin} <<<xml>>>}}                          | 1.0-beta-2  | XML transformation and validation.
+| {{{xml-maven-plugin/} <<<xml>>>}}                         | 1.0-beta-2  | XML transformation and validation.
 *-----------------------------------------------------------+-------------+----------------------------------------------+
 
 * Sandboxed Plugins
@@ -156,97 +156,97 @@ Plugins
 *-----------------------------------------------------------+------------------------------------------------------------+
 | <<Plugin>>                                                | <<Description>>
 *-----------------------------------------------------------+------------------------------------------------------------+
-| {{{argouml-maven-plugin} <<<argouml>>>}}                  | Generates images from ArgoUML diagrams
+| {{{argouml-maven-plugin/} <<<argouml>>>}}                 | Generates images from ArgoUML diagrams
 *-----------------------------------------------------------+------------------------------------------------------------+
-| {{{appbundler-maven-plugin} <<<appbundler>>>}}            | Bundles OS X applications.
+| {{{appbundler-maven-plugin/} <<<appbundler>>>}}           | Bundles OS X applications.
 *-----------------------------------------------------------+------------------------------------------------------------+
-| {{{apidocs-maven-plugin} <<<apidocs>>>}}                  | No site.
+| {{{apidocs-maven-plugin/} <<<apidocs>>>}}                 | No site.
 *-----------------------------------------------------------+------------------------------------------------------------+
-| {{{axis-archetype-maven-plugin} <<<axis-archetype>>>}}    | No site.
+| {{{axis-archetype-maven-plugin/} <<<axis-archetype>>>}}   | No site.
 *-----------------------------------------------------------+------------------------------------------------------------+
-| {{{batik-maven-plugin} <<<batik>>>}}                      | Rasterize SVGs.
+| {{{batik-maven-plugin/} <<<batik>>>}}                     | Rasterize SVGs.
 *-----------------------------------------------------------+------------------------------------------------------------+
-| {{{ckjm-maven-plugin} <<<ckjm>>>}}                        | Executes the Ckjm bytecode analysis utility against a project.
+| {{{ckjm-maven-plugin/} <<<ckjm>>>}}                       | Executes the Ckjm bytecode analysis utility against a project.
 *-----------------------------------------------------------+------------------------------------------------------------+
-| {{{cruisecontrol-maven-plugin} <<<cruisecontrol>>>}}      | No site.
+| {{{cruisecontrol-maven-plugin/} <<<cruisecontrol>>>}}     | No site.
 *-----------------------------------------------------------+------------------------------------------------------------+
-| {{{dashboard-maven-plugin} <<<dashboard>>>}}              | Aggregate results from Checkstyle, Cobertura, Surefire, PMD, CPD reports.
+| {{{dashboard-maven-plugin/} <<<dashboard>>>}}             | Aggregate results from Checkstyle, Cobertura, Surefire, PMD, CPD reports.
 *-----------------------------------------------------------+------------------------------------------------------------+
-| {{{deb-maven-plugin} <<<deb>>>}}                          | Debian Packaging tasks.
+| {{{deb-maven-plugin/} <<<deb>>>}}                         | Debian Packaging tasks.
 *-----------------------------------------------------------+------------------------------------------------------------+
-| {{{delicious-maven-plugin} <<<delicious>>>}}              | No site.
+| {{{delicious-maven-plugin/} <<<delicious>>>}}             | No site.
 *-----------------------------------------------------------+------------------------------------------------------------+
-| {{{ejbdoclet-maven-plugin} <<<ejbdoclet>>>}}              | Uses JaxMe 2 to generate JAXB source files from an XML schema.
+| {{{ejbdoclet-maven-plugin/} <<<ejbdoclet>>>}}             | Uses JaxMe 2 to generate JAXB source files from an XML schema.
 *-----------------------------------------------------------+------------------------------------------------------------+
-| {{{eve-maven-plugin} <<<eve>>>}}                          | No site.
+| {{{eve-maven-plugin/} <<<eve>>>}}                         | No site.
 *-----------------------------------------------------------+------------------------------------------------------------+
-| {{{graphing-maven-plugin} <<<graphing>>>}}                | Project graphing.
+| {{{graphing-maven-plugin/} <<<graphing>>>}}               | Project graphing.
 *-----------------------------------------------------------+------------------------------------------------------------+
-| {{{fitnesse-maven-plugin} <<<fitnesse>>>}}                | Fully integrated standalone wiki, and acceptance testing framework.
+| {{{fitnesse-maven-plugin/} <<<fitnesse>>>}}               | Fully integrated standalone wiki, and acceptance testing framework.
 *-----------------------------------------------------------+------------------------------------------------------------+
-| {{{hibernatedoclet-maven-plugin} <<<hibernatedoclet>>>}}  | ???
+| {{{hibernatedoclet-maven-plugin/} <<<hibernatedoclet>>>}} | ???
 *-----------------------------------------------------------+------------------------------------------------------------+
-| {{{jarjar-maven-plugin} <<<jarjar>>>}}                    | No site.
+| {{{jarjar-maven-plugin/} <<<jarjar>>>}}                   | No site.
 *-----------------------------------------------------------+------------------------------------------------------------+
-| {{{j2me-maven-plugin} <<<j2me>>>}}                        | Enable Maven users to develop applications for the Java Platform, Micro Edition.
+| {{{j2me-maven-plugin/} <<<j2me>>>}}                       | Enable Maven users to develop applications for the Java Platform, Micro Edition.
 *-----------------------------------------------------------+------------------------------------------------------------+
-| {{{jasperreports-maven-plugin} <<<jasperreports>>>}}      | Compiles JasperReports xml definition files.
+| {{{jasperreports-maven-plugin/} <<<jasperreports>>>}}     | Compiles JasperReports xml definition files.
 *-----------------------------------------------------------+------------------------------------------------------------+
-| {{{jaxws-maven-plugin} <<<jaxws>>>}}                      | Moved to {{{https://jax-ws-commons.dev.java.net/jaxws-maven-plugin}here}}.
+| {{{jaxws-maven-plugin/} <<<jaxws>>>}}                     | Moved to {{{https://jax-ws-commons.dev.java.net/jaxws-maven-plugin}here}}.
 *-----------------------------------------------------------+------------------------------------------------------------+
-| {{{jboss-packaging-maven-plugin} <<<jboss-packaging>>>}}  | Package JBoss spring deployable archives.
+| {{{jboss-packaging-maven-plugin/} <<<jboss-packaging>>>}} | Package JBoss spring deployable archives.
 *-----------------------------------------------------------+------------------------------------------------------------+
-| {{{jcoverage-maven-plugin} <<<jcoverage>>>}}              | No site.
+| {{{jcoverage-maven-plugin/} <<<jcoverage>>>}}             | No site.
 *-----------------------------------------------------------+------------------------------------------------------------+
-| {{{jdiff-maven-plugin} <<<jdiff>>>}}                      | Generate an API difference report between two versions of code.
+| {{{jdiff-maven-plugin/} <<<jdiff>>>}}                     | Generate an API difference report between two versions of code.
 *-----------------------------------------------------------+------------------------------------------------------------+
-| {{{jelly-maven-tools} <<<jelly-maven-tools>>>}}           | No site.
+| {{{jelly-maven-tools/} <<<jelly-maven-tools>>>}}          | No site.
 *-----------------------------------------------------------+------------------------------------------------------------+
-| {{{jetty-maven-plugin} <<<jetty>>>}}                      | No site.
+| {{{jetty-maven-plugin/} <<<jetty>>>}}                     | No site.
 *-----------------------------------------------------------+------------------------------------------------------------+
-| {{{jruby-maven-plugin} <<<jruby>>>}}                      | JRuby scripting support for Maven.
+| {{{jruby-maven-plugin/} <<<jruby>>>}}                     | JRuby scripting support for Maven.
 *-----------------------------------------------------------+------------------------------------------------------------+
-| {{{kodo-maven-plugin} <<<kodo>>>}}                        | Enhance files using Solarmetric's Kodo-JDO.
+| {{{kodo-maven-plugin/} <<<kodo>>>}}                       | Enhance files using Solarmetric's Kodo-JDO.
 *-----------------------------------------------------------+------------------------------------------------------------+
-| {{{macker-maven-plugin} <<<macker>>>}}                    | Executes the Macker architectural rule checking utility against a project.
+| {{{macker-maven-plugin/} <<<macker>>>}}                   | Executes the Macker architectural rule checking utility against a project.
 *-----------------------------------------------------------+------------------------------------------------------------+
-| {{{mant-maven-plugin} <<<mant>>>}}                        | ???
+| {{{mant-maven-plugin/} <<<mant>>>}}                       | ???
 *-----------------------------------------------------------+------------------------------------------------------------+
-| {{{maven-springbeandoc-plugin} <<<springbeandoc>>>}}      | Generates String BeanDoc reports from Spring configs
+| {{{maven-springbeandoc-plugin/} <<<springbeandoc>>>}}     | Generates String BeanDoc reports from Spring configs
 *-----------------------------------------------------------+------------------------------------------------------------+
-| {{{pomtools-maven-plugin} <<<pomtools>>>}}                | Provides console based editing of the project's pom.xml.
+| {{{pomtools-maven-plugin/} <<<pomtools>>>}}               | Provides console based editing of the project's pom.xml.
 *-----------------------------------------------------------+------------------------------------------------------------+
-| {{{retroweaver-maven-plugin} <<<retroweaver>>>}}          | ???
+| {{{retroweaver-maven-plugin/} <<<retroweaver>>>}}         | ???
 *-----------------------------------------------------------+------------------------------------------------------------+
-| {{{rmic-maven-plugin} <<<rmic>>>}}                        | No site.
+| {{{rmic-maven-plugin/} <<<rmic>>>}}                       | No site.
 *-----------------------------------------------------------+------------------------------------------------------------+
-| {{{rpm-maven-plugin} <<<rpm>>>}}                          | Assembles files into an RPM package.
+| {{{rpm-maven-plugin/} <<<rpm>>>}}                         | Assembles files into an RPM package.
 *-----------------------------------------------------------+------------------------------------------------------------+
-| {{{runtime-maven-plugin} <<<runtime>>>}}                  | No site.
+| {{{runtime-maven-plugin/} <<<runtime>>>}}                 | No site.
 *-----------------------------------------------------------+------------------------------------------------------------+
-| {{{shade-maven-plugin} <<<shade>>>}}                      | ???
+| {{{shade-maven-plugin/} <<<shade>>>}}                     | ???
 *-----------------------------------------------------------+------------------------------------------------------------+
-| {{{shitty-maven-plugin} <<<shitty>>>}}                    | Super Helpful Integration Testing ThingY (SHITTY) Maven Plugin
+| {{{shitty-maven-plugin/} <<<shitty>>>}}                   | Super Helpful Integration Testing ThingY (SHITTY) Maven Plugin
 *-----------------------------------------------------------+------------------------------------------------------------+
-| {{{simian-report-maven-plugin} <<<simian-report>>>}}      | Similarity analysis reports.
+| {{{simian-report-maven-plugin/} <<<simian-report>>>}}     | Similarity analysis reports.
 *-----------------------------------------------------------+------------------------------------------------------------+
-| {{{slimdog-maven-plugin} <<<slimdog>>>}}                  | No site.
+| {{{slimdog-maven-plugin/} <<<slimdog>>>}}                 | No site.
 *-----------------------------------------------------------+------------------------------------------------------------+
-| {{{springdoclet-maven-plugin} <<<springdoclet>>>}}        | ???
+| {{{springdoclet-maven-plugin/} <<<springdoclet>>>}}       | ???
 *-----------------------------------------------------------+------------------------------------------------------------+
-| {{{visibroker-maven-plugin} <<<visibroker>>>}}            | Maven adapter of VisiBroker command line tools.
+| {{{visibroker-maven-plugin/} <<<visibroker>>>}}           | Maven adapter of VisiBroker command line tools.
 *-----------------------------------------------------------+------------------------------------------------------------+
-| {{{weblogic-maven-plugin} <<<weblogic>>>}}                | Supports various tasks within the Weblogic 8.1 and 9.x environment.
+| {{{weblogic-maven-plugin/} <<<weblogic>>>}}               | Supports various tasks within the Weblogic 8.1 and 9.x environment.
 *-----------------------------------------------------------+------------------------------------------------------------+
-| {{{webdoclet-maven-plugin} <<<webdoclet>>>}}              | Uses JaxMe 2 to generate JAXB source files from an XML schema.
+| {{{webdoclet-maven-plugin/} <<<webdoclet>>>}}             | Uses JaxMe 2 to generate JAXB source files from an XML schema.
 *-----------------------------------------------------------+------------------------------------------------------------+
-| {{{wsdl2java-maven-plugin} <<<wsdl2java>>>}}              | Generates stubs for WSDL files using Axis WSDL2Java.
+| {{{wsdl2java-maven-plugin/} <<<wsdl2java>>>}}             | Generates stubs for WSDL files using Axis WSDL2Java.
 *-----------------------------------------------------------+------------------------------------------------------------+
-| {{{xfire-maven-plugin} <<<xfire>>>}}                      | XFire integration.
+| {{{xfire-maven-plugin/} <<<xfire>>>}}                     | XFire integration.
 *-----------------------------------------------------------+------------------------------------------------------------+
-| {{{xstlc-maven-plugin} <<<xsltc>>>}}                      | Uses XSLTC to compile an XSL stylesheet into a translet (a set of Java classes).
+| {{{xstlc-maven-plugin/} <<<xsltc>>>}}                     | Uses XSLTC to compile an XSL stylesheet into a translet (a set of Java classes).
 *-----------------------------------------------------------+------------------------------------------------------------+
-| {{{xjc-maven-plugin} <<<xjc>>>}}                          | Uses JaxMe 2 to generate JAXB source files from an XML schema.
+| {{{xjc-maven-plugin/} <<<xjc>>>}}                         | Uses JaxMe 2 to generate JAXB source files from an XML schema.
 *-----------------------------------------------------------+------------------------------------------------------------+
 
 * Plugin Graveyard
@@ -256,6 +256,6 @@ Plugins
 *-----------------------------------------------------------+------------------------------------------------------------+
 | <<Plugin>>                                                | <<Description>>
 *-----------------------------------------------------------+------------------------------------------------------------+
-| {{{jboss-sar-maven-plugin} <<<jboss-sar>>>}}              | Deprecated use the {{{jboss-packaging-maven-plugin} jboss-packaging}} plugin instead.
+| {{{jboss-sar-maven-plugin/} <<<jboss-sar>>>}}             | Deprecated use the {{{jboss-packaging-maven-plugin} jboss-packaging}} plugin instead.
 *-----------------------------------------------------------+------------------------------------------------------------+
 
