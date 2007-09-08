@@ -132,6 +132,8 @@ Plugins
 *-----------------------------------------------------------+-------------+----------------------------------------------+
 | {{{exec-maven-plugin/} <<<exec>>>}}                       | 1.1-beta-1  | Execution of system and Java programs.
 *-----------------------------------------------------------+-------------+----------------------------------------------+
+| {{{jalopy-maven-plugin/} <<<jalopy>>>}}                   | 1.0-alpha-1 | Format java source files following a coding convention.
+*-----------------------------------------------------------+-------------+----------------------------------------------+
 | {{{keytool-maven-plugin/} <<<keytool>>>}}                 | 1.0-beta-1  | Manipulate keys and keystores.
 *-----------------------------------------------------------+-------------+----------------------------------------------+
 | {{{minijar-maven-plugin/} <<<minijar>>>}}                 | 1.0-alpha-3 | Creates small jars with only referenced classes.
