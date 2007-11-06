@@ -126,19 +126,21 @@ Plugins
 *-----------------------------------------------------------+-------------+----------------------------------------------+
 |
 *-----------------------------------------------------------+-------------+----------------------------------------------+
-| <<Tools>> | | <Miscellaneous tools available through Maven.>
+| <<Tools>>  | | <Miscellaneous tools available through Maven.>
 *-----------------------------------------------------------+-------------+----------------------------------------------+
 | {{{build-helper-maven-plugin/} <<<build-helper>>>}}       | 1.0         | Miscellaneous goals to support build process.
 *-----------------------------------------------------------+-------------+----------------------------------------------+
+| {{{buildnumber-maven-plugin/} <<<buildnumber>>>}}         | 1.0-beta-1  | Creates unique build number for each build.
+*-----------------------------------------------------------+-------------+----------------------------------------------+
 | {{{exec-maven-plugin/} <<<exec>>>}}                       | 1.1-beta-1  | Execution of system and Java programs.
 *-----------------------------------------------------------+-------------+----------------------------------------------+
-| {{{jalopy-maven-plugin/} <<<jalopy>>>}}                   | 1.0-alpha-1 | Format java source files following a coding convention.
+| {{{jalopy-maven-plugin/} <<<jalopy>>>}}                   | 1.0-alpha-1 | Formats java source files following a coding convention.
 *-----------------------------------------------------------+-------------+----------------------------------------------+
-| {{{keytool-maven-plugin/} <<<keytool>>>}}                 | 1.0-beta-1  | Manipulate keys and keystores.
+| {{{keytool-maven-plugin/} <<<keytool>>>}}                 | 1.0-beta-1  | Manipulates keys and keystores.
 *-----------------------------------------------------------+-------------+----------------------------------------------+
 | {{{minijar-maven-plugin/} <<<minijar>>>}}                 | 1.0-alpha-3 | Creates small jars with only referenced classes.
 *-----------------------------------------------------------+-------------+----------------------------------------------+
-| {{{native2ascii-maven-plugin/} <<<native2ascii>>>}}       | 1.0-alpha-1 | Convert text file encodings.
+| {{{native2ascii-maven-plugin/} <<<native2ascii>>>}}       | 1.0-alpha-1 | Converts text file encodings.
 *-----------------------------------------------------------+-------------+----------------------------------------------+
 | {{{osxappbundle-maven-plugin/} <<<osxappbundle>>>}}       | 1.0-alpha-1 | Bundles Maven projects as OS X applications.
 *-----------------------------------------------------------+------------------------------------------------------------+
