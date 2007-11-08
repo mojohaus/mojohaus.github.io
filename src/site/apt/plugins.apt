@@ -194,6 +194,8 @@ Plugins
 *-----------------------------------------------------------+------------------------------------------------------------+
 | {{{jarjar-maven-plugin/} <<<jarjar>>>}}                   | No site.
 *-----------------------------------------------------------+------------------------------------------------------------+
+| {{{javascript-maven-tools/} <<<javascript tools>>>}}      | A set of maven plugins to enalb emiven-driven javascript development.
+*-----------------------------------------------------------+------------------------------------------------------------+
 | {{{j2me-maven-plugin/} <<<j2me>>>}}                       | Enable Maven users to develop applications for the Java Platform, Micro Edition.
 *-----------------------------------------------------------+------------------------------------------------------------+
 | {{{jasperreports-maven-plugin/} <<<jasperreports>>>}}     | Compiles JasperReports xml definition files.
@@ -253,8 +255,6 @@ Plugins
 | {{{xstlc-maven-plugin/} <<<xsltc>>>}}                     | Uses XSLTC to compile an XSL stylesheet into a translet (a set of Java classes).
 *-----------------------------------------------------------+------------------------------------------------------------+
 | {{{xjc-maven-plugin/} <<<xjc>>>}}                         | Uses JaxMe 2 to generate JAXB source files from an XML schema.
-*-----------------------------------------------------------+------------------------------------------------------------+
-| {{{javascript-maven-tools/} <<<javascript tools>>>}}      | A set of maven plugins to enalb emiven-driven javascript development.
 *-----------------------------------------------------------+------------------------------------------------------------+
 
 * Plugin Graveyard
