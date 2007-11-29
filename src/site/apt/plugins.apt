@@ -44,6 +44,8 @@ Plugins
 *-----------------------------------------------------------+-------------+----------------------------------------------+
 | <<Generators / Compilers / Translators>> | | <Plugins providing support for code generation, compilation and translation.>
 *-----------------------------------------------------------*-------------+----------------------------------------------+
+| {{{antlr3-maven-plugin/} <<<antlr3>>>}}             | 1.0-beta-1         | Process ANTLRv3 grammars.
+*-----------------------------------------------------------+-------------+----------------------------------------------+
 | {{{aspectj-maven-plugin/} <<<aspectj>>>}}                 | 1.0-beta-2  | Weaves aspects with aspectJ.
 *-----------------------------------------------------------+-------------+----------------------------------------------+
 | {{{axistools-maven-plugin/} <<<axistools>>>}}             | 1.1         | Axis wsdl2java and java2wsdl support.
