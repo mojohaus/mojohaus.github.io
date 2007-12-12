@@ -100,7 +100,7 @@ Plugins
 *-----------------------------------------------------------+-------------+----------------------------------------------+
 | {{{clirr-maven-plugin/} <<<clirr>>>}}                     | 2.1.1       | Checks Java libraries for binary and source compatibility with older releases.
 *-----------------------------------------------------------+-------------+----------------------------------------------+
-| {{{cobertura-maven-plugin/} <<<cobertura>>>}}             | 2.1         | Code coverage via Cobertura.
+| {{{cobertura-maven-plugin/} <<<cobertura>>>}}             | 2.2         | Code coverage via Cobertura.
 *-----------------------------------------------------------+-------------+----------------------------------------------+
 | {{{docbook-maven-plugin/} <<<docbook>>>}}                 | 1.0.0-alpha-1 | Support for Docbook transformations.
 *-----------------------------------------------------------+-------------+----------------------------------------------+
