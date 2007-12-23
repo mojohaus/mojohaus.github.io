@@ -150,6 +150,8 @@ Plugins
 *-----------------------------------------------------------+-------------+----------------------------------------------+
 | {{{osxappbundle-maven-plugin/} <<<osxappbundle>>>}}       | 1.0-alpha-1 | Bundles Maven projects as OS X applications.
 *-----------------------------------------------------------+------------------------------------------------------------+
+| {{{ounce-maven-plugin/} <<<ounce>>>}}                     | 1.0         | Perform Ouncelabs Ounce code security scans
+*-----------------------------------------------------------+------------------------------------------------------------+
 | {{{sql-maven-plugin/} <<<sql>>>}}                         | 1.0         | Execution of SQL statements.
 *-----------------------------------------------------------+-------------+----------------------------------------------+
 | {{{webstart-maven-plugin-parent/webstart-maven-plugin/} <<<webstart>>>}} | 1.0-alpha-1 | Prepare webstart applications.
