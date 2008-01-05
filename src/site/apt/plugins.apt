@@ -280,6 +280,8 @@ Plugins
 *-----------------------------------------------------------+------------------------------------------------------------+
 | {{{springdoclet-maven-plugin/} <<<springdoclet>>>}}       | ???
 *-----------------------------------------------------------+------------------------------------------------------------+
+| {{{sysdeo-tomcat-maven-plugin/} <<<sysdeo-tomcat>>>}}     | Used with the Eclipse plugin to produce a Tomcat classpath for the Sysdeo Tomcat Eclipse plugin
+*-----------------------------------------------------------+------------------------------------------------------------+
 | {{{visibroker-maven-plugin/} <<<visibroker>>>}}           | Maven adapter of VisiBroker command line tools.
 *-----------------------------------------------------------+------------------------------------------------------------+
 | {{{weblogic-maven-plugin/} <<<weblogic>>>}}               | Supports various tasks within the Weblogic 8.1 and 9.x environment.
