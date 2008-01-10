@@ -172,6 +172,8 @@ Plugins
 *-----------------------------------------------------------+-------------+----------------------------------------------+
 | <<Tools>>  | | <Miscellaneous tools available through Maven.>
 *-----------------------------------------------------------+-------------+----------------------------------------------+
+| {{{appassembler/appassembler-maven-plugin/} <<<appassembler>>>}} | 1.0-alpha-2  | Generates bin scripts for Java applications
+*-----------------------------------------------------------+-------------+----------------------------------------------+
 | {{{buildnumber-maven-plugin/} <<<buildnumber>>>}}         | 1.0-beta-1  | Creates unique build number for each build.
 *-----------------------------------------------------------+-------------+----------------------------------------------+
 | {{{exec-maven-plugin/} <<<exec>>>}}                       | 1.1-beta-1  | Execution of system and Java programs.
@@ -179,6 +181,8 @@ Plugins
 | {{{jalopy-maven-plugin/} <<<jalopy>>>}}                   | 1.0-alpha-1 | Formats java source files following a coding convention.
 *-----------------------------------------------------------+-------------+----------------------------------------------+
 | {{{keytool-maven-plugin/} <<<keytool>>>}}                 | 1.0-beta-1  | Manipulates keys and keystores.
+*-----------------------------------------------------------+-------------+----------------------------------------------+
+| {{{jasperreports-maven-plugin/} <<<jasperreports>>>}}     | 1.0-beta-1  | Compiles Jasper Report Design Files
 *-----------------------------------------------------------+-------------+----------------------------------------------+
 | {{{minijar-maven-plugin/} <<<minijar>>>}}                 | 1.0-alpha-3 | Creates small jars with only referenced classes.
 *-----------------------------------------------------------+-------------+----------------------------------------------+
@@ -235,8 +239,6 @@ Plugins
 | {{{j2me-maven-plugin/} <<<j2me>>>}}                       | Enable Maven users to develop applications for the Java Platform, Micro Edition.
 *-----------------------------------------------------------+------------------------------------------------------------+
 | {{{jarjar-maven-plugin/} <<<jarjar>>>}}                   | No site.
-*-----------------------------------------------------------+------------------------------------------------------------+
-| {{{jasperreports-maven-plugin/} <<<jasperreports>>>}}     | Compiles JasperReports xml definition files.
 *-----------------------------------------------------------+------------------------------------------------------------+
 | {{{javascript-maven-tools/} <<<javascript tools>>>}}      | A set of maven plugins to enable maven-driven javascript development.
 *-----------------------------------------------------------+------------------------------------------------------------+
