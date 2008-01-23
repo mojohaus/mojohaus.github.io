@@ -63,6 +63,8 @@ Plugins
 | {{{jspc-maven-plugin/} <<<jspc>>>}}                       | 1.4.6       | Provides support for JSP compilation.
 *-----------------------------------------------------------+-------------+----------------------------------------------+
 | {{{sablecc-maven-plugin/} <<<sablecc>>>}}                 | 2.0         | Process SableCC grammars.
+*-----------------------------------------------------------+------------------------------------------------------------+
+| {{{sysdeo-tomcat-maven-plugin/} <<<sysdeo-tomcat>>>}}     | 1.0         | Used with the Eclipse plugin to produce a Tomcat classpath for the Sysdeo Tomcat Eclipse plugin
 *-----------------------------------------------------------+-------------+----------------------------------------------+
 | {{{xmlbeans-maven-plugin/} <<<xmlbeans>>>}}               | 2.3.1       | XML to Java binding via XMLBeans.
 *-----------------------------------------------------------+-------------+----------------------------------------------+
@@ -283,8 +285,6 @@ Plugins
 | {{{slimdog-maven-plugin/} <<<slimdog>>>}}                 | No site.
 *-----------------------------------------------------------+------------------------------------------------------------+
 | {{{springdoclet-maven-plugin/} <<<springdoclet>>>}}       | ???
-*-----------------------------------------------------------+------------------------------------------------------------+
-| {{{sysdeo-tomcat-maven-plugin/} <<<sysdeo-tomcat>>>}}     | Used with the Eclipse plugin to produce a Tomcat classpath for the Sysdeo Tomcat Eclipse plugin
 *-----------------------------------------------------------+------------------------------------------------------------+
 | {{{visibroker-maven-plugin/} <<<visibroker>>>}}           | Maven adapter of VisiBroker command line tools.
 *-----------------------------------------------------------+------------------------------------------------------------+
