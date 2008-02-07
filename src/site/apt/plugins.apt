@@ -192,7 +192,7 @@ Plugins
 *-----------------------------------------------------------+-------------+----------------------------------------------+
 | {{{osxappbundle-maven-plugin/} <<<osxappbundle>>>}}       | 1.0-alpha-1 | Bundles Maven projects as OS X applications.
 *-----------------------------------------------------------+------------------------------------------------------------+
-| {{{webstart-maven-plugin-parent/webstart-maven-plugin/} <<<webstart>>>}} | 1.0-alpha-1 | Prepare webstart applications.
+| {{{webstart/webstart-maven-plugin/} <<<webstart>>>}}      | 1.0-alpha-2 | Prepare webstart applications.
 *-----------------------------------------------------------+-------------+----------------------------------------------+
 | {{{xml-maven-plugin/} <<<xml>>>}}                         | 1.0-beta-2  | XML transformation and validation.
 *-----------------------------------------------------------+-------------+----------------------------------------------+
