@@ -25,6 +25,10 @@
 
 Plugins
 
+  Depending on their maturity, the available plugins are organized into groups as shown below. While using a
+  pre-release or sandbox plugin might seem risky, it is your chance to provide feedback to the community such that the
+  plugin can eventually reach production state.
+
 * Production Plugins
 
  The following plugins have been released and are generally available for production use.

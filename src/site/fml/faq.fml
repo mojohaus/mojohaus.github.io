@@ -32,7 +32,7 @@
                 </p>
                 
                 <p>
-                    Maven plugins may also be developed here because they are not compatible with the Apache license. Plugin
+                    Maven plugins may also be developed here because they are not compatible with the <a href="http://www.apache.org/licenses/">Apache license</a>. Plugin
                     authors may choose to use other licenses (BSD, GPL, MPL ...) to license their work or may be forced to because
                     of the nature of the plugin and its dependencies. These plugin authors are responsible for working with their
                     plugins license but the mailing lists are a great place to get help if people get confused on what can or can
@@ -42,18 +42,18 @@
         </faq>
         
         <faq id="how-can-we-communicate">
-            <question>How can we communicate</question>
+            <question>How can we communicate?</question>
             <answer>
                 <ul>
-                    <li>Use the mailing list where possible as more people can get involved and so an archive is available</li>
-                    <li>If it is specific to a plugin, prefix the subject with the plugin name, eg [jalopy]</li>
+                    <li>Use the mailing list where possible as more people can get involved and so an archive is available.</li>
+                    <li>If it is specific to a plugin, prefix the subject with the plugin name, e.g. <code>[jalopy]</code>.</li>
                     <li>Use IRC (irc://irc.codehaus.org on <a href="irc://irc.codehaus.org#maven">#maven</a>) for realtime discussion.
                         Try and summarise and send it to the list if there was some decisions were made there.</li>
                 </ul>
             </answer>
         </faq>
         <faq id="what-is-the-sandbox">
-            <question>What is the sandbox</question>
+            <question>What is the sandbox?</question>
             <answer>
                 <p>
                     The sandbox is used to "incubate" new plugins. Sandbox plugins will not be released to the repositories and if you
@@ -68,11 +68,11 @@
         </faq>
         
         <faq id="where-is-sandbox">
-            <question>Where is the sandbox</question>
+            <question>Where is the sandbox?</question>
             <answer>
                 <p>
-                    Most plugins have sites published and linked from the mojo navigation menu. Others can be found in SVN:
-                    <a href="https://svn.mojo.codehaus.org/mojo/trunk/mojo/mojo-sandbox">https://svn.mojo.codehaus.org/mojo/trunk/mojo/mojo-sandbox</a>.
+                    Most plugins have sites published and linked from the <a href="plugins.html">Mojo Plugin List</a>.
+                    Others can be found in the <a href="https://svn.codehaus.org/mojo/trunk/sandbox/">SVN repository</a>.
                 </p>
             </answer>
         </faq>
