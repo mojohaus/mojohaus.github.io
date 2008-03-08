@@ -264,6 +264,8 @@ Plugins
 *-----------------------------------------------------------+------------------------------------------------------------+
 | {{{kodo-maven-plugin/} <<<kodo>>>}}                       | Enhance files using Solarmetric's Kodo-JDO.
 *-----------------------------------------------------------+------------------------------------------------------------+
+| {{{l10n-maven-plugin/} <<<l10n>>>}}                       | The Localization Tools Maven Plugin helps with internationalization and localization of your projects.
+*-----------------------------------------------------------+------------------------------------------------------------+
 | {{{macker-maven-plugin/} <<<macker>>>}}                   | Executes the Macker architectural rule checking utility against a project.
 *-----------------------------------------------------------+------------------------------------------------------------+
 | {{{mant-maven-plugin/} <<<mant>>>}}                       | ???
