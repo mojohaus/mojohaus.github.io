@@ -190,6 +190,8 @@ Plugins
 *-----------------------------------------------------------+-------------+----------------------------------------------+
 | {{{jasperreports-maven-plugin/} <<<jasperreports>>>}}     | 1.0-beta-1  | Compiles Jasper Report Design Files
 *-----------------------------------------------------------+-------------+----------------------------------------------+
+| {{{l10n-maven-plugin/} <<<l10n>>>}}                       | 1.0-alpha-1 | The Localization Tools Maven Plugin helps with internationalization and localization of your projects.
+*-----------------------------------------------------------+------------------------------------------------------------+
 | {{{minijar-maven-plugin/} <<<minijar>>>}}                 | 1.0-alpha-3 | Creates small jars with only referenced classes.
 *-----------------------------------------------------------+-------------+----------------------------------------------+
 | {{{native2ascii-maven-plugin/} <<<native2ascii>>>}}       | 1.0-alpha-1 | Converts text file encodings.
@@ -263,8 +265,6 @@ Plugins
 | {{{jruby-maven-plugin/} <<<jruby>>>}}                     | JRuby scripting support for Maven.
 *-----------------------------------------------------------+------------------------------------------------------------+
 | {{{kodo-maven-plugin/} <<<kodo>>>}}                       | Enhance files using Solarmetric's Kodo-JDO.
-*-----------------------------------------------------------+------------------------------------------------------------+
-| {{{l10n-maven-plugin/} <<<l10n>>>}}                       | The Localization Tools Maven Plugin helps with internationalization and localization of your projects.
 *-----------------------------------------------------------+------------------------------------------------------------+
 | {{{macker-maven-plugin/} <<<macker>>>}}                   | Executes the Macker architectural rule checking utility against a project.
 *-----------------------------------------------------------+------------------------------------------------------------+
