@@ -84,7 +84,7 @@ Graduating from the Sandbox
 
 Performing the Release
 
- If it is a proper release (e.g. not an alpha or beta release), the release process should be done using the
+ The release process should be done using the
  {{{http://maven.apache.org/plugins/maven-release-plugin/}Maven Release Plugin}}:
 
   [[1]] Execute <<<mvn release:prepare>>>
@@ -95,12 +95,12 @@ Performing the Release
   [[2]] Execute <<<mvn release:perform>>>
 
      This will build the plugin, javadocs and source. Everything will be deployed to the repository for synchronization
-     to ibiblio. The synchronization occurs every 4 hours. It will also build and deploy the site.
+     to the central repository. The synchronization occurs every 4 hours. It will also build and deploy the site.
 
-  [[3]] Verify that the ibiblio synchronization and the site deployment occurred successfully.
+  [[3]] Verify that the central repository synchronization and the plugin site deployment occurred successfully.
 
   [[4]] Update the <<<{{{http://svn.codehaus.org/mojo/site/src/site/apt/plugins.apt}plugins.apt}}>>> document to
-        reflect the new release. Redeploy the site and verify that it is functional.
+        reflect the new release. Redeploy the mojo site and verify that it is functional.
 
   [[5]] Send out an annoucement email to {{{mailto:dev@mojo.codehaus.org}dev@mojo.codehaus.org}},
         {{{mailto:user@mojo.codehaus.org}user@mojo.codehaus.org}} and
