@@ -33,7 +33,7 @@ Development Guidelines
  * Name the Mojos like this: <<<FooMojo>>>. This mojo should be available as <<<foo>>> inside a plugin configuration
  in Maven.
 
- * Use the {{{http://maven.apache.org/developers/committer-environment.html#maven_code_style}Maven code style}} when
+ * Use the {{{http://maven.apache.org/developers/committer-environment.html#Maven_Code_Style}Maven code style}} when
    formatting your code.
 
 *Licensing
