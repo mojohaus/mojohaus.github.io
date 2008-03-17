@@ -26,7 +26,7 @@
 
 Snapshot Repository
 
- Most plugins are available via the snapshot {{{http://snapshots.repository.codehaus.org/org/codehaus/mojo/}repository}}. To access them, add the following to your <<<pom.xml>>>:
+ Most plugins are available via the {{{http://snapshots.repository.codehaus.org/org/codehaus/mojo/}snapshot repository}}. To access them, add the following to your <<<pom.xml>>>:
 
 ----------------------
   <repositories>

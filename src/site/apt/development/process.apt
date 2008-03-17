@@ -58,11 +58,11 @@ Development Process
 
  []
 
- Plugins can have snapshot releases for testing, or beta releases for wider testing and a bit more stability.
-
- Sandbox plugins should only use snapshot versions. Once ready for a regular release, follow these {{{performing-a-release.html}steps}} to graduate from the sandbox.
-
- Plugins should follow these {{{performing-a-release.html}steps}} to perform a release.
+ Plugins can have snapshot releases for testing, or beta releases for wider testing and a bit more stability. Sandbox
+ plugins should only use snapshot versions.
+ 
+ Once a plugin is ready for another release or is about the graduate from the sandbox, follow the checklist for
+ {{{performing-a-release.html}performing a release}}.
 
 * Debugging Tips
 

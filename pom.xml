@@ -38,6 +38,10 @@
             <unsubscribe>dev-unsubscribe@mojo.codehaus.org</unsubscribe>
             <post>dev@mojo.codehaus.org</post>
             <archive>http://archive.mojo.codehaus.org/dev/</archive>
+            <otherArchives>
+                <otherArchive>http://www.nabble.com/mojo---dev-f11981.html</otherArchive>
+                <otherArchive>http://markmail.org/browse/org.codehaus.mojo.dev</otherArchive>
+            </otherArchives>
         </mailingList>
         <mailingList>
             <name>User List</name>
@@ -45,12 +49,19 @@
             <unsubscribe>user-unsubscribe@mojo.codehaus.org</unsubscribe>
             <post>user@mojo.codehaus.org</post>
             <archive>http://archive.mojo.codehaus.org/user/</archive>
+            <otherArchives>
+                <otherArchive>http://www.nabble.com/mojo---user-f11980.html</otherArchive>
+                <otherArchive>http://markmail.org/browse/org.codehaus.mojo.user</otherArchive>
+            </otherArchives>
         </mailingList>
         <mailingList>
             <name>Commits List</name>
             <subscribe>scm-subscribe@mojo.codehaus.org</subscribe>
             <unsubscribe>scm-unsubscribe@mojo.codehaus.org</unsubscribe>
             <archive>http://archive.mojo.codehaus.org/scm/</archive>
+            <otherArchives>
+                <otherArchive>http://markmail.org/browse/org.codehaus.mojo.scm</otherArchive>
+            </otherArchives>
         </mailingList>
     </mailingLists>
     
@@ -89,6 +100,13 @@
                         </reports>
                     </reportSet>
                 </reportSets>
+                <configuration>
+                    <!-- TODO: Enable once MPIR-63 gets released with 2.1
+                    <anonymousConnection>scm:svn:https://svn.codehaus.org/mojo/trunk</anonymousConnection>
+                    <developerConnection>scm:svn:https://svn.codehaus.org/mojo/trunk</developerConnection>
+                    <webAccessUrl>https://svn.codehaus.org/mojo/trunk</webAccessUrl>
+                    -->
+                </configuration>
             </plugin>
         </plugins>
     </reporting>

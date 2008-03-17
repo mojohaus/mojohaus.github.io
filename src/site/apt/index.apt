@@ -46,12 +46,12 @@ Plugins
 Getting Support
 
  If you have problems or concerns with plugins in the Mojo project please contact the author, ask on
- {{{mail-lists.html}the users mailing list}} or join us on IRC at <irc://irc.codehaus.org> on
+ the {{{mail-lists.html}users mailing list}} or join us on IRC at <irc://irc.codehaus.org> on
  {{{irc://irc.codehaus.org#maven}<#maven>}}.
 
 Development
 
  If you would like to contribute to the project, either through fixing an existing plugin or by donating a new plugin,
- contact us on {{{mail-lists.html}the development mailing list}} or join us on IRC at <irc://irc.codehaus.org> on
+ contact us on the {{{mail-lists.html}development mailing list}} or join us on IRC at <irc://irc.codehaus.org> on
  {{{irc://irc.codehaus.org#maven}<#maven>}}.
 
