@@ -55,20 +55,15 @@ Preparing to Release
 
   []
 
-Call a Vote
- 
- Before a release can occur, a vote typically takes place. This is initiated with an email to the dev list, preferrably
- with a subject that starts with <<<[vote]>>>. Explain the plugin, status and any other info you feel relevant. The
- standard is to wait 72 hours for responses. This gives other developers time to verify the quality of the plugin
- before placing their vote. See the {{{http://www.apache.org/foundation/voting.html}Apache Voting Guidelines}} for more
- information.
-
 Graduating from the Sandbox
 
  If the plugin is making its first official release, it should graduate from the sandbox. When this occurs, the
  following steps should be followed:
 
   * Make sure the site follows the {{{guidelines.html}Development Guidelines}}.
+
+  * Call a vote for the graduation on the dev mailing list. See below for more
+    info on how to do this.
 
   * Move the svn project from <<<{{{http://svn.codehaus.org/mojo/trunk/sandbox/}sandbox/}}>>> to
     <<<{{{http://svn.codehaus.org/mojo/trunk/mojo/}mojo/}}>>>.
@@ -81,6 +76,38 @@ Graduating from the Sandbox
   * Move the mojo site link from the sandbox section to plugins by editing the
     <<<{{{http://svn.codehaus.org/mojo/site/src/site/apt/plugins.apt}plugins.apt}}>>> document. Redeploy the site and
     verify that it is functional.
+
+Preparing for the First Production Release
+
+ When a plugin is ready to have its first production release (i.e not an alpha
+ or beta release) there are a couple of extra things that needs to be taken
+ care of:
+
+  * Create a separate JIRA project for the plugin. Every production plugin must
+    have its own JIRA project. Pre-production plugins share the MOJO project in
+    JIRA. If you don't know how to do this, or don't have the necessary karma,
+    just ask for help on the dev mailing list.
+
+  * Make sure that the plugin's site passes the documentation checker plugin
+    test. Run 
+
++-----
+mvn docck:check
++-----
+
+    If there are any errors -fix them. There are a couple of errors that might
+    not need to be fixed. As an example: it's better <not> to add an FAQ
+    document than to add a bogus one.
+
+  []
+
+Call a Vote
+ 
+ Before a release can occur, a vote typically takes place. This is initiated with an email to the dev list, preferrably
+ with a subject that starts with <<<[vote]>>>. Explain the plugin, status and any other info you feel relevant. The
+ standard is to wait 72 hours for responses. This gives other developers time to verify the quality of the plugin
+ before placing their vote. See the {{{http://www.apache.org/foundation/voting.html}Apache Voting Guidelines}} for more
+ information.
 
 Performing the Release
 
