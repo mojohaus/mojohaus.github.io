@@ -28,9 +28,9 @@ Development Guidelines
 
  All plugins in the Mojo project should follow these guidelines although they might not always apply.
 
- * Use the package "org.codehaus.mojo.<plugin>", e.g.: <<<org.codehaus.mojo.jpox>>>.
+ * Use the package <<<org.codehaus.mojo.>>><\<plugin\>>, e.g.: <<<org.codehaus.mojo.jpox>>>.
 
- * Name the Mojos like this: <<<FooMojo>>>. This mojo should be available as <<<foo>>> inside a plugin configuration
+ * Name the mojos like this: <<<FooMojo>>>. This mojo should be available as <<<foo>>> inside a plugin configuration
  in Maven.
 
  * Use the {{{http://maven.apache.org/developers/committer-environment.html#Maven_Code_Style}Maven code style}} when
@@ -38,7 +38,7 @@ Development Guidelines
 
 *Licensing
 
-  We accept any plug-ins that follow Codehaus's rules for licensing. We recommend that you use
+  We accept any plugins that follow Codehaus's rules for licensing. We recommend that you use
  {{{http://hausmates.codehaus.org/}Codehaus's recommended license}} which is the MIT license. This license is usable
  for both ASL and GPL covered software. For other acceptable licenses please read the
  {{{http://www.codehaus.org/FAQ}Codehaus FAQ}}.
@@ -48,7 +48,7 @@ Development Guidelines
 
 *Mojo Parents
 
- Released plugins should derive from the mojo parent:
+ Released plugins should derive from the Mojo parent:
 
 -----------------------------------------
 <project>
@@ -61,7 +61,7 @@ Development Guidelines
 </project>
 -----------------------------------------
 
- Sandbox (new) plugins should derive from the mojo-sandbox parent:
+ Sandbox (new) plugins should derive from the Mojo sandbox parent:
 
 -----------------------------------------
 <project>
@@ -78,12 +78,12 @@ Development Guidelines
 
  Plugins should have a site that conforms to:
  
-   * The Codehaus template, see below
+   * The Codehaus site template, see below
    
-   * {{{http://maven.apache.org/guides/development/guide-plugin-documentation.html}
+   * The {{{http://maven.apache.org/guides/development/guide-plugin-documentation.html}
      Plugin Documentation Standard}}
      
-   * {{{http://maven.apache.org/plugins/maven-docck-plugin/}maven-docck-plugin}}
+   * The {{{http://maven.apache.org/plugins/maven-docck-plugin/}Maven Documentation Checker Plugin}}
    
    [] 
    
@@ -92,8 +92,8 @@ Development Guidelines
   Mojo parent 16 introduces a common <<<site.xml>>> file that is included in
   the parent artifact. It is inherited by the projects that use this parent.
   This means that there are less things that you have to specify yourself. If
-  you are using mojo parent 16 or newer, place this in your plugin's
-  <<</src/site/site.xml>>>:
+  you are using Mojo parent 16 or newer, place this in your plugin's
+  <<<src/site/site.xml>>>:
    
 -----------------------------------------
 <project>
@@ -123,7 +123,7 @@ Development Guidelines
    
 ** For Mojo Parent 15 and Older
    
-  Place this in your plugin's <<</src/site/site.xml>>> for a starting point:
+  Place this in your plugin's <<<src/site/site.xml>>> for a starting point:
 
 -----------------------------------------
 <project>

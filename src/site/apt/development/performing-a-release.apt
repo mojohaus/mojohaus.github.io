@@ -35,7 +35,7 @@ Preparing to Release
 
   * Plugin must be documented and preferably have unit and integration tests.
 
-  * Update <<<changes.xml>>> to include all issues in JIRA the was fixed.
+  * Update <<<changes.xml>>> to include all issues in JIRA that were fixed.
 
   * If the release is a bugfix release (incrementing z): explicitly document the bugs fixed.
 
@@ -73,13 +73,13 @@ Graduating from the Sandbox
   * Add the plugin to the modules section of <<<{{{http://svn.codehaus.org/mojo/trunk/mojo/pom.xml}mojo/pom.xml}}>>>
     and remove it from <<<{{{http://svn.codehaus.org/mojo/trunk/sandbox/pom.xml}sandbox/pom.xml}}>>>.
 
-  * Move the mojo site link from the sandbox section to plugins by editing the
+  * Move the plugin site link on the plugin list from the section "Sandbox Plugins" to "Pre-release Plugins" by editing the
     <<<{{{http://svn.codehaus.org/mojo/site/src/site/apt/plugins.apt}plugins.apt}}>>> document. Redeploy the site and
     verify that it is functional.
 
 Preparing for the First Production Release
 
- When a plugin is ready to have its first production release (i.e not an alpha
+ When a plugin is ready to have its first production release (i.e. not an alpha
  or beta release) there are a couple of extra things that needs to be taken
  care of:
 
@@ -95,7 +95,7 @@ Preparing for the First Production Release
 mvn docck:check
 +-----
 
-    If there are any errors -fix them. There are a couple of errors that might
+    If there are any errors - fix them. There are a couple of errors that might
     not need to be fixed. As an example: it's better <not> to add an FAQ
     document than to add a bogus one.
 
