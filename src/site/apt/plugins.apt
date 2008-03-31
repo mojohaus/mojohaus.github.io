@@ -230,7 +230,7 @@ Plugins
 *-----------------------------------------------------------+------------------------------------------------------------+
 | {{{batik-maven-plugin/} <<<batik>>>}}                     | Rasterize SVGs.
 *-----------------------------------------------------------+------------------------------------------------------------+
-| {{{chronos-maven-plugin/} <<<chronos>>>}}                 | Performancetesting with jmeter and reporting (no site).
+| {{{chronos-maven-plugin/} <<<chronos>>>}}                 | Continuous performancetesting with jmeter and reports of the results
 *-----------------------------------------------------------+------------------------------------------------------------+
 | {{{ckjm-maven-plugin/} <<<ckjm>>>}}                       | Executes the Ckjm bytecode analysis utility against a project.
 *-----------------------------------------------------------+------------------------------------------------------------+
