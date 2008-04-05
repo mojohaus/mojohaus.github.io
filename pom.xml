@@ -40,7 +40,7 @@
             <archive>http://archive.mojo.codehaus.org/dev/</archive>
             <otherArchives>
                 <otherArchive>http://www.nabble.com/mojo---dev-f11981.html</otherArchive>
-                <otherArchive>http://markmail.org/browse/org.codehaus.mojo.dev</otherArchive>
+                <otherArchive>http://markmail.org/list/org.codehaus.mojo.dev</otherArchive>
             </otherArchives>
         </mailingList>
         <mailingList>
@@ -51,7 +51,7 @@
             <archive>http://archive.mojo.codehaus.org/user/</archive>
             <otherArchives>
                 <otherArchive>http://www.nabble.com/mojo---user-f11980.html</otherArchive>
-                <otherArchive>http://markmail.org/browse/org.codehaus.mojo.user</otherArchive>
+                <otherArchive>http://markmail.org/list/org.codehaus.mojo.user</otherArchive>
             </otherArchives>
         </mailingList>
         <mailingList>
@@ -60,7 +60,7 @@
             <unsubscribe>scm-unsubscribe@mojo.codehaus.org</unsubscribe>
             <archive>http://archive.mojo.codehaus.org/scm/</archive>
             <otherArchives>
-                <otherArchive>http://markmail.org/browse/org.codehaus.mojo.scm</otherArchive>
+                <otherArchive>http://markmail.org/list/org.codehaus.mojo.scm</otherArchive>
             </otherArchives>
         </mailingList>
     </mailingLists>
