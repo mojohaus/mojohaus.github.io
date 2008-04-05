@@ -1,158 +1,158 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-    Licensed to the Apache Software Foundation (ASF) under one or more
-    contributor license agreements.  See the NOTICE file distributed with
-    this work for additional information regarding copyright ownership.
-    The ASF licenses this file to You under the Apache License, Version 2.0
-    (the "License"); you may not use this file except in compliance with
-    the License.  You may obtain a copy of the License at
+  Licensed to the Apache Software Foundation (ASF) under one or more
+  contributor license agreements.  See the NOTICE file distributed with
+  this work for additional information regarding copyright ownership.
+  The ASF licenses this file to You under the Apache License, Version 2.0
+  (the "License"); you may not use this file except in compliance with
+  the License.  You may obtain a copy of the License at
 
-       http://www.apache.org/licenses/LICENSE-2.0
+     http://www.apache.org/licenses/LICENSE-2.0
 
-    Unless required by applicable law or agreed to in writing, software
-    distributed under the License is distributed on an "AS IS" BASIS,
-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-    See the License for the specific language governing permissions and
-    limitations under the License.
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
 -->
 
 <!-- $Id$ -->
 
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
-    <modelVersion>4.0.0</modelVersion>
-    
-    <groupId>org.codehaus.mojo</groupId>
-    <artifactId>mojo-site</artifactId>
-    <name>Codehaus Mojo Site</name>
-    
-    <version>2-SNAPSHOT</version>
-    
-    <url>http://mojo.codehaus.org/</url>
-    
-    <!-- Repeated here as Maven will by default append the artifact id to the path in the reports -->
-    <mailingLists>
-        <mailingList>
-            <name>Development List</name>
-            <subscribe>dev-subscribe@mojo.codehaus.org</subscribe>
-            <unsubscribe>dev-unsubscribe@mojo.codehaus.org</unsubscribe>
-            <post>dev@mojo.codehaus.org</post>
-            <archive>http://archive.mojo.codehaus.org/dev/</archive>
-            <otherArchives>
-                <otherArchive>http://www.nabble.com/mojo---dev-f11981.html</otherArchive>
-                <otherArchive>http://markmail.org/list/org.codehaus.mojo.dev</otherArchive>
-            </otherArchives>
-        </mailingList>
-        <mailingList>
-            <name>User List</name>
-            <subscribe>user-subscribe@mojo.codehaus.org</subscribe>
-            <unsubscribe>user-unsubscribe@mojo.codehaus.org</unsubscribe>
-            <post>user@mojo.codehaus.org</post>
-            <archive>http://archive.mojo.codehaus.org/user/</archive>
-            <otherArchives>
-                <otherArchive>http://www.nabble.com/mojo---user-f11980.html</otherArchive>
-                <otherArchive>http://markmail.org/list/org.codehaus.mojo.user</otherArchive>
-            </otherArchives>
-        </mailingList>
-        <mailingList>
-            <name>Commits List</name>
-            <subscribe>scm-subscribe@mojo.codehaus.org</subscribe>
-            <unsubscribe>scm-unsubscribe@mojo.codehaus.org</unsubscribe>
-            <archive>http://archive.mojo.codehaus.org/scm/</archive>
-            <otherArchives>
-                <otherArchive>http://markmail.org/list/org.codehaus.mojo.scm</otherArchive>
-            </otherArchives>
-        </mailingList>
-    </mailingLists>
-    
-    <issueManagement>
-        <system>jira</system>
-        <url>http://jira.codehaus.org/browse/MOJO</url>
-    </issueManagement>
-    
-    <scm>
-        <connection>scm:svn:https://svn.codehaus.org/mojo/site</connection>
-        <developerConnection>scm:svn:https://svn.codehaus.org/mojo/site</developerConnection>
-        <url>https://svn.codehaus.org/mojo/site</url>
-    </scm>
-    
-    <distributionManagement>
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>org.codehaus.mojo</groupId>
+  <artifactId>mojo-site</artifactId>
+  <name>Codehaus Mojo Site</name>
+
+  <version>2-SNAPSHOT</version>
+
+  <url>http://mojo.codehaus.org/</url>
+
+  <!-- Repeated here as Maven will by default append the artifact id to the path in the reports -->
+  <mailingLists>
+    <mailingList>
+      <name>Development List</name>
+      <subscribe>dev-subscribe@mojo.codehaus.org</subscribe>
+      <unsubscribe>dev-unsubscribe@mojo.codehaus.org</unsubscribe>
+      <post>dev@mojo.codehaus.org</post>
+      <archive>http://archive.mojo.codehaus.org/dev/</archive>
+      <otherArchives>
+        <otherArchive>http://www.nabble.com/mojo---dev-f11981.html</otherArchive>
+        <otherArchive>http://markmail.org/list/org.codehaus.mojo.dev</otherArchive>
+      </otherArchives>
+    </mailingList>
+    <mailingList>
+      <name>User List</name>
+      <subscribe>user-subscribe@mojo.codehaus.org</subscribe>
+      <unsubscribe>user-unsubscribe@mojo.codehaus.org</unsubscribe>
+      <post>user@mojo.codehaus.org</post>
+      <archive>http://archive.mojo.codehaus.org/user/</archive>
+      <otherArchives>
+        <otherArchive>http://www.nabble.com/mojo---user-f11980.html</otherArchive>
+        <otherArchive>http://markmail.org/list/org.codehaus.mojo.user</otherArchive>
+      </otherArchives>
+    </mailingList>
+    <mailingList>
+      <name>Commits List</name>
+      <subscribe>scm-subscribe@mojo.codehaus.org</subscribe>
+      <unsubscribe>scm-unsubscribe@mojo.codehaus.org</unsubscribe>
+      <archive>http://archive.mojo.codehaus.org/scm/</archive>
+      <otherArchives>
+        <otherArchive>http://markmail.org/list/org.codehaus.mojo.scm</otherArchive>
+      </otherArchives>
+    </mailingList>
+  </mailingLists>
+
+  <issueManagement>
+    <system>jira</system>
+    <url>http://jira.codehaus.org/browse/MOJO</url>
+  </issueManagement>
+
+  <scm>
+    <connection>scm:svn:https://svn.codehaus.org/mojo/site</connection>
+    <developerConnection>scm:svn:https://svn.codehaus.org/mojo/site</developerConnection>
+    <url>https://svn.codehaus.org/mojo/site</url>
+  </scm>
+
+  <distributionManagement>
+    <site>
+      <id>codehaus.org</id>
+      <name>Mojo Website</name>
+      <url>dav:https://dav.codehaus.org/mojo/</url>
+    </site>
+  </distributionManagement>
+
+  <reporting>
+    <excludeDefaults>true</excludeDefaults>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-project-info-reports-plugin</artifactId>
+        <version>2.0.1</version>
+        <reportSets>
+          <reportSet>
+            <reports>
+              <report>mailing-list</report>
+              <report>issue-tracking</report>
+              <report>scm</report>
+            </reports>
+          </reportSet>
+        </reportSets>
+        <configuration>
+          <!-- TODO: Enable once MPIR-63 gets released with 2.1
+          <anonymousConnection>scm:svn:https://svn.codehaus.org/mojo/trunk</anonymousConnection>
+          <developerConnection>scm:svn:https://svn.codehaus.org/mojo/trunk</developerConnection>
+          <webAccessUrl>https://svn.codehaus.org/mojo/trunk</webAccessUrl>
+          -->
+        </configuration>
+      </plugin>
+    </plugins>
+  </reporting>
+
+  <build>
+    <extensions>
+      <extension>
+        <groupId>org.apache.maven.wagon</groupId>
+        <artifactId>wagon-webdav</artifactId>
+        <version>1.0-beta-2</version>
+      </extension>
+    </extensions>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-site-plugin</artifactId>
+        <version>2.0-beta-6</version>
+      </plugin>
+    </plugins>
+  </build>
+
+  <profiles>
+    <profile>
+      <id>stage-distribution</id>
+
+      <activation>
+        <property>
+          <name>stage.distributionUrl</name>
+        </property>
+      </activation>
+
+      <distributionManagement>
+        <repository>
+          <id>stage-repository</id>
+          <url>${stage.distributionUrl}/repository</url>
+        </repository>
+        <snapshotRepository>
+          <id>stage-snapshot-repository</id>
+          <url>${stage.distributionUrl}/snapshot-repository</url>
+        </snapshotRepository>
         <site>
-            <id>codehaus.org</id>
-            <name>Mojo Website</name>
-            <url>dav:https://dav.codehaus.org/mojo/</url>
+          <id>stage-site</id>
+          <url>${stage.distributionUrl}/site</url>
         </site>
-    </distributionManagement>
-    
-    <reporting>
-        <excludeDefaults>true</excludeDefaults>
-        <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-project-info-reports-plugin</artifactId>
-                <version>2.0.1</version>
-                <reportSets>
-                    <reportSet>
-                        <reports>
-                            <report>mailing-list</report>
-                            <report>issue-tracking</report>
-                            <report>scm</report>
-                        </reports>
-                    </reportSet>
-                </reportSets>
-                <configuration>
-                    <!-- TODO: Enable once MPIR-63 gets released with 2.1
-                    <anonymousConnection>scm:svn:https://svn.codehaus.org/mojo/trunk</anonymousConnection>
-                    <developerConnection>scm:svn:https://svn.codehaus.org/mojo/trunk</developerConnection>
-                    <webAccessUrl>https://svn.codehaus.org/mojo/trunk</webAccessUrl>
-                    -->
-                </configuration>
-            </plugin>
-        </plugins>
-    </reporting>
-    
-    <build>
-        <extensions>
-            <extension>
-                <groupId>org.apache.maven.wagon</groupId>
-                <artifactId>wagon-webdav</artifactId>
-                <version>1.0-beta-2</version>
-            </extension>
-        </extensions>
-        <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-site-plugin</artifactId>
-                <version>2.0-beta-6</version>
-            </plugin>
-        </plugins>
-    </build>
-
-    <profiles>
-        <profile>
-            <id>stage-distribution</id>
-
-            <activation>
-                <property>
-                    <name>stage.distributionUrl</name>
-                </property>
-            </activation>
-
-            <distributionManagement>
-                <repository>
-                    <id>stage-repository</id>
-                    <url>${stage.distributionUrl}/repository</url>
-                </repository>
-                <snapshotRepository>
-                    <id>stage-snapshot-repository</id>
-                    <url>${stage.distributionUrl}/snapshot-repository</url>
-                </snapshotRepository>
-                <site>
-                    <id>stage-site</id>
-                    <url>${stage.distributionUrl}/site</url>
-                </site>
-            </distributionManagement>
-        </profile>
-    </profiles>
+      </distributionManagement>
+    </profile>
+  </profiles>
 
 </project>
