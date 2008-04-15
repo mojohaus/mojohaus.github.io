@@ -53,6 +53,8 @@ Preparing to Release
     actually set your <<<JAVA_HOME>>> to a JDK 1.4 and run <<<mvn clean verify>>>. This will catch references to classes
     or methods that were accidentally used but are only available in later versions of Java.
 
+  * Check that the POM properly declares its dependencies, i.e. run <<<mvn dependency:analyze>>> and fix any problems.
+
   []
 
 Graduating from the Sandbox
