@@ -24,7 +24,7 @@
 ~~ under the License.
 ~~
 
- This is a check list of stuff that has to be done before a release of a Mojo is released.
+ This is a check list of stuff that has to be done before a new version of a plugin is released.
 
 Preparing to Release
 
@@ -46,12 +46,12 @@ Preparing to Release
 
    * Examples
 
-   []
+  * Resolve all SNAPSHOTs if it's a proper release on all dependencies: Normal dependencies, build plugins, reporting
+    plugins.
 
-  []
-
- * Resolve all SNAPSHOTs if it's a proper release on all dependencies: Normal dependencies, build plugins, reporting
-   plugins.
+  * Ensure the plugin complies with its intended minimum JRE requirement. For instance, if Java 1.4 is to be supported,
+    actually set your <<<JAVA_HOME>>> to a JDK 1.4 and run <<<mvn clean verify>>>. This will catch references to classes
+    or methods that were accidentally used but are only available in later versions of Java.
 
   []
 
