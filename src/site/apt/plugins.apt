@@ -128,6 +128,8 @@ Plugins
 *-----------------------------------------------------------+-------------+----------------------------------------------+
 | <<Application Server>>                                    |             | <Plugins that support integration with application servers.>
 *-----------------------------------------------------------+-------------+----------------------------------------------+
+| {{{jboss-packaging-maven-plugin/} <<<jboss-packaging>>>}} | 2.0-beta-1  | Packages various JBoss deployable archive files including SAR, HAR, ESB and Spring.
+*-----------------------------------------------------------+------------------------------------------------------------+
 | {{{tomcat-maven-plugin/} <<<tomcat>>>}}                   | 1.0-alpha-1 | Manipulate WAR projects within Tomcat.
 *-----------------------------------------------------------+-------------+----------------------------------------------+
 | {{{was6-maven-plugin/} <<<was6>>>}}                       | 1.0-alpha-1 | IBM WAS support.
@@ -265,8 +267,6 @@ Plugins
 | {{{javascript-maven-tools/} <<<javascript tools>>>}}      | A set of maven plugins to enable maven-driven javascript development.
 *-----------------------------------------------------------+------------------------------------------------------------+
 | {{{jaxws-maven-plugin/} <<<jaxws>>>}}                     | Moved to {{{https://jax-ws-commons.dev.java.net/jaxws-maven-plugin}JAX-WS Commons}} at java.net.
-*-----------------------------------------------------------+------------------------------------------------------------+
-| {{{jboss-packaging-maven-plugin/} <<<jboss-packaging>>>}} | Package JBoss spring deployable archives.
 *-----------------------------------------------------------+------------------------------------------------------------+
 | {{{jcoverage-maven-plugin/} <<<jcoverage>>>}}             | (no site)
 *-----------------------------------------------------------+------------------------------------------------------------+
