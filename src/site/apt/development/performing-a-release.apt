@@ -167,3 +167,5 @@ mvn docck:check
     be deployed, we have a separate project for this. The configuration of the site distribution in the parent POM
     exists solely for the purpose of inheritance by the plugins. Accidentally deploying the parent's site would damage
     the Mojo website, most notably the <<<index.html>>>.
+
+  [[3]] Update the {{{guidelines.html}Development Guidelines}} to indicate the new POM version.
