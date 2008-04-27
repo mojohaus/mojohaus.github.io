@@ -26,7 +26,19 @@
 
  This is a check list of stuff that has to be done before a new version of a plugin is released.
 
-Preparing to Release
+  * {{{#Preparing_to_Release}Preparing to Release}}
+
+  * {{{#Graduating_from_the_Sandbox}Graduating from the Sandbox}}
+
+  * {{{#Preparing_for_the_First_Production_Release}Preparing for the First Production Release}}
+
+  * {{{#Call_a_Vote}Call a Vote}}
+
+  * {{{#Performing_the_Release}Performing the Release}}
+
+  * {{{#Releasing_the_Mojo_Parent_POM}Releasing the Mojo Parent POM}}
+
+{Preparing to Release}
 
   * Make sure the site documentation is up to date and follows the {{{guidelines.html}Development Guidelines}}.
 
@@ -57,7 +69,7 @@ Preparing to Release
 
   []
 
-Graduating from the Sandbox
+{Graduating from the Sandbox}
 
  If the plugin is making its first official release, it should graduate from the sandbox. When this occurs, the
  following steps should be followed:
@@ -79,7 +91,7 @@ Graduating from the Sandbox
     <<<{{{http://svn.codehaus.org/mojo/site/src/site/apt/plugins.apt}plugins.apt}}>>> document. Redeploy the site and
     verify that it is functional.
 
-Preparing for the First Production Release
+{Preparing for the First Production Release}
 
  When a plugin is ready to have its first production release (i.e. not an alpha
  or beta release) there are a couple of extra things that needs to be taken
@@ -103,7 +115,7 @@ mvn docck:check
 
   []
 
-Call a Vote
+{Call a Vote}
  
  Before a release can occur, a vote typically takes place. This is initiated with an email to the dev list, preferrably
  with a subject that starts with <<<[vote]>>>. Explain the plugin, status and any other info you feel relevant. The
@@ -111,7 +123,7 @@ Call a Vote
  before placing their vote. See the {{{http://www.apache.org/foundation/voting.html}Apache Voting Guidelines}} for more
  information.
 
-Performing the Release
+{Performing the Release}
 
  The release process should be done using the
  {{{http://maven.apache.org/plugins/maven-release-plugin/}Maven Release Plugin}}:
@@ -136,3 +148,22 @@ Performing the Release
         {{{mailto:users@maven.apache.org}users@maven.apache.org}}.
 
   [[6]] TODO: if there's a feed containing all releases, get the release into that feed.
+
+{Releasing the Mojo Parent POM}
+
+  Of course, to release the Mojo Parent POM, a vote takes place just for an ordinary plugin release. But when it comes
+  to actually perform the release, there are some differences to watch out for:
+
+  [[1]] Execute <<<mvn release:prepare -N -Darguments=-N>>>
+  
+    The flag <<<-N>>> is important to prevent the Release Plugin from recursively releasing all the other plugins which
+    are currently listed in the <<<\<modules\>>>> section of the parent POM. The additional parameter
+    <<<-Darguments=-N>>> is required to workaround {{{http://jira.codehaus.org/browse/MRELEASE-123}MRELEASE-123}}.
+
+  [[2]] Execute <<<mvn release:perform -N -Darguments=-N -Dgoals=deploy>>>
+  
+    The important thing to note here is the parameter <<<-Dgoals=deploy>>>. By default, the Release Plugin would execute
+    the phases <<<deploy>>> and <<<site-deploy>>> on the parent POM. However, the site of the parent POM is not meant to
+    be deployed, we have a separate project for this. The configuration of the site distribution in the parent POM
+    exists solely for the purpose of inheritance by the plugins. Accidentally deploying the parent's site would damage
+    the Mojo website, most notably the <<<index.html>>>.
