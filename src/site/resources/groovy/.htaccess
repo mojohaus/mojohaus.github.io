@@ -1,3 +1,2 @@
-# Disabled for now
-#RedirectMatch permanent groovy http://groovy.codehaus.org/GMaven
-#RedirectMatch permanent groovy/(.*)$ http://groovy.codehaus.org/GMaven
+RedirectMatch permanent groovy http://groovy.codehaus.org/GMaven
+RedirectMatch permanent groovy/(.*)$ http://groovy.codehaus.org/GMaven
