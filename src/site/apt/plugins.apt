@@ -184,7 +184,7 @@ Plugins
 *-----------------------------------------------------------+-------------+----------------------------------------------+
 | {{{dbunit-maven-plugin/} <<<dbunit>>>}}                   | 1.0-beta-1  | Support for using DBunit.
 *-----------------------------------------------------------+-------------+----------------------------------------------+
-| {{{selenium-maven-plugin/} <<<selenium>>>}}               | 1.0-beta-2  | Supports automated web-application testing.
+| {{{selenium-maven-plugin/} <<<selenium>>>}}               | 1.0-beta-3  | Supports automated web-application testing.
 *-----------------------------------------------------------+-------------+----------------------------------------------+
 | {{{shitty-maven-plugin/} <<<shitty>>>}}                   | 1.0-alpha-2 | Super Helpful Integration Testing ThingY (SHITTY) Maven Plugin.
 *-----------------------------------------------------------+------------------------------------------------------------+
