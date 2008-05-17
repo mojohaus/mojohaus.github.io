@@ -84,9 +84,6 @@
 
   * Change the POM parent from <<<mojo-sandbox>>> to <<<mojo>>>.
 
-  * Add the plugin to the modules section of <<<{{{http://svn.codehaus.org/mojo/trunk/mojo/pom.xml}mojo/pom.xml}}>>>
-    and remove it from <<<{{{http://svn.codehaus.org/mojo/trunk/sandbox/pom.xml}sandbox/pom.xml}}>>>.
-
   * Move the plugin site link on the plugin list from the section "Sandbox Plugins" to "Pre-release Plugins" by editing the
     <<<{{{http://svn.codehaus.org/mojo/site/src/site/apt/plugins.apt}plugins.apt}}>>> document. Redeploy the site and
     verify that it is functional.
@@ -154,13 +151,9 @@ mvn docck:check
   Of course, to release the Mojo Parent POM, a vote takes place just for an ordinary plugin release. But when it comes
   to actually perform the release, there are some differences to watch out for:
 
-  [[1]] Execute <<<mvn release:prepare -N -Darguments=-N>>>
-  
-    The flag <<<-N>>> is important to prevent the Release Plugin from recursively releasing all the other plugins which
-    are currently listed in the <<<\<modules\>>>> section of the parent POM. The additional parameter
-    <<<-Darguments=-N>>> is required to workaround {{{http://jira.codehaus.org/browse/MRELEASE-123}MRELEASE-123}}.
+  [[1]] Execute <<<mvn release:prepare>>>
 
-  [[2]] Execute <<<mvn release:perform -N -Darguments=-N -Dgoals=deploy>>>
+  [[2]] Execute <<<mvn release:perform -Dgoals=deploy>>>
   
     The important thing to note here is the parameter <<<-Dgoals=deploy>>>. By default, the Release Plugin would execute
     the phases <<<deploy>>> and <<<site-deploy>>> on the parent POM. However, the site of the parent POM is not meant to
