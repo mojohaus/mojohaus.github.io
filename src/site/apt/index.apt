@@ -36,22 +36,22 @@ Welcome To The Mojo Project
 
 Plugins
 
- For information on the plugins hosted at the Mojo project see the {{{plugins.html}plugin list}}.
+ For information on the plugins hosted at the Mojo project see the {{{./plugins.html}plugin list}}.
 
  You can also check out other plugins from the subversion repository and build them yourself for 
- general usage, including the sandbox plugins. See {{{using-sandbox-plugins.html}using 
+ general usage, including the sandbox plugins. See {{{./using-sandbox-plugins.html}using 
  sandbox plugins}} for information about building from source and retrieving sandbox snapshot
  releases.
 
 Getting Support
 
  If you have problems or concerns with plugins in the Mojo project please contact the author, ask on
- the {{{mail-lists.html}users mailing list}} or join us on IRC at <irc://irc.codehaus.org> on
+ the {{{./mail-lists.html}users mailing list}} or join us on IRC at <irc://irc.codehaus.org> on
  {{{irc://irc.codehaus.org#maven}<#maven>}}.
 
 Development
 
  If you would like to contribute to the project, either through fixing an existing plugin or by donating a new plugin,
- contact us on the {{{mail-lists.html}development mailing list}} or join us on IRC at <irc://irc.codehaus.org> on
+ contact us on the {{{./mail-lists.html}development mailing list}} or join us on IRC at <irc://irc.codehaus.org> on
  {{{irc://irc.codehaus.org#maven}<#maven>}}.
 

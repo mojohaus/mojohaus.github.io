@@ -1,5 +1,5 @@
  ------
- Mojo - Maven 2 Plugins Project
+ Using Sandbox Plugins
  ------
  Brian Fox
  ------
@@ -26,7 +26,8 @@
 
 Snapshot Repository
 
- Most plugins are available via the {{{http://snapshots.repository.codehaus.org/org/codehaus/mojo/}snapshot repository}}. To access them, add the following to your <<<pom.xml>>>:
+ Most plugins are available via the {{{http://snapshots.repository.codehaus.org/org/codehaus/mojo/}snapshot repository}}.
+ To access them, add the following to your <<<pom.xml>>>:
 
 ----------------------
   <repositories>
@@ -94,4 +95,5 @@ Snapshot Repository
 
 Building Plugins
 
- To build a plugin, check out the {{{source-repository.html}source}}. Then add the repositories shown above so that parent versions can be retreived. Cd into the source folder and run "<<<mvn install>>>".
+ To build a plugin, check out the {{{./source-repository.html}source}}. Then add the repositories shown above so that
+ parent versions can be retreived. Cd into the source folder and run "<<<mvn install>>>".

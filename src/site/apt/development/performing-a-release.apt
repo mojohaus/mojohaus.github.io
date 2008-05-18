@@ -26,21 +26,21 @@
 
  This is a check list of stuff that has to be done before a new version of a plugin is released.
 
-  * {{{#Preparing_to_Release}Preparing to Release}}
+  * {{{Preparing_to_Release}Preparing to Release}}
 
-  * {{{#Graduating_from_the_Sandbox}Graduating from the Sandbox}}
+  * {{{Graduating_from_the_Sandbox}Graduating from the Sandbox}}
 
-  * {{{#Preparing_for_the_First_Production_Release}Preparing for the First Production Release}}
+  * {{{Preparing_for_the_First_Production_Release}Preparing for the First Production Release}}
 
-  * {{{#Call_a_Vote}Call a Vote}}
+  * {{{Call_a_Vote}Call a Vote}}
 
-  * {{{#Performing_the_Release}Performing the Release}}
+  * {{{Performing_the_Release}Performing the Release}}
 
-  * {{{#Releasing_the_Mojo_Parent_POM}Releasing the Mojo Parent POM}}
+  * {{{Releasing_the_Mojo_Parent_POM}Releasing the Mojo Parent POM}}
 
 {Preparing to Release}
 
-  * Make sure the site documentation is up to date and follows the {{{guidelines.html}Development Guidelines}}.
+  * Make sure the site documentation is up to date and follows the {{{./guidelines.html}Development Guidelines}}.
 
   * All open JIRA issues should be closed or agreed to be scheduled for a future
     version. 
@@ -74,7 +74,7 @@
  If the plugin is making its first official release, it should graduate from the sandbox. When this occurs, the
  following steps should be followed:
 
-  * Make sure the site follows the {{{guidelines.html}Development Guidelines}}.
+  * Make sure the site follows the {{{./guidelines.html}Development Guidelines}}.
 
   * Call a vote for the graduation on the dev mailing list. See below for more
     info on how to do this.
@@ -161,4 +161,4 @@ mvn docck:check
     exists solely for the purpose of inheritance by the plugins. Accidentally deploying the parent's site would damage
     the Mojo website, most notably the <<<index.html>>>.
 
-  [[3]] Update the {{{guidelines.html}Development Guidelines}} to indicate the new POM version.
+  [[3]] Update the {{{./guidelines.html}Development Guidelines}} to indicate the new POM version.
