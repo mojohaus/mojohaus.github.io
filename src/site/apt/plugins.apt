@@ -292,7 +292,7 @@ Plugins
 *--------------------------------------------------------------------+------------------------------------------------------------+
 | {{{./runtime-maven-plugin/} <<<runtime>>>}}                        | (no site)
 *--------------------------------------------------------------------+------------------------------------------------------------+
-| {{{./shade-maven-plugin/} <<<shade>>>}}                            | Moved to the official Maven plugins and is now maintained as {{{http://maven.apache.org/plugins/maven-shade-plugin/}Maven Shade Plugin}}.
+| {{{./scmchangelog-maven-plugin/} <<<scmchangelog>>>}}              | Simple Reporter that creates a changelog report using comments and tags from Subversion.
 *--------------------------------------------------------------------+------------------------------------------------------------+
 | {{{./simian-report-maven-plugin/} <<<simian-report>>>}}            | Similarity analysis reports.
 *--------------------------------------------------------------------+------------------------------------------------------------+
@@ -326,5 +326,7 @@ Plugins
 *--------------------------------------------------------------------+------------------------------------------------------------+
 | {{{./rat-maven-plugin/} <<<rat>>>}}                                | Moved to the {{{http://incubator.apache.org/} Apache Incubator}}.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
+| {{{./shade-maven-plugin/} <<<shade>>>}}                            | Moved to the official Maven plugins and is now maintained as {{{http://maven.apache.org/plugins/maven-shade-plugin/}Maven Shade Plugin}}.
+*--------------------------------------------------------------------+------------------------------------------------------------+
 | {{{./groovy/} <<<groovy>>>}}                                       | Moved to {{{http://groovy.codehaus.org/GMaven} GMaven}}.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
