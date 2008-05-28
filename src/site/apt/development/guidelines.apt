@@ -67,7 +67,7 @@ Development Guidelines
 <project>
   <parent>
     <groupId>org.codehaus.mojo</groupId>
-    <artifactId>mojo-sandbox</artifactId>
+    <artifactId>mojo-sandbox-parent</artifactId>
     <version>5-SNAPSHOT</version>
   </parent>
   ...
