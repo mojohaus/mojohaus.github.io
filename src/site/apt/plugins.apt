@@ -88,7 +88,7 @@ Plugins
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | <<Reporting>> | | <Plugins which generate reports.>
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
-| {{{./clirr-maven-plugin/} <<<clirr>>>}}                            | 2.2.1       | Checks Java libraries for binary and source compatibility with older releases.
+| {{{./clirr-maven-plugin/} <<<clirr>>>}}                            | 2.2.2       | Checks Java libraries for binary and source compatibility with older releases.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./cobertura-maven-plugin/} <<<cobertura>>>}}                    | 2.2         | Code coverage via Cobertura.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
