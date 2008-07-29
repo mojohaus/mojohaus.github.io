@@ -172,7 +172,7 @@ Plugins
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./jdepend-maven-plugin/} <<<jdepend>>>}}                        | 2.0-beta-2  | Generates JDepend reports.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
-| {{{./dashboard-maven-plugin/} <<<dashboard>>>}}                    | 1.0-SNASPHOT  | Aggregate results from Checkstyle, Cobertura, Clover, Surefire, PMD, CPD, FindBugs, Taglist reports.
+| {{{./dashboard-maven-plugin/} <<<dashboard>>>}}                    | 1.0.0-beta-1  | Aggregate results from Checkstyle, Cobertura, Clover, Surefire, PMD, CPD, FindBugs, Taglist reports.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 |
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
