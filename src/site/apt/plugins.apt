@@ -300,6 +300,8 @@ Plugins
 *--------------------------------------------------------------------+------------------------------------------------------------+
 | {{{./springdoclet-maven-plugin/} <<<springdoclet>>>}}              | (no site)
 *--------------------------------------------------------------------+------------------------------------------------------------+
+| {{{./versions-maven-plugin/} <<<versions>>>}}                      | Supports various tasks for updating the versions of components in the pom.
+*--------------------------------------------------------------------+------------------------------------------------------------+
 | {{{./visibroker-maven-plugin/} <<<visibroker>>>}}                  | Maven adapter of VisiBroker command line tools.
 *--------------------------------------------------------------------+------------------------------------------------------------+
 | {{{./weblogic-maven-plugin/} <<<weblogic>>>}}                      | Supports various tasks within the Weblogic 8.1 and 9.x environment.
