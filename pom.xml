@@ -90,7 +90,7 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-project-info-reports-plugin</artifactId>
-        <version>2.0.1</version>
+        <version>2.1</version>
         <reportSets>
           <reportSet>
             <reports>
@@ -101,11 +101,10 @@
           </reportSet>
         </reportSets>
         <configuration>
-          <!-- TODO: Enable once MPIR-63 gets released with 2.1
-          <anonymousConnection>scm:svn:https://svn.codehaus.org/mojo/trunk</anonymousConnection>
+          <anonymousConnection>scm:svn:http://svn.codehaus.org/mojo/trunk</anonymousConnection>
           <developerConnection>scm:svn:https://svn.codehaus.org/mojo/trunk</developerConnection>
-          <webAccessUrl>https://svn.codehaus.org/mojo/trunk</webAccessUrl>
-          -->
+          <webAccessUrl>http://fisheye.codehaus.org/browse/mojo/trunk</webAccessUrl>
+          <checkoutDirectoryName>mojo</checkoutDirectoryName>
         </configuration>
       </plugin>
     </plugins>
