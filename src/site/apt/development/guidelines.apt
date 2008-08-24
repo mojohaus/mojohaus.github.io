@@ -41,7 +41,7 @@ Development Guidelines
   We accept any plugins that follow Codehaus's rules for licensing. We recommend that you use
  {{{http://hausmates.codehaus.org/}Codehaus's recommended license}} which is the MIT license. This license is usable
  for both ASL and GPL covered software. For other acceptable licenses please read the
- {{{http://www.codehaus.org/FAQ}Codehaus FAQ}}.
+ {{{http://codehaus.org/customs/licenses.html}Codehaus license overview}}.
 
   Make sure that you include the license in a file called <<<LICENSE.txt>>> in the root of your project and that
  all files include the license at the top of the file.
