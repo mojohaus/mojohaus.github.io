@@ -56,8 +56,9 @@
     </menu>
     
     <menu name="Project Information">
-      <item name="Source code" href="source-repository.html"/>
+      <item name="Source Code" href="source-repository.html"/>
       <item name="Mailing Lists" href="mail-lists.html"/>
+      <item name="Internet Relay Chat" href="irc.html"/>
       <item name="Issue Tracking" href="issue-tracking.html"/>
     </menu>
   </body>
