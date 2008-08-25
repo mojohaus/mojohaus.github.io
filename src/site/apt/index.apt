@@ -24,7 +24,7 @@
 ~~ under the License.
 ~~
 
-Welcome To The Mojo Project
+Welcome to the Mojo Project
 
  The Mojo project is a collection of plugins for Maven 2.
 
@@ -34,7 +34,7 @@ Welcome To The Mojo Project
  the user mailing list or by emailing the maintainer. Each plugin has a list of people 
  involved in creating or supporting it.
 
-Plugins
+* Plugins
 
  For information on the plugins hosted at the Mojo project see the {{{./plugins.html}plugin list}}.
 
@@ -43,12 +43,12 @@ Plugins
  sandbox plugins}} for information about building from source and retrieving sandbox snapshot
  releases.
 
-Getting Support
+* Getting Support
 
  If you have problems or concerns with plugins in the Mojo project please contact the author, ask on
  the {{{./mail-lists.html}users mailing list}} or join us on {{{./irc.html}IRC}}.
 
-Development
+* Development
 
  If you would like to contribute to the project, either through fixing an existing plugin or by {{{development/submitting-a-plugin.html}donating a new plugin}},
  contact us on the {{{./mail-lists.html}development mailing list}} or join us on {{{./irc.html}IRC}}.

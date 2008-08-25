@@ -24,7 +24,13 @@
 ~~ under the License.
 ~~
 
-Snapshot Repository
+Using Sandbox Plugins
+
+  Unlike production or pre-release plugins, sandbox plugins are not deployed to the Maven central repository and as
+  such are not available out of the box. The following steps outline how to setup your environment to access these
+  plugins, too.
+
+* Snapshot Repository
 
  Most plugins are available via the {{{http://snapshots.repository.codehaus.org/org/codehaus/mojo/}snapshot repository}}.
  To access them, add the following to your <<<pom.xml>>>:
@@ -93,7 +99,7 @@ Snapshot Repository
   </activeProfiles>
 ----------------------
 
-Building Plugins
+* Building Plugins
 
  To build a plugin, check out the {{{./source-repository.html}source}}. Then add the repositories shown above so that
  parent versions can be retreived. Cd into the source folder and run "<<<mvn install>>>".

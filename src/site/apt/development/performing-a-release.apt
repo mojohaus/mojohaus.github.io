@@ -24,6 +24,8 @@
 ~~ under the License.
 ~~
 
+Performing a Release
+
  This is a check list of stuff that has to be done before a new version of a plugin is released.
 
   * {{{Preparing_to_Release}Preparing to Release}}
@@ -38,7 +40,7 @@
 
   * {{{Releasing_the_Mojo_Parent_POM}Releasing the Mojo Parent POM}}
 
-{Preparing to Release}
+* {Preparing to Release}
 
   * Make sure the site documentation is up to date and follows the {{{./guidelines.html}Development Guidelines}}.
 
@@ -69,7 +71,7 @@
 
   []
 
-{Graduating from the Sandbox}
+* {Graduating from the Sandbox}
 
  If the plugin is making its first official release, it should graduate from the sandbox. When this occurs, the
  following steps should be followed:
@@ -88,7 +90,7 @@
     <<<{{{http://svn.codehaus.org/mojo/site/src/site/apt/plugins.apt}plugins.apt}}>>> document. Redeploy the site and
     verify that it is functional.
 
-{Preparing for the First Production Release}
+* {Preparing for the First Production Release}
 
  When a plugin is ready to have its first production release (i.e. not an alpha
  or beta release) there are a couple of extra things that needs to be taken
@@ -112,7 +114,7 @@ mvn docck:check
 
   []
 
-{Call a Vote}
+* {Call a Vote}
  
  Before a release can occur, a vote typically takes place. This is initiated with an email to the dev list, preferrably
  with a subject that starts with <<<[vote]>>>. Explain the plugin, status and any other info you feel relevant. The
@@ -120,7 +122,7 @@ mvn docck:check
  before placing their vote. See the {{{http://www.apache.org/foundation/voting.html}Apache Voting Guidelines}} for more
  information.
 
-{Performing the Release}
+* {Performing the Release}
 
  The release process should be done using the
  {{{http://maven.apache.org/plugins/maven-release-plugin/}Maven Release Plugin}}:
@@ -146,7 +148,7 @@ mvn docck:check
 
   [[6]] TODO: if there's a feed containing all releases, get the release into that feed.
 
-{Releasing the Mojo Parent POM}
+* {Releasing the Mojo Parent POM}
 
   Of course, to release the Mojo Parent POM, a vote takes place just for an ordinary plugin release. But when it comes
   to actually perform the release, there are some differences to watch out for:
