@@ -29,7 +29,7 @@ Plugins
   pre-release or sandbox plugin might seem risky, it is your chance to provide feedback to the community such that the
   plugin can eventually reach production state.
 
-* Production Plugins
+* {Production Plugins}
 
  The following plugins have been released and are generally available for production use.
 
@@ -119,7 +119,7 @@ Plugins
 | {{{./xslt-maven-plugin/} <<<xslt>>>}}                              | 1.0         | Execution of XSLT transformations.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 
-* Pre-release Plugins
+* {Pre-release Plugins}
 
  The following are pre-releases of plugins. They have had releases, but are not deemed ready for production use yet.
 
@@ -221,7 +221,7 @@ Plugins
 | {{{./xml-maven-plugin/} <<<xml>>>}}                                | 1.0-beta-2  | XML transformation and validation.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 
-* Sandbox Plugins
+* {Sandbox Plugins}
 
  These are plugins which have been contributed but have not gained the attention of users or
  a committer interested in seeing it released. If you are looking for a plugin but do not see
@@ -317,7 +317,7 @@ Plugins
 | {{{./xstlc-maven-plugin/} <<<xsltc>>>}}                            | Uses XSLTC to compile an XSL stylesheet into a translet (a set of Java classes).
 *--------------------------------------------------------------------+------------------------------------------------------------+
 
-* Plugin Graveyard
+* {Plugin Graveyard}
 
  These are plugins which been deprecated or are no longer being maintained.
 

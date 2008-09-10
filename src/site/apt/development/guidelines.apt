@@ -36,7 +36,7 @@ Development Guidelines
  * Use the {{{http://maven.apache.org/developers/committer-environment.html#Maven_Code_Style}Maven code style}} when
    formatting your code.
 
-*Licensing
+* {Licensing}
 
   We accept any plugins that follow Codehaus's rules for licensing. We recommend that you use
  {{{http://hausmates.codehaus.org/}Codehaus's recommended license}} which is the MIT license. This license is usable
@@ -46,7 +46,7 @@ Development Guidelines
   Make sure that you include the license in a file called <<<LICENSE.txt>>> in the root of your project and that
  all files include the license at the top of the file.
 
-*Mojo Parents
+* {Mojo Parents}
 
  Released plugins should derive from the Mojo parent:
 
@@ -74,7 +74,7 @@ Development Guidelines
 </project>
 -----------------------------------------
 
-*Plugin Site Template
+* {Plugin Site Template}
 
  Plugins should have a site that conforms to:
  

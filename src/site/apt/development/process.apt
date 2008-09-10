@@ -36,7 +36,7 @@ Development Process
  * Plugins on the website should gather people willing to work on them. I hope at least 2 people will know how an
  individual plugin works.
 
-* Versioning and Release Strategy
+* {Versioning and Release Strategy}
 
  We follow the versioning from Maven itself:
 
@@ -64,7 +64,7 @@ Development Process
  Once a plugin is ready for another release or is about the graduate from the sandbox, follow the checklist for
  {{{./performing-a-release.html}performing a release}}.
 
-* Debugging Tips
+* {Debugging Tips}
 
  To debug Maven 2 with IDEA use this command:
 
