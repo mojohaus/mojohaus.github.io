@@ -108,7 +108,7 @@ Plugins
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | <<Tools>>  | | <Miscellaneous tools available through Maven.>
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
-| {{{./build-helper-maven-plugin/} <<<build-helper>>>}}              | 1.0         | Miscellaneous goals to support build process.
+| {{{./build-helper-maven-plugin/} <<<build-helper>>>}}              | 1.2         | Miscellaneous goals to support build process.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./exec-maven-plugin/} <<<exec>>>}}                              | 1.1         | Execution of system and Java programs.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
@@ -116,7 +116,7 @@ Plugins
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./ounce-maven-plugin/} <<<ounce>>>}}                            | 1.0         | Perform Ouncelabs Ounce code security scans.
 *--------------------------------------------------------------------+------------------------------------------------------------+
-| {{{./sql-maven-plugin/} <<<sql>>>}}                                | 1.0         | Execution of SQL statements.
+| {{{./sql-maven-plugin/} <<<sql>>>}}                                | 1.1         | Execution of SQL statements.
 *--------------------------------------------------------------------+------------------------------------------------------------+
 | {{{./xslt-maven-plugin/} <<<xslt>>>}}                              | 1.0         | Execution of XSLT transformations.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
@@ -172,7 +172,7 @@ Plugins
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./jdepend-maven-plugin/} <<<jdepend>>>}}                        | 2.0-beta-2  | Generates JDepend reports.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
-| {{{./dashboard-maven-plugin/} <<<dashboard>>>}}                    | 1.0.0-beta-1  | Aggregate results from Checkstyle, Cobertura, Clover, Surefire, PMD, CPD, FindBugs, Taglist reports.
+| {{{./dashboard-maven-plugin/} <<<dashboard>>>}}                    | 1.0.0-beta-1| Aggregate results from Checkstyle, Cobertura, Clover, Surefire, PMD, CPD, FindBugs, Taglist reports.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 |
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
@@ -194,7 +194,7 @@ Plugins
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | <<Tools>>  | | <Miscellaneous tools available through Maven.>
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
-| {{{./appassembler/appassembler-maven-plugin/} <<<appassembler>>>}} | 1.0-alpha-2 | Generates bin scripts for Java applications
+| {{{./appassembler/appassembler-maven-plugin/} <<<appassembler>>>}} | 1.0-beta-2  | Generates bin scripts for Java applications
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./buildnumber-maven-plugin/} <<<buildnumber>>>}}                | 1.0-beta-1  | Creates unique build number for each build.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
@@ -268,8 +268,6 @@ Plugins
 *--------------------------------------------------------------------+------------------------------------------------------------+
 | {{{./javascript-maven-tools/} <<<javascript tools>>>}}             | A set of maven plugins to enable maven-driven javascript development.
 *--------------------------------------------------------------------+------------------------------------------------------------+
-| {{{./jaxws-maven-plugin/} <<<jaxws>>>}}                            | Moved to {{{https://jax-ws-commons.dev.java.net/jaxws-maven-plugin}JAX-WS Commons}} at java.net.
-*--------------------------------------------------------------------+------------------------------------------------------------+
 | {{{./jcoverage-maven-plugin/} <<<jcoverage>>>}}                    | (no site)
 *--------------------------------------------------------------------+------------------------------------------------------------+
 | {{{./jdiff-maven-plugin/} <<<jdiff>>>}}                            | Generate an API difference report between two versions of code.
@@ -302,6 +300,8 @@ Plugins
 *--------------------------------------------------------------------+------------------------------------------------------------+
 | {{{./springdoclet-maven-plugin/} <<<springdoclet>>>}}              | (no site)
 *--------------------------------------------------------------------+------------------------------------------------------------+
+| {{{./truezip-maven-plugin/} <<<truezip>>>}}                        | Manipulates archives with TrueZIP
+*--------------------------------------------------------------------+------------------------------------------------------------+
 | {{{./visibroker-maven-plugin/} <<<visibroker>>>}}                  | Maven adapter of VisiBroker command line tools.
 *--------------------------------------------------------------------+------------------------------------------------------------+
 | {{{./weblogic-maven-plugin/} <<<weblogic>>>}}                      | Supports various tasks within the Weblogic 8.1 and 9.x environment.
@@ -329,6 +329,8 @@ Plugins
 | {{{./rat-maven-plugin/} <<<rat>>>}}                                | Moved to the {{{http://incubator.apache.org/} Apache Incubator}}.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./shade-maven-plugin/} <<<shade>>>}}                            | Moved to the official Maven plugins and is now maintained as {{{http://maven.apache.org/plugins/maven-shade-plugin/}Maven Shade Plugin}}.
+*--------------------------------------------------------------------+------------------------------------------------------------+
+| {{{./jaxws-maven-plugin/} <<<jaxws>>>}}                            | Moved to {{{https://jax-ws-commons.dev.java.net/jaxws-maven-plugin}JAX-WS Commons}} at java.net.
 *--------------------------------------------------------------------+------------------------------------------------------------+
 | {{{./groovy/} <<<groovy>>>}}                                       | Moved to {{{http://groovy.codehaus.org/GMaven} GMaven}}.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
