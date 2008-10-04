@@ -176,7 +176,7 @@ Plugins
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./dashboard-maven-plugin/} <<<dashboard>>>}}                    | 1.0.0-beta-1| Aggregate results from Checkstyle, Cobertura, Clover, Surefire, PMD, CPD, FindBugs, Taglist reports.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
-| {{{./emma-maven-plugin/} <<<emma>>>}}                              |             | {{{http://emma.sourceforge.net/}EMMA}} plugin for Maven 2.
+| {{{./emma-maven-plugin/} <<<emma>>>}}                              | 1.0-alpha-1 | {{{http://emma.sourceforge.net/}EMMA}} plugin for Maven 2.
 *--------------------------------------------------------------------+------------------------------------------------------------+
 | {{{./scmchangelog-maven-plugin/} <<<scmchangelog>>>}}              | 1.0-SNAPSHOT |Simple Reporter that creates a changelog report using comments and tags from Subversion.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
