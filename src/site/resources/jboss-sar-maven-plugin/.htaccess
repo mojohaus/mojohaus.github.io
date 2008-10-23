@@ -2,6 +2,6 @@
 ## $Id$
 ##
 
-RedirectMatch permanent jboss-sar-maven-plugin http://maven.apache.org/plugins/jboss-packaging-maven-plugin
-RedirectMatch permanent jboss-sar-maven-plugin/(.*)$ http://maven.apache.org/plugins/jboss-packaging-maven-plugin/
+RedirectMatch permanent jboss-sar-maven-plugin http://mojo.codehaus.org/jboss-packaging-maven-plugin
+RedirectMatch permanent jboss-sar-maven-plugin/(.*)$ http://mojo.codehaus.org/jboss-packaging-maven-plugin
 
