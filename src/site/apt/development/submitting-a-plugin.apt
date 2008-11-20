@@ -29,8 +29,8 @@ Submitting a Plugin
  This document describes the steps for submitting a plugin to the Mojo project. These steps might not apply to
  everyone, but should be a general guideline.
 
- Subscribe to the {{{../mail-lists.html}developer mailing list}} and ask if there is an interrest in the plugin. If there
- is an interrest, package the plugin in a tarball or a zip file, create an issue for the component "Plugin Submission"
+ Subscribe to the {{{../mail-lists.html}developer mailing list}} and ask if there is an interest in the plugin. If there
+ is an interest, package the plugin in a tarball or a zip file, create an issue for the component "Plugin Submission"
  in our {{{../issue-tracking.html}issue tracker}} and attach the source code
  there. Make sure that you try to follow our {{{./guidelines.html}development guidelines}}.
 
