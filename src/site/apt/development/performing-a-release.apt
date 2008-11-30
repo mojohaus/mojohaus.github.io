@@ -142,11 +142,14 @@ mvn docck:check
   [[4]] Update the <<<{{{http://svn.codehaus.org/mojo/site/src/site/apt/plugins.apt}plugins.apt}}>>> document to
         reflect the new release. Redeploy the mojo site and verify that it is functional.
 
-  [[5]] Send out an annoucement email to {{{mailto:dev@mojo.codehaus.org}dev@mojo.codehaus.org}},
+  [[5]] Record the release date for the version in the plugin's JIRA project and create a new version for future
+        development/issues.
+
+  [[6]] Send out an annoucement email to {{{mailto:dev@mojo.codehaus.org}dev@mojo.codehaus.org}},
         {{{mailto:user@mojo.codehaus.org}user@mojo.codehaus.org}} and
         {{{mailto:users@maven.apache.org}users@maven.apache.org}}.
 
-  [[6]] TODO: if there's a feed containing all releases, get the release into that feed.
+  [[7]] TODO: if there's a feed containing all releases, get the release into that feed.
 
 * {Releasing the Mojo Parent POM}
 
