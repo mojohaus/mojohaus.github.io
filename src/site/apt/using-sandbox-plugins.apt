@@ -56,7 +56,7 @@ Using Sandbox Plugins
         <enabled>true</enabled>
       </snapshots>
       <releases>
-        <enabled>false</enabled>
+        <enabled>true</enabled>  <!-- Workaround for MNG-2974, see note below -->
       </releases>
     </pluginRepository>
   </pluginRepositories>
@@ -78,26 +78,31 @@ Using Sandbox Plugins
           <releases>
             <enabled>false</enabled>
           </releases>
-       </repository>
-     </repositories>
-     <pluginRepositories>
-       <pluginRepository>
-         <id>Codehaus Snapshots</id>
-         <url>http://snapshots.repository.codehaus.org/</url>
-         <snapshots>
-           <enabled>true</enabled>
-         </snapshots>
-         <releases>
-           <enabled>false</enabled>
-         </releases>
-       </pluginRepository>
-     </pluginRepositories>
+        </repository>
+      </repositories>
+      <pluginRepositories>
+        <pluginRepository>
+          <id>Codehaus Snapshots</id>
+          <url>http://snapshots.repository.codehaus.org/</url>
+          <snapshots>
+            <enabled>true</enabled>
+          </snapshots>
+          <releases>
+            <enabled>true</enabled>  <!-- Workaround for MNG-2974, see note below -->
+          </releases>
+        </pluginRepository>
+      </pluginRepositories>
     </profile>
   </profiles>
   <activeProfiles>
     <activeProfile>Snapshots</activeProfile>
   </activeProfiles>
 ----------------------
+
+  You might wonder why the download of release versions from the plugin snapshot repository has been enabled although
+  this repository actually only contains snapshot versions. This is workaround for
+  {{{http://jira.codehaus.org/browse/MNG-2974}MNG-2974}} which currently prevents to resolve snapshot versions of
+  plugins when they are invoked directly from the command line.
 
 * {Building Plugins}
 
