@@ -224,7 +224,7 @@ Plugins
 *--------------------------------------------------------------------+------------------------------------------------------------+
 | {{{./solaris/solaris-maven-plugin/} <<<solaris>>>}}                | 1.0-alpha-2 | Creates System V packages.
 *--------------------------------------------------------------------+------------------------------------------------------------+
-| {{{./versions-maven-plugin/} <<<versions>>>}}                      | 1.0-alpha-1 | Supports various tasks for updating the versions of components in the pom.
+| {{{./versions-maven-plugin/} <<<versions>>>}}                      | 1.0-alpha-2 | Supports various tasks for updating the versions of components in the pom.
 *--------------------------------------------------------------------+------------------------------------------------------------+
 | {{{./webstart/webstart-maven-plugin/} <<<webstart>>>}}             | 1.0-alpha-2 | Prepare webstart applications.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
