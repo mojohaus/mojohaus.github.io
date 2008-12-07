@@ -135,7 +135,8 @@ mvn docck:check
   [[2]] Execute <<<mvn release:perform>>>
 
      This will build the plugin, javadocs and source. Everything will be deployed to the repository for synchronization
-     to the central repository. The synchronization occurs every 4 hours. It will also build and deploy the site.
+     to the central repository. The synchronization typically occurs every 4 hours but allow for it take up to 24 hrs. 
+     It will also build and deploy the site.
 
   [[3]] Verify that the central repository synchronization and the plugin site deployment occurred successfully.
 
