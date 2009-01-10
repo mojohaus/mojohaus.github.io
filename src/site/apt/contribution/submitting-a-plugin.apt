@@ -32,7 +32,7 @@ Submitting a Plugin
  Subscribe to the {{{../mail-lists.html}developer mailing list}} and ask if there is an interest in the plugin. If there
  is an interest, package the plugin in a tarball or a zip file, create an issue for the component "Plugin Submission"
  in our {{{../issue-tracking.html}issue tracker}} and attach the source code
- there. Make sure that you try to follow our {{{./guidelines.html}development guidelines}}.
+ there. Make sure that you try to follow our {{{../development/guidelines.html}development guidelines}}.
 
  Once accepted it will be put in the sandbox where you can continue to develop and maintain it. The plugin will
  generally be kept in the sandbox until the first release of the plugin is made.
