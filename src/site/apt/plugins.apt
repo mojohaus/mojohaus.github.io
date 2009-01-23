@@ -282,8 +282,6 @@ Plugins
 *--------------------------------------------------------------------+------------------------------------------------------------+
 | {{{./jelly-maven-tools/} <<<jelly-maven-tools>>>}}                 | (no site)
 *--------------------------------------------------------------------+------------------------------------------------------------+
-| {{{./jetty-maven-plugin/} <<<jetty>>>}}                            | (no site)
-*--------------------------------------------------------------------+------------------------------------------------------------+
 | {{{./kodo-maven-plugin/} <<<kodo>>>}}                              | Enhance files using Solarmetric's Kodo-JDO.
 *--------------------------------------------------------------------+------------------------------------------------------------+
 | {{{./macker-maven-plugin/} <<<macker>>>}}                          | Executes the Macker architectural rule checking utility against a project.
@@ -335,6 +333,8 @@ Plugins
 | {{{./shade-maven-plugin/} <<<shade>>>}}                            | Moved to the official Maven plugins and is now maintained as {{{http://maven.apache.org/plugins/maven-shade-plugin/}Maven Shade Plugin}}.
 *--------------------------------------------------------------------+------------------------------------------------------------+
 | {{{./jaxws-maven-plugin/} <<<jaxws>>>}}                            | Moved to {{{https://jax-ws-commons.dev.java.net/jaxws-maven-plugin}JAX-WS Commons}} at java.net.
+*--------------------------------------------------------------------+------------------------------------------------------------+
+| {{{./jetty-maven-plugin/} <<<jetty>>>}}                            | Superceded by {{{http://jetty.mortbay.org/jetty/maven-plugin/} Mortbay official Jetty maven plugin}}
 *--------------------------------------------------------------------+------------------------------------------------------------+
 | {{{./groovy/} <<<groovy>>>}}                                       | Moved to {{{http://groovy.codehaus.org/GMaven} GMaven}}.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
