@@ -79,6 +79,9 @@ Development Guidelines
 </project>
 -----------------------------------------
 
+ See the {{{../faq.html#what-is-the-sandbox}FAQ}} and {{{./performing-a-release.html#Graduating_from_the_Sandbox}Graduating from the Sandbox}}
+ for more details on sandbox development.
+
 * {Plugin Site Template}
 
  Plugins should have a site that conforms to:
