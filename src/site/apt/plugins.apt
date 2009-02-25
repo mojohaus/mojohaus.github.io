@@ -76,7 +76,7 @@ Plugins
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./jspc-maven-plugin/} <<<jspc>>>}}                              | 1.4.6       | Provides support for JSP compilation.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
-| {{{./openjpa-maven-plugin/} <<<OpenJPA>>>}}                        | 1.0         | Compiletime enhancement, SQL and Mapping Generation for OpenJPA
+| {{{./openjpa-maven-plugin/} <<<openjpa>>>}}                        | 1.0         | Compiletime enhancement, SQL and Mapping Generation for OpenJPA
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./rmic-maven-plugin/} <<<rmic>>>}}                              | 1.0         | Generates rmi (Remote Method Invocation) stub and skeleton classes.
 *--------------------------------------------------------------------+------------------------------------------------------------+
