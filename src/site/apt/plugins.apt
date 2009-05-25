@@ -202,7 +202,7 @@ Plugins
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./dbunit-maven-plugin/} <<<dbunit>>>}}                          | 1.0-beta-2  | Support for using DBunit.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
-| {{{./failsafe-maven-plugin/} <<<failsafe>>>}}                      |             | A fork of maven-surefire-plugin for running integration tests.
+| {{{./failsafe-maven-plugin/} <<<failsafe>>>}}                      | 2.4.3-alpha-1 | A fork of maven-surefire-plugin for running integration tests.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./selenium-maven-plugin/} <<<selenium>>>}}                      | 1.0-rc-1    | Supports automated web-application testing.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
