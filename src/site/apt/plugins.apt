@@ -146,7 +146,7 @@ Plugins
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./jboss-packaging-maven-plugin/} <<<jboss-packaging>>>}}        | 2.0-beta-1  | Packages various JBoss deployable archive files including SAR, HAR, ESB and Spring.
 *--------------------------------------------------------------------+------------------------------------------------------------+
-| {{{./tomcat-maven-plugin/} <<<tomcat>>>}}                          | 1.0-beta-1 | Manipulate WAR projects within Tomcat.
+| {{{./tomcat-maven-plugin/} <<<tomcat>>>}}                          | 1.0-beta-1  | Manipulate WAR projects within Tomcat.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 |
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
@@ -154,7 +154,7 @@ Plugins
 *--------------------------------------------------------------------*-------------+----------------------------------------------+
 | {{{./apt-maven-plugin/} <<<apt>>>}}                                | 1.0-alpha-2 | Annotation Processing Tool.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
-| {{{./cbuild-parent/} <<<cbuilds>>>}}                               | 1.0-alpha-6 | Convert Autoconf projects into RPMs.
+| {{{./cbuild-parent/} <<<cbuilds>>>}}                               | 1.0-beta-1  | Convert Autoconf projects into RPMs.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./jspc/} <<<jspc>>>}}                                           | 2.0-alpha-3 | Support for JSP compilation w/pluggable JSP compiler implementations.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
@@ -351,4 +351,10 @@ Plugins
 | {{{./groovy/} <<<groovy>>>}}                                       | Moved to {{{http://groovy.codehaus.org/GMaven} GMaven}}.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./wsdl2java-maven-plugin/} <<<wsdl2java>>>}}                    | Deprecated use the {{{./axistools-maven-plugin/} axistools-maven-plugin}} instead.
+*--------------------------------------------------------------------+------------------------------------------------------------+
+| {{{./cbuild-parent/cbuild-plugin-parent/platform-detector-maven-plugin} <<<platform-detector>>>}} | Deprecated use the {{{./cbuild-parent/cbuild-plugin-parent/rpm-cbuild-maven-plugin/platform-detect-mojo.html} rpm-cbuild:platform-detect}} goal instead.
+*--------------------------------------------------------------------+------------------------------------------------------------+
+| {{{./cbuild-parent/cbuild-plugin-parent/project-sources-maven-plugin} <<<project-sources>>>}}     | Deprecated use {{{./wagon-maven-plugin} wagon-maven-plugin}} or {{{http://maven.apache.org/plugins/maven-dependency-plugin/} maven-dependency-plugin}} instead.
+*--------------------------------------------------------------------+------------------------------------------------------------+
+| {{{./cbuild-parent/cbuild-plugin-parent/remote-source-maven-plugin} <<<remote-source>>>}}         | Deprecated use {{{./wagon-maven-plugin} wagon-maven-plugin}} or {{{http://maven.apache.org/plugins/maven-dependency-plugin/} maven-dependency-plugin}} instead.
 *--------------------------------------------------------------------+------------------------------------------------------------+
