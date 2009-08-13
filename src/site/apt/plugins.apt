@@ -318,6 +318,8 @@ Plugins
 *--------------------------------------------------------------------+------------------------------------------------------------+
 | {{{./truezip-maven-plugin/} <<<truezip>>>}}                        | Manipulates archives with TrueZIP
 *--------------------------------------------------------------------+------------------------------------------------------------+
+| {{{./virtualization-maven-plugin/} <<<virtualization>>>}}          | Maven plugin to control virtual computers running on a virtualization platform (e.g. VMware/Xen/VirtualBox/... etc)
+*--------------------------------------------------------------------+------------------------------------------------------------+
 | {{{./visibroker-maven-plugin/} <<<visibroker>>>}}                  | Maven adapter of VisiBroker command line tools.
 *--------------------------------------------------------------------+------------------------------------------------------------+
 | {{{./weblogic-maven-plugin/} <<<weblogic>>>}}                      | Supports various tasks within the Weblogic 8.1 and 9.x environment.
