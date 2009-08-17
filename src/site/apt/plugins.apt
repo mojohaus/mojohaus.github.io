@@ -238,6 +238,8 @@ Plugins
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./versions-maven-plugin/} <<<versions>>>}}                      | 1.0-alpha-2 | Supports various tasks for updating the versions of components in the pom.
 *--------------------------------------------------------------------+------------------------------------------------------------+
+| {{{./virtualization-maven-plugin/} <<<virtualization>>>}}          |             | Maven plugin to control virtual computers running on a virtualization platform (e.g. VMware/Xen/VirtualBox/... etc)
+*--------------------------------------------------------------------+------------------------------------------------------------+
 | {{{./wagon-maven-plugin/} <<<wagon>>>}}                            | 1.0-beta-1  | Transfer file between URLs.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./webstart/webstart-maven-plugin/} <<<webstart>>>}}             | 1.0-alpha-2 | Prepare webstart applications.
@@ -317,8 +319,6 @@ Plugins
 | {{{./springdoclet-maven-plugin/} <<<springdoclet>>>}}              | (no site)
 *--------------------------------------------------------------------+------------------------------------------------------------+
 | {{{./truezip-maven-plugin/} <<<truezip>>>}}                        | Manipulates archives with TrueZIP
-*--------------------------------------------------------------------+------------------------------------------------------------+
-| {{{./virtualization-maven-plugin/} <<<virtualization>>>}}          | Maven plugin to control virtual computers running on a virtualization platform (e.g. VMware/Xen/VirtualBox/... etc)
 *--------------------------------------------------------------------+------------------------------------------------------------+
 | {{{./visibroker-maven-plugin/} <<<visibroker>>>}}                  | Maven adapter of VisiBroker command line tools.
 *--------------------------------------------------------------------+------------------------------------------------------------+
