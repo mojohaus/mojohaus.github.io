@@ -134,6 +134,8 @@ Plugins
 *--------------------------------------------------------------------+------------------------------------------------------------+
 | {{{./sql-maven-plugin/} <<<sql>>>}}                                | 1.3         | Execution of SQL statements.
 *--------------------------------------------------------------------+------------------------------------------------------------+
+| {{{./versions-maven-plugin/} <<<versions>>>}}                      | 1.0         | Supports various tasks for updating the versions of components in the pom.
+*--------------------------------------------------------------------+------------------------------------------------------------+
 | {{{./xslt-maven-plugin/} <<<xslt>>>}}                              | 1.0         | Execution of XSLT transformations.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 
@@ -236,8 +238,6 @@ Plugins
 *--------------------------------------------------------------------+------------------------------------------------------------+
 | {{{./unix/} <<<unix>>>}}                                           | 1.0-alpha-3 | Creates packages for all common UNIX platforms.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
-| {{{./versions-maven-plugin/} <<<versions>>>}}                      | 1.0-alpha-2 | Supports various tasks for updating the versions of components in the pom.
-*--------------------------------------------------------------------+------------------------------------------------------------+
 | {{{./virtualization-maven-plugin/} <<<virtualization>>>}}          |             | Maven plugin to control virtual computers running on a virtualization platform (e.g. VMware/Xen/VirtualBox/... etc)
 *--------------------------------------------------------------------+------------------------------------------------------------+
 | {{{./wagon-maven-plugin/} <<<wagon>>>}}                            | 1.0-beta-1  | Transfer file between URLs.
@@ -305,6 +305,8 @@ Plugins
 | {{{./mant-maven-plugin/} <<<mant>>>}}                              | (no site)
 *--------------------------------------------------------------------+------------------------------------------------------------+
 | {{{./maven-springbeandoc-plugin/} <<<springbeandoc>>>}}            | Generates String BeanDoc reports from Spring configs.
+*--------------------------------------------------------------------+------------------------------------------------------------+
+| {{{./mock-repository-maven-plugin/} <<<mock-repository>>>}}        | Hosts a mock remote repository from a bag of <<<pom>>> files for use during integration testing of Maven plugins.
 *--------------------------------------------------------------------+------------------------------------------------------------+
 | {{{./pomtools-maven-plugin/} <<<pomtools>>>}}                      | Provides console based editing of the project's pom.xml.
 *--------------------------------------------------------------------+------------------------------------------------------------+
