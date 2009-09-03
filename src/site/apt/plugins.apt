@@ -104,7 +104,7 @@ Plugins
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./cobertura-maven-plugin/} <<<cobertura>>>}}                    | 2.3         | Code coverage via Cobertura.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
-| {{{./taglist-maven-plugin/} <<<taglist>>>}}                        | 2.3         | Generates a report on various tags found in the code.
+| {{{./taglist-maven-plugin/} <<<taglist>>>}}                        | 2.4         | Generates a report on various tags found in the code.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./scmchangelog-maven-plugin/} <<<scmchangelog>>>}}              | 1.0         |Simple Reporter that creates a changelog report using comments and tags from Subversion.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
