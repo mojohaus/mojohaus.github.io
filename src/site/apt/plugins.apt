@@ -214,7 +214,7 @@ Plugins
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | <<Tools>>  | | <Miscellaneous tools available through Maven.>
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
-| {{{./animal-sniffer-parent/animal-sniffer-maven-plugin/} <<<animal-sniffer>>>}}  |           | Verifies classes against API signatures
+| {{{./animal-sniffer-maven-plugin/} <<<animal-sniffer>>>}}  |           | Verifies classes against API signatures
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./buildnumber-maven-plugin/} <<<buildnumber>>>}}                | 1.0-beta-2  | Creates unique build number for each build.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
