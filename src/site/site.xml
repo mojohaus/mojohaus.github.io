@@ -66,6 +66,11 @@
       <item name="Using Sandbox Plugins" href="using-sandbox-plugins.html"/>
     </menu>
     
+    <menu name="Sub-projects">
+      <item name="Animal sniffer" href="animal-sniffer"/>
+      <item name="Animal scents" href="animal-scents"/>
+    </menu>
+
     <menu name="Project Information">
       <item name="Source Code" href="source-repository.html"/>
       <item name="Mailing Lists" href="mail-lists.html"/>
