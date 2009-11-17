@@ -68,7 +68,7 @@
     
     <menu name="Sub-projects">
       <item name="Animal sniffer" href="animal-sniffer"/>
-      <item name="Animal scents" href="animal-scents"/>
+      <item name="Signatures" href="signatures"/>
     </menu>
 
     <menu name="Project Information">
