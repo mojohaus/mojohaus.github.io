@@ -42,7 +42,7 @@ Plugins
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./jboss-maven-plugin/} <<<jboss>>>}}                            | 1.4         | Control a JBoss server from Maven.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
-| {{{./jboss-packaging-maven-plugin/} <<<jboss-packaging>>>}}        | 2.1         | Packages various JBoss deployable archive files including SAR, HAR, ESB and Spring.
+| {{{./jboss-packaging-maven-plugin/} <<<jboss-packaging>>>}}        | 2.1.1       | Packages various JBoss deployable archive files including SAR, HAR, ESB and Spring.
 *--------------------------------------------------------------------+------------------------------------------------------------+
 | {{{./was6-maven-plugin/} <<<was6>>>}}                              | 1.1.1       | IBM WebSphere Application Server 6.1 support.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
