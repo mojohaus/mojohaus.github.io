@@ -124,7 +124,7 @@ Plugins
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | <<Tools>>  | | <Miscellaneous tools available through Maven.>
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
-| {{{./animal-sniffer-maven-plugin/} <<<animal-sniffer>>>}}          | 1.3         | Verifies classes against API signatures
+| {{{./animal-sniffer-maven-plugin/} <<<animal-sniffer>>>}}          | 1.4         | Verifies classes against API signatures
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./appassembler/appassembler-maven-plugin/} <<<appassembler>>>}} | 1.0         | Generates bin and Java Service Wrapper scripts for Java applications.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
