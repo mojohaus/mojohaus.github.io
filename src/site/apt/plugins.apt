@@ -140,8 +140,6 @@ Plugins
 *--------------------------------------------------------------------+------------------------------------------------------------+
 | {{{./versions-maven-plugin/} <<<versions>>>}}                      | 1.0         | Supports various tasks for updating the versions of components in the pom.
 *--------------------------------------------------------------------+------------------------------------------------------------+
-| {{{./xslt-maven-plugin/} <<<xslt>>>}}                              | 1.0         | Execution of XSLT transformations.
-*--------------------------------------------------------------------+-------------+----------------------------------------------+
 
 * {Pre-release Plugins}
 
@@ -367,4 +365,6 @@ Plugins
 | {{{./cbuild-parent/cbuild-plugin-parent/project-sources-maven-plugin} <<<project-sources>>>}}     | Deprecated use {{{./wagon-maven-plugin} wagon-maven-plugin}} or {{{http://maven.apache.org/plugins/maven-dependency-plugin/} maven-dependency-plugin}} instead.
 *--------------------------------------------------------------------+------------------------------------------------------------+
 | {{{./cbuild-parent/cbuild-plugin-parent/remote-source-maven-plugin} <<<remote-source>>>}}         | Deprecated use {{{./wagon-maven-plugin} wagon-maven-plugin}} or {{{http://maven.apache.org/plugins/maven-dependency-plugin/} maven-dependency-plugin}} instead.
+*--------------------------------------------------------------------+------------------------------------------------------------+
+| {{{./xslt-maven-plugin/} <<<xslt>>>}}                              | Deprecated use the {{{./xml-maven-plugin/}xml-maven-plugin}} instead.
 *--------------------------------------------------------------------+------------------------------------------------------------+
