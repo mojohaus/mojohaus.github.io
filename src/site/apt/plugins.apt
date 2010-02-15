@@ -128,7 +128,7 @@ Plugins
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./appassembler/appassembler-maven-plugin/} <<<appassembler>>>}} | 1.0         | Generates bin and Java Service Wrapper scripts for Java applications.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
-| {{{./build-helper-maven-plugin/} <<<build-helper>>>}}              | 1.3         | Miscellaneous goals to support build process.
+| {{{./build-helper-maven-plugin/} <<<build-helper>>>}}              | 1.5         | Miscellaneous goals to support build process.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./exec-maven-plugin/} <<<exec>>>}}                              | 1.1.1       | Execution of system and Java programs.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
