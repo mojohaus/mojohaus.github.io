@@ -351,26 +351,28 @@ Plugins
 
 *--------------------------------------------------------------------+------------------------------------------------------------+
 | <<Plugin>>                                                         | <<Description>>
-*--------------------------------------------------------------------+------------------------------------------------------------+
-| {{{./jboss-sar-maven-plugin/} <<<jboss-sar>>>}}                    | Deprecated use the {{{./jboss-packaging-maven-plugin/} jboss-packaging}} plugin instead.
-*--------------------------------------------------------------------+------------------------------------------------------------+
-| {{{./rat-maven-plugin/} <<<rat>>>}}                                | Moved to the {{{http://incubator.apache.org/} Apache Incubator}}.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
-| {{{./shade-maven-plugin/} <<<shade>>>}}                            | Moved to the official Maven plugins and is now maintained as {{{http://maven.apache.org/plugins/maven-shade-plugin/}Maven Shade Plugin}}.
-*--------------------------------------------------------------------+------------------------------------------------------------+
-| {{{./jaxws-maven-plugin/} <<<jaxws>>>}}                            | Moved to {{{https://jax-ws-commons.dev.java.net/jaxws-maven-plugin}JAX-WS Commons}} at java.net.
-*--------------------------------------------------------------------+------------------------------------------------------------+
-| {{{./jetty-maven-plugin/} <<<jetty>>>}}                            | Superceded by {{{http://jetty.mortbay.org/jetty/maven-plugin/} Mortbay official Jetty maven plugin}}
+| {{{./failsafe-maven-plugin/} <<<failsafe>>>}}                      | Moved to {{{http://maven.apache.org/plugins/maven-failsafe-plugin/} Maven Failsafe Plugin}}
 *--------------------------------------------------------------------+------------------------------------------------------------+
 | {{{./groovy/} <<<groovy>>>}}                                       | Moved to {{{http://groovy.codehaus.org/GMaven} GMaven}}.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
-| {{{./wsdl2java-maven-plugin/} <<<wsdl2java>>>}}                    | Deprecated use the {{{./axistools-maven-plugin/} axistools-maven-plugin}} instead.
+| {{{./jaxws-maven-plugin/} <<<jaxws>>>}}                            | Moved to {{{https://jax-ws-commons.dev.java.net/jaxws-maven-plugin}JAX-WS Commons}} at java.net.
+*--------------------------------------------------------------------+------------------------------------------------------------+
+| {{{./jboss-sar-maven-plugin/} <<<jboss-sar>>>}}                    | Deprecated use the {{{./jboss-packaging-maven-plugin/} jboss-packaging}} plugin instead.
+*--------------------------------------------------------------------+------------------------------------------------------------+
+| {{{./jetty-maven-plugin/} <<<jetty>>>}}                            | Superceded by {{{http://jetty.mortbay.org/jetty/maven-plugin/} Mortbay official Jetty maven plugin}}
 *--------------------------------------------------------------------+------------------------------------------------------------+
 | {{{./cbuild-parent/cbuild-plugin-parent/platform-detector-maven-plugin} <<<platform-detector>>>}} | Deprecated use the {{{./cbuild-parent/cbuild-plugin-parent/rpm-cbuild-maven-plugin/platform-detect-mojo.html} rpm-cbuild:platform-detect}} goal instead.
 *--------------------------------------------------------------------+------------------------------------------------------------+
 | {{{./cbuild-parent/cbuild-plugin-parent/project-sources-maven-plugin} <<<project-sources>>>}}     | Deprecated use {{{./wagon-maven-plugin} wagon-maven-plugin}} or {{{http://maven.apache.org/plugins/maven-dependency-plugin/} maven-dependency-plugin}} instead.
 *--------------------------------------------------------------------+------------------------------------------------------------+
+| {{{./rat-maven-plugin/} <<<rat>>>}}                                | Moved to the {{{http://incubator.apache.org/} Apache Incubator}}.
+*--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./cbuild-parent/cbuild-plugin-parent/remote-source-maven-plugin} <<<remote-source>>>}}         | Deprecated use {{{./wagon-maven-plugin} wagon-maven-plugin}} or {{{http://maven.apache.org/plugins/maven-dependency-plugin/} maven-dependency-plugin}} instead.
+*--------------------------------------------------------------------+------------------------------------------------------------+
+| {{{./shade-maven-plugin/} <<<shade>>>}}                            | Moved to the official Maven plugins and is now maintained as {{{http://maven.apache.org/plugins/maven-shade-plugin/}Maven Shade Plugin}}.
+*--------------------------------------------------------------------+------------------------------------------------------------+
+| {{{./wsdl2java-maven-plugin/} <<<wsdl2java>>>}}                    | Deprecated use the {{{./axistools-maven-plugin/} axistools-maven-plugin}} instead.
 *--------------------------------------------------------------------+------------------------------------------------------------+
 | {{{./xslt-maven-plugin/} <<<xslt>>>}}                              | Deprecated use the {{{./xml-maven-plugin/}xml-maven-plugin}} instead.
 *--------------------------------------------------------------------+------------------------------------------------------------+
