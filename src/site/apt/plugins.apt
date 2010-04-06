@@ -338,8 +338,6 @@ Plugins
 *--------------------------------------------------------------------+------------------------------------------------------------+
 | {{{./webdoclet-maven-plugin/} <<<webdoclet>>>}}                    | Uses JaxMe 2 to generate JAXB source files from an XML schema.
 *--------------------------------------------------------------------+------------------------------------------------------------+
-| {{{./xfire-maven-plugin/} <<<xfire>>>}}                            | XFire integration.
-*--------------------------------------------------------------------+------------------------------------------------------------+
 | {{{./xjc-maven-plugin/} <<<xjc>>>}}                                | Uses JaxMe 2 to generate JAXB source files from an XML schema.
 *--------------------------------------------------------------------+------------------------------------------------------------+
 | {{{./xstlc-maven-plugin/} <<<xsltc>>>}}                            | Uses XSLTC to compile an XSL stylesheet into a translet (a set of Java classes).
@@ -373,6 +371,8 @@ Plugins
 | {{{./shade-maven-plugin/} <<<shade>>>}}                            | Moved to the official Maven plugins and is now maintained as {{{http://maven.apache.org/plugins/maven-shade-plugin/}Maven Shade Plugin}}.
 *--------------------------------------------------------------------+------------------------------------------------------------+
 | {{{./wsdl2java-maven-plugin/} <<<wsdl2java>>>}}                    | Deprecated use the {{{./axistools-maven-plugin/} axistools-maven-plugin}} instead.
+*--------------------------------------------------------------------+------------------------------------------------------------+
+| {{{./xfire-maven-plugin/} <<<xfire>>>}}                            | Deprecated use the {{{http://cxf.apache.org/docs/using-cxf-with-maven.html}Maven cxf plugins}} instead.
 *--------------------------------------------------------------------+------------------------------------------------------------+
 | {{{./xslt-maven-plugin/} <<<xslt>>>}}                              | Deprecated use the {{{./xml-maven-plugin/}xml-maven-plugin}} instead.
 *--------------------------------------------------------------------+------------------------------------------------------------+
