@@ -144,7 +144,7 @@ Plugins
 *--------------------------------------------------------------------+------------------------------------------------------------+
 | {{{./sql-maven-plugin/} <<<sql>>>}}                                | 1.4         | Execution of SQL statements.
 *--------------------------------------------------------------------+------------------------------------------------------------+
-| {{{./versions-maven-plugin/} <<<versions>>>}}                      | 1.0         | Supports various tasks for updating the versions of components in the pom.
+| {{{./versions-maven-plugin/} <<<versions>>>}}                      | 1.2         | Supports various tasks for updating the versions of components in the pom.
 *--------------------------------------------------------------------+------------------------------------------------------------+
 
 * {Pre-release Plugins}
