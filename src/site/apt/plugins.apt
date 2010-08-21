@@ -226,8 +226,6 @@ Plugins
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./l10n-maven-plugin/} <<<l10n>>>}}                              | 1.0-alpha-2 | The Localization Tools Maven Plugin helps with internationalization and localization of your projects.
 *--------------------------------------------------------------------+------------------------------------------------------------+
-| {{{./minijar-maven-plugin/} <<<minijar>>>}}                        | 1.0-alpha-3 | Creates small jars with only referenced classes.
-*--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./native2ascii-maven-plugin/} <<<native2ascii>>>}}              | 1.0-alpha-1 | Converts text file encodings.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./osxappbundle-maven-plugin/} <<<osxappbundle>>>}}              | 1.0-alpha-1 | Bundles Maven projects as OS X applications.
@@ -364,6 +362,8 @@ Plugins
 *--------------------------------------------------------------------+------------------------------------------------------------+
 | {{{./cbuild-parent/cbuild-plugin-parent/project-sources-maven-plugin} <<<project-sources>>>}}     | Deprecated use {{{./wagon-maven-plugin} wagon-maven-plugin}} or {{{http://maven.apache.org/plugins/maven-dependency-plugin/} maven-dependency-plugin}} instead.
 *--------------------------------------------------------------------+------------------------------------------------------------+
+| {{{./minijar-maven-plugin/} <<<minijar>>>}}                        | Added as minimizeJar parameter to the {{{http://maven.apache.org/plugins/maven-shade-plugin/shade-mojo.html#minimizeJar}maven-shade-plugin}}
+*--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./rat-maven-plugin/} <<<rat>>>}}                                | Moved to the {{{http://incubator.apache.org/} Apache Incubator}}.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./cbuild-parent/cbuild-plugin-parent/remote-source-maven-plugin} <<<remote-source>>>}}         | Deprecated use {{{./wagon-maven-plugin} wagon-maven-plugin}} or {{{http://maven.apache.org/plugins/maven-dependency-plugin/} maven-dependency-plugin}} instead.
