@@ -96,8 +96,6 @@ Plugins
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | <<IDEs>> | | <Plugins that support integration with integrated developer environments.>
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
-| {{{./netbeans-freeform-maven-plugin/} <<<netbeans-freeform>>>}}    | 2.0         | Generates a NetBeans project from a Maven 2 project.
-*--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./nbm-maven-plugin/} <<<nbm>>>}}                                | 3.2         | Creates NetBeans NBM modules.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 |
@@ -363,6 +361,8 @@ Plugins
 | {{{./cbuild-parent/cbuild-plugin-parent/project-sources-maven-plugin} <<<project-sources>>>}}     | Deprecated use {{{./wagon-maven-plugin} wagon-maven-plugin}} or {{{http://maven.apache.org/plugins/maven-dependency-plugin/} maven-dependency-plugin}} instead.
 *--------------------------------------------------------------------+------------------------------------------------------------+
 | {{{./minijar-maven-plugin/} <<<minijar>>>}}                        | Added as minimizeJar parameter to the {{{http://maven.apache.org/plugins/maven-shade-plugin/shade-mojo.html#minimizeJar}maven-shade-plugin}}
+*--------------------------------------------------------------------+-------------+----------------------------------------------+
+| {{{./netbeans-freeform-maven-plugin/} <<<netbeans-freeform>>>}}    | Netbeans has developed its own Maven support {{http://netbeans.org/features/ide/build-tools.html}}
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./rat-maven-plugin/} <<<rat>>>}}                                | Moved to the {{{http://incubator.apache.org/} Apache Incubator}}.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
