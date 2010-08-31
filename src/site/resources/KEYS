@@ -1,0 +1,40 @@
+Edit this file in SVN at https://svn.codehaus.org/mojo/site/src/site/resources/KEYS
+File will be updated with the next site-deployment
+
+
+pub   1024D/763C98BF 2010-08-31
+uid                  Robert Scholte <rfscholte@codehaus.org>
+sig 3        763C98BF 2010-08-31  Robert Scholte <rfscholte@codehaus.org>
+sub   2048g/568A4172 2010-08-31
+sig          763C98BF 2010-08-31  Robert Scholte <rfscholte@codehaus.org>
+
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+Version: GnuPG v1.4.7 (MingW32)
+
+mQGiBEx9Uk0RBACXYFUD3wmccGm6Vuf8C9PDhxLuofl9gLtOIe25vrXWMGIT2g+4
+3SIBR0PJuw6u14qPO0lSN93HIkB0omEohSNTewFjvrsP5HS6YRY/1BkHqxXMYV3t
+aPqBHl7VOqFJNhbpPiHiYq00+HnbK+TBh/cXfTCBxHIHir8cFF5WMAFOkwCg2wke
+0wLdBsIitEwofTLAJKy7cUcEAIEaHLFX4W4HgrOuA3R6FzOnNmR6K7u5fqTUK6Th
+UDG5jv/xdYoeu1zyHJ5NhbfXn21lfKrnWYJN8TQ9XfZ7lMxAE3Ebv4sfUvlzuxvO
+1IfW9N4w06X60BkfT4dqzZltn6Ij02bOYkPghnOl6Zv+dsyHAQpF6FxrgmtcOlzu
+Xz2nA/4vewEDnUZ0V5Qc/u2ZGZqqTnQoWjODYmLRHZVoeyMEoT7GQ5FojXa0IZf9
+eXHKACmCHVjxFLGrjU0q7QC0Yq7kXkWJYo24Wq+vfkebzo3ixAEScW9XanMVkmOK
+rj4RXGwYWs0YJuDjaK/caEw6IZWwaWgpZV/1TYc2/HhokjhV5rQnUm9iZXJ0IFNj
+aG9sdGUgPHJmc2Nob2x0ZUBjb2RlaGF1cy5vcmc+iF8EExECAB8FAkx9Uk0CGwMG
+CwkIBwMCBBUCCAMDFgIBAh4BAheAAAoJEA0Nmqt2PJi/hzcAnRYVmSXuggX6b6NS
+J9G/Fhas1FwLAKClmRdosG5IehCtq0+dyT0I6uTcyrkCDQRMfVJNEAgA4N5BI+kL
+hJjoxRndaS4Xw6b8AERjTDsIPiDo9TnTa6EO5G2tHqvdkEZmBC1+Vw56f/05xVnf
+gS8SJM1YURMeqmC57igphj6Ct84XAFblgk+9OixKT8AfP/FRlXgUt+ilDocrI5PV
+rZ5VRSZIn7W+CsS5Vw7ZZkEEg3SX7kw/i4aRZngfKLfu14ssdOr0VB1/1WjHdKU4
+dUe7DpP8zsYcyxE6Q6CCYMozuWhRst0H75AsL24nGi2xNKbZkKnphy1OM1ebcJnj
+sjJ0dKu7c1fhMrJDx4vKnTqOuEKzQfLgTRJCrNVTb+IIxUn7lbRq69BJ+122Dfy8
+qWqCv4FxYTUXMwADBQgAqanh585pfPoidg+osS4mjHeI6LXzX95WdQv+G9mFaMgL
+mn0uATg7qBW2nZjRsFtSB68lbhQqcTE/Po+4lajL4OwEVXPomTSAynYxMZqJEXF2
+KdEB/zgTRgH1/87ehSYwiOaQaRH/3IsHZQhqpFwPgXkMcbpVuMcSXLaTIxhGPLIS
+tIHJBa1harzFON/GjRA71GRA5LyBlu9EZ8N9HLH2a1+ONCVSFepk1lwCuNKcceCI
++H3jMkkDHBfORPAU6KcwvuIdb9LzJFDTSnW2BJ8adWdg4OMJO0+GhFw4J60Yh7Jc
+7kpeaZspfVfUtAA7K/GXVKxv7WjBU/DnUWABp1cIz4hJBBgRAgAJBQJMfVJNAhsM
+AAoJEA0Nmqt2PJi/clcAnA7OngEPgxlqu9Jp8s/QBQ9mFjgfAJ9sg8KaqfIdlktm
+z1fyE+JSV/zuhg==
+=1i8p
+-----END PGP PUBLIC KEY BLOCK-----
