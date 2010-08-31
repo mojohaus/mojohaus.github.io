@@ -34,9 +34,13 @@ Performing a Release
 
   * {{{Preparing_for_the_First_Production_Release}Preparing for the First Production Release}}
 
+  * {{{Staging_the_Release}Staging the Release}}
+
   * {{{Call_a_Vote}Call a Vote}}
 
-  * {{{Performing_the_Release}Performing the Release}}
+  * {{{Promoting_the_Release}Promoting the Release}}
+
+  * {{{Dropping_the_Release}Dropping the Release}}
 
   * {{{Releasing_the_Mojo_Parent_POM}Releasing the Mojo Parent POM}}
 
@@ -68,6 +72,13 @@ Performing a Release
     or methods that were accidentally used but are only available in later versions of Java.
 
   * Check that the POM properly declares its dependencies, i.e. run <<<mvn dependency:analyze>>> and fix any problems.
+  
+  * To be able to use the maven-release-plugin you need to have a svn client available on your system path. To verify if
+    it's there, execute <<<svn help>>> on the project root.    
+  
+  * Be sure you have generated a gpg-key before performing the release. 
+    Read {{{https://docs.sonatype.org/display/Repository/How+To+Generate+PGP+Signatures+With+Maven}How+To+Generate+PGP+Signatures+With+Maven}}
+    for further details.
 
   []
 
@@ -114,16 +125,8 @@ mvn docck:check
 
   []
 
-* {Call a Vote}
- 
- Before a release can occur, a vote typically takes place. This is initiated with an email to the dev list, preferrably
- with a subject that starts with <<<[vote]>>>. Explain the plugin, status and any other info you feel relevant. The
- standard is to wait 72 hours for responses. This gives other developers time to verify the quality of the plugin
- before placing their vote. See the {{{http://www.apache.org/foundation/voting.html}Apache Voting Guidelines}} for more
- information.
-
-* {Performing the Release}
-
+* {Staging the Release}
+  
  The release process should be done using the
  {{{http://maven.apache.org/plugins/maven-release-plugin/}Maven Release Plugin}}:
 
@@ -134,11 +137,33 @@ mvn docck:check
 
   [[2]] Execute <<<mvn release:perform>>>
 
-     This will build the plugin, javadocs and source. Everything will be deployed to the repository for synchronization
-     to the central repository. The synchronization typically occurs every 4 hours but allow for it take up to 24 hrs. 
-     It will also build and deploy the site.
+     This will build the plugin, javadocs and source. Everything will be deployed to the Nexus Repository Manager, 
+     ready to be staged.
+     <<Be aware, that the site will be built and deployed as well>>. 
+     This means the site will up to date before the voting has even started. Trying to update the site afterwards seems 
+     to be much more complicated, this way we can assure the site will reflect the intended version.    
+     
+  [[3]] Verify that the plugin site deployment occurred successfully.
+  
+  [[4]] Log into {{https://nexus.codehaus.org/}} and "Close" the staging repository.
+  
 
-  [[3]] Verify that the central repository synchronization and the plugin site deployment occurred successfully.
+* {Call a Vote}
+ 
+ Before a release can occur, a vote typically takes place. This is initiated with an email to the dev list, preferrably
+ with a subject that starts with <<<[vote]>>>. Explain the plugin, status and any other info you feel relevant. The
+ standard is to wait 72 hours for responses. This gives other developers time to verify the quality of the plugin
+ before placing their vote. See the {{{http://www.apache.org/foundation/voting.html}Apache Voting Guidelines}} for more
+ information.
+   
+* {Promoting the Release}
+
+  When the vote has passed, do the following:
+
+  [[1]] Log into {{https://nexus.codehaus.org/}} and "Release" the staging repository.
+  
+  [[2]] Wait some time and find the artifacts synced on central. 
+        The synchronization typically occurs every 4 hours but allow for it take up to 24 hrs.
 
   [[4]] Update the <<<{{{http://svn.codehaus.org/mojo/site/src/site/apt/plugins.apt}plugins.apt}}>>> document to
         reflect the new release. Redeploy the mojo site and verify that it is functional.
@@ -151,6 +176,15 @@ mvn docck:check
         {{{mailto:users@maven.apache.org}users@maven.apache.org}}.
 
   [[7]] TODO: if there's a feed containing all releases, get the release into that feed.
+
+* {Dropping the Release}  
+
+  If the vote failed, the following steps have to be taken:
+
+  [[1]] Log into {{https://nexus.codehaus.org/}} and "Drop" the staging repository.
+  
+  [[2]] Rollback any SCM-changes.
+  
 
 * {Releasing the Mojo Parent POM}
 
