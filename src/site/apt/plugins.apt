@@ -28,6 +28,10 @@ Plugins
   Depending on their maturity, the available plugins are organized into groups as shown below. While using a
   pre-release or sandbox plugin might seem risky, it is your chance to provide feedback to the community such that the
   plugin can eventually reach production state.
+  
+  In order to guard against corrupted downloads/installations, it is highly recommended to 
+  {{{http://www.apache.org/dev/release-signing#verifying-signature}verify the signature}} of the release bundles against the public 
+  {{{http://mojo.codehaus.org/KEYS}KEYS}} used by the Codehaus Mojo developers.
 
 * {Production Plugins}
 
