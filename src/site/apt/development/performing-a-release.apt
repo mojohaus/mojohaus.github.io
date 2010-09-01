@@ -33,6 +33,8 @@ Performing a Release
   * {{{Graduating_from_the_Sandbox}Graduating from the Sandbox}}
 
   * {{{Preparing_for_the_First_Production_Release}Preparing for the First Production Release}}
+  
+  * {{{Making_GPG_Keys}Making GPG Keys}}
 
   * {{{Staging_the_Release}Staging the Release}}
 
@@ -77,8 +79,6 @@ Performing a Release
     it's there, execute <<<svn help>>> on the project root.    
   
   * Be sure you have generated a gpg-key before performing the release. 
-    Read {{{https://docs.sonatype.org/display/Repository/How+To+Generate+PGP+Signatures+With+Maven}How+To+Generate+PGP+Signatures+With+Maven}}
-    for further details.
 
   []
 
@@ -125,17 +125,61 @@ mvn docck:check
 
   []
 
+* {Making GPG Keys}
+
+  Before releasing for the first time you have to generate a GPG key and publish it.
+  Information can also be found on Sonatype's {{{https://docs.sonatype.org/display/Repository/How+To+Generate+PGP+Signatures+With+Maven}How To Generate PGP Signatures With Maven}}.
+
+  * Download GPG from {{http://www.gnupg.org/download/}} , follow the instructions and install it to your system. Verify your gpg installation by running gpg with the version flag, i.e. <<<gpg --version>>>
+  
+  * Execute <<<gpg --gen-key>>> and answer the questions. Most of the time you can use the default.
+    
+*-----------------------------------------------------+-------------+
+| Please select what kind of key you want:            | 
+|  (1) DSA and Elgamal (default)                      | 1
+|  (2) DSA (sign only)                                |
+|  (5) RSA (sign only)                                |
+*-----------------------------------------------------+-------------+
+| What keysize do you want? (2048)                    | 2048
+*-----------------------------------------------------+-------------+
+| Please specify how long the key should be valid.    | 
+|    0 = key does not expire                          |
+| <n>  = key expires in n days                        |
+| <n>w = key expires in n weeks                       |
+| <n>m = key expires in n months                      |
+| <n>y = key expires in n years                       |
+| Key is valid for? (0)                               | 0
+*-----------------------------------------------------+-------------+
+| Key does not expire at all                          |
+| Is this correct? (y/N)                              | y
+*-----------------------------------------------------+-------------+
+| Real name:                                          | <your real name>
+*-----------------------------------------------------+-------------+
+| Email address:                                      | <your email address>
+*-----------------------------------------------------+-------------+
+| Change (N)ame, (C)omment, (E)mail or (O)kay/(Q)uit? | O
+*-----------------------------------------------------+-------------+
+
+  
+  * Execute <<<gpg --list-sigs ">>><your real name><<<" && gpg --armor --export ">>><your real name><<<">>> and
+  visit {{http://pgp.mit.edu/}} to distribute your public key, so users can verify your files. 
+  This webpage contains a form where you have to copy your key. 
+  
+  * Update {{https://svn.codehaus.org/mojo/site/src/site/resources/KEYS}} by expanding this file with your key. 
+  If you deploy the site by running <<<mvn site:deploy>>> the key will become available on the mojo-site. 
+  Since all mojo-developers should put their key here it's easy for users to verify mojo-artifacts. 
+
 * {Staging the Release}
   
  The release process should be done using the
  {{{http://maven.apache.org/plugins/maven-release-plugin/}Maven Release Plugin}}:
 
-  [[1]] Execute <<<mvn release:prepare>>>
+  * Execute <<<mvn release:prepare>>>
 
     This will make sure all code is checked in, tag the release and make sure the POM has no snapshot dependencies. If
     your local username is not the same as your codehaus username, be sure to add <<<-Dusername=>>><\<codehaus username\>>.
 
-  [[2]] Execute <<<mvn release:perform>>>
+  * Execute <<<mvn release:perform>>>
 
      This will build the plugin, javadocs and source. Everything will be deployed to the Nexus Repository Manager, 
      ready to be staged.
@@ -143,9 +187,9 @@ mvn docck:check
      This means the site will up to date before the voting has even started. Trying to update the site afterwards seems 
      to be much more complicated, this way we can assure the site will reflect the intended version.    
      
-  [[3]] Verify that the plugin site deployment occurred successfully.
+  * Verify that the plugin site deployment occurred successfully.
   
-  [[4]] Log into {{https://nexus.codehaus.org/}} and "Close" the staging repository.
+  * Log into {{https://nexus.codehaus.org/}} and "Close" the staging repository.
   
 
 * {Call a Vote}
@@ -160,30 +204,30 @@ mvn docck:check
 
   When the vote has passed, do the following:
 
-  [[1]] Log into {{https://nexus.codehaus.org/}} and "Release" the staging repository.
+  * Log into {{https://nexus.codehaus.org/}} and "Release" the staging repository.
   
-  [[2]] Wait some time and find the artifacts synced on central. 
+  * Wait some time and find the artifacts synced on central. 
         The synchronization typically occurs every 4 hours but allow for it take up to 24 hrs.
 
-  [[4]] Update the <<<{{{http://svn.codehaus.org/mojo/site/src/site/apt/plugins.apt}plugins.apt}}>>> document to
+  * Update the <<<{{{http://svn.codehaus.org/mojo/site/src/site/apt/plugins.apt}plugins.apt}}>>> document to
         reflect the new release. Redeploy the mojo site and verify that it is functional.
 
-  [[5]] Record the release date for the version in the plugin's JIRA project and create a new version for future
+  * Record the release date for the version in the plugin's JIRA project and create a new version for future
         development/issues.
 
-  [[6]] Send out an annoucement email to {{{mailto:dev@mojo.codehaus.org}dev@mojo.codehaus.org}},
+  * Send out an annoucement email to {{{mailto:dev@mojo.codehaus.org}dev@mojo.codehaus.org}},
         {{{mailto:user@mojo.codehaus.org}user@mojo.codehaus.org}} and
         {{{mailto:users@maven.apache.org}users@maven.apache.org}}.
 
-  [[7]] TODO: if there's a feed containing all releases, get the release into that feed.
+  * TODO: if there's a feed containing all releases, get the release into that feed.
 
 * {Dropping the Release}  
 
   If the vote failed, the following steps have to be taken:
 
-  [[1]] Log into {{https://nexus.codehaus.org/}} and "Drop" the staging repository.
+  * Log into {{https://nexus.codehaus.org/}} and "Drop" the staging repository.
   
-  [[2]] Rollback any SCM-changes.
+  * Rollback any SCM-changes.
   
 
 * {Releasing the Mojo Parent POM}
