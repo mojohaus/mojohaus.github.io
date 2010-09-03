@@ -74,9 +74,10 @@ Performing a Release
     or methods that were accidentally used but are only available in later versions of Java.
     
   * To <generate> the documentation of the plugin, you will need to use at least Maven 2.1.0 because of the 
-    {{{http://maven.apache.org/plugins/maven-site-plugin/}maven-site-plugin}} preconfigured in the mojo-parent. This requires 
-    to use at least this version of Maven to perform a release. But this doesn't mean you can't use an earlier version 
-    of Maven to build or use this plugin.        
+    {{{http://maven.apache.org/plugins/maven-site-plugin/}maven-site-plugin}} preconfigured in the mojo-parent.
+    To <deploy> you can't use Maven 2.1.0 or 2.2.0, because they produce incorrect GPG signatures and checksums respectively.
+    This means it requires at least Maven 2.2.1 to perform a complete release. But this doesn't mean you can't use an earlier version 
+    of Maven to <build> or <use> this plugin.        
 
   * Check that the POM properly declares its dependencies, i.e. run <<<mvn dependency:analyze>>> and fix any problems.
   
