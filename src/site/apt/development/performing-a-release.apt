@@ -39,6 +39,8 @@ Performing a Release
   * {{{Staging_the_Release}Staging the Release}}
 
   * {{{Call_a_Vote}Call a Vote}}
+  
+  * {{{Preparing_your_environment}Preparing your environment}}
 
   * {{{Promoting_the_Release}Promoting the Release}}
 
@@ -174,6 +176,47 @@ mvn docck:check
   * Update {{https://svn.codehaus.org/mojo/site/src/site/resources/KEYS}} by expanding this file with your key. 
   If you deploy the site by running <<<mvn site:deploy>>> the key will become available on the mojo-site. 
   Since all mojo-developers should put their key here it's easy for users to verify mojo-artifacts. 
+
+* {Preparing your environment}
+
+  For any deployment you have to make contact with one of the codehaus servers, for which authentication is required. 
+  The best way to do this is to include the following sections in your personal <<<settings.xml>>> and fill the
+  <<<xircles.username>>> and <<<xircles.password>>> -properties with your own credentials.
+  
+-----
+<settings xmlns="http://maven.apache.org/settings/1.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+          xsi:schemaLocation="http://maven.apache.org/setrings/1.0.0 http://maven.apache.org/xsd/settings-1.0.0.xsd">
+  <servers>
+    <server>
+      <id>codehaus.org</id> <!-- used for site deployment -->
+      <username>${xircles.username}</username>
+      <password>${xircles.password}</password>
+	</server>    	
+    <server>
+      <id>codehaus-nexus-staging</id> <!-- used for release deployment -->
+      <username>${xircles.username}</username>
+      <password>${xircles.password}</password>
+	</server>    	
+    <server>
+      <id>codehaus-nexus-snapshots</id> <!-- used for snapshot deployment -->
+      <username>${xircles.username}</username>
+      <password>${xircles.password}</password>
+    </server>
+  </servers>
+  <profiles>
+    <profile>
+      <id>xircles</id>
+      <properties>
+        <xircles.username/>
+        <xircles.password/>
+      </properties>
+    </profile>
+  </profiles>
+  <activeProfiles>
+    <activeProfile>xircles</activeProfile>
+  </activeProfiles>                  
+</settings>          
+-----  
 
 * {Staging the Release}
   
