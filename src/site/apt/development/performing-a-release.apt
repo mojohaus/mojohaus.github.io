@@ -276,7 +276,7 @@ mvn docck:check
 
   * Log into {{https://nexus.codehaus.org/}} and "Drop" the staging repository.
   
-  * Rollback any SCM-changes.
+  * Rollback any SCM-changes. Be aware that the <<<release:rollback>>> doesn't remove the tag. You must do this by hand.
   
 
 * {Releasing the Mojo Parent POM}
