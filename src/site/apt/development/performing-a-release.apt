@@ -211,6 +211,32 @@ mvn docck:check
         <xircles.password/>
       </properties>
     </profile>
+    <profile>
+      <id>verify-stage</id> <!-- convenience profile -->
+      <activation>
+        <property>
+          <name>stagingURL</name>
+        </property>
+      </activation>
+      <repositories>
+	    <repository>
+	      <id>codehaus-nexus-staging</id>
+	      <url>${stagingURL}</url>
+	      <releases>
+	        <enabled>true</enabled>
+	      </releases>
+	    </repository>
+	  </repositories>
+	  <pluginRepositories>
+	    <pluginRepository>
+	      <id>codehaus-nexus-staging</id>
+	      <url>${stagingURL}</url>
+	      <releases>
+	        <enabled>true</enabled>
+	      </releases>
+	    </pluginRepository>
+	  </pluginRepositories>
+    </profile>
   </profiles>
   <activeProfiles>
     <activeProfile>xircles</activeProfile>
