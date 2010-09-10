@@ -213,15 +213,10 @@ mvn docck:check
     </profile>
     <profile>
       <id>verify-stage</id> <!-- convenience profile -->
-      <activation>
-        <property>
-          <name>stagingURL</name>
-        </property>
-      </activation>
       <repositories>
 	    <repository>
 	      <id>codehaus-nexus-staging</id>
-	      <url>${stagingURL}</url>
+	      <url>https://nexus.codehaus.org/content/groups/staging/</url>
 	      <releases>
 	        <enabled>true</enabled>
 	      </releases>
@@ -230,7 +225,7 @@ mvn docck:check
 	  <pluginRepositories>
 	    <pluginRepository>
 	      <id>codehaus-nexus-staging</id>
-	      <url>${stagingURL}</url>
+	      <url>https://nexus.codehaus.org/content/groups/staging/</url>
 	      <releases>
 	        <enabled>true</enabled>
 	      </releases>
