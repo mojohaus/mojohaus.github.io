@@ -187,24 +187,24 @@ mvn docck:check
 
 * {Preparing your environment}
 
-  For any deployment you have to make contact with one of the codehaus servers, for which authentication is required. 
-  The best way to do this is to include the following sections in your personal <<<settings.xml>>> and fill the
-  <<<xircles.username>>> and <<<xircles.password>>> -properties with your own credentials.
+  For any deployment you have to make contact with one of the Codehaus servers, for which authentication is required. 
+  The best way to do this is to include the following sections in your personal <<<settings.xml>>> and fill in the
+  <<<xircles.username>>> and <<<xircles.password>>> properties with your own credentials.
   
 -----
-<settings xmlns="http://maven.apache.org/settings/1.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-          xsi:schemaLocation="http://maven.apache.org/setrings/1.0.0 http://maven.apache.org/xsd/settings-1.0.0.xsd">
+<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 http://maven.apache.org/xsd/settings-1.0.0.xsd">
   <servers>
     <server>
       <id>codehaus.org</id> <!-- used for site deployment -->
       <username>${xircles.username}</username>
       <password>${xircles.password}</password>
-	</server>    	
+    </server>    	
     <server>
       <id>codehaus-nexus-staging</id> <!-- used for release deployment -->
       <username>${xircles.username}</username>
       <password>${xircles.password}</password>
-	</server>    	
+    </server>    	
     <server>
       <id>codehaus-nexus-snapshots</id> <!-- used for snapshot deployment -->
       <username>${xircles.username}</username>
@@ -215,30 +215,30 @@ mvn docck:check
     <profile>
       <id>xircles</id>
       <properties>
-        <xircles.username/>
-        <xircles.password/>
+        <xircles.username>jqhacker</xircles.username>
+        <xircles.password>SeCrEt</xircles.password>
       </properties>
     </profile>
     <profile>
       <id>verify-stage</id> <!-- convenience profile -->
       <repositories>
-	    <repository>
-	      <id>codehaus-nexus-staging</id>
-	      <url>https://nexus.codehaus.org/content/groups/staging/</url>
-	      <releases>
-	        <enabled>true</enabled>
-	      </releases>
-	    </repository>
-	  </repositories>
-	  <pluginRepositories>
-	    <pluginRepository>
-	      <id>codehaus-nexus-staging</id>
-	      <url>https://nexus.codehaus.org/content/groups/staging/</url>
-	      <releases>
-	        <enabled>true</enabled>
-	      </releases>
-	    </pluginRepository>
-	  </pluginRepositories>
+        <repository>
+          <id>codehaus-nexus-staging</id>
+          <url>https://nexus.codehaus.org/content/groups/staging/</url>
+          <releases>
+            <enabled>true</enabled>
+          </releases>
+        </repository>
+      </repositories>
+      <pluginRepositories>
+        <pluginRepository>
+          <id>codehaus-nexus-staging</id>
+          <url>https://nexus.codehaus.org/content/groups/staging/</url>
+          <releases>
+            <enabled>true</enabled>
+          </releases>
+        </pluginRepository>
+      </pluginRepositories>
     </profile>
   </profiles>
   <activeProfiles>
@@ -246,6 +246,10 @@ mvn docck:check
   </activeProfiles>                  
 </settings>          
 -----  
+
+  (Note that using {{{http://maven.apache.org/guides/mini/guide-encryption.html#How_to_encrypt_server_passwords}Maven password encryption}}
+  is possible but may not work in combination with the <<<xircles.password>>> property, perhaps due to difficulties with brace expansion.
+  Instead, duplicate your encrypted password into each of the <<<server>>> sections.)
 
 * {Staging the Release}
   
