@@ -280,7 +280,8 @@ mvn docck:check
  with a subject that starts with <<<[vote]>>>. Explain the plugin, status and any other info you feel relevant. The
  standard is to wait 72 hours for responses. This gives other developers time to verify the quality of the plugin
  before placing their vote. See the {{{http://www.apache.org/foundation/voting.html}Apache Voting Guidelines}} for more
- information.
+ information. You could use a {{{./releasevote-mailtemplate.html}template}} to be sure your email contains all the 
+ expected information.
    
 * {Promoting the Release}
 
