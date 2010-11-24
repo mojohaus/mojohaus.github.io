@@ -334,6 +334,8 @@ Plugins
 *--------------------------------------------------------------------+------------------------------------------------------------+
 | {{{./setup-maven-plugin/} <<<setup>>>}}                            | Project to help configure maven-depending configuration files, such as settings.xml, toolchains.xml and various scm-files.
 *--------------------------------------------------------------------+------------------------------------------------------------+
+| {{{./ship-maven-plugin/} <<<ship>>>}}                              | Helps shipping releases when doing Continuous Deployment
+*--------------------------------------------------------------------+------------------------------------------------------------+
 | {{{./simian-report-maven-plugin/} <<<simian-report>>>}}            | Similarity analysis reports.
 *--------------------------------------------------------------------+------------------------------------------------------------+
 | {{{./slimdog-maven-plugin/} <<<slimdog>>>}}                        | (no site)
