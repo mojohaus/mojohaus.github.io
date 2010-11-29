@@ -30,9 +30,9 @@ Welcome to the Mojo Project
 
  The Mojo project is a collection of plugins for Maven 2.
 
- Plugins are currently being published to the {{{http://repository.codehaus.org/org/codehaus/mojo/}Codehaus repository}}.
+ Plugins are currently being published to the {{{http://nexus.codehaus.org/content/repositories/releases/org/codehaus/mojo/}Codehaus repository}}.
  Previous releases have also been published on the {{{http://repo1.maven.org/maven2/org/codehaus/mojo/}Maven Central repository}}.
- {{{http://snapshots.repository.codehaus.org}Snapshots}} are available on request through 
+ {{{http://nexus.codehaus.org/content/repositories/codehaus-snapshots/org/codehaus/mojo/}Snapshots}} are available on request through 
  the user mailing list or by emailing the maintainer. Each plugin has a list of people 
  involved in creating or supporting it.
 
