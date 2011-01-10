@@ -199,28 +199,21 @@ mvn docck:check
   <servers>
     <server>
       <id>codehaus.org</id> <!-- used for site deployment -->
-      <username>${xircles.username}</username>
-      <password>${xircles.password}</password>
+      <username>jqhacker</username> <!-- xircles.username -->
+      <password>SeCrEt</password> <!-- xircles.password -->
     </server>    	
     <server>
       <id>codehaus-nexus-staging</id> <!-- used for release deployment -->
-      <username>${xircles.username}</username>
-      <password>${xircles.password}</password>
+      <username>jqhacker</username> <!-- xircles.username -->
+      <password>SeCrEt</password> <!-- xircles.password -->
     </server>    	
     <server>
       <id>codehaus-nexus-snapshots</id> <!-- used for snapshot deployment -->
-      <username>${xircles.username}</username>
-      <password>${xircles.password}</password>
+      <username>jqhacker</username> <!-- xircles.username -->
+      <password>SeCrEt</password> <!-- xircles.password -->
     </server>
   </servers>
   <profiles>
-    <profile>
-      <id>xircles</id>
-      <properties>
-        <xircles.username>jqhacker</xircles.username>
-        <xircles.password>SeCrEt</xircles.password>
-      </properties>
-    </profile>
     <profile>
       <id>verify-stage</id> <!-- convenience profile -->
       <repositories>
@@ -243,9 +236,6 @@ mvn docck:check
       </pluginRepositories>
     </profile>
   </profiles>
-  <activeProfiles>
-    <activeProfile>xircles</activeProfile>
-  </activeProfiles>                  
 </settings>          
 -----  
 
