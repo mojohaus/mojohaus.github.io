@@ -459,3 +459,41 @@ mB/iIn17O6t3MgFemovlGQHZ3IBEFCQBYhhGVwmQVBMLVeMTvAVayZmZpxErXLYb
 iBTqz6AMRaecKwtIO5tbeddiwB4r/p0=
 =jjAz
 -----END PGP PUBLIC KEY BLOCK-----
+
+pub   2048R/C66C0F69 2011-01-10
+uid                  Anders Hammar (CODE SIGNING KEY) <anders.g.hammar@gmail.com>
+sig 3        C66C0F69 2011-01-10  Anders Hammar (CODE SIGNING KEY) <anders.g.hammar@gmail.com>
+sub   2048R/205205DC 2011-01-10
+sig          C66C0F69 2011-01-10  Anders Hammar (CODE SIGNING KEY) <anders.g.hammar@gmail.com>
+
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+Version: GnuPG/MacGPG2 v2.0.14 (Darwin)
+
+mQENBE0rH4YBCAC0rYqjsLrYtyw683qE62U2EZfJuTc7/gT+ajmTJEeL+XrracJ0
+7CPSaSbUn16n5wRshWxVhtLIpiXdHj9sG6ExTUYFSZdiI1Boaq1dU+QtbWdikRea
+EEbrBSAPw53nMSvFVxAOpx1zRrNpiT722a2NOUAdrR9Y9TQ1w9A8jSnmThDNBWEL
+3wCahako/0iJGCM4c7eoxqsYu9KtYr66+11QX66wxYdli/M54zl5Dc5JE2p8XOqX
+BFdKaJOcFnwIWEnHlDwI67O6ypvjtLCPIq/ueokgLxIJ+9mU8WjHazdofsIHyorN
+EMVSUb0t/9FbfShqfH9ouxGz8OkcB5raGGfnABEBAAG0PEFuZGVycyBIYW1tYXIg
+KENPREUgU0lHTklORyBLRVkpIDxhbmRlcnMuZy5oYW1tYXJAZ21haWwuY29tPokB
+OAQTAQIAIgUCTSsfhgIbAwYLCQgHAwIGFQgCCQoLBBYCAwECHgECF4AACgkQSz9O
+3cZsD2kPgggArUu717LAWlXzi9BmBVIWfNhGfk3JOBwV5S+E+047k0w8lBmkplak
+aSTo2hIQqc9aO2tuuhsCqYmS5QdmpRbBu7P1cXtVMfQp8HK1ZndSE0ovFj8dMouZ
+cZRkjIXlg6QxExLEs3wusak7errOUWnwEmhcNa7m6ET0cgSRaCVwMzbi9Ps+5kio
+SZfH+ptEW1sZ0OZ3QjMTQguvvfDd7JgLi4hAKI6weoPyksJsbofdWDEwrxTgmjYq
+xOqfyWFfx/wiapwp77tUUQGwsLXhFwqWJKDLfTt5CFk/8p1IFDo635gDSkav8Hb8
+Qz/XfXCd3OoBV9+kzeN7IOV6BwvrAC6GILkBDQRNKx+GAQgAxYfzjwUX98k/VK1/
+zcQHImGRxtRt3dR/UKxvSBH+CxbGadJkWyiopHsmqQklcKO729fJR8K2zfTlhz38
+m9WWbOUFrLx5n3aFJctbEzqVoClr6xZcWdynwrCB1lqo5PnplvXPH+v+Ibr+r3j9
+qaE+fwzDjDhcxZatVL3UipdKXw6wYNoa9eRHUksy6heei6Vkm/OaV1vVpD8yJ28m
+SJHtOyho/BSB9qw6VIcNURQb4DGRCnXK1WYQpc5j3Ex2v1le1IY2JqOj/GEuLtag
+C0Ikg7zyNuQsySyxKJ+PVc+W+3pD1ILnt+d4EQVGbZjk/Rx7nY1cnC/h+FYtxRSQ
+KxRa4QARAQABiQEfBBgBAgAJBQJNKx+GAhsMAAoJEEs/Tt3GbA9pNBkH/j5glJ2+
+HTqI4aXUJWlqGvGdjqpWHbv9HBUKCwpnUqs6fMtfM3a6BuD1ydju/eIQEkfXAJrk
+yBiQhp6bjvIiGdVMtHCv3bIaLGttcZlxFV6Yxbu8swc86cU8936gP7KEDlCfcbez
+00bfSKDQjaXxd8hJpckzggasjyG7u5kuRWkRv6Uly0g+P21RlugNswTPyzomc/Uy
+tIFSkYn12J4xnHO2ToLbSxweWfDgxGAObfg8yiHKIbnH7Jt2rrkW+xuwjdjqIlZY
+coz6fYWJb4oylJQSLEttIeG9ZVyMOcJPEWWxh5r5SvRKBNj0owTJ3pKtjYTi7bR2
+gOieueHUKoz2XxU=
+=94+P
+-----END PGP PUBLIC KEY BLOCK-----
