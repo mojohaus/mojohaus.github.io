@@ -334,7 +334,7 @@ Plugins
 *--------------------------------------------------------------------+------------------------------------------------------------+
 | {{{./runtime-maven-plugin/} <<<runtime>>>}}                        | (no site)
 *--------------------------------------------------------------------+------------------------------------------------------------+
-| {{{./setup-maven-plugin/} <<<setup>>>}}                            | Project to help configure maven-depending configuration files, such as settings.xml, toolchains.xml and various scm-files.
+| {{{./setup/setup-maven-plugin/} <<<setup>>>}}                      | Helps configure Maven-related configuration files, such as settings.xml, toolchains.xml and various scm settings files.
 *--------------------------------------------------------------------+------------------------------------------------------------+
 | {{{./simian-report-maven-plugin/} <<<simian-report>>>}}            | Similarity analysis reports.
 *--------------------------------------------------------------------+------------------------------------------------------------+
