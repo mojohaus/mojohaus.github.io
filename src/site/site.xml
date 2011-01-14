@@ -32,6 +32,7 @@
   </bannerRight>
 
   <publishDate format="yyyy-MM-dd" position="right" />
+  <version position="none"/>
 
   <body>
     <breadcrumbs>
