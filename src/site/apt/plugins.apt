@@ -48,7 +48,7 @@ Plugins
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./jboss-maven-plugin/} <<<jboss>>>}}                            | 1.4.1       | Manage and deploy to a JBoss server using Maven 
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
-| {{{./jboss-packaging-maven-plugin/} <<<jboss-packaging>>>}}        | 2.1.1       | Packages various JBoss deployable archive files including SAR, HAR, ESB and Spring.
+| {{{./jboss-packaging-maven-plugin/} <<<jboss-packaging>>>}}        | 2.2         | Packages various JBoss deployable archive files including AOP, ESB, HAR, SAR, and Spring.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./tomcat-maven-plugin/} <<<tomcat>>>}}                          | 1.1         | Manipulate WAR projects within Tomcat.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
