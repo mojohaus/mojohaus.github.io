@@ -40,12 +40,12 @@ Performing a Release
   
   * {{{Importing_CA_Certificates}Importing CA Certificates}}
 
+  * {{{Preparing_your_environment}Preparing your environment}}
+
   * {{{Staging_the_Release}Staging the Release}}
 
   * {{{Call_a_Vote}Call a Vote}}
   
-  * {{{Preparing_your_environment}Preparing your environment}}
-
   * {{{Promoting_the_Release}Promoting the Release}}
 
   * {{{Dropping_the_Release}Dropping the Release}}
