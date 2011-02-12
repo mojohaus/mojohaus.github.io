@@ -136,6 +136,8 @@ Plugins
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./build-helper-maven-plugin/} <<<build-helper>>>}}              | 1.5         | Miscellaneous goals to support build process.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
+| {{{./cassandra-maven-plugin/} <<<cassandra>>>}}                    | 0.7.0-1     | Mojo's plugin for Apache Maven to allow controlling Apache Cassandra
+*--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./exec-maven-plugin/} <<<exec>>>}}                              | 1.2         | Execution of system and Java programs.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./keytool-maven-plugin/} <<<keytool>>>}}                        | 1.0         | Manipulates keys and keystores.
@@ -271,8 +273,6 @@ Plugins
 | {{{./axis-archetype-maven-plugin/} <<<axis-archetype>>>}}          | (no site)
 *--------------------------------------------------------------------+------------------------------------------------------------+
 | {{{./dbupgrade/dbupgrade-maven-plugin/} <<<dbupgrade>>>}}          | Incrementally upgrade application database
-*--------------------------------------------------------------------+------------------------------------------------------------+
-| {{{./cassandra-maven-plugin/} <<<cassandra>>>}}                    | Mojo's plugin for Apache Maven to allow controlling Apache Cassandra
 *--------------------------------------------------------------------+------------------------------------------------------------+
 | {{{./chronos-maven-plugin/} <<<chronos>>>}}                        | Continuous performancetesting with jmeter and reports of the results
 *--------------------------------------------------------------------+------------------------------------------------------------+
