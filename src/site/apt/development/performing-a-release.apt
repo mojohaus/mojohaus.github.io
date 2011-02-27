@@ -290,7 +290,8 @@ mvn docck:check
   * Record the release date for the version in the plugin's JIRA project and create a new version for future
         development/issues.
 
-  * Send out an annoucement email to {{{mailto:dev@mojo.codehaus.org}dev@mojo.codehaus.org}},
+  * Send out an annoucement email to {{{mailto:announce@mojo.codehaus.org}announce@mojo.codehaus.org}}, 
+  		{{{mailto:dev@mojo.codehaus.org}dev@mojo.codehaus.org}},
         {{{mailto:user@mojo.codehaus.org}user@mojo.codehaus.org}} and
         {{{mailto:users@maven.apache.org}users@maven.apache.org}}. 
         You can use a {{{./announcement-mailtemplate.html}template}} to be sure your email contains all the 
