@@ -1,0 +1,7 @@
+##
+## $Id$
+##
+
+RedirectMatch permanent mojo-site http://mojo.codehaus.org
+RedirectMatch permanent mojo-site/(.*)$ http://mojo.codehaus.org/$1
+
