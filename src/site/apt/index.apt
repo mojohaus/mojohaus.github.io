@@ -1,5 +1,5 @@
  ------
- Maven 2 Plugins Project
+ Maven Plugins Project
  ------
  Trygve Laugstol
  ------
@@ -28,17 +28,17 @@
 
 Welcome to the Mojo Project
 
- The Mojo project is a collection of plugins for Maven 2.
+ The Mojo project is a collection of plugins for Apache Maven 2 & 3.
 
- Plugins are currently being published to the {{{http://nexus.codehaus.org/content/repositories/releases/org/codehaus/mojo/}Codehaus repository}}.
- Previous releases have also been published on the {{{http://repo1.maven.org/maven2/org/codehaus/mojo/}Maven Central repository}}.
- {{{http://nexus.codehaus.org/content/repositories/codehaus-snapshots/org/codehaus/mojo/}Snapshots}} are available on request through 
- the user mailing list or by emailing the maintainer. Each plugin has a list of people 
- involved in creating or supporting it.
+ Releases of the plugins are available from the {{{http://repo1.maven.org/maven2/org/codehaus/mojo/}Maven Central repository}}.
+ {{{https://nexus.codehaus.org/content/groups/snapshots-group/org/codehaus/mojo/}Snapshots}} are available on request through 
+ the {{{./mail-lists.html}users mailing list}} or by emailing the maintainer. Each plugin has a list of people involved in
+ creating or supporting it.
 
 * Plugins
 
- For information on the plugins hosted at the Mojo project see the {{{./plugins.html}plugin list}}.
+ For information on the plugins hosted at the Mojo project see the {{{./plugins.html}plugins list}}. Detailed information and
+ instructions for each plugin can be found on its Maven site.
 
  You can also check out other plugins from the subversion repository and build them yourself for 
  general usage, including the sandbox plugins. See {{{./using-sandbox-plugins.html}using 
@@ -48,7 +48,8 @@ Welcome to the Mojo Project
 * Getting Support
 
  If you have problems or concerns with plugins in the Mojo project please contact the author, ask on
- the {{{./mail-lists.html}users mailing list}} or join us on {{{./irc.html}IRC}}.
+ the {{{./mail-lists.html}users mailing list}} or join us on {{{./irc.html}IRC}}. There are also instructions on
+ {{{./contribution/reporting-an-issue.html}how to report an issue}} should you run into one.
 
 * Development
 
