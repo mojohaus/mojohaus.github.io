@@ -183,8 +183,8 @@ mvn docck:check
 
 * {Importing CA Certificates}
 
-  Before releasing for the first time you have to import the Codehaus CA certificates into your JDK keystore.  Follow
-  the Codehaus instructions for
+  One part of a releasement is deploying the site documentation. Before being able to do so you have to 
+  import the Codehaus CA certificates into your JDK keystore.  Follow the Codehaus instructions for
   {{{https://docs.codehaus.org/display/HAUSMATES/Installing+a+new+CA+into+the+JDK}Installing a new CA into the JDK}}.
 
 * {Preparing your environment}
