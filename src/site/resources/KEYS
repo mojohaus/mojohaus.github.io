@@ -635,6 +635,13 @@ mG5wK0Laf3mTSUtYOUhb1oA4YDKkRJ6H10pjv4il82P5fIaLV3AEs8Tf5+2wvdcr
 Q45a
 =8b6e
 -----END PGP PUBLIC KEY BLOCK-----
+
+pub   2048R/043E3145 2011-03-15
+uid                  Garvin LeClaire <garvin.leclaire@gmail.com>
+sig 3        043E3145 2011-03-15  Garvin LeClaire <garvin.leclaire@gmail.com>
+sub   2048R/DF4F8FAE 2011-03-15
+sig          043E3145 2011-03-15  Garvin LeClaire <garvin.leclaire@gmail.com>
+
 -----BEGIN PGP PUBLIC KEY BLOCK-----
 Version: GnuPG/MacGPG2 v2.0.17 (Darwin)
 Comment: GPGTools - http://gpgtools.org
