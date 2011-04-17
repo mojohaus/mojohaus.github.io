@@ -274,7 +274,7 @@ Plugins
 *--------------------------------------------------------------------+------------------------------------------------------------+
 | {{{./argouml-maven-plugin/} <<<argouml>>>}}                        | Generates images from ArgoUML diagrams.
 *--------------------------------------------------------------------+------------------------------------------------------------+
-| {{{./axis-archetype-maven-plugin/} <<<axis-archetype>>>}}          | (no site)
+| {{{./axis-archetype/} <<<axis-archetype>>>}}                       | This archetype is an example of using the Axistools and Cargo Maven Plugins.
 *--------------------------------------------------------------------+------------------------------------------------------------+
 | {{{./dbupgrade/dbupgrade-maven-plugin/} <<<dbupgrade>>>}}          | Incrementally upgrade application database.
 *--------------------------------------------------------------------+------------------------------------------------------------+
