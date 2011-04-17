@@ -46,7 +46,7 @@ Plugins
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | <<Application Server>> | | <Plugins that support integration with application servers.>
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
-| {{{./jboss-maven-plugin/} <<<jboss>>>}}                            | 1.5.0       | Manage and deploy to a JBoss server using Maven 
+| {{{./jboss-maven-plugin/} <<<jboss>>>}}                            | 1.5.0       | Manage and deploy to a JBoss server using Maven.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./jboss-packaging-maven-plugin/} <<<jboss-packaging>>>}}        | 2.2         | Packages various JBoss deployable archive files including AOP, ESB, HAR, SAR, and Spring.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
@@ -86,7 +86,7 @@ Plugins
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./jspc-maven-plugin/} <<<jspc>>>}}                              | 1.4.6       | Provides support for JSP compilation.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
-| {{{./openjpa-maven-plugin/} <<<openjpa>>>}}                        | 1.1         | Compiletime enhancement, SQL and Mapping Generation for OpenJPA
+| {{{./openjpa-maven-plugin/} <<<openjpa>>>}}                        | 1.1         | Compiletime enhancement, SQL and Mapping Generation for OpenJPA.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./rmic-maven-plugin/} <<<rmic>>>}}                              | 1.1         | Generates rmi (Remote Method Invocation) stub and skeleton classes.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
@@ -94,11 +94,11 @@ Plugins
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./sqlj-maven-plugin/} <<<sqlj>>>}}                              | 1.1         | Generate source code from SQLJ files.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
-| {{{./sysdeo-tomcat-maven-plugin/} <<<sysdeo-tomcat>>>}}            | 1.0         | Used with the Eclipse plugin to produce a Tomcat classpath for the Sysdeo Tomcat Eclipse plugin
-*--------------------------------------------------------------------+-------------+----------------------------------------------+
-| {{{./xmlbeans-maven-plugin/} <<<xmlbeans>>>}}                      | 2.3.3       | XML to Java binding via XMLBeans.
+| {{{./sysdeo-tomcat-maven-plugin/} <<<sysdeo-tomcat>>>}}            | 1.0         | Used with the Eclipse plugin to produce a Tomcat classpath for the Sysdeo Tomcat Eclipse plugin.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./xdoclet-maven-plugin/} <<<xdoclet>>>}}                        | 1.0         | Provides XDoclet functionality to Maven.
+*--------------------------------------------------------------------+-------------+----------------------------------------------+
+| {{{./xmlbeans-maven-plugin/} <<<xmlbeans>>>}}                      | 2.3.3       | XML to Java binding via XMLBeans.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 |
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
@@ -110,13 +110,13 @@ Plugins
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | <<Reporting>> | | <Plugins which generate reports.>
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
-| {{{./clirr-maven-plugin/} <<<clirr>>>}}                            | 2.3       | Checks Java libraries for binary and source compatibility with older releases.
+| {{{./clirr-maven-plugin/} <<<clirr>>>}}                            | 2.3         | Checks Java libraries for binary and source compatibility with older releases.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./cobertura-maven-plugin/} <<<cobertura>>>}}                    | 2.4         | Code coverage via Cobertura.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
-| {{{./taglist-maven-plugin/} <<<taglist>>>}}                        | 2.4         | Generates a report on various tags found in the code.
+| {{{./scmchangelog-maven-plugin/} <<<scmchangelog>>>}}              | 1.0         | Simple Reporter that creates a changelog report using comments and tags from Subversion.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
-| {{{./scmchangelog-maven-plugin/} <<<scmchangelog>>>}}              | 1.0         |Simple Reporter that creates a changelog report using comments and tags from Subversion.
+| {{{./taglist-maven-plugin/} <<<taglist>>>}}                        | 2.4         | Generates a report on various tags found in the code.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 |
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
@@ -132,13 +132,15 @@ Plugins
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | <<Tools>>  | | <Miscellaneous tools available through Maven.>
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
-| {{{./animal-sniffer-maven-plugin/} <<<animal-sniffer>>>}}          | 1.4         | Verifies classes against API signatures
+| {{{./animal-sniffer-maven-plugin/} <<<animal-sniffer>>>}}          | 1.4         | Verifies classes against API signatures.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./appassembler/appassembler-maven-plugin/} <<<appassembler>>>}} | 1.1.1       | Generates bin and Java Service Wrapper scripts for Java applications.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./build-helper-maven-plugin/} <<<build-helper>>>}}              | 1.5         | Miscellaneous goals to support build process.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
-| {{{./cassandra-maven-plugin/} <<<cassandra>>>}}                    | 0.7.4-1     | Mojo's plugin for Apache Maven to allow controlling Apache Cassandra
+| {{{./buildnumber-maven-plugin/} <<<buildnumber>>>}}                | 1.0         | Creates unique build number for each build.
+*--------------------------------------------------------------------+-------------+----------------------------------------------+
+| {{{./cassandra-maven-plugin/} <<<cassandra>>>}}                    | 0.7.4-1     | Mojo's plugin for Apache Maven to allow controlling Apache Cassandra.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./exec-maven-plugin/} <<<exec>>>}}                              | 1.2         | Execution of system and Java programs.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
@@ -152,9 +154,7 @@ Plugins
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./sql-maven-plugin/} <<<sql>>>}}                                | 1.4         | Execution of SQL statements.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
-| {{{./versions-maven-plugin/} <<<versions>>>}}                      | 1.2         | Supports various tasks for updating the versions of components in the pom.
-*--------------------------------------------------------------------+-------------+----------------------------------------------+
-| {{{./buildnumber-maven-plugin/} <<<buildnumber>>>}}                | 1.0         | Creates unique build number for each build.
+| {{{./versions-maven-plugin/} <<<versions>>>}}                      | 1.2         | Supports various tasks for updating the versions of components in the POM.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 
 * {Pre-release Plugins}
@@ -178,7 +178,7 @@ Plugins
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./retrotranslator-maven-plugin/} <<<retrotranslator>>>}}        | 1.0-alpha-4 | Translates JDK 5.0 classes to be compatbile with a 1.4 JVM.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
-| {{{./springws-maven-plugin/} <<<springws>>>}}                      | 1.0-alpha-1 | Spring ws plugin for extracting .wsdl files
+| {{{./springws-maven-plugin/} <<<springws>>>}}                      | 1.0-alpha-1 | Spring ws plugin for extracting .wsdl files.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./smc-maven-plugin/} <<<smc>>>}}                                | 1.0-alpha-1 | State Machine Compiler.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
@@ -192,7 +192,7 @@ Plugins
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | <<Reporting>> | | <Plugins which generate reports.>
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
-| {{{./dita-maven-plugin/} <<<dita>>>}}                              | 1.0-beta-2  | Support for DITA transformations using DITA Open Toolkit
+| {{{./dita-maven-plugin/} <<<dita>>>}}                              | 1.0-beta-2  | Support for DITA transformations using DITA Open Toolkit.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./docbook-maven-plugin/} <<<docbook>>>}}                        | 1.0.0-alpha-1 | Support for Docbook transformations.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
@@ -216,7 +216,7 @@ Plugins
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | <<Testing>> | | <Plugins which support testing.>
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
-| {{{./dbunit-maven-plugin/} <<<dbunit>>>}}                          | 1.0-beta-3  | Support for using DBunit.
+| {{{./dbunit-maven-plugin/} <<<dbunit>>>}}                          | 1.0-beta-3  | Support for using DbUunit.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./shitty-maven-plugin/} <<<shitty>>>}}                          | 1.0-alpha-3 | Super Helpful Integration Testing ThingY (SHITTY) Maven Plugin.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
@@ -230,7 +230,7 @@ Plugins
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./jalopy-maven-plugin/} <<<jalopy>>>}}                          | 1.0-alpha-1 | Formats java source files following a coding convention.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
-| {{{./jasperreports-maven-plugin/} <<<jasperreports>>>}}            | 1.0-beta-2  | Compiles Jasper Report Design Files
+| {{{./jasperreports-maven-plugin/} <<<jasperreports>>>}}            | 1.0-beta-2  | Compiles Jasper Report Design Files.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./l10n-maven-plugin/} <<<l10n>>>}}                              | 1.0-alpha-2 | The Localization Tools Maven Plugin helps with internationalization and localization of your projects.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
@@ -242,7 +242,7 @@ Plugins
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./properties-maven-plugin/} <<<properties>>>}}                  | 1.0-alpha-2 | Read and write properties files.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
-| {{{./ship-maven-plugin/} <<<ship>>>}}                              |             | Helps shipping releases when doing Continuous Deployment
+| {{{./ship-maven-plugin/} <<<ship>>>}}                              |             | Helps shipping releases when doing Continuous Deployment.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./solaris/solaris-maven-plugin/} <<<solaris>>>}}                | 1.0-alpha-2 | Creates System V packages.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
@@ -250,7 +250,7 @@ Plugins
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./unix/} <<<unix>>>}}                                           | 1.0-alpha-3 | Creates packages for all common UNIX platforms.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
-| {{{./virtualization-maven-plugin/} <<<virtualization>>>}}          |             | Maven plugin to control virtual computers running on a virtualization platform (e.g. VMware/Xen/VirtualBox/... etc)
+| {{{./virtualization-maven-plugin/} <<<virtualization>>>}}          |             | Maven plugin to control virtual computers running on a virtualization platform (e.g. VMware/Xen/VirtualBox/... etc).
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./wagon-maven-plugin/} <<<wagon>>>}}                            | 1.0-beta-3  | Transfer files between URLs.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
@@ -276,13 +276,13 @@ Plugins
 *--------------------------------------------------------------------+------------------------------------------------------------+
 | {{{./axis-archetype-maven-plugin/} <<<axis-archetype>>>}}          | (no site)
 *--------------------------------------------------------------------+------------------------------------------------------------+
-| {{{./dbupgrade/dbupgrade-maven-plugin/} <<<dbupgrade>>>}}          | Incrementally upgrade application database
+| {{{./dbupgrade/dbupgrade-maven-plugin/} <<<dbupgrade>>>}}          | Incrementally upgrade application database.
 *--------------------------------------------------------------------+------------------------------------------------------------+
-| {{{./chronos-maven-plugin/} <<<chronos>>>}}                        | Continuous performancetesting with jmeter and reports of the results
+| {{{./chronos-maven-plugin/} <<<chronos>>>}}                        | Continuous performancetesting with jmeter and reports of the results.
 *--------------------------------------------------------------------+------------------------------------------------------------+
 | {{{./ckjm-maven-plugin/} <<<ckjm>>>}}                              | Executes the Ckjm bytecode analysis utility against a project.
 *--------------------------------------------------------------------+------------------------------------------------------------+
-| {{{./codenarc-maven-plugin/} <<<codenarc>>>}}                      | Generate CodeNarc report against Groovy source code
+| {{{./codenarc-maven-plugin/} <<<codenarc>>>}}                      | Generate CodeNarc report against Groovy source code.
 *--------------------------------------------------------------------+------------------------------------------------------------+
 | {{{./cruisecontrol-maven-plugin/} <<<cruisecontrol>>>}}            | (no site)
 *--------------------------------------------------------------------+------------------------------------------------------------+
@@ -292,7 +292,7 @@ Plugins
 *--------------------------------------------------------------------+------------------------------------------------------------+
 | {{{./ec2-maven-plugin/} <<<ec2>>>}}                                | Amazon Elastic Compute Cloud EC2 tasks.
 *--------------------------------------------------------------------+------------------------------------------------------------+
-| {{{./enchanter/} <<<enchanter>>>}}                                 | Execute expect like scripts over telnet/ssh sessions
+| {{{./enchanter/} <<<enchanter>>>}}                                 | Execute expect like scripts over telnet/ssh sessions.
 *--------------------------------------------------------------------+------------------------------------------------------------+
 | {{{./ejbdoclet-maven-plugin/} <<<ejbdoclet>>>}}                    | Uses JaxMe 2 to generate JAXB source files from an XML schema.
 *--------------------------------------------------------------------+------------------------------------------------------------+
@@ -346,7 +346,7 @@ Plugins
 *--------------------------------------------------------------------+------------------------------------------------------------+
 | {{{./springdoclet-maven-plugin/} <<<springdoclet>>>}}              | (no site)
 *--------------------------------------------------------------------+------------------------------------------------------------+
-| {{{./syslog-maven-plugin/} <<<syslog>>>}}                          | Provides goals to send and receive syslog
+| {{{./syslog-maven-plugin/} <<<syslog>>>}}                          | Provides goals to send and receive syslog.
 *--------------------------------------------------------------------+------------------------------------------------------------+
 | {{{./visibroker-maven-plugin/} <<<visibroker>>>}}                  | Maven adapter of VisiBroker command line tools.
 *--------------------------------------------------------------------+------------------------------------------------------------+
@@ -364,7 +364,7 @@ Plugins
 *--------------------------------------------------------------------+------------------------------------------------------------+
 | <<Plugin>>                                                         | <<Description>>
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
-| {{{./failsafe-maven-plugin/} <<<failsafe>>>}}                      | Moved to {{{http://maven.apache.org/plugins/maven-failsafe-plugin/} Maven Failsafe Plugin}}
+| {{{./failsafe-maven-plugin/} <<<failsafe>>>}}                      | Moved to {{{http://maven.apache.org/plugins/maven-failsafe-plugin/} Maven Failsafe Plugin}}.
 *--------------------------------------------------------------------+------------------------------------------------------------+
 | {{{./groovy/} <<<groovy>>>}}                                       | Moved to {{{http://groovy.codehaus.org/GMaven} GMaven}}.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
@@ -372,15 +372,15 @@ Plugins
 *--------------------------------------------------------------------+------------------------------------------------------------+
 | {{{./jboss-sar-maven-plugin/} <<<jboss-sar>>>}}                    | Deprecated use the {{{./jboss-packaging-maven-plugin/} jboss-packaging}} plugin instead.
 *--------------------------------------------------------------------+------------------------------------------------------------+
-| {{{./jetty-maven-plugin/} <<<jetty>>>}}                            | Superceded by {{{http://jetty.mortbay.org/jetty/maven-plugin/} Mortbay official Jetty maven plugin}}
+| {{{./jetty-maven-plugin/} <<<jetty>>>}}                            | Superceded by {{{http://jetty.mortbay.org/jetty/maven-plugin/} Mortbay official Jetty maven plugin}}.
 *--------------------------------------------------------------------+------------------------------------------------------------+
 | {{{./cbuild-parent/cbuild-plugin-parent/platform-detector-maven-plugin} <<<platform-detector>>>}} | Deprecated use the {{{./cbuild-parent/cbuild-plugin-parent/rpm-cbuild-maven-plugin/platform-detect-mojo.html} rpm-cbuild:platform-detect}} goal instead.
 *--------------------------------------------------------------------+------------------------------------------------------------+
 | {{{./cbuild-parent/cbuild-plugin-parent/project-sources-maven-plugin} <<<project-sources>>>}}     | Deprecated use {{{./wagon-maven-plugin} wagon-maven-plugin}} or {{{http://maven.apache.org/plugins/maven-dependency-plugin/} maven-dependency-plugin}} instead.
 *--------------------------------------------------------------------+------------------------------------------------------------+
-| {{{./minijar-maven-plugin/} <<<minijar>>>}}                        | Added as minimizeJar parameter to the {{{http://maven.apache.org/plugins/maven-shade-plugin/shade-mojo.html#minimizeJar}maven-shade-plugin}}
+| {{{./minijar-maven-plugin/} <<<minijar>>>}}                        | Added as minimizeJar parameter to the {{{http://maven.apache.org/plugins/maven-shade-plugin/shade-mojo.html#minimizeJar}maven-shade-plugin}}.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
-| {{{./netbeans-freeform-maven-plugin/} <<<netbeans-freeform>>>}}    | Netbeans has developed its own Maven support {{http://netbeans.org/features/ide/build-tools.html}}
+| {{{./netbeans-freeform-maven-plugin/} <<<netbeans-freeform>>>}}    | Netbeans has developed its own Maven support {{http://netbeans.org/features/ide/build-tools.html}}.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./rat-maven-plugin/} <<<rat>>>}}                                | Moved to the {{{http://incubator.apache.org/} Apache Incubator}}.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
