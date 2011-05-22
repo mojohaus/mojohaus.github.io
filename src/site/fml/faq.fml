@@ -18,14 +18,17 @@
 
 <!-- $Id$ -->
 
-<faqs title="About Mojo">
+<faqs title="About Mojo" xmlns="http://maven.apache.org/FML/1.0.1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/FML/1.0.1 http://maven.apache.org/xsd/fml-1.0.1.xsd">
 
     <part id="about">
         <faq id="why-mojo">
             <question>Why was the Mojo project created?</question>
             <answer>
                 <p>
-                    Well, this allows a bunch of people, not necessarily involved with the Maven project, to come along and build
+                    Well, this allows <a href="http://xircles.codehaus.org/projects/mojo/members">a bunch of people</a>,
+                    not necessarily involved with the Maven project, to come along and build
                     some plugins. They are free to look after just that plugin, though I hope that they'll get involved in the
                     community of people here and work on other plugins as well as help maintain the common infrastructure like the
                     site.
@@ -57,7 +60,7 @@
             <answer>
                 <p>
                     The sandbox is used to "incubate" new plugins. Sandbox plugins will not be released to the repositories and if you
-                    are interrested in trying it out you will probably have to build it from source.
+                    are interested in trying it out you will probably have to build it from source.
                 </p>
                 
                 <p>
