@@ -18,7 +18,7 @@
 
 <!-- $Id$ -->
 
-<project name="Mojo">
+<project name="Mojo" xmlns="http://maven.apache.org/DECORATION/1.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/DECORATION/1.0.0 http://maven.apache.org/xsd/decoration-1.0.0.xsd">
   <bannerLeft>
     <name>Mojo</name>
     <src>/images/mojo_logo.png</src>
@@ -35,14 +35,13 @@
   <version position="none"/>
 
   <body>
+    <links>
+      <item name="Maven" href="http://maven.apache.org/"/>
+    </links>
     <breadcrumbs>
       <item name="Codehaus" href="http://codehaus.org/"/>
       <item name="Mojo" href="http://mojo.codehaus.org/"/>
     </breadcrumbs>
-
-    <links>
-      <item name="Maven" href="http://maven.apache.org/"/>
-    </links>
     
     <menu name="Mojo">
       <item name="Introduction" href="index.html"/>
