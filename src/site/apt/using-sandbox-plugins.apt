@@ -34,14 +34,14 @@ Using Sandbox Plugins
 
 * {Snapshot Repository}
 
- Most plugins are available via the {{{http://nexus.codehaus.org/content/repositories/codehaus-snapshots/org/codehaus/mojo/}snapshot repository}}.
+ Most plugins are available via the {{{http://nexus.codehaus.org/snapshots/org/codehaus/mojo/}snapshot repository}}.
  To access them, add the following to your <<<pom.xml>>>:
 
 ----------------------
   <repositories>
     <repository>
       <id>Codehaus Snapshots</id>
-      <url>http://nexus.codehaus.org/content/repositories/codehaus-snapshots/</url>
+      <url>http://nexus.codehaus.org/snapshots/</url>
       <snapshots>
         <enabled>true</enabled>
       </snapshots>
@@ -53,7 +53,7 @@ Using Sandbox Plugins
   <pluginRepositories>
     <pluginRepository>
       <id>Codehaus Snapshots</id>
-      <url>http://nexus.codehaus.org/content/repositories/codehaus-snapshots/</url>
+      <url>http://nexus.codehaus.org/snapshots/</url>
       <snapshots>
         <enabled>true</enabled>
       </snapshots>
@@ -73,7 +73,7 @@ Using Sandbox Plugins
       <repositories>
         <repository>
           <id>Codehaus Snapshots</id>
-          <url>http://nexus.codehaus.org/content/repositories/codehaus-snapshots/</url>
+          <url>http://nexus.codehaus.org/snapshots/</url>
           <snapshots>
             <enabled>true</enabled>
           </snapshots>
@@ -85,7 +85,7 @@ Using Sandbox Plugins
       <pluginRepositories>
         <pluginRepository>
           <id>Codehaus Snapshots</id>
-          <url>http://nexus.codehaus.org/content/repositories/codehaus-snapshots/</url>
+          <url>http://nexus.codehaus.org/snapshots/</url>
           <snapshots>
             <enabled>true</enabled>
           </snapshots>
