@@ -72,7 +72,7 @@ Plugins
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./commons-attributes-maven-plugin/} <<<commons-attributes>>>}}  | 1.0         | Source generation for Commons Attributes.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
-| {{{./gwt-maven-plugin/} <<<GWT>>>}}                                | 2.1.0-1     | Google Web Toolkit.
+| {{{./gwt-maven-plugin/} <<<GWT>>>}}                                | 2.3.0-1     | Google Web Toolkit.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./maven-hibernate3/hibernate3-maven-plugin/} <<<hibernate3>>>}} | 2.2         | Integration with Hibernate 3.x
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
@@ -86,7 +86,7 @@ Plugins
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./jspc-maven-plugin/} <<<jspc>>>}}                              | 1.4.6       | Provides support for JSP compilation.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
-| {{{./openjpa-maven-plugin/} <<<openjpa>>>}}                        | 1.1         | Compiletime enhancement, SQL and Mapping Generation for OpenJPA.
+| {{{./openjpa-maven-plugin/} <<<openjpa>>>}}                        | 1.2         | Compiletime enhancement, SQL and Mapping Generation for OpenJPA.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./rmic-maven-plugin/} <<<rmic>>>}}                              | 1.1         | Generates rmi (Remote Method Invocation) stub and skeleton classes.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
@@ -112,7 +112,7 @@ Plugins
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./clirr-maven-plugin/} <<<clirr>>>}}                            | 2.3         | Checks Java libraries for binary and source compatibility with older releases.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
-| {{{./cobertura-maven-plugin/} <<<cobertura>>>}}                    | 2.4         | Code coverage via Cobertura.
+| {{{./cobertura-maven-plugin/} <<<cobertura>>>}}                    | 2.5.1       | Code coverage via Cobertura.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./scmchangelog-maven-plugin/} <<<scmchangelog>>>}}              | 1.0         | Simple Reporter that creates a changelog report using comments and tags from Subversion.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
@@ -132,11 +132,11 @@ Plugins
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | <<Tools>>  | | <Miscellaneous tools available through Maven.>
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
-| {{{./animal-sniffer-maven-plugin/} <<<animal-sniffer>>>}}          | 1.4         | Verifies classes against API signatures.
+| {{{./animal-sniffer-maven-plugin/} <<<animal-sniffer>>>}}          | 1.6         | Verifies classes against API signatures.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./appassembler/appassembler-maven-plugin/} <<<appassembler>>>}} | 1.1.1       | Generates bin and Java Service Wrapper scripts for Java applications.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
-| {{{./build-helper-maven-plugin/} <<<build-helper>>>}}              | 1.5         | Miscellaneous goals to support build process.
+| {{{./build-helper-maven-plugin/} <<<build-helper>>>}}              | 1.6         | Miscellaneous goals to support build process.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./buildnumber-maven-plugin/} <<<buildnumber>>>}}                | 1.0         | Creates unique build number for each build.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
