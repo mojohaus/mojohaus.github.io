@@ -240,7 +240,7 @@ Plugins
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./l10n-maven-plugin/} <<<l10n>>>}}                              | 1.0-alpha-2 | The Localization Tools Maven Plugin helps with internationalization and localization of your projects.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
-| {{{./license-maven-plugin/} <<<license>>>}}                        | 1.0-beta-2  | Tools to deal with licenses of a maven project.
+| {{{./license-maven-plugin/} <<<license>>>}}                        | 1.0-beta-3  | Tools to deal with licenses of a maven project.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./native2ascii-maven-plugin/} <<<native2ascii>>>}}              | 1.0-alpha-1 | Converts text file encodings.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
