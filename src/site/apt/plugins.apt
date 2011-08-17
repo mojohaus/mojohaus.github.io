@@ -50,8 +50,6 @@ Plugins
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./jboss-packaging-maven-plugin/} <<<jboss-packaging>>>}}        | 2.2         | Packages various JBoss deployable archive files including AOP, ESB, HAR, SAR, and Spring.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
-| {{{./tomcat-maven-plugin/} <<<tomcat>>>}}                          | 1.1         | Manipulate WAR projects within Tomcat.
-*--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./was6-maven-plugin/} <<<was6>>>}}                              | 1.1.1       | IBM WebSphere Application Server 6.1 support.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./weblogic-maven-plugin/} <<<weblogic>>>}}                      | 2.9.1       | Supports various tasks within the Weblogic 8.1 and 9.x environment.
@@ -391,6 +389,8 @@ Plugins
 | {{{./cbuild-parent/cbuild-plugin-parent/remote-source-maven-plugin} <<<remote-source>>>}}         | Deprecated use {{{./wagon-maven-plugin} wagon-maven-plugin}} or {{{http://maven.apache.org/plugins/maven-dependency-plugin/} maven-dependency-plugin}} instead.
 *--------------------------------------------------------------------+------------------------------------------------------------+
 | {{{./shade-maven-plugin/} <<<shade>>>}}                            | Moved to the official Maven plugins and is now maintained as {{{http://maven.apache.org/plugins/maven-shade-plugin/}Maven Shade Plugin}}.
+*--------------------------------------------------------------------+------------------------------------------------------------+
+| {{{./tomcat-maven-plugin/} <<<tomcat>>>}}                          | Moved to the official Maven plugins and is now maintained in The Tomcat Project : under process url not yet available.
 *--------------------------------------------------------------------+------------------------------------------------------------+
 | {{{./wsdl2java-maven-plugin/} <<<wsdl2java>>>}}                    | Deprecated use the {{{./axistools-maven-plugin/} axistools-maven-plugin}} instead.
 *--------------------------------------------------------------------+------------------------------------------------------------+
