@@ -318,7 +318,7 @@ Plugins
 *--------------------------------------------------------------------+------------------------------------------------------------+
 | {{{./js-import-plugin/} <<<js-import-plugin>>>}}                   | Provides Maven dependency management for JavaScript applications.
 *--------------------------------------------------------------------+------------------------------------------------------------+
-| {{{./jslint-plugin/} <<<jslint-plugin>>>}}                         | Provides fast and efficient JSLint coverage when developing JavaScript applications.
+| {{{./jslint-maven-plugin/} <<<jslint-maven-plugin>>>}}             | Provides fast and efficient JSLint coverage when developing JavaScript applications.
 *--------------------------------------------------------------------+------------------------------------------------------------+
 | {{{./kodo-maven-plugin/} <<<kodo>>>}}                              | Enhance files using Solarmetric's Kodo-JDO.
 *--------------------------------------------------------------------+------------------------------------------------------------+

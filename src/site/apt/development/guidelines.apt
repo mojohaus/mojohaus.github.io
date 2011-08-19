@@ -28,12 +28,15 @@
 
 Development Guidelines
 
- All plugins in the Mojo project should follow these guidelines although they might not always apply.
+ All plugins in the Mojo project should follow these guidelines.
 
  * Use the package <<<org.codehaus.mojo.>>><\<plugin\>>, e.g.: <<<org.codehaus.mojo.jpox>>>.
+ 
+ * Use the above package name for the Maven groupId.
 
- * Name the mojos like this: <<<FooMojo>>>. This mojo should be available as <<<foo>>> inside a plugin configuration
- in Maven.
+ * Use the <\<plugin\>><<<-maven-plugin>>> convention for the Maven artifactId.
+
+ * Use the <<<[Project] Maven Plugin>>> convention to name your plugin e.g. "JPox Maven Plugin"
 
  * Use the {{{http://maven.apache.org/developers/committer-environment.html#Maven_Code_Style}Maven code style}} when
    formatting your code.
