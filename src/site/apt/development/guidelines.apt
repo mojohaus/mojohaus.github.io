@@ -32,7 +32,7 @@ Development Guidelines
 
  * Use the package <<<org.codehaus.mojo.>>><\<plugin\>>, e.g.: <<<org.codehaus.mojo.jpox>>>.
  
- * Use the <<<org.codehaus.mojo>>> for the Maven groupId.
+ * Use <<<org.codehaus.mojo>>> for the groupId of any developed Maven plugin.
 
  * Use the <\<plugin\>><<<-maven-plugin>>> convention for the artifactId of any developed Maven plugin.
 
