@@ -40,7 +40,9 @@ Development Guidelines
 
  * Use the <\<plugin\>><<<-maven-plugin>>> convention for the artifactId of any developed Maven plugin.
 
- * Use the <<<[Project] Maven Plugin>>> convention to name your plugin e.g. "JPox Maven Plugin"
+ * Use the <<<[Project] Maven Plugin>>> convention to name your plugin e.g. "Acme Maven Plugin", unless [Project]
+   reflects a trademark. In such case use either "Mojo's Acme Maven Plugin" or "Mojo's Maven Plugin for Acme" to clarify
+   it is a plugin <for> this product and not <by> this product.
 
  * Use the {{{http://maven.apache.org/developers/committer-environment.html#Maven_Code_Style}Maven code style}} when
    formatting your code.
