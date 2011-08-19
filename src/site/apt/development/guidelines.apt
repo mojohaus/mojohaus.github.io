@@ -34,7 +34,7 @@ Development Guidelines
  
  * Use the above package name for the Maven groupId.
 
- * Use the <\<plugin\>><<<-maven-plugin>>> convention for the Maven artifactId.
+ * Use the <\<plugin\>><<<-maven-plugin>>> convention for the artifactId of any developed Maven plugin.
 
  * Use the <<<[Project] Maven Plugin>>> convention to name your plugin e.g. "JPox Maven Plugin"
 
