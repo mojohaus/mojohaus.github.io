@@ -32,6 +32,9 @@ Development Guidelines
 
  * Use the package <<<org.codehaus.mojo.>>><\<plugin\>>, e.g.: <<<org.codehaus.mojo.jpox>>>.
  
+ * Name the mojos like this: <<<SomethingMojo>>>. The name should reflect the goal of this mojo 
+   (i.e. the <<<@goal>>> javadoctag of the class).
+ 
  * Use <<<org.codehaus.mojo>>> for the groupId of any developed Maven plugin. Other projects/artifacts could use
    this groupId or a sub-context.
 
