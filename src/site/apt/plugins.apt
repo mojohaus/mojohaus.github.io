@@ -382,7 +382,7 @@ Plugins
 *--------------------------------------------------------------------+------------------------------------------------------------+
 | {{{./cbuild-parent/cbuild-plugin-parent/project-sources-maven-plugin} <<<project-sources>>>}}     | Deprecated use {{{./wagon-maven-plugin} wagon-maven-plugin}} or {{{http://maven.apache.org/plugins/maven-dependency-plugin/} maven-dependency-plugin}} instead.
 *--------------------------------------------------------------------+------------------------------------------------------------+
-| {{{./netbeans-freeform-maven-plugin/} <<<netbeans-freeform>>>}}    | Netbeans has developed its own Maven support {{http://netbeans.org/features/ide/build-tools.html}}.
+| {{{./netbeans-freeform-maven-plugin/} <<<netbeans-freeform>>>}}    | NetBeans has developed its own Maven support: {{http://netbeans.org/features/ide/build-tools.html}}
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./rat-maven-plugin/} <<<rat>>>}}                                | Moved to the {{{http://incubator.apache.org/} Apache Incubator}}.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
