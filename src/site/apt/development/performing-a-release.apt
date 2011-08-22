@@ -107,7 +107,10 @@ Performing a Release
   * Move the svn project from <<<{{{http://svn.codehaus.org/mojo/trunk/sandbox/}sandbox/}}>>> to
     <<<{{{http://svn.codehaus.org/mojo/trunk/mojo/}mojo/}}>>>.
 
-  * Change the POM parent from <<<mojo-sandbox-parent>>> to <<<mojo-parent>>>.
+  * Ensure that you update any corresponding Continuous Integration plans to reflect the above svn location.
+
+  * Change the POM parent from <<<mojo-sandbox-parent>>> to <<<mojo-parent>>> noting the parent's most
+	recent version from {{{http://svn.codehaus.org/mojo/tags/}the mojo-parent svn tags folder}}.
 
   * Move the plugin site link on the plugin list from the section "Sandbox Plugins" to "Pre-release Plugins" by editing the
     <<<{{{http://svn.codehaus.org/mojo/site/src/site/apt/plugins.apt}plugins.apt}}>>> document. Redeploy the site and
