@@ -388,7 +388,7 @@ Plugins
 *--------------------------------------------------------------------+------------------------------------------------------------+
 | {{{./shade-maven-plugin/} <<<shade>>>}}                            | Moved to the official Maven plugins and is now maintained as {{{http://maven.apache.org/plugins/maven-shade-plugin/}Maven Shade Plugin}}.
 *--------------------------------------------------------------------+------------------------------------------------------------+
-| {{{./tomcat-maven-plugin/} <<<tomcat>>>}}                          | Moved to the official Maven plugins and is now maintained in The Tomcat Project : under process url not yet available.
+| {{{./tomcat-maven-plugin/} <<<tomcat>>>}}                          | Moved to the official Maven plugins and is now maintained in The Tomcat Project : {{{http://tomcat.apache.org/maven-plugin.html/} tomcat-maven-plugin}}
 *--------------------------------------------------------------------+------------------------------------------------------------+
 | {{{./wsdl2java-maven-plugin/} <<<wsdl2java>>>}}                    | Deprecated use the {{{./axistools-maven-plugin/} axistools-maven-plugin}} instead.
 *--------------------------------------------------------------------+------------------------------------------------------------+
