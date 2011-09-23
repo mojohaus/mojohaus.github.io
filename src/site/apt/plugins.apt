@@ -82,6 +82,8 @@ Plugins
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./jpox-maven-plugin/} <<<jpox>>>}}                              | 1.1.6       | Support for JPOX JDO.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
+| {{{./jslint-maven-plugin/} <<<jslint>>>}}                          | 1.0.0       | Provides fast and efficient JSLint code validation when developing JavaScript applications.
+*--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./jspc-maven-plugin/} <<<jspc>>>}}                              | 1.4.6       | Provides support for JSP compilation.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./openjpa-maven-plugin/} <<<openjpa>>>}}                        | 1.2         | Compiletime enhancement, SQL and Mapping Generation for OpenJPA.
@@ -235,8 +237,6 @@ Plugins
 | {{{./jalopy-maven-plugin/} <<<jalopy>>>}}                          | 1.0-alpha-1 | Formats java source files following a coding convention.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./jasperreports-maven-plugin/} <<<jasperreports>>>}}            | 1.0-beta-2  | Compiles Jasper Report Design Files.
-*--------------------------------------------------------------------+-------------+----------------------------------------------+
-| {{{./jslint-maven-plugin/} <<<jslint>>>}}             | 1.0.0-SNAPSHOT | Provides fast and efficient JSLint code validation when developing JavaScript applications.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./l10n-maven-plugin/} <<<l10n>>>}}                              | 1.0-alpha-2 | The Localization Tools Maven Plugin helps with internationalization and localization of your projects.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
