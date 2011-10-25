@@ -178,6 +178,8 @@ Plugins
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./jspc/} <<<jspc>>>}}                                           | 2.0-alpha-3 | Support for JSP compilation w/pluggable JSP compiler implementations.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
+| {{{./lesscss-maven-plugin/} <<<lesscss>>>}}                        | 1.0-beta-1  | Provides compilation of LESS sources to CSS stylesheets.
+*--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./maven-native/native-maven-plugin/} <<<native>>>}}             | 1.0-alpha-6 | Compile C and C++ sources.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./retrotranslator-maven-plugin/} <<<retrotranslator>>>}}        | 1.0-alpha-4 | Translates JDK 5.0 classes to be compatbile with a 1.4 JVM.
