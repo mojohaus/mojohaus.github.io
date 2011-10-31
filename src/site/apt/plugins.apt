@@ -354,6 +354,8 @@ Plugins
 *--------------------------------------------------------------------+------------------------------------------------------------+
 | {{{./webdoclet-maven-plugin/} <<<webdoclet>>>}}                    | Uses JaxMe 2 to generate JAXB source files from an XML schema.
 *--------------------------------------------------------------------+------------------------------------------------------------+
+| {{{./webminifier-maven-plugin/} <<<webminifier>>>}}   			 | Provides JavaScript and CSS minification for Maven projects.
+*--------------------------------------------------------------------+------------------------------------------------------------+
 | {{{./xjc-maven-plugin/} <<<xjc>>>}}                                | Generates Java classes from a given XML schema document using the Sun xjc task.
 *--------------------------------------------------------------------+------------------------------------------------------------+
 | <<<xsltc>>>                                                        | Uses XSLTC to compile an XSL stylesheet into a translet (a set of Java classes).
