@@ -92,8 +92,6 @@ Plugins
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./sablecc-maven-plugin/} <<<sablecc>>>}}                        | 2.0         | Process SableCC grammars.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
-| {{{./sonar-maven-plugin/} <<<sonar>>>}}                            | 2.0         | Inspect code with {{{http://www.sonarsource.org/}Sonar}}.
-*--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./sqlj-maven-plugin/} <<<sqlj>>>}}                              | 1.1         | Generate source code from SQLJ files.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./sysdeo-tomcat-maven-plugin/} <<<sysdeo-tomcat>>>}}            | 1.0         | Used with the Eclipse plugin to produce a Tomcat classpath for the Sysdeo Tomcat Eclipse plugin.
@@ -117,6 +115,8 @@ Plugins
 | {{{./cobertura-maven-plugin/} <<<cobertura>>>}}                    | 2.5.1       | Code coverage via Cobertura.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./scmchangelog-maven-plugin/} <<<scmchangelog>>>}}              | 1.0         | Simple Reporter that creates a changelog report using comments and tags from Subversion.
+*--------------------------------------------------------------------+-------------+----------------------------------------------+
+| {{{./sonar-maven-plugin/} <<<sonar>>>}}                            | 2.0         | Inspect code with {{{http://www.sonarsource.org/}Sonar}}.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./taglist-maven-plugin/} <<<taglist>>>}}                        | 2.4         | Generates a report on various tags found in the code.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
