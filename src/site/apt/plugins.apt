@@ -328,8 +328,6 @@ Plugins
 *--------------------------------------------------------------------+------------------------------------------------------------+
 | <<<mant>>>                                                         | (no site)
 *--------------------------------------------------------------------+------------------------------------------------------------+
-| {{{./mock-repository-maven-plugin/} <<<mock-repository>>>}}        | Hosts a mock remote repository from a bag of <<<pom>>> files for use during integration testing of Maven plugins.
-*--------------------------------------------------------------------+------------------------------------------------------------+
 | {{{./naturaldocs-maven-plugin/} <<<naturaldocs-maven-plugin>>>}}   | Provides NaturalDocs capability to Maven.
 *--------------------------------------------------------------------+------------------------------------------------------------+
 | {{{./nsis-maven-plugin/} <<<nsis>>>}}                              | Utilizes the NSIS command line installer script compiler to generate a Windows installer exe from a setup.nsi script.
