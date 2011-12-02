@@ -182,6 +182,8 @@ Plugins
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./lesscss-maven-plugin/} <<<lesscss>>>}}                        | 1.0-beta-1  | Provides compilation of LESS sources to CSS stylesheets.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
+| {{{./js-import-maven-plugin/} <<<js import>>>}}                    |             | Provides Maven dependency management for JavaScript applications.
+*--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./maven-native/native-maven-plugin/} <<<native>>>}}             | 1.0-alpha-6 | Compile C and C++ sources.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./retrotranslator-maven-plugin/} <<<retrotranslator>>>}}        | 1.0-alpha-4 | Translates JDK 5.0 classes to be compatbile with a 1.4 JVM.
@@ -266,6 +268,8 @@ Plugins
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./wagon-maven-plugin/} <<<wagon>>>}}                            | 1.0-beta-3  | Transfer files between URLs.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
+| {{{./webminifier-maven-plugin/} <<<webminifier>>>}}   			 |             | Provides JavaScript and CSS minification for Maven projects.
+*--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./webstart/webstart-maven-plugin/} <<<webstart>>>}}             | 1.0-beta-2  | Prepare webstart applications.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./xml-maven-plugin/} <<<xml>>>}}                                | 1.0-beta-3  | XML transformation and validation.
@@ -322,8 +326,6 @@ Plugins
 *--------------------------------------------------------------------+------------------------------------------------------------+
 | <<<jelly-maven-tools>>>                                            | (no site)
 *--------------------------------------------------------------------+------------------------------------------------------------+
-| {{{./js-import-maven-plugin/} <<<js-import-maven-plugin>>>}}       | Provides Maven dependency management for JavaScript applications.
-*--------------------------------------------------------------------+------------------------------------------------------------+
 | {{{./kodo-maven-plugin/} <<<kodo>>>}}                              | Enhance files using Solarmetric's Kodo-JDO.
 *--------------------------------------------------------------------+------------------------------------------------------------+
 | {{{./macker-maven-plugin/} <<<macker>>>}}                          | Executes the Macker architectural rule checking utility against a project.
@@ -355,8 +357,6 @@ Plugins
 | {{{./visibroker-maven-plugin/} <<<visibroker>>>}}                  | Maven adapter of VisiBroker command line tools.
 *--------------------------------------------------------------------+------------------------------------------------------------+
 | {{{./webdoclet-maven-plugin/} <<<webdoclet>>>}}                    | Uses JaxMe 2 to generate JAXB source files from an XML schema.
-*--------------------------------------------------------------------+------------------------------------------------------------+
-| {{{./webminifier-maven-plugin/} <<<webminifier>>>}}   			 | Provides JavaScript and CSS minification for Maven projects.
 *--------------------------------------------------------------------+------------------------------------------------------------+
 | {{{./xjc-maven-plugin/} <<<xjc>>>}}                                | Generates Java classes from a given XML schema document using the Sun xjc task.
 *--------------------------------------------------------------------+------------------------------------------------------------+
