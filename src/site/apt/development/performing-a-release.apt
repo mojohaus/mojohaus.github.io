@@ -102,7 +102,7 @@ Performing a Release
   * Make sure the site follows the {{{./guidelines.html}Development Guidelines}}.
 
   * Call a vote for the graduation on the dev mailing list. See below for more
-    info on how to do this.
+    info on how to do this. You can use a {{{./promotevote-mailtemplate.html}template}} for this call for promotion. 
 
   * Move the svn project from <<<{{{http://svn.codehaus.org/mojo/trunk/sandbox/}sandbox/}}>>> to
     <<<{{{http://svn.codehaus.org/mojo/trunk/mojo/}mojo/}}>>>.
