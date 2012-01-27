@@ -180,7 +180,7 @@ Plugins
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./jspc/} <<<jspc>>>}}                                           | 2.0-alpha-3 | Support for JSP compilation w/pluggable JSP compiler implementations.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
-| {{{./lesscss-maven-plugin/} <<<lesscss>>>}}                        | 1.0-beta-1  | Provides compilation of LESS sources to CSS stylesheets.
+| {{{./lesscss-maven-plugin/} <<<lesscss>>>}}                        | 1.0-beta-2  | Provides compilation of LESS sources to CSS stylesheets.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./js-import-maven-plugin/} <<<js import>>>}}                    |             | Provides Maven dependency management for JavaScript applications.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
