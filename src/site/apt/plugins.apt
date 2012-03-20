@@ -180,8 +180,6 @@ Plugins
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./jspc/} <<<jspc>>>}}                                           | 2.0-alpha-3 | Support for JSP compilation w/pluggable JSP compiler implementations.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
-| {{{./lesscss-maven-plugin/} <<<lesscss>>>}}                        | 1.0-beta-3  | Provides compilation of LESS sources to CSS stylesheets.
-*--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./js-import-maven-plugin/} <<<js import>>>}}                    |             | Provides Maven dependency management for JavaScript applications.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./maven-native/native-maven-plugin/} <<<native>>>}}             | 1.0-alpha-6 | Compile C and C++ sources.
@@ -381,6 +379,8 @@ Plugins
 | {{{./jboss-sar-maven-plugin/} <<<jboss-sar>>>}}                    | Deprecated use the {{{./jboss-packaging-maven-plugin/} jboss-packaging}} plugin instead.
 *--------------------------------------------------------------------+------------------------------------------------------------+
 | {{{./jetty-maven-plugin/} <<<jetty>>>}}                            | Superceded by {{{http://jetty.mortbay.org/jetty/maven-plugin/} Mortbay official Jetty maven plugin}}.
+*--------------------------------------------------------------------+-------------+----------------------------------------------+
+| {{{./lesscss-maven-plugin/} <<<lesscss>>>}}                        | Moved to {{{https://github.com/marceloverdijk/lesscss-maven-plugin} LESS CSS Maven Plugin}} at GitHub.
 *--------------------------------------------------------------------+------------------------------------------------------------+
 | {{{./minijar-maven-plugin/} <<<minijar>>>}}                        | Added as minimizeJar parameter to the {{{http://maven.apache.org/plugins/maven-shade-plugin/shade-mojo.html#minimizeJar}maven-shade-plugin}}.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
