@@ -138,7 +138,7 @@ Plugins
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./animal-sniffer-maven-plugin/} <<<animal-sniffer>>>}}          | 1.6         | Verifies classes against API signatures.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
-| {{{./appassembler/appassembler-maven-plugin/} <<<appassembler>>>}} | 1.1.1       | Generates bin and Java Service Wrapper scripts for Java applications.
+| {{{./appassembler/appassembler-maven-plugin/} <<<appassembler>>>}} | 1.2.1       | Generates bin and Java Service Wrapper scripts for Java applications.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./build-helper-maven-plugin/} <<<build-helper>>>}}              | 1.6         | Miscellaneous goals to support build process.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
@@ -156,7 +156,7 @@ Plugins
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./ounce-maven-plugin/} <<<ounce>>>}}                            | 1.2         | Perform Ouncelabs Ounce code security scans.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
-| {{{./rpm-maven-plugin/} <<<rpm>>>}}                                | 2.0.1       | Assembles files into an RPM package.
+| {{{./rpm-maven-plugin/} <<<rpm>>>}}                                | 2.1-alpha-1 | Assembles files into an RPM package.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./sql-maven-plugin/} <<<sql>>>}}                                | 1.5         | Execution of SQL statements.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
