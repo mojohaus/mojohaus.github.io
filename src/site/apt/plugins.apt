@@ -35,13 +35,13 @@ Plugins
   {{{http://www.apache.org/dev/release-signing#verifying-signature}verify the signature}} of the release bundles against the public 
   {{{http://mojo.codehaus.org/KEYS}KEYS}} used by the Codehaus Mojo developers.
   
-  * {{Production Plugins}}
+  * {{{Production_Plugins}Production Plugins}}
   
-  * {{Pre-release Plugins}}
+  * {{{Pre-release_Plugins}Pre-release Plugins}}
   
-  * {{Sandbox Plugins}}
+  * {{{Sandbox_Plugins}Sandbox Plugins}}
   
-  * {{Plugin Graveyard}}
+  * {{{Plugin_Graveyard}Plugin Graveyard}}
 
 * {Production Plugins}
 
