@@ -34,6 +34,14 @@ Plugins
   In order to guard against corrupted downloads/installations, it is highly recommended to 
   {{{http://www.apache.org/dev/release-signing#verifying-signature}verify the signature}} of the release bundles against the public 
   {{{http://mojo.codehaus.org/KEYS}KEYS}} used by the Codehaus Mojo developers.
+  
+  * {{Production Plugins}}
+  
+  * {{Pre-release Plugins}}
+  
+  * {{Sandbox Plugins}}
+  
+  * {{Plugin Graveyard}}
 
 * {Production Plugins}
 
