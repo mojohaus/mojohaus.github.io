@@ -37,7 +37,7 @@ Using Sandbox Plugins
  Most plugins are available via the {{{http://nexus.codehaus.org/snapshots/org/codehaus/mojo/}snapshot repository}}.
  To access them, add the following to your <<<pom.xml>>>:
 
-----------------------
++---------------------------------------+
   <repositories>
     <repository>
       <id>Codehaus Snapshots</id>
@@ -62,11 +62,11 @@ Using Sandbox Plugins
       </releases>
     </pluginRepository>
   </pluginRepositories>
-----------------------
++---------------------------------------+
 
  or add a profile in your <<<settings.xml>>>:
 
-----------------------
++---------------------------------------+
   <profiles>
     <profile>
       <id>Snapshots</id>
@@ -99,7 +99,7 @@ Using Sandbox Plugins
   <activeProfiles>
     <activeProfile>Snapshots</activeProfile>
   </activeProfiles>
-----------------------
++---------------------------------------+
 
   You might wonder why the download of release versions from the plugin snapshot repository has been enabled although
   this repository actually only contains snapshot versions. This is workaround for

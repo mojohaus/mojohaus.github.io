@@ -66,7 +66,7 @@ Development Guidelines
 
  Released plugins should derive from the Mojo parent:
 
------------------------------------------
++---------------------------------------+
 <project>
   <parent>
     <groupId>org.codehaus.mojo</groupId>
@@ -75,11 +75,11 @@ Development Guidelines
   </parent>
   ...
 </project>
------------------------------------------
++---------------------------------------+
 
  Sandbox (new) plugins should derive from the Mojo sandbox parent:
 
------------------------------------------
++---------------------------------------+
 <project>
   <parent>
     <groupId>org.codehaus.mojo</groupId>
@@ -88,7 +88,7 @@ Development Guidelines
   </parent>
   ...
 </project>
------------------------------------------
++---------------------------------------+
 
  See the {{{../faq.html#what-is-the-sandbox}FAQ}} and {{{./performing-a-release.html#Graduating_from_the_Sandbox}Graduating from the Sandbox}}
  for more details on sandbox development.
@@ -114,7 +114,7 @@ Development Guidelines
   you are using Mojo parent 16 or newer, place this in your plugin's
   <<<src/site/site.xml>>>:
    
------------------------------------------
++---------------------------------------+
 <project>
   <body>
     <menu name="Overview">
@@ -129,7 +129,7 @@ Development Guidelines
     </menu>
   </body>
 </project>
------------------------------------------
++---------------------------------------+
 
   Also make sure that the <<<\<name\>>>> element in your plugin's
   <<<pom.xml>>> contains this text:
@@ -144,7 +144,7 @@ Development Guidelines
    
   Place this in your plugin's <<<src/site/site.xml>>> for a starting point:
 
------------------------------------------
++---------------------------------------+
 <project>
   <bannerLeft>
     <name>Mojo</name>
@@ -174,5 +174,5 @@ Development Guidelines
     <menu ref="reports" />
   </body>
 </project>
------------------------------------------
++---------------------------------------+
 

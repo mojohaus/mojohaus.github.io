@@ -196,7 +196,7 @@ mvn docck:check
   The best way to do this is to include the following sections in your personal <<<settings.xml>>> and fill in the
   <<<xircles.username>>> and <<<xircles.password>>> properties with your own credentials.
   
------
++---------------------------------------+
 <settings xmlns="http://maven.apache.org/SETTINGS/1.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
           xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 http://maven.apache.org/xsd/settings-1.0.0.xsd">
   <servers>
@@ -240,7 +240,7 @@ mvn docck:check
     </profile>
   </profiles>
 </settings>          
------  
++---------------------------------------+
 
   (Note that using {{{http://maven.apache.org/guides/mini/guide-encryption.html#How_to_encrypt_server_passwords}Maven password encryption}}
   is possible but may not work in combination with the <<<xircles.password>>> property, perhaps due to difficulties with brace expansion.
