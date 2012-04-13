@@ -276,9 +276,9 @@ Plugins
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./unix/} <<<unix>>>}}                                           | 1.0-alpha-3 | Creates packages for all common UNIX platforms.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
-| {{{./wagon-maven-plugin/} <<<wagon>>>}}                            | 1.0-beta-3  | Transfer files between URLs.
+| {{{./wagon-maven-plugin/} <<<wagon>>>}}                            | 1.0-beta-4  | Transfer files between URLs.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
-| {{{./webminifier-maven-plugin/} <<<webminifier>>>}}   			 |             | Provides JavaScript and CSS minification for Maven projects.
+| {{{./webminifier-maven-plugin/} <<<webminifier>>>}}                |             | Provides JavaScript and CSS minification for Maven projects.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./webstart/webstart-maven-plugin/} <<<webstart>>>}}             | 1.0-beta-3  | Prepare webstart applications.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
