@@ -1,0 +1,6 @@
+##
+## $Id$
+##
+
+RedirectMatch permanent keytool-maven-plugin http://mojo.codehaus.org/keytool/keytool-maven-plugin
+RedirectMatch permanent keytool-maven-plugin/(.*)$ http://mojo.codehaus.org/keytool/keytool-maven-plugin/$1
