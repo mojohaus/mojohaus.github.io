@@ -158,7 +158,7 @@ Plugins
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./buildnumber-maven-plugin/} <<<buildnumber>>>}}                | 1.1         | Creates unique build number for each build.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
-| {{{./cassandra-maven-plugin/} <<<cassandra>>>}}                    | 0.7.4-1     | Mojo's plugin for Apache Maven to allow controlling Apache Cassandra.
+| {{{./cassandra-maven-plugin/} <<<cassandra>>>}}                    | 1.1.0-1     | Mojo's plugin for Apache Maven to allow controlling Apache Cassandra.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./exec-maven-plugin/} <<<exec>>>}}                              | 1.2.1       | Execution of system and Java programs.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
