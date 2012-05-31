@@ -58,7 +58,7 @@ Plugins
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./jboss-packaging-maven-plugin/} <<<jboss-packaging>>>}}        | 2.2         | Packages various JBoss deployable archive files including AOP, ESB, HAR, SAR, and Spring.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
-| {{{./was6-maven-plugin/} <<<was6>>>}}                              | 1.1.1       | IBM WebSphere Application Server 6.1 support.
+| {{{./was6-maven-plugin/} <<<was6>>>}}                              | 1.2         | IBM WebSphere Application Server 6.1 support.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./weblogic-maven-plugin/} <<<weblogic>>>}}                      | 2.9.1       | Supports various tasks within the Weblogic 8.1 and 9.x environment.
 *--------------------------------------------------------------------+------------------------------------------------------------+
