@@ -61,7 +61,8 @@ Performing a Release
 
   * Plugin must be documented and preferably have unit and integration tests.
 
-  * Update <<<changes.xml>>> to include all issues in JIRA that were fixed.
+  * If changes-report of {{{http://maven.apache.org/plugins/maven-changes-plugin/}maven-changes-plugin}} is used, update <<<changes.xml>>> to include all issues in JIRA
+    that were fixed. (If jira-report is used, this information is retrieved automatically from JIRA.)
 
   * If the release is a bugfix release (incrementing z): explicitly document the bugs fixed.
 
