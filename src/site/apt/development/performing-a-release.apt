@@ -283,6 +283,8 @@ mvn docck:check
 
   When the vote has passed, do the following:
 
+  * Reply to the latest vote and summarize the result and prefix the subject with <<[RESULT]>>.
+
   * Log into {{https://nexus.codehaus.org/}} and "Release" the staging repository.
   
   * Wait some time and find the artifacts synced on central. 
