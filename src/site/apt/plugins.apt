@@ -96,7 +96,7 @@ Plugins
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./openjpa-maven-plugin/} <<<openjpa>>>}}                        | 1.2         | Compiletime enhancement, SQL and Mapping Generation for OpenJPA.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
-| {{{./rmic-maven-plugin/} <<<rmic>>>}}                              | 1.1         | Generates rmi (Remote Method Invocation) stub and skeleton classes.
+| {{{./rmic-maven-plugin/} <<<rmic>>>}}                              | 1.2.0       | Generates rmi (Remote Method Invocation) stub and skeleton classes.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./sablecc-maven-plugin/} <<<sablecc>>>}}                        | 2.0         | Process SableCC grammars.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
