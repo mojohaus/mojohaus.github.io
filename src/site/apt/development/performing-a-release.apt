@@ -291,7 +291,7 @@ mvn docck:check
         The synchronization typically occurs every 4 hours but allow for it take up to 24 hrs.
 
   * Update the <<<{{{http://svn.codehaus.org/mojo/site/src/site/apt/plugins.apt}plugins.apt}}>>> document to
-        reflect the new release. Redeploy the mojo site and verify that it is functional.
+        reflect the new release. Redeploy the mojo site by executing <<<mvn site-deploy>>> and verify that it is functional.
 
   * Record the release date for the version in the plugin's JIRA project and create a new version for future
         development/issues.
