@@ -382,7 +382,7 @@ Plugins
 *--------------------------------------------------------------------+------------------------------------------------------------+
 | {{{./groovy/} <<<groovy>>>}}                                       | Moved to {{{http://groovy.codehaus.org/GMaven} GMaven}}.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
-| {{{./jaxws-maven-plugin/} <<<jaxws>>>}}                            | Moved to {{{https://jax-ws-commons.dev.java.net/jaxws-maven-plugin}JAX-WS Commons}} at java.net.
+| {{{./jaxws-maven-plugin/} <<<jaxws>>>}}                            | Moved to {{{http://jax-ws-commons.java.net/jaxws-maven-plugin}JAX-WS Commons}} at java.net.
 *--------------------------------------------------------------------+------------------------------------------------------------+
 | {{{./jboss-sar-maven-plugin/} <<<jboss-sar>>>}}                    | Deprecated use the {{{./jboss-packaging-maven-plugin/} jboss-packaging}} plugin instead.
 *--------------------------------------------------------------------+------------------------------------------------------------+
