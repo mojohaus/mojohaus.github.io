@@ -166,7 +166,7 @@ Plugins
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./latex-maven-plugin/} <<<latex>>>}}                            | 1.1         | Builds PDF documents from LaTeX, BibTeX and such.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
-| {{{./license-maven-plugin/} <<<license>>>}}                        | 1.2         | Tools to deal with licenses and thirdparties of a maven project.
+| {{{./license-maven-plugin/} <<<license>>>}}                        | 1.3         | Tools to deal with licenses and thirdparties of a maven project.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./ounce-maven-plugin/} <<<ounce>>>}}                            | 1.2         | Perform Ouncelabs Ounce code security scans.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
