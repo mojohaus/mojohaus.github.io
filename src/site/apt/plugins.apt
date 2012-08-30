@@ -142,9 +142,11 @@ Plugins
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./webtest-maven-plugin/} <<<webtest>>>}}                        | 1.0.0       | Supports automated web-application testing using Canoo WebTest
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
-| {{{./chronos/} <<<chronos-jmeter>>>}}                              | 1.0         | Execute performancetests with jmeter and analyze the results.
+| {{{./chronos/} <<<chronos-jmeter>>>}}                              | 1.1.0       | Execute performancetests with jmeter and analyze the results.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
-| {{{./chronos/} <<<chronos-report>>>}}                              | 1.0         | Create reports of performance testresults.
+| {{{./chronos/} <<<chronos-surefire>>>}}                            | 1.1.0       | Analyze time spent in unittests used to measure performance
+*--------------------------------------------------------------------+-------------+----------------------------------------------+
+| {{{./chronos/} <<<chronos-report>>>}}                              | 1.1.0       | Create reports of performance testresults.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 |
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
