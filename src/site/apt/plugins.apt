@@ -68,8 +68,6 @@ Plugins
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./antlr-maven-plugin/} <<<antlr>>>}}                            | 2.2         | Process ANTLRv2 grammars.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
-| {{{./antlr3-maven-plugin/} <<<antlr3>>>}}                          | 1.0         | Process ANTLRv3 grammars.
-*--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./aspectj-maven-plugin/} <<<aspectj>>>}}                        | 1.4         | Weaves aspects with AspectJ.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./axistools-maven-plugin/} <<<axistools>>>}}                    | 1.4         | Axis wsdl2java and java2wsdl support.
@@ -379,29 +377,31 @@ Plugins
 
 *--------------------------------------------------------------------+------------------------------------------------------------+
 | <<Plugin>>                                                         | <<Description>>
-*--------------------------------------------------------------------+-------------+----------------------------------------------+
+*--------------------------------------------------------------------+------------------------------------------------------------+
+| {{{./antlr3-maven-plugin/} <<<antlr3>>>}}                          | Superceded by {{{http://antlr.org/antlr3-maven-plugin/} Maven plugin for ANTLR V3}}.
+*--------------------------------------------------------------------+------------------------------------------------------------+
 | {{{./failsafe-maven-plugin/} <<<failsafe>>>}}                      | Moved to {{{http://maven.apache.org/plugins/maven-failsafe-plugin/} Maven Failsafe Plugin}}.
 *--------------------------------------------------------------------+------------------------------------------------------------+
 | {{{./groovy/} <<<groovy>>>}}                                       | Moved to {{{http://groovy.codehaus.org/GMaven} GMaven}}.
-*--------------------------------------------------------------------+-------------+----------------------------------------------+
+*--------------------------------------------------------------------+------------------------------------------------------------+
 | {{{./jaxws-maven-plugin/} <<<jaxws>>>}}                            | Moved to {{{http://jax-ws-commons.java.net/jaxws-maven-plugin}JAX-WS Commons}} at java.net.
 *--------------------------------------------------------------------+------------------------------------------------------------+
 | {{{./jboss-sar-maven-plugin/} <<<jboss-sar>>>}}                    | Deprecated use the {{{./jboss-packaging-maven-plugin/} jboss-packaging}} plugin instead.
 *--------------------------------------------------------------------+------------------------------------------------------------+
 | {{{./jetty-maven-plugin/} <<<jetty>>>}}                            | Superceded by {{{http://jetty.mortbay.org/jetty/maven-plugin/} Mortbay official Jetty maven plugin}}.
-*--------------------------------------------------------------------+-------------+----------------------------------------------+
+*--------------------------------------------------------------------+------------------------------------------------------------+
 | {{{./lesscss-maven-plugin/} <<<lesscss>>>}}                        | Moved to {{{https://github.com/marceloverdijk/lesscss-maven-plugin} LESS CSS Maven Plugin}} at GitHub.
 *--------------------------------------------------------------------+------------------------------------------------------------+
 | {{{./minijar-maven-plugin/} <<<minijar>>>}}                        | Added as minimizeJar parameter to the {{{http://maven.apache.org/plugins/maven-shade-plugin/shade-mojo.html#minimizeJar}maven-shade-plugin}}.
-*--------------------------------------------------------------------+-------------+----------------------------------------------+
+*--------------------------------------------------------------------+------------------------------------------------------------+
 | {{{./cbuild-parent/cbuild-plugin-parent/platform-detector-maven-plugin} <<<platform-detector>>>}} | Deprecated use the {{{./cbuild-parent/cbuild-plugin-parent/rpm-cbuild-maven-plugin/platform-detect-mojo.html} rpm-cbuild:platform-detect}} goal instead.
 *--------------------------------------------------------------------+------------------------------------------------------------+
 | {{{./cbuild-parent/cbuild-plugin-parent/project-sources-maven-plugin} <<<project-sources>>>}}     | Deprecated use {{{./wagon-maven-plugin} wagon-maven-plugin}} or {{{http://maven.apache.org/plugins/maven-dependency-plugin/} maven-dependency-plugin}} instead.
 *--------------------------------------------------------------------+------------------------------------------------------------+
 | {{{./netbeans-freeform-maven-plugin/} <<<netbeans-freeform>>>}}    | NetBeans has developed its own Maven support: {{http://netbeans.org/features/ide/build-tools.html}}
-*--------------------------------------------------------------------+-------------+----------------------------------------------+
+*--------------------------------------------------------------------+------------------------------------------------------------+
 | {{{./rat-maven-plugin/} <<<rat>>>}}                                | Moved to the {{{http://incubator.apache.org/} Apache Incubator}}.
-*--------------------------------------------------------------------+-------------+----------------------------------------------+
+*--------------------------------------------------------------------+------------------------------------------------------------+
 | {{{./cbuild-parent/cbuild-plugin-parent/remote-source-maven-plugin} <<<remote-source>>>}}         | Deprecated use {{{./wagon-maven-plugin} wagon-maven-plugin}} or {{{http://maven.apache.org/plugins/maven-dependency-plugin/} maven-dependency-plugin}} instead.
 *--------------------------------------------------------------------+------------------------------------------------------------+
 | {{{./shade-maven-plugin/} <<<shade>>>}}                            | Moved to the official Maven plugins and is now maintained as {{{http://maven.apache.org/plugins/maven-shade-plugin/}Maven Shade Plugin}}.
