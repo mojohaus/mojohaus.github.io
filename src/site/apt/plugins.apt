@@ -118,7 +118,7 @@ Plugins
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./clirr-maven-plugin/} <<<clirr>>>}}                            | 2.4         | Checks Java libraries for binary and source compatibility with older releases.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
-| {{{./cobertura-maven-plugin/} <<<cobertura>>>}}                    | 2.5.1       | Code coverage via Cobertura.
+| {{{./cobertura-maven-plugin/} <<<cobertura>>>}}                    | 2.5.2       | Code coverage via Cobertura.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./scmchangelog-maven-plugin/} <<<scmchangelog>>>}}              | 1.0         | Simple Reporter that creates a changelog report using comments and tags from Subversion.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
