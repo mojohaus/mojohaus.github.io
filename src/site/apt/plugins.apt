@@ -400,7 +400,7 @@ Plugins
 *--------------------------------------------------------------------+------------------------------------------------------------+
 | {{{./netbeans-freeform-maven-plugin/} <<<netbeans-freeform>>>}}    | NetBeans has developed its own Maven support: {{http://netbeans.org/features/ide/build-tools.html}}
 *--------------------------------------------------------------------+------------------------------------------------------------+
-| {{{./rat-maven-plugin/} <<<rat>>>}}                                | Moved to the {{{http://incubator.apache.org/} Apache Incubator}}.
+| {{{./rat-maven-plugin/} <<<rat>>>}}                                | Moved to the {{{http://creadur.apache.org/rat/} Apache Creadur Project}}.
 *--------------------------------------------------------------------+------------------------------------------------------------+
 | {{{./cbuild-parent/cbuild-plugin-parent/remote-source-maven-plugin} <<<remote-source>>>}}         | Deprecated use {{{./wagon-maven-plugin} wagon-maven-plugin}} or {{{http://maven.apache.org/plugins/maven-dependency-plugin/} maven-dependency-plugin}} instead.
 *--------------------------------------------------------------------+------------------------------------------------------------+
