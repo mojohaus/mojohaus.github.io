@@ -69,12 +69,11 @@ Performing a Release
   * If the release is a minor release (incrementing y): document the new features added. Make sure that these new
     features are properly documented, including:
 
-   * Javadoc tags if the Mojo is written in Java
+    * Javadoc tags if the Mojo is written in Java
 
-   * Examples
+    * Examples
 
-  * Resolve all SNAPSHOTs if it's a proper release on all dependencies: Normal dependencies, build plugins, reporting
-    plugins.
+  * Verify that the project doesn't depend on SNAPSHOTs anymore (the {{{http://maven.apache.org/plugins/maven-release-plugin/examples/prepare-release.html}maven-release-plugin}} will check this too)
 
   * Ensure the plugin complies with its intended minimum JRE requirement. For instance, if Java 1.4 is to be supported,
     actually set your <<<JAVA_HOME>>> to a JDK 1.4 and run <<<mvn clean verify>>>. This will catch references to classes
