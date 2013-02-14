@@ -24,4 +24,7 @@ Codehaus support
 *--------------------------------------------------------------+------------------------------------+------------------------------------------------------------------------------------------+
 | {{{http://www.sonarsource.org}Sonar}}                        | {{http://sonar.ci.codehaus.org/}}  | Code Quality Management System                                                           |
 *--------------------------------------------------------------+------------------------------------+------------------------------------------------------------------------------------------+
+| IRC                                                          | {{http://irc.codehaus.org/}}       | IRC Webclient for Codehaus Internet Relay Chat                                           |
+*--------------------------------------------------------------+------------------------------------+------------------------------------------------------------------------------------------+
  
+  There's a personal webspace available for every committer. Due to {{{http://jira.codehaus.org/browse/HAUS-2187}HAUS-2187}} it's not generated automaticly, instead you have to ask for it.
