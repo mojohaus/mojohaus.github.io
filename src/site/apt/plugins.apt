@@ -362,6 +362,8 @@ Plugins
 *--------------------------------------------------------------------+------------------------------------------------------------+
 | {{{./syslog-maven-plugin/} <<<syslog>>>}}                          | Provides goals to send and receive syslog.
 *--------------------------------------------------------------------+------------------------------------------------------------+
+| {{{./templating-maven-plugin/} <<<templating>>>}}                  | Provides goals to filter source files.
+*--------------------------------------------------------------------+------------------------------------------------------------+
 | {{{./visibroker-maven-plugin/} <<<visibroker>>>}}                  | Maven adapter of VisiBroker command line tools.
 *--------------------------------------------------------------------+------------------------------------------------------------+
 | {{{./webdoclet-maven-plugin/} <<<webdoclet>>>}}                    | Uses JaxMe 2 to generate JAXB source files from an XML schema.
