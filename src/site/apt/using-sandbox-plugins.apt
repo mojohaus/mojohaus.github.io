@@ -109,4 +109,4 @@ Using Sandbox Plugins
 * {Building Plugins}
 
  To build a plugin, check out the {{{./source-repository.html}source}}. Then add the repositories shown above so that
- parent versions can be retreived. Cd into the source folder and run "<<<mvn install>>>".
+ parent versions can be retrieved. Cd into the source folder and run "<<<mvn install>>>".
