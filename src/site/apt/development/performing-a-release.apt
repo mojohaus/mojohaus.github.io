@@ -329,4 +329,9 @@ mvn docck:check
     exists solely for the purpose of inheritance by the plugins. Accidentally deploying the parent's site would damage
     the Mojo website, most notably the <<<index.html>>>.
 
-  [[3]] Update the {{{./guidelines.html}Development Guidelines}} to indicate the new POM version.
+  [[3]] Test that the new parent is working
+
+    Manually update (without committing) one or two plugins on your local machine to use the new parent.
+    Then run <<mvn clean verify site -Pmojo-release>>.
+
+  [[4]] Update the {{{./guidelines.html}Development Guidelines}} to indicate the new POM version.
