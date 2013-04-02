@@ -332,6 +332,8 @@ mvn docck:check
   [[3]] Test that the new parent is working
 
     Manually update (without committing) one or two plugins on your local machine to use the new parent.
-    Then run <<mvn clean verify site -Pmojo-release>>.
+    Then run:
+
+    <<<mvn clean verify site -Pmojo-release>>>
 
   [[4]] Update the {{{./guidelines.html}Development Guidelines}} to indicate the new POM version.
