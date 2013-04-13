@@ -74,3 +74,17 @@ Development Process
 MAVEN_OPTS="-Xdebug -Xnoagent -Djava.compiler=NONE -Xrunjdwp:transport=dt_socket,server=y,suspend=y,address=5005" 
 mvn install
 +-----+
+
+
+* {Applying patches}
+
+  With git-svn more and more patches are contributed in a format you can't directly apply on our svn repository.
+  For most of the operating systems there's a program called <<<patch>>> available, but not for Windows. 
+  Probably the easiest way for Windows users is to install {{{http://www.cygwin.com/}CygWin}} and put the <<<%CYGWIN_HOME%\\bin>>> on their <<<Path>>>.
+  
+  To be able to apply patches run:
+  
++---
+patch -p1 < bugfix.patch
++---
+  
