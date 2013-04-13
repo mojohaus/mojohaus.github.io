@@ -80,11 +80,11 @@ Plugins
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./hibernate3-maven-plugin/} <<<hibernate3>>>}}                  | 3.0         | Integration with Hibernate 3.x
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
-| {{{./idlj-maven-plugin/} <<<idlj>>>}}                              | 1.2         | Process IDL files into Java sources.
+| {{{./idlj-maven-plugin/} <<<idlj>>>}}                              | 1.2.1       | Process IDL files into Java sources.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./javacc-maven-plugin/} <<<javacc>>>}}                          | 2.6         | Process JavaCC grammars.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
-| {{{./jaxb2-maven-plugin/} <<<jaxb2>>>}}                            | 1.4         | Generates Java classes from XML Schemas (and binding files) and creates XML Schemas for existing Java classes, using JAXB2.
+| {{{./jaxb2-maven-plugin/} <<<jaxb2>>>}}                            | 1.5         | Generates Java classes from XML Schemas (and binding files) and creates XML Schemas for existing Java classes, using JAXB2.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./jpox-maven-plugin/} <<<jpox>>>}}                              | 1.1.6       | Support for JPOX JDO.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
@@ -120,7 +120,7 @@ Plugins
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./cobertura-maven-plugin/} <<<cobertura>>>}}                    | 2.5.2       | Code coverage via Cobertura.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
-| {{{./scmchangelog-maven-plugin/} <<<scmchangelog>>>}}              | 1.0         | Simple Reporter that creates a changelog report using comments and tags from Subversion.
+| {{{./scmchangelog-maven-plugin/} <<<scmchangelog>>>}}              | 1.3         | Simple Reporter that creates a changelog report using comments and tags from Subversion.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./sonar-maven-plugin/} <<<sonar>>>}}                            | 2.0         | Inspect code with {{{http://www.sonarsource.org/}Sonar}}.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
@@ -152,11 +152,11 @@ Plugins
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./animal-sniffer-maven-plugin/} <<<animal-sniffer>>>}}          | 1.9         | Verifies classes against API signatures.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
-| {{{./appassembler/appassembler-maven-plugin/} <<<appassembler>>>}} | 1.3         | Generates bin and Java Service Wrapper scripts for Java applications.
+| {{{./appassembler/appassembler-maven-plugin/} <<<appassembler>>>}} | 1.3.1       | Generates bin and Java Service Wrapper scripts for Java applications.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./build-helper-maven-plugin/} <<<build-helper>>>}}              | 1.8         | Miscellaneous goals to support build process.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
-| {{{./buildnumber-maven-plugin/} <<<buildnumber>>>}}                | 1.1         | Creates unique build number for each build.
+| {{{./buildnumber-maven-plugin/} <<<buildnumber>>>}}                | 1.2         | Creates unique build number for each build.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./cassandra-maven-plugin/} <<<cassandra>>>}}                    | 1.1.0-1     | Mojo's plugin for Apache Maven to allow controlling Apache Cassandra.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
@@ -166,7 +166,7 @@ Plugins
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./latex-maven-plugin/} <<<latex>>>}}                            | 1.1         | Builds PDF documents from LaTeX, BibTeX and such.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
-| {{{./license-maven-plugin/} <<<license>>>}}                        | 1.3         | Tools to deal with licenses and thirdparties of a maven project.
+| {{{./license-maven-plugin/} <<<license>>>}}                        | 1.4         | Tools to deal with licenses and thirdparties of a maven project.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./ounce-maven-plugin/} <<<ounce>>>}}                            | 1.2         | Perform Ouncelabs Ounce code security scans.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
@@ -276,7 +276,7 @@ Plugins
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./ship-maven-plugin/} <<<ship>>>}}                              | 1.0-alpha-2 | Helps shipping releases when doing Continuous Deployment.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
-| {{{./templating-maven-plugin/} <<<templating>>>}}                  | 1.0-alpha-1 | Filters sources the Maven Right Way.
+| {{{./templating-maven-plugin/} <<<templating>>>}}                  | 1.0-alpha-2 | Filters sources the Maven Right Way.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./solaris/solaris-maven-plugin/} <<<solaris>>>}}                | 1.0-alpha-2 | Creates System V packages.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
