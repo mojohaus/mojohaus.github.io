@@ -71,7 +71,7 @@ Development Guidelines
   <parent>
     <groupId>org.codehaus.mojo</groupId>
     <artifactId>mojo-parent</artifactId>
-    <version>31</version>
+    <version>32</version>
   </parent>
   ...
 </project>
