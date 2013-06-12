@@ -276,7 +276,7 @@ Plugins
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./ship-maven-plugin/} <<<ship>>>}}                              | 1.0-alpha-2 | Helps shipping releases when doing Continuous Deployment.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
-| {{{./templating-maven-plugin/} <<<templating>>>}}                  | 1.0-alpha-2 | Filters sources the Maven Right Way.
+| {{{./templating-maven-plugin/} <<<templating>>>}}                  | 1.0-alpha-3 | Filters sources the Maven Right Way.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./tidy-maven-plugin/} <<<tidy>>>}}                              | 1.0-alpha-1 | Provides a goal to apply the canonical ordering to a <<<pom.xml>>>
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
