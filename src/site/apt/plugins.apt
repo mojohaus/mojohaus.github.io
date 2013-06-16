@@ -178,7 +178,7 @@ Plugins
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./truezip-maven-plugin/} <<<truezip>>>}}                        | 1.0         | Manipulates archive files.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
-| {{{./versions-maven-plugin/} <<<versions>>>}}                      | 2.0         | Supports various tasks for updating the versions of components in the POM.
+| {{{./versions-maven-plugin/} <<<versions>>>}}                      | 2.1         | Supports various tasks for updating the versions of components in the POM.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./xml-maven-plugin/} <<<xml>>>}}                                | 1.0         | XML transformation and validation.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
