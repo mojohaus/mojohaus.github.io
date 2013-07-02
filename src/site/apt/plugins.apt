@@ -270,6 +270,8 @@ Plugins
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./native2ascii-maven-plugin/} <<<native2ascii>>>}}              | 1.0-alpha-1 | Converts text file encodings.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
+| {{{./nsis-maven-plugin/} <<<nsis>>>}}                              | 1.0-alpha-1 | Utilizes the NSIS command line installer script compiler to generate a Windows installer exe from a setup.nsi script.
+*--------------------------------------------------------------------+------------------------------------------------------------+
 | {{{./osxappbundle-maven-plugin/} <<<osxappbundle>>>}}              | 1.0-alpha-1 | Bundles Maven projects as OS X applications.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./properties-maven-plugin/} <<<properties>>>}}                  | 1.0-alpha-2 | Read and write properties files.
@@ -345,8 +347,6 @@ Plugins
 | <<<mant>>>                                                         | (no site)
 *--------------------------------------------------------------------+------------------------------------------------------------+
 | {{{./naturaldocs-maven-plugin/} <<<naturaldocs-maven-plugin>>>}}   | Provides NaturalDocs capability to Maven.
-*--------------------------------------------------------------------+------------------------------------------------------------+
-| {{{./nsis-maven-plugin/} <<<nsis>>>}}                              | Utilizes the NSIS command line installer script compiler to generate a Windows installer exe from a setup.nsi script.
 *--------------------------------------------------------------------+------------------------------------------------------------+
 | {{{./pomtools-maven-plugin/} <<<pomtools>>>}}                      | Provides console based editing of the project's pom.xml.
 *--------------------------------------------------------------------+------------------------------------------------------------+
