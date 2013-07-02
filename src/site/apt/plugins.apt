@@ -100,8 +100,6 @@ Plugins
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
 | {{{./sqlj-maven-plugin/} <<<sqlj>>>}}                              | 1.1         | Generate source code from SQLJ files.        | {{{http://jira.codehaus.org/browse/MSQLJ}JIRA}}
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| {{{./sysdeo-tomcat-maven-plugin/} <<<sysdeo-tomcat>>>}}            | 1.0         | Used with the Eclipse plugin to produce a Tomcat classpath for the Sysdeo Tomcat Eclipse plugin. | {{{http://jira.codehaus.org/browse/MSYSDEO}JIRA}}
-*--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
 | {{{./xdoclet-maven-plugin/} <<<xdoclet>>>}}                        | 1.0         | Provides XDoclet functionality to Maven.     | {{{http://jira.codehaus.org/browse/MOJO/component/12027}JIRA}}
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
 | {{{./xmlbeans-maven-plugin/} <<<xmlbeans>>>}}                      | 2.3.3       | XML to Java binding via XMLBeans.            | {{{http://jira.codehaus.org/browse/MXMLBEANS}JIRA}}
@@ -410,6 +408,8 @@ Plugins
 *--------------------------------------------------------------------+------------------------------------------------------------+
 | {{{./shade-maven-plugin/} <<<shade>>>}}                            | Moved to the official Maven plugins and is now maintained as {{{http://maven.apache.org/plugins/maven-shade-plugin/}Maven Shade Plugin}}.
 *--------------------------------------------------------------------+------------------------------------------------------------+
+| {{{./sysdeo-tomcat-maven-plugin/} <<<sysdeo-tomcat>>>}}            | Superceded by {{{http://www.eclipse.org/webtools/server/}Eclipse WTP}}
+*--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
 | {{{./tomcat-maven-plugin/} <<<tomcat>>>}}                          | Moved to the official Maven plugins and is now maintained in The Tomcat Project : {{{http://tomcat.apache.org/maven-plugin.html/} tomcat-maven-plugin}}
 *--------------------------------------------------------------------+------------------------------------------------------------+
 | {{{./wsdl2java-maven-plugin/} <<<wsdl2java>>>}}                    | Deprecated use the {{{./axistools-maven-plugin/} axistools-maven-plugin}} instead.
