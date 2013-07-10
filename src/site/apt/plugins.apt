@@ -156,9 +156,9 @@ Plugins
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
 | {{{./buildnumber-maven-plugin/} <<<buildnumber>>>}}                | 1.2         | Creates unique build number for each build.  | {{{http://jira.codehaus.org/browse/MBUILDNUM}JIRA}}
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| {{{./cassandra-maven-plugin/} <<<cassandra>>>}}                    | 1.1.0-1     | Mojo's plugin for Apache Maven to allow controlling Apache Cassandra. | {{{http://jira.codehaus.org/browse/MCASSANDRA}JIIRA}}
+| {{{./cassandra-maven-plugin/} <<<cassandra>>>}}                    | 1.1.0-1     | Mojo's plugin for Apache Maven to allow controlling Apache Cassandra. | {{{http://jira.codehaus.org/browse/MCASSANDRA}JIRA}}
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| {{{./ditaot-maven-plugin/} <<<ditaot>>>}}                          | 1.0         | Support for DITA transformations using DITA Open Toolkit.      | {{{http://jira.codehaus.org/browse/MDITA}JIIRA}} 
+| {{{./ditaot-maven-plugin/} <<<ditaot>>>}}                          | 1.0         | Support for DITA transformations using DITA Open Toolkit.      | {{{http://jira.codehaus.org/browse/MDITA}JIRA}} 
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
 | {{{./exec-maven-plugin/} <<<exec>>>}}                              | 1.2.1       | Execution of system and Java programs.       | {{{http://jira.codehaus.org/browse/MEXEC}JIRA}}
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
