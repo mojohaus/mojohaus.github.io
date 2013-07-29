@@ -313,6 +313,8 @@ mvn docck:check
   
   * Rollback any SCM-changes. Be aware that the <<<release:rollback>>> doesn't remove the tag. You must do this by hand.
   
+  * Run <<<sitekinner:skin -DsiteDeploy>>> to restore the documention of the latest released plugin.
+  
 
 * {Releasing the Mojo Parent POM}
 
