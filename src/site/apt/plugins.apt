@@ -120,7 +120,7 @@ Plugins
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
 | {{{./scmchangelog-maven-plugin/} <<<scmchangelog>>>}}              | 1.3         | Simple Reporter that creates a changelog report using comments and tags from Subversion. | {{{http://jira.codehaus.org/browse/MSCMCHGLOG}JIRA}}
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| {{{./sonar-maven-plugin/} <<<sonar>>>}}                            | 2.0         | Inspect code with {{{http://www.sonarsource.org/}Sonar}}. | {{{http://jira.codehaus.org/browse/MSONAR}JIRA}}
+| {{{./sonar-maven-plugin/} <<<sonar>>>}}                            | 2.1         | Inspect code with {{{http://www.sonarqube.org/}SonarQube}}. | {{{http://jira.codehaus.org/browse/MSONAR}JIRA}}
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
 | {{{./taglist-maven-plugin/} <<<taglist>>>}}                        | 2.4         | Generates a report on various tags found in the code. | {{{http://jira.codehaus.org/browse/MTAGLIST}JIRA}}
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
