@@ -301,7 +301,7 @@ mvn docck:check
         {{{mailto:user@mojo.codehaus.org}user@mojo.codehaus.org}} and
         {{{mailto:users@maven.apache.org}users@maven.apache.org}}. 
         You can use a {{{./announcement-mailtemplate.html}template}} to be sure your email contains all the 
-        expected information.
+        expected information. Ensure you've subscribed to all these mailing lists, otherwise the message will be bounced.
 
   * TODO: if there's a feed containing all releases, get the release into that feed.
 
