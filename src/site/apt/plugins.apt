@@ -54,8 +54,6 @@ Plugins
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
 | <<Application Server>>                                             |             | <Plugins that support integration with application servers.>
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| {{{./jboss-maven-plugin/} <<<jboss>>>}}                            | 1.5.0       | Manage and deploy to a JBoss server using Maven. | {{{http://jira.codehaus.org/browse/MJBOSS}JIRA}}
-*--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
 | {{{./jboss-packaging-maven-plugin/} <<<jboss-packaging>>>}}        | 2.2         | Packages various JBoss deployable archive files including AOP, ESB, HAR, SAR, and Spring. | {{{http://jira.codehaus.org/browse/MJBOSSPACK}JIRA}}
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
 | {{{./was6-maven-plugin/} <<<was6>>>}}                              | 1.2         | IBM WebSphere Application Server 6.1 support.| {{{http://jira.codehaus.org/browse/MWAS}JIRA}}
@@ -387,6 +385,8 @@ Plugins
 | {{{./groovy/} <<<groovy>>>}}                                       | Moved to {{{http://groovy.codehaus.org/GMaven} GMaven}}.
 *--------------------------------------------------------------------+------------------------------------------------------------+
 | {{{./jaxws-maven-plugin/} <<<jaxws>>>}}                            | Moved to {{{http://jax-ws-commons.java.net/jaxws-maven-plugin}JAX-WS Commons}} at java.net.
+*--------------------------------------------------------------------+------------------------------------------------------------+
+| {{{./jboss-maven-plugin/} <<<jboss>>>}}                            | Superceded by {{{http://docs.jboss.org/jbossas/7/plugins/maven/latest/}JBoss AS7 Deployment Plugin}}
 *--------------------------------------------------------------------+------------------------------------------------------------+
 | {{{./jboss-sar-maven-plugin/} <<<jboss-sar>>>}}                    | Deprecated use the {{{./jboss-packaging-maven-plugin/} jboss-packaging}} plugin instead.
 *--------------------------------------------------------------------+------------------------------------------------------------+
