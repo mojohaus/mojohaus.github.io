@@ -148,7 +148,7 @@ Plugins
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
 | {{{./animal-sniffer-maven-plugin/} <<<animal-sniffer>>>}}          | 1.9         | Verifies classes against API signatures.     | {{{http://jira.codehaus.org/browse/MANIMALSNIFFER}JIRA}}
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| {{{./appassembler/appassembler-maven-plugin/} <<<appassembler>>>}} | 1.4         | Generates bin and Java Service Wrapper scripts for Java applications. | {{{http://jira.codehaus.org/browse/MAPPASM}JIRA}}
+| {{{./appassembler/appassembler-maven-plugin/} <<<appassembler>>>}} | 1.5         | Generates bin and Java Service Wrapper scripts for Java applications. | {{{http://jira.codehaus.org/browse/MAPPASM}JIRA}}
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
 | {{{./build-helper-maven-plugin/} <<<build-helper>>>}}              | 1.8         | Miscellaneous goals to support build process. | {{{http://jira.codehaus.org/browse/MBUILDHELPER}JIRA}}
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
