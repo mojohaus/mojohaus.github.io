@@ -96,7 +96,7 @@ Plugins
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
 | {{{./sablecc-maven-plugin/} <<<sablecc>>>}}                        | 2.0         | Process SableCC grammars.                    | {{{http://jira.codehaus.org/browse/MSABLECC}JIRA}}
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| {{{./sqlj-maven-plugin/} <<<sqlj>>>}}                              | 1.1         | Generate source code from SQLJ files.        | {{{http://jira.codehaus.org/browse/MSQLJ}JIRA}}
+| {{{./sqlj-maven-plugin/} <<<sqlj>>>}}                              | 1.2         | Translates SQLJ source code to Java source code. | {{{http://jira.codehaus.org/browse/MSQLJ}JIRA}}
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
 | {{{./xdoclet-maven-plugin/} <<<xdoclet>>>}}                        | 1.0         | Provides XDoclet functionality to Maven.     | {{{http://jira.codehaus.org/browse/MOJO/component/12027}JIRA}}
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
