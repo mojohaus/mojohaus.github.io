@@ -148,7 +148,7 @@ Plugins
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
 | {{{./animal-sniffer-maven-plugin/} <<<animal-sniffer>>>}}          | 1.9         | Verifies classes against API signatures.     | {{{http://jira.codehaus.org/browse/MANIMALSNIFFER}JIRA}}
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| {{{./appassembler/appassembler-maven-plugin/} <<<appassembler>>>}} | 1.5         | Generates bin and Java Service Wrapper scripts for Java applications. | {{{http://jira.codehaus.org/browse/MAPPASM}JIRA}}
+| {{{./appassembler/appassembler-maven-plugin/} <<<appassembler>>>}} | 1.6         | Generates bin and Java Service Wrapper scripts for Java applications. | {{{http://jira.codehaus.org/browse/MAPPASM}JIRA}}
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
 | {{{./build-helper-maven-plugin/} <<<build-helper>>>}}              | 1.8         | Miscellaneous goals to support build process. | {{{http://jira.codehaus.org/browse/MBUILDHELPER}JIRA}}
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
@@ -196,6 +196,8 @@ Plugins
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./cbuild-parent/} <<<cbuilds>>>}}                               | 1.0-beta-1  | Convert Autoconf projects into RPMs.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
+| {{{./enchanter/} <<<enchanter>>>}}                                 | 1.0-beta-1  | Execute expect like scripts over telnet/ssh sessions.
+*--------------------------------------------------------------------+------------------------------------------------------------+
 | {{{./jspc/} <<<jspc>>>}}                                           | 2.0-alpha-3 | Support for JSP compilation w/pluggable JSP compiler implementations.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./js-import-maven-plugin/} <<<js import>>>}}                    |             | Provides Maven dependency management for JavaScript applications.
@@ -317,8 +319,6 @@ Plugins
 | {{{./ec2-maven-plugin/} <<<ec2>>>}}                                | Amazon Elastic Compute Cloud EC2 tasks.
 *--------------------------------------------------------------------+------------------------------------------------------------+
 | {{{./ejbdoclet-maven-plugin/} <<<ejbdoclet>>>}}                    | Uses JaxMe 2 to generate JAXB source files from an XML schema.
-*--------------------------------------------------------------------+------------------------------------------------------------+
-| {{{./enchanter/} <<<enchanter>>>}}                                 | Execute expect like scripts over telnet/ssh sessions.
 *--------------------------------------------------------------------+------------------------------------------------------------+
 | <<<eve>>>                                                          | (no site)
 *--------------------------------------------------------------------+------------------------------------------------------------+
