@@ -160,7 +160,7 @@ Plugins
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
 | {{{./exec-maven-plugin/} <<<exec>>>}}                              | 1.2.1       | Execution of system and Java programs.       | {{{http://jira.codehaus.org/browse/MEXEC}JIRA}}
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| {{{./keytool/keytool-maven-plugin/} <<<keytool>>>}}                | 1.2         | Manipulates keys and keystores.              | {{{http://jira.codehaus.org/browse/MKEYTOOL}JIRA}}
+| {{{./keytool/keytool-maven-plugin/} <<<keytool>>>}}                | 1.3         | Manipulates keys and keystores.              | {{{http://jira.codehaus.org/browse/MKEYTOOL}JIRA}}
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
 | {{{./latex-maven-plugin/} <<<latex>>>}}                            | 1.1         | Builds PDF documents from LaTeX, BibTeX and such. | {{{http://jira.codehaus.org/browse/MLATEX}JIRA}}
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
@@ -288,7 +288,7 @@ Plugins
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./webminifier-maven-plugin/} <<<webminifier>>>}}                |             | Provides JavaScript and CSS minification for Maven projects.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
-| {{{./webstart/webstart-maven-plugin/} <<<webstart>>>}}             | 1.0-beta-3  | Prepare webstart applications.
+| {{{./webstart/webstart-maven-plugin/} <<<webstart>>>}}             | 1.0-beta-4  | Prepare webstart applications.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 
 * {Sandbox Plugins}
