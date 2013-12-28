@@ -35,7 +35,7 @@ Development Process
 
  * Deploying snapshots lowers the bar to entrance for potential users.
 
- * Plugins on the website should gather people willing to work on them. I hope at least 2 people will know how an
+ * Plugins on the website should gather people willing to work on them. We hope at least 2 people will know how an
  individual plugin works.
 
 * {Versioning and Release Strategy}
@@ -44,15 +44,15 @@ Development Process
 
  [x.y.z-alpha-n] Alpha version, not feature complete.
 
- [x.y.z-beta-n] Beta version, complete for the next release, not tested/documented.
+ [x.y.z-beta-n] Beta version, complete for the next release, not fully tested/documented.
 
- [x.y.z] "Proper" release. Pushed to the central repositories on release.
+ [x.y.z] "Proper" release.
 
  []
 
  Where:
 
- * x is the major version: updated when it is not backwards compatible with the last version.
+ * x is the major version: updated when it is not backwards compatible with the previous version.
 
  * y is the minor version: updated when features are added.
 
@@ -60,15 +60,15 @@ Development Process
 
  []
 
- Plugins can have snapshot releases for testing, or beta releases for wider testing and a bit more stability. Sandbox
- plugins should only use snapshot versions.
+ Plugins can have snapshot versions deployed for testing, or beta/alpha releases deployed for wider testing and a bit more stability.
+ All releases deployed to the Codehaus repository are synced to the Central Repository. Sandbox plugins should only use snapshot versions.
  
- Once a plugin is ready for another release or is about the graduate from the sandbox, follow the checklist for
+ Once a plugin is ready for another release or is about to graduate from the sandbox, follow the checklist for
  {{{./performing-a-release.html}performing a release}}.
 
 * {Debugging Tips}
 
- To debug Maven 2 with IDEA use this command:
+ To debug Maven 2/3 with IDEA use this command:
 
 +-----+
 MAVEN_OPTS="-Xdebug -Xnoagent -Djava.compiler=NONE -Xrunjdwp:transport=dt_socket,server=y,suspend=y,address=5005" 
