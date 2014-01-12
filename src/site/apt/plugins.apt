@@ -204,7 +204,7 @@ Plugins
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./js-import-maven-plugin/} <<<js import>>>}}                    |             | Provides Maven dependency management for JavaScript applications.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
-| {{{./maven-native/native-maven-plugin/} <<<native>>>}}             | 1.0-alpha-6 | Compile C and C++ sources.
+| {{{./maven-native/native-maven-plugin/} <<<native>>>}}             | 1.0-alpha-8 | Compile C and C++ sources.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./retrotranslator-maven-plugin/} <<<retrotranslator>>>}}        | 1.0-alpha-4 | Translates JDK 5.0 classes to be compatbile with a 1.4 JVM.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
