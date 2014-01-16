@@ -288,7 +288,7 @@ Plugins
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./webminifier-maven-plugin/} <<<webminifier>>>}}                |             | Provides JavaScript and CSS minification for Maven projects.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
-| {{{./webstart/webstart-maven-plugin/} <<<webstart>>>}}             | 1.0-beta-5  | Prepare webstart applications.
+| {{{./webstart/webstart-maven-plugin/} <<<webstart>>>}}             | 1.0-beta-6  | Prepare webstart applications.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 
 * {Sandbox Plugins}
