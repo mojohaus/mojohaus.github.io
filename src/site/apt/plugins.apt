@@ -74,7 +74,7 @@ Plugins
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
 | {{{./commons-attributes-maven-plugin/} <<<commons-attributes>>>}}  | 1.0         | Source generation for Commons Attributes.    | {{{http://jira.codehaus.org/browse/MCOMATTR}JIRA}}
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| {{{./gwt-maven-plugin/} <<<GWT>>>}}                                | 2.5.1       | Google Web Toolkit.                          | {{{http://jira.codehaus.org/browse/MGWT}JIRA}}
+| {{{./gwt-maven-plugin/} <<<GWT>>>}}                                | 2.6.0       | GWT.                                         | {{{http://jira.codehaus.org/browse/MGWT}JIRA}}
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
 | {{{./hibernate3-maven-plugin/} <<<hibernate3>>>}}                  | 3.0         | Integration with Hibernate 3.x               | {{{http://jira.codehaus.org/browse/MHIBERNATE}JIRA}}
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
