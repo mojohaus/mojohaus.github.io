@@ -255,7 +255,9 @@ mvn docck:check
   * Execute <<<mvn release:prepare>>>
 
     This will make sure all code is checked in, tag the release and make sure the POM has no snapshot dependencies. If
-    your local username is not the same as your codehaus username, be sure to add <<<-Dusername=>>><\<codehaus username\>>.
+    your local username is not the same as your Codehaus username, be sure to add <<<-Dusername=>>><\<Codehaus username\>>.
+    You will also need to specify your password by adding <<<-Dpassword=>>><\<Codehaus password\>>. (This is needed for the
+    scm commits.)
 
   * Execute <<<mvn release:perform>>>
 
