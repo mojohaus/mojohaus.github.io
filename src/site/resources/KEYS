@@ -4215,3 +4215,42 @@ xl+SZBEcsY/hd66LmT9L44uhyzUXS+ATCm0gQXQtim8yJKUQVagFurUsrRvWTtiQ
 yvOo1SSpxg1UI+QmsObmnIv4y+kO1UgjnaoTdXB9Uxz5VhjmDKLP4pQX8Sus8zU=
 =W7Oo
 -----END PGP PUBLIC KEY BLOCK-----
+
+pub   1024D/60DCBFFF 2002-01-18
+uid                  Jörg Hohwiller <joerg@j-hohwiller.de>
+sig 3        60DCBFFF 2002-01-18  Jörg Hohwiller <joerg@j-hohwiller.de>
+sig 3        9978AF86 2005-07-25  Christoph Probst <chris@netzpunkt.org>
+sig 3        2A623F72 2005-07-25  Christoph Probst <chris@netzpunkt.org>
+sig          4DA17CE2 2005-08-05  Thomas Jaeger <jaeger@thjaeger.org>
+sub   1024g/3F38A5C8 2002-01-18
+sig          60DCBFFF 2002-01-18  Jörg Hohwiller <joerg@j-hohwiller.de>
+
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+Version: GnuPG v2.0.21 (MingW32)
+
+mQGiBDxH9mYRBACMxbO3s4Z/OpnZyTWe3kxIphVdeNJP33SmhMV4HrOkpWT+YYK/
+bQQQpCpZmQGwNwoUEezuLrOyMYbpwF8dU4tYUpBbsByIt2JjlVP21JvOdjUBBiAZ
+KhWx1JZ5YdrRdR3uywCVRJh4lV7/zzdjg/J2m1ftIC5ShDf+YKnShKNVmwCgmqrF
+QYwAwozMRe0W/We6vdijw0cEAIyMhzwhjpjxOcNN4qH4BsLuW6wo/SC6NczY3GqI
+iGKHtWsD9N/3lPTQg98cZ5pfBUrpRHzNMnJhOoQExBeLB724GappbbSeWChjunyQ
+XXoGmuWeJYYC8An8oWZa9yK2IMIhNfPANEEVXkPg8VzwKOIIacvDn95IldPwyAs5
+r3x5A/9FWhorswMwYpby0j1mrulYKSvYLfGpGRs42xSposgs4xdbbF3pdIj+g1W3
+nxh3K88xQclFMtFrzTNF/TcwYM7mTzttOZSk2R+yU1oim9Ik6Q1jomQnajnGX1Ko
+9ss3CdfaSq9hGoROZLS1YEHoSBi0O9hZKMZP4VbzhJDU9YJBYrQmSsO2cmcgSG9o
+d2lsbGVyIDxqb2VyZ0BqLWhvaHdpbGxlci5kZT6IVwQTEQIAFwUCPEf2ZgULBwoD
+BAMVAwIDFgIBAheAAAoJEJj7nnNg3L//QbUAnjK91i1c42pJQBmpRyQVVkT7mYof
+AJwKPNUZZXvgo94LY6HWhS+ReEThqohGBBMRAgAGBQJC5QnpAAoJEFJ5L6+ZeK+G
+oGYAoM9ZjT1HW0z568MmcmfWDCBsEUA5AKCbYVlG+xwLAAIVbsiv7IFWe8agwYhG
+BBMRAgAGBQJC5QojAAoJEGtzoQYqYj9ynsEAniG+CfpSSi0bKNYk4QGLxtJ8vHqK
+AJ9VBmuu72kVbXccn6IQgnOgsc3rEohGBBARAgAGBQJC8xwkAAoJECRf6x9NoXzi
+g9wAn1JiALEUZnuE2Pp19iXKcPlNJ0BKAJ9Giwn0u9irGbwwvalUFDAOryv8orkB
+DQQ8R/ZmEAQA4euuS8pbjkSRxqJMctwoinuPoyrV3hWUks7wCxZyOySLO+dsXwuC
+eGTZV6mLFTeBw+BKXSnyrKw0TcW4b3aM0EB/MAmx1bQnDwmjmjk/pX/4l8n4tpAD
+HIYeDhu8NKjRnJkG/s9zTUdrrYoBWou1/duGzcX52r7rW/xEhd8x8g8AAwUD/RJT
+CErwM0DtQ1BzEp1kmiN8jAL7PYYzwJttN1eJ7sKIKqLdIdc/hdv5h+0wO0sY+i4f
+etL2HL0GcKFjV5FfFBYVy55H3HVpLucybZMrfE0W7xYLYznlI4GaGx4fQ47BKzIv
+lVlKUOb7yKbLU1C38DqN3ZM3wxVLBTME2H4lwkpLiEYEGBECAAYFAjxH9mYACgkQ
+mPuec2Dcv//OOACfRv1Z8eZ61hra3HrYrhhcDXUMeHEAnRjBoRcrdVZG3k3vBdQa
+ASTK2fUv
+=oNjL
+-----END PGP PUBLIC KEY BLOCK-----
