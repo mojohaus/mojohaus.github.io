@@ -150,7 +150,7 @@ Plugins
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
 | {{{./animal-sniffer-maven-plugin/} <<<animal-sniffer>>>}}          | 1.9         | Verifies classes against API signatures.     | {{{http://jira.codehaus.org/browse/MANIMALSNIFFER}JIRA}}
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| {{{./appassembler/appassembler-maven-plugin/} <<<appassembler>>>}} | 1.7         | Generates bin and Java Service Wrapper scripts for Java applications. | {{{http://jira.codehaus.org/browse/MAPPASM}JIRA}}
+| {{{./appassembler/appassembler-maven-plugin/} <<<appassembler>>>}} | 1.8         | Generates bin and Java Service Wrapper scripts for Java applications. | {{{http://jira.codehaus.org/browse/MAPPASM}JIRA}}
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
 | {{{./build-helper-maven-plugin/} <<<build-helper>>>}}              | 1.8         | Miscellaneous goals to support build process. | {{{http://jira.codehaus.org/browse/MBUILDHELPER}JIRA}}
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
@@ -256,7 +256,7 @@ Plugins
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./batik-maven-plugin/} <<<batik>>>}}                            | 1.0-beta-1  | Rasterizes SVGs using Apache Batik.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
-| {{{./dbupgrade/dbupgrade-maven-plugin/} <<<dbupgrade>>>}}          | 1.0-beta-2  | Incremental Database Upgrade.
+| {{{./dbupgrade/dbupgrade-maven-plugin/} <<<dbupgrade>>>}}          | 1.0-beta-3  | Incremental Database Upgrade.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./ianal-maven-plugin/} <<<ianal>>>}}                            | 1.0-alpha-1 | "I am not a lawyer."
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
