@@ -162,11 +162,11 @@ Plugins
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
 | {{{./exec-maven-plugin/} <<<exec>>>}}                              | 1.2.1       | Execution of system and Java programs.       | {{{http://jira.codehaus.org/browse/MEXEC}JIRA}}
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| {{{./keytool/keytool-maven-plugin/} <<<keytool>>>}}                | 1.4         | Manipulates keys and keystores.              | {{{http://jira.codehaus.org/browse/MKEYTOOL}JIRA}}
+| {{{./keytool/keytool-maven-plugin/} <<<keytool>>>}}                | 1.5         | Manipulates keys and keystores.              | {{{http://jira.codehaus.org/browse/MKEYTOOL}JIRA}}
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
 | {{{./latex-maven-plugin/} <<<latex>>>}}                            | 1.1         | Builds PDF documents from LaTeX, BibTeX and such. | {{{http://jira.codehaus.org/browse/MLATEX}JIRA}}
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| {{{./license-maven-plugin/} <<<license>>>}}                        | 1.6         | Tools to deal with licenses and thirdparties of a maven project. | {{{http://jira.codehaus.org/browse/MLICENSE}JIRA}}
+| {{{./license-maven-plugin/} <<<license>>>}}                        | 1.7         | Tools to deal with licenses and thirdparties of a maven project. | {{{http://jira.codehaus.org/browse/MLICENSE}JIRA}}
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
 | {{{./ounce-maven-plugin/} <<<ounce>>>}}                            | 1.3         | Perform Ouncelabs Ounce code security scans. | {{{http://jira.codehaus.org/browse/MOUNCE}JIRA}}
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
