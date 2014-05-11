@@ -154,13 +154,13 @@ Plugins
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
 | {{{./build-helper-maven-plugin/} <<<build-helper>>>}}              | 1.8         | Miscellaneous goals to support build process. | {{{http://jira.codehaus.org/browse/MBUILDHELPER}JIRA}}
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| {{{./buildnumber-maven-plugin/} <<<buildnumber>>>}}                | 1.2         | Creates unique build number for each build.  | {{{http://jira.codehaus.org/browse/MBUILDNUM}JIRA}}
+| {{{./buildnumber-maven-plugin/} <<<buildnumber>>>}}                | 1.3         | Creates unique build number for each build.  | {{{http://jira.codehaus.org/browse/MBUILDNUM}JIRA}}
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
 | {{{./cassandra-maven-plugin/} <<<cassandra>>>}}                    | 2.0.0-1     | Mojo's plugin for Apache Maven to allow controlling Apache Cassandra. | {{{http://jira.codehaus.org/browse/MCASSANDRA}JIRA}}
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
 | {{{./ditaot-maven-plugin/} <<<ditaot>>>}}                          | 1.0         | Support for DITA transformations using DITA Open Toolkit.      | {{{http://jira.codehaus.org/browse/MDITA}JIRA}} 
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| {{{./exec-maven-plugin/} <<<exec>>>}}                              | 1.2.1       | Execution of system and Java programs.       | {{{http://jira.codehaus.org/browse/MEXEC}JIRA}}
+| {{{./exec-maven-plugin/} <<<exec>>>}}                              | 1.3         | Execution of system and Java programs.       | {{{http://jira.codehaus.org/browse/MEXEC}JIRA}}
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
 | {{{./keytool/keytool-maven-plugin/} <<<keytool>>>}}                | 1.5         | Manipulates keys and keystores.              | {{{http://jira.codehaus.org/browse/MKEYTOOL}JIRA}}
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
@@ -230,7 +230,7 @@ Plugins
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./emma-maven-plugin/} <<<emma>>>}}                              | 1.0-alpha-3 | {{{http://emma.sourceforge.net/}EMMA}} plugin for Maven 2.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
-| {{{./jdepend-maven-plugin/} <<<jdepend>>>}}                        | 2.0-beta-2  | Generates JDepend reports.
+| {{{./jdepend-maven-plugin/} <<<jdepend>>>}}                        | 2.0         | Generates JDepend reports.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./jdiff-maven-plugin/} <<<jdiff>>>}}                            | 1.0-beta-1  | Generates JDiff report.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
