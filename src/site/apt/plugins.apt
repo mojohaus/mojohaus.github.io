@@ -70,7 +70,7 @@ Plugins
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
 | {{{./axistools-maven-plugin/} <<<axistools>>>}}                    | 1.4         | Axis wsdl2java and java2wsdl support.        | {{{http://jira.codehaus.org/browse/MAXISTOOLS}JIRA}}
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| {{{./castor-maven-plugin/} <<<castor>>>}}                          | 2.1         | Source generation with Castor XML.           | {{{http://jira.codehaus.org/browse/MCASTOR}JIRA}}
+| {{{./castor-maven-plugin/} <<<castor>>>}}                          | 2.5         | Source generation with Castor XML.           | {{{http://jira.codehaus.org/browse/MCASTOR}JIRA}}
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
 | {{{./commons-attributes-maven-plugin/} <<<commons-attributes>>>}}  | 1.0         | Source generation for Commons Attributes.    | {{{http://jira.codehaus.org/browse/MCOMATTR}JIRA}}
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
@@ -87,6 +87,8 @@ Plugins
 | {{{./jpox-maven-plugin/} <<<jpox>>>}}                              | 1.1.6       | Support for JPOX JDO.                        | {{{http://jira.codehaus.org/browse/MJPOX}JIRA}}
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
 | {{{./jslint-maven-plugin/} <<<jslint>>>}}                          | 1.0.0       | Provides fast and efficient JSLint code validation when developing JavaScript applications. | {{{http://jira.codehaus.org/browse/MJSLINT}JIRA}}
+*--------------------------------------------------------------------+-------------+----------------------------------------------+
+| {{{./js-import-maven-plugin/} <<<js import>>>}}                    | 1.0.1       | Provides Maven dependency management for JavaScript applications.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
 | {{{./jspc-maven-plugin/} <<<jspc>>>}}                              | 1.4.6       | Provides support for JSP compilation.        | -
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
@@ -130,7 +132,7 @@ Plugins
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
 | {{{./codenarc-maven-plugin/} <<<codenarc>>>}}                      | 0.17-2      | Generate CodeNarc report against Groovy source code. | {{{http://jira.codehaus.org/browse/MOJO/component/15471}JIRA}}
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| {{{./findbugs-maven-plugin/} <<<findbugs>>>}}                      | 2.5.2       | Generates a FindBugs report.                 | {{{http://jira.codehaus.org/browse/MFINDBUGS}JIRA}}
+| {{{./findbugs-maven-plugin/} <<<findbugs>>>}}                      | 2.5.3       | Generates a FindBugs report.                 | {{{http://jira.codehaus.org/browse/MFINDBUGS}JIRA}}
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
 | {{{./fitnesse-maven-plugin/} <<<fitnesse>>>}}                      | 1.1-beta-1  | Fully integrated standalone wiki, and acceptance testing framework. | {{{http://jira.codehaus.org/browse/MFITNESSE}JIRA}}
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
@@ -203,8 +205,6 @@ Plugins
 | {{{./flatten-maven-plugin/} <<<flatten>>>}}                        | 1.0.0-beta-1| Flatten Maven Plugin generates a flattened version of your pom.xml.
 *--------------------------------------------------------------------+-------------+-----------------------------------------------+
 | {{{./jspc/} <<<jspc>>>}}                                           | 2.0-alpha-3 | Support for JSP compilation w/pluggable JSP compiler implementations.
-*--------------------------------------------------------------------+-------------+----------------------------------------------+
-| {{{./js-import-maven-plugin/} <<<js import>>>}}                    |             | Provides Maven dependency management for JavaScript applications.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./maven-native/native-maven-plugin/} <<<native>>>}}             | 1.0-alpha-8 | Compile C and C++ sources.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
