@@ -203,7 +203,7 @@ Plugins
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./enchanter/} <<<enchanter>>>}}                                 | 1.0-beta-1  | Execute expect like scripts over telnet/ssh sessions.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
-| {{{./flatten-maven-plugin/} <<<flatten>>>}}                        | 1.0.0-beta-1| Flatten Maven Plugin generates a flattened version of your pom.xml.
+| {{{./flatten-maven-plugin/} <<<flatten>>>}}                        | 1.0.0-beta-2| Flatten Maven Plugin generates a flattened version of your pom.xml.
 *--------------------------------------------------------------------+-------------+-----------------------------------------------+
 | {{{./jspc/} <<<jspc>>>}}                                           | 2.0-alpha-3 | Support for JSP compilation w/pluggable JSP compiler implementations.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
