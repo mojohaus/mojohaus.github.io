@@ -163,7 +163,7 @@ Plugins
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
 | {{{./ditaot-maven-plugin/} <<<ditaot>>>}}                          | 1.0         | Support for DITA transformations using DITA Open Toolkit.      | {{{http://jira.codehaus.org/browse/MDITA}JIRA}} 
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| {{{./exec-maven-plugin/} <<<exec>>>}}                              | 1.3         | Execution of system and Java programs.       | {{{http://jira.codehaus.org/browse/MEXEC}JIRA}}
+| {{{./exec-maven-plugin/} <<<exec>>>}}                              | 1.3.1       | Execution of system and Java programs.       | {{{http://jira.codehaus.org/browse/MEXEC}JIRA}}
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
 | {{{./keytool/keytool-maven-plugin/} <<<keytool>>>}}                | 1.5         | Manipulates keys and keystores.              | {{{http://jira.codehaus.org/browse/MKEYTOOL}JIRA}}
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
