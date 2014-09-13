@@ -66,7 +66,7 @@ Plugins
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
 | {{{./antlr-maven-plugin/} <<<antlr>>>}}                            | 2.2         | Process ANTLRv2 grammars.                    | {{{http://jira.codehaus.org/browse/MANTLR}JIRA}}
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| {{{./aspectj-maven-plugin/} <<<aspectj>>>}}                        | 1.5         | Weaves aspects with AspectJ.                 | {{{http://jira.codehaus.org/browse/MASPECTJ}JIRA}}
+| {{{./aspectj-maven-plugin/} <<<aspectj>>>}}                        | 1.7         | Weaves aspects with AspectJ.                 | {{{http://jira.codehaus.org/browse/MASPECTJ}JIRA}}
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
 | {{{./axistools-maven-plugin/} <<<axistools>>>}}                    | 1.4         | Axis wsdl2java and java2wsdl support.        | {{{http://jira.codehaus.org/browse/MAXISTOOLS}JIRA}}
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
