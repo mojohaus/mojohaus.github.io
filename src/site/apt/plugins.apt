@@ -183,6 +183,8 @@ Plugins
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
 | {{{./versions-maven-plugin/} <<<versions>>>}}                      | 2.1         | Supports various tasks for updating the versions of components in the POM. | {{{http://jira.codehaus.org/browse/MVERSIONS}JIRA}}
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
+| {{{./vfs-maven-plugin/} <<<vfs>>>}}                                | 1.0         | Maven plugin for {{{http://commons.apache.org/proper/commons-vfs/} Apache Commons Virtual File System (VFS)}}. | {{{http://jira.codehaus.org/browse/MVFS}JIRA}}
+*--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
 | {{{./xml-maven-plugin/} <<<xml>>>}}                                | 1.0         | XML transformation and validation.           | {{{http://jira.codehaus.org/browse/MOJO/component/12247}JIRA}}
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
 
