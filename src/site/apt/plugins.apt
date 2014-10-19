@@ -124,7 +124,7 @@ Plugins
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
 | {{{./taglist-maven-plugin/} <<<taglist>>>}}                        | 2.4         | Generates a report on various tags found in the code. | {{{http://jira.codehaus.org/browse/MTAGLIST}JIRA}}
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| {{{./javancss-maven-plugin/} <<<javancss>>>}}                      | 2.0         | Source measurement suite for Java. | {{{http://jira.codehaus.org/browse/MJNCSS}JIRA}}
+| {{{./javancss-maven-plugin/} <<<javancss>>>}}                      | 2.1         | Source measurement suite for Java. | {{{http://jira.codehaus.org/browse/MJNCSS}JIRA}}
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
 | {{{./jdepend-maven-plugin/} <<<jdepend>>>}}                        | 2.0         | Generates JDepend reports.                   | {{{http://jira.codehaus.org/browse/MJDEPEND}JIRA}}
 |
