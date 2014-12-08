@@ -151,7 +151,7 @@ Plugins
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
 | <<Tools>>  | | <Miscellaneous tools available through Maven.>
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| {{{./animal-sniffer-maven-plugin/} <<<animal-sniffer>>>}}          | 1.9         | Verifies classes against API signatures.     | {{{http://jira.codehaus.org/browse/MANIMALSNIFFER}JIRA}}
+| {{{./animal-sniffer-maven-plugin/} <<<animal-sniffer>>>}}          | 1.13         | Verifies classes against API signatures.     | {{{http://jira.codehaus.org/browse/MANIMALSNIFFER}JIRA}}
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
 | {{{./appassembler/appassembler-maven-plugin/} <<<appassembler>>>}} | 1.9       | Generates bin and Java Service Wrapper scripts for Java applications. | {{{http://jira.codehaus.org/browse/MAPPASM}JIRA}}
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
@@ -169,7 +169,7 @@ Plugins
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
 | {{{./latex-maven-plugin/} <<<latex>>>}}                            | 1.1         | Builds PDF documents from LaTeX, BibTeX and such. | {{{http://jira.codehaus.org/browse/MLATEX}JIRA}}
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| {{{./license-maven-plugin/} <<<license>>>}}                        | 1.7         | Tools to deal with licenses and thirdparties of a maven project. | {{{http://jira.codehaus.org/browse/MLICENSE}JIRA}}
+| {{{./license-maven-plugin/} <<<license>>>}}                        | 1.8         | Tools to deal with licenses and thirdparties of a maven project. | {{{http://jira.codehaus.org/browse/MLICENSE}JIRA}}
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
 | {{{./ounce-maven-plugin/} <<<ounce>>>}}                            | 1.3         | Perform Ouncelabs Ounce code security scans. | {{{http://jira.codehaus.org/browse/MOUNCE}JIRA}}
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
