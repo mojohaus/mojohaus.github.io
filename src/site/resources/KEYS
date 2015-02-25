@@ -4328,3 +4328,40 @@ HWm/qE81B5SekxjYb22w1HUCF2XMp6ROBROMUqlTHaFBvC0dVddZs+JaYAT8Z+Fm
 dwHkyHK3OdJ2+cC0w8IRC1QBzuM3PVQ7A014ZchJ                                                                                                                              
 =rCHD                                                                                                                                                                 
 -----END PGP PUBLIC KEY BLOCK-----
+
+pub   1024D/CC303655 2009-02-22
+uid                  Stephane Nicoll <snicoll@apache.org>
+sig 3        CC303655 2009-02-22  Stephane Nicoll <snicoll@apache.org>
+sub   2048g/4D5845D2 2009-02-22
+sig          CC303655 2009-02-22  Stephane Nicoll <snicoll@apache.org>
+
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+Version: GnuPG v1
+
+mQGiBEmhev8RBACz56FVQ9l701+PE7Nr6+6Lsoy5tK6wmV89pEvUDgDjT0VTs4EI
+dupAk4a0dLn8Lu87AloEYuSzbCxv5cH5vyDcvLDK6g3/sRC1LPQPydD+UlCvG8LI
+jCmzJYSJj8joVqTBLL2RBdR7xUie34e1RTvAM5b0UHnnvmsvEwwFRsb6CwCg7VFi
+5CrOZlhNeWcWqSpPZCTV4ikD/2xEBh5fUlpfo6qoWeYx2pLg7X7TIriD6IVSREmT
+ewrVXK/C5N9jcJ1zCERjkPOinyZh11MX9dau6M7I+72bapVj7Za49VHiPutDCb8t
+3OPS+ksddfTccQw0iHGDjSusJM+hX6wmHDBgY++WBCYX9TkZxz/cFutqOZ+HBYUW
+QiEjA/9p5vk/gpSB2UtmUn0StfAnwsqpiiwV4weS3sbn66qRYq3jbbAjS5v+jGwf
+KZjPpUyBitKW2Jx+BgPnFy6yk+u19gv7MOiKwikqeDqyF6M0fAjJflproQFLyHZQ
+7YFfIvhB0k76t7qSeCU9MA2wbU/DvDS/TmsMiMFqBuhjB6T8wbQkU3RlcGhhbmUg
+Tmljb2xsIDxzbmljb2xsQGFwYWNoZS5vcmc+iGAEExECACAFAkmhev8CGwMGCwkI
+BwMCBBUCCAMEFgIDAQIeAQIXgAAKCRBlJf1wzDA2VdZcAKDLgjVlL8xQqkV2xHt1
+xS4NP5o6UQCeMpJxC0u+cRFsfID1/xTQFf37h2+5Ag0ESaF6/xAIAKCZkq5buLh6
+PUYQrVJkjTnMxn/dto/eS3aLttDSpkSnejJIvXRnQrf0yUgmlhVC36EO6yg0MvCE
+az9fMWifys4Run44fbrgNL/cfTkbBBweV4od7PYLf06gujVnjknfEWXhumOkoLRX
+APuWt1D/chUl6NMUtiLePH/wpQdfyNVfokI1Vwt6W7Ny8BiZWnJTRFfETpFw4cmD
+8Fui0JFhA2tON3UigjhXuhZ8rQ//b7/dsHjhXu6UpbRCYh48/aqWZQKtwgDbI6rK
+qmSVN+vvK6coiX0oh13HY4Aog0Ms3UJuR0JdHFNXtfgmmzKy//PvV+gtWuHUl7vv
+jQ14G1QeYZ8ABA0H/2d5FKkr6a7SmY4dqK4mpbJJEOo0JRk0gqF/6FALAb57FUnT
+9Ah1JyNJmHyIeFoboicB4Jr0346wM1NiX8MMPYJcOjpYVz+JoLzNt6xf0ZP4KQGl
+H8Hksuk2Jcp38xR0OhzyGBGahpizyf5/GuK7CBklnFtvkwvjhCO0YGLwviybqF06
+Kp9rT0NwL9yXhGzvJ3p5N0iba0e9HLuRe+gDScIArsLoP8pc7zO++A7l0HeLzxXe
+Ixcb4/wLyrOYrUABkWiJ3wsZ+Lh3FGXNlohsu09vAqQ9UN6bVMm7P6IMgwimv8VR
+yl7vcEReKLH/FNQ3Q6Y32m3SlhtfkTG8dPMx+3WISQQYEQIACQUCSaF6/wIbDAAK
+CRBlJf1wzDA2Va9KAKC5mR0wkd/X8CSU693AAc/544zULwCg0goAeKquoZuBm9KX
+UWlDeLuHu6Q=
+=n9eY
+-----END PGP PUBLIC KEY BLOCK-----
