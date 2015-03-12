@@ -413,6 +413,8 @@ Plugins
 *--------------------------------------------------------------------+------------------------------------------------------------+
 | {{{./shade-maven-plugin/} <<<shade>>>}}                            | Moved to the official Maven plugins and is now maintained as {{{http://maven.apache.org/plugins/maven-shade-plugin/}Maven Shade Plugin}}.
 *--------------------------------------------------------------------+------------------------------------------------------------+
+| {{{./shitty-maven-plugin/} <<<shitty>>>}}                          | Superceded by the official {{{http://maven.apache.org/plugins/maven-invoker-plugin/}Maven Invoker Plugin}}.
+*--------------------------------------------------------------------+------------------------------------------------------------+
 | {{{./sysdeo-tomcat-maven-plugin/} <<<sysdeo-tomcat>>>}}            | Superceded by {{{http://www.eclipse.org/webtools/server/}Eclipse WTP}}
 *--------------------------------------------------------------------+------------------------------------------------------------+
 | {{{./tomcat-maven-plugin/} <<<tomcat>>>}}                          | Moved to the official Maven plugins and is now maintained in The Tomcat Project : {{{http://tomcat.apache.org/maven-plugin.html/} tomcat-maven-plugin}}
