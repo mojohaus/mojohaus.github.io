@@ -1,6 +1,0 @@
-##
-## $Id$
-##
-
-ErrorDocument 404 /not-found.html
-
