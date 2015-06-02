@@ -1,0 +1,6 @@
+##
+## $Id$
+##
+
+RedirectMatch permanent changelog-maven-plugin http://maven.apache.org/plugins/maven-changelog-plugin
+RedirectMatch permanent changelog-maven-plugin/(.*)$ http://maven.apache.org/plugins/maven-changelog-plugin/$1
