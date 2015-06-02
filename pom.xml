@@ -77,28 +77,22 @@
     <system>github</system>
     <url>https://github.com/mojohaus/mojohaus.github.io/issues</url>
   </issueManagement>
-  <distributionManagement>
-    <site>
-      <id>codehaus.org</id>
-      <name>Mojo Website</name>
-      <url>dav:https://dav.codehaus.org/mojo/</url>
-    </site>
-  </distributionManagement>
 
   <build>
-    <extensions>
-      <extension>
-        <groupId>org.apache.maven.wagon</groupId>
-        <artifactId>wagon-webdav-jackrabbit</artifactId>
-        <version>2.7</version>
-      </extension>
-    </extensions>
     <pluginManagement>
       <plugins>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-site-plugin</artifactId>
           <version>3.4</version>
+        </plugin>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-scm-publish-plugin</artifactId>
+          <version>1.1</version>
+          <configuration>
+            <scmBranch>master</scmBranch>
+          </configuration>
         </plugin>
       </plugins>
     </pluginManagement>
@@ -149,10 +143,6 @@
           <id>stage-snapshot-repository</id>
           <url>${stage.distributionUrl}/snapshot-repository</url>
         </snapshotRepository>
-        <site>
-          <id>stage-site</id>
-          <url>${stage.distributionUrl}/site</url>
-        </site>
       </distributionManagement>
     </profile>
     <!-- https://cwiki.apache.org/MAVEN/maven-3x-and-site-plugin.html#Maven3.xandsiteplugin-Usingmavensiteplugin2.xwithMaven2.xandmavensiteplugin3.xwithMaven3.x -->
