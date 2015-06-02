@@ -29,15 +29,9 @@
   <bannerLeft>
     <name>Mojo</name>
     <src>/images/mojo_logo.png</src>
-    <href>http://mojo.codehaus.org/</href>
+    <href>http://www.mojohaus.org/</href>
   </bannerLeft>
   
-  <bannerRight>
-    <name>Codehaus</name>
-    <src>http://mojo.codehaus.org/images/codehaus-small.png</src>
-    <href>http://codehaus.org/</href>
-  </bannerRight>
-
   <publishDate format="yyyy-MM-dd" position="right" />
   <version position="none"/>
 
