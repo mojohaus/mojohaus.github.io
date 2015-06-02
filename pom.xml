@@ -74,8 +74,8 @@
     <url>https://svn.codehaus.org/mojo/site</url>
   </scm>
   <issueManagement>
-    <system>jira</system>
-    <url>http://jira.codehaus.org/browse/MOJO</url>
+    <system>github</system>
+    <url>https://github.com/mojohaus/mojohaus.github.io/issues</url>
   </issueManagement>
   <distributionManagement>
     <site>
