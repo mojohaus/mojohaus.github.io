@@ -69,9 +69,9 @@
   </mailingLists>
 
   <scm>
-    <connection>scm:svn:https://svn.codehaus.org/mojo/site</connection>
-    <developerConnection>scm:svn:https://svn.codehaus.org/mojo/site</developerConnection>
-    <url>https://svn.codehaus.org/mojo/site</url>
+    <connection>scm:git:git@github.com:mojohaus/mojohaus.github.io.git</connection>
+    <developerConnection>scm:git:git@github.com:mojohaus/mojohaus.github.io.git</developerConnection>
+    <url>http://www.mojohaus.org/</url>
   </scm>
   <issueManagement>
     <system>github</system>
