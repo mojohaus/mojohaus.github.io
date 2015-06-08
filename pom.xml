@@ -64,7 +64,7 @@
   <scm>
     <connection>scm:git:git@github.com:mojohaus/mojohaus.github.io.git</connection>
     <developerConnection>scm:git:git@github.com:mojohaus/mojohaus.github.io.git</developerConnection>
-    <url>https://github.com/mojohaus/mojohaus.github.io/tree/site</url>
+    <url>https://github.com/mojohaus/mojohaus.github.io</url>
     <tag>site</tag>
   </scm>
   <issueManagement>
