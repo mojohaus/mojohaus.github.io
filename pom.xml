@@ -97,18 +97,24 @@
             <scmBranch>master</scmBranch><!-- see https://help.github.com/articles/user-organization-and-project-pages/ -->
             <content>${project.reporting.outputDirectory}</content><!-- mono-module doesn't require site:stage -->
           </configuration>
-          <executions>
-            <execution>
-              <id>scm-publish</id>
-              <phase>site-deploy</phase><!-- deploy site with maven-scm-publish-plugin -->
-              <goals>
-                <goal>publish-scm</goal>
-              </goals>
-            </execution>
-          </executions>
         </plugin>
       </plugins>
     </pluginManagement>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-scm-publish-plugin</artifactId>
+        <executions>
+          <execution>
+            <id>scm-publish</id>
+            <phase>site-deploy</phase><!-- deploy site with maven-scm-publish-plugin -->
+            <goals>
+              <goal>publish-scm</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+    </plugins>
   </build>
 
   <reporting>
