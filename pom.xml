@@ -16,8 +16,6 @@
   limitations under the License.
 -->
 
-<!-- $Id$ -->
-
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
@@ -119,54 +117,4 @@
       </plugin>
     </plugins>
   </reporting>
-
-  <profiles>
-    <profile>
-      <id>stage-distribution</id>
-
-      <activation>
-        <property>
-          <name>stage.distributionUrl</name>
-        </property>
-      </activation>
-
-      <distributionManagement>
-        <repository>
-          <id>stage-repository</id>
-          <url>${stage.distributionUrl}/repository</url>
-        </repository>
-        <snapshotRepository>
-          <id>stage-snapshot-repository</id>
-          <url>${stage.distributionUrl}/snapshot-repository</url>
-        </snapshotRepository>
-      </distributionManagement>
-    </profile>
-    <!-- https://cwiki.apache.org/MAVEN/maven-3x-and-site-plugin.html#Maven3.xandsiteplugin-Usingmavensiteplugin2.xwithMaven2.xandmavensiteplugin3.xwithMaven3.x -->
-    <profile>
-      <id>maven-3</id>
-      <activation>
-        <file>
-          <!--  This employs that the basedir expression is only recognized by Maven 3.x (see MNG-2363) -->
-          <exists>${basedir}</exists>
-        </file>
-      </activation>
-      <build>
-        <plugins>
-          <plugin>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-site-plugin</artifactId>
-            <executions>
-              <execution>
-                <id>attach-descriptor</id>
-                <goals>
-                  <goal>attach-descriptor</goal>
-                </goals>
-              </execution>
-            </executions>
-          </plugin>
-        </plugins>
-      </build>
-    </profile>
-  </profiles>
-
 </project>
