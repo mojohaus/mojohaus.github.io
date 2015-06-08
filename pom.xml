@@ -85,6 +85,9 @@
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-site-plugin</artifactId>
           <version>3.4</version>
+          <configuration>
+            <skipDeploy>true</skipDeploy><!-- don't deploy site with maven-site-plugin -->
+          </configuration>
         </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
@@ -92,7 +95,17 @@
           <version>1.1</version>
           <configuration>
             <scmBranch>master</scmBranch><!-- see https://help.github.com/articles/user-organization-and-project-pages/ -->
+            <content>${project.reporting.outputDirectory}</content><!-- mono-module doesn't require site:stage -->
           </configuration>
+          <executions>
+            <execution>
+              <id>scm-publish</id>
+              <phase>site-deploy</phase><!-- deploy site with maven-scm-publish-plugin -->
+              <goals>
+                <goal>publish-scm</goal>
+              </goals>
+            </execution>
+          </executions>
         </plugin>
       </plugins>
     </pluginManagement>
