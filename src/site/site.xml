@@ -16,8 +16,6 @@
     limitations under the License.
 -->
 
-<!-- $Id$ -->
-
 <project name="Mojo" xmlns="http://maven.apache.org/DECORATION/1.3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/DECORATION/1.3.0 http://maven.apache.org/xsd/decoration-1.3.0.xsd">
   <skin>
@@ -59,7 +57,7 @@
       <item name="Development Guidelines" href="development/guidelines.html"/>
       <item name="Development Process" href="development/process.html"/>
       <item name="Performing a Release" href="development/performing-a-release.html"/>
-      <item name="Codehaus support" href="development/codehaus-support.html"/>
+      <item name="(Codehaus support)" href="development/codehaus-support.html"/>
     </menu>
     
     <menu name="The Sandbox">

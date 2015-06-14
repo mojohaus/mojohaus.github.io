@@ -28,7 +28,7 @@
 
 Submitting a Plugin
 
- This document describes the steps for submitting a plugin to the Mojo project. These steps might not apply to
+ This document describes the steps for submitting a plugin to the MojoHaus project. These steps might not apply to
  everyone, but should be a general guideline.
 
  Subscribe to the {{{../mail-lists.html}developer mailing list}} and ask if there is an interest in the plugin. If there

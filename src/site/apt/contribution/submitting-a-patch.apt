@@ -28,7 +28,7 @@
 
 Submitting a Patch
 
-  What's the quickest way to get a problem solved? Well, the Mojo plugins are open-source so you can always go and try
+  What's the quickest way to get a problem solved? Well, the MojoHaus plugins are open-source so you can always go and try
   patching them yourself. Every plugin web site has a page titled "Source Repository" that provides instructions on how
   to checkout the plugin's source code.
 

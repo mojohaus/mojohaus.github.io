@@ -1,5 +1,5 @@
  ------
- Maven Plugins Project
+ MojoHaus Maven Plugins Project
  ------
  Trygve Laugstol
  ------
@@ -28,14 +28,21 @@
 
 Welcome to the MojoHaus Project (previously known as Mojo@Codehaus)
 
-IMPORTANT NOTICE: if you arrived on this page because you wanted to access some plugin documentation, please be aware that as 
-per the recent Codehaus Shutdown (Starting June 2015), we're still working on infra aspects of the migration and not 
-all documentations are available yet and anything not found is fallbacking here. 
+============================
 
- Neither is this website up-to-date.
- Hopefully, most of the active plugin documentations will be back in the upcoming weeks, and we'll also update the current site asap.
+IMPORTANT NOTICE
+
+ If you arrived on this page because you wanted to access some plugin documentation, please be aware that as 
+ per the recent Codehaus shutdown (starting June 2015), we're still working on infra aspects of the migration. 
+
+ Not all documentations are available yet and anything not found is fallbacking here. Neither is this site completely up to date: some parts still refer to former Codehaus support.
+ Hopefully, most of the active plugin documentations will be back in the upcoming weeks.
+
  Sorry for inconvenience. Please ping us at {{{https://groups.google.com/forum/#!forum/mojohaus-dev}the new mailing list}} if needed.
- -- The MojoHaus Team
+
+ <<-- The MojoHaus Team>>
+
+============================
 
 
  The MojoHaus project is a collection of plugins for Apache Maven 2 & 3.
