@@ -82,7 +82,7 @@ Plugins
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
 | {{{./javacc-maven-plugin/} <<<javacc>>>}}                          | 2.6         | Process JavaCC grammars.                     | {{{http://jira.codehaus.org/browse/MJAVACC}JIRA}}
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| {{{./jaxb2-maven-plugin/} <<<jaxb2>>>}}                            | 1.6         | Generates Java classes from XML Schemas (and binding files) and creates XML Schemas for existing Java classes, using JAXB2. | {{{http://jira.codehaus.org/browse/MJAXB}JIRA}}
+| {{{./jaxb2-maven-plugin/} <<<jaxb2>>>}}                            | 2.1         | Generates Java classes from XML Schemas (and binding files) and creates XML Schemas from annotated Java classes, using JAXB2. | {{{https://github.com/mojohaus/jaxb2-maven-plugin/issues}GitHub}}
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
 | {{{./jpox-maven-plugin/} <<<jpox>>>}}                              | 1.1.6       | Support for JPOX JDO.                        | {{{http://jira.codehaus.org/browse/MJPOX}JIRA}}
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
