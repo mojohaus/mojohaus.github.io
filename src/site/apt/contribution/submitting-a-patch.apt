@@ -38,12 +38,10 @@ Submitting a Patch
   whitespace/formatting changes makes this harder. Furthermore, be sure to use only those classes/methods and language
   features that are supported by the minimum Java version targetted by the plugin.
 
-  Once the patch is completed, the preferred way to share it with the community is to attach it to the corresponding
-  JIRA issue. Posting the patch literally inside a comment in JIRA or to the mailing list is discouraged as this
-  complicates its application to the source code. Committers will definitively have a hard job if the patch is not
-  provided in diff format. For instance, the zipped project directory of the patched plugin or even entire source files
-  are usually not helpful.
-
-  Again, patches need to be reviewed by committers so please avoid cumulative patches that try to fix several issues
-  at once. Instead, rather submit multiple patches that address each issue independently. Finally remember that - just
-  like good code - a good patch comes with a test to prove its proper function.
+  Once the patch is completed, the preferred way to share it with the community is to 
+  {{{https://help.github.com/articles/fork-a-repo/}fork the repository}} and create a
+  {{{https://help.github.com/articles/using-pull-requests/}pull request}} on GitHub.
+  
+  Again, patches need to be reviewed by committers so please avoid cumulative pull requests that try to fix several issues
+  at once. Instead, rather submit pull requests that address each issue independently. Finally remember that - just
+  like good code - a good pull request comes with a test to prove its proper function.

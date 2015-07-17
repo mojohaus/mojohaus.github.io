@@ -48,8 +48,8 @@ IMPORTANT NOTICE
  The MojoHaus project is a collection of plugins for Apache Maven 2 & 3.
 
  Releases of the plugins are available from the {{{http://repo1.maven.org/maven2/org/codehaus/mojo/}Maven Central repository}}.
- {{{https://nexus.codehaus.org/content/groups/snapshots-group/org/codehaus/mojo/}Snapshots}} are available on request through 
- the {{{./mail-lists.html}users mailing list}} or by emailing the maintainer. Each plugin has a list of people involved in
+ {{{https://oss.sonatype.org/content/repositories/snapshots/org/codehaus/mojo/}Snapshots}} are available on request through 
+ the {{{./mail-lists.html}development list}} or by emailing the maintainer. Each plugin has a list of people involved in
  creating or supporting it.
 
 * Plugins
@@ -65,7 +65,7 @@ IMPORTANT NOTICE
 * Getting Support
 
  If you have problems or concerns with plugins in the Mojo project please contact the author, ask on
- the {{{./mail-lists.html}users mailing list}} or join us on {{{./irc.html}IRC}}. There are also instructions on
+ the {{{./mail-lists.html}development list}} or join us on {{{./irc.html}IRC}}. There are also instructions on
  {{{./contribution/reporting-an-issue.html}how to report an issue}} should you run into one.
 
 * Development
