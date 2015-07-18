@@ -1,0 +1,5 @@
+Markerfile so jekyll is *not* executed when publishing.
+
+Otherwise hidden files (.htaccess or jacoco images) are not
+copied over and are missing.
+See https://help.github.com/articles/files-that-start-with-an-underscore-are-missing/.
