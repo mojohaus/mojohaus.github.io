@@ -1,2 +1,2 @@
-RedirectMatch permanent groovy-maven-plugin http://groovy.codehaus.org/GMaven
-RedirectMatch permanent groovy-maven-plugin/(.*)$ http://groovy.codehaus.org/GMaven
+RedirectMatch permanent groovy-maven-plugin http://groovy.github.io/gmaven/groovy-maven-plugin
+RedirectMatch permanent groovy-maven-plugin/(.*)$ http://groovy.github.io/gmaven/groovy-maven-plugin

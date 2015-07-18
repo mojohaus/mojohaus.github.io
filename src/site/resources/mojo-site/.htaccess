@@ -2,6 +2,6 @@
 ## $Id$
 ##
 
-RedirectMatch permanent mojo-site http://mojo.codehaus.org
-RedirectMatch permanent mojo-site/(.*)$ http://mojo.codehaus.org/$1
+RedirectMatch permanent mojo-site http://www.mojohaus.org
+RedirectMatch permanent mojo-site/(.*)$ http://www.mojohaus.org/$1
 
