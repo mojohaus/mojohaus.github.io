@@ -24,6 +24,23 @@
     <version>1.4</version> 
   </skin>
 
+  <custom>
+    <fluidoSkin>
+      <googleSearch>
+        <sitesearch>www.mojohaus.org</sitesearch>
+      </googleSearch>
+      <ohloh>
+        <projectId>5211</projectId>
+        <widget>thin-badge</widget>
+      </ohloh>
+      <gitHub>
+        <projectId>mojohaus/mojohaus.github.io</projectId>
+        <ribbonOrientation>right</ribbonOrientation>
+        <ribbonColor>gray</ribbonColor>
+      </gitHub>
+    </fluidoSkin>
+  </custom>
+
   <bannerLeft>
     <name>Mojo</name>
     <src>/images/mojo_logo.png</src>
