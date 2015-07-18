@@ -1,2 +1,2 @@
-RedirectMatch permanent groovy http://groovy.codehaus.org/GMaven
-RedirectMatch permanent groovy/(.*)$ http://groovy.codehaus.org/GMaven
+RedirectMatch permanent groovy http://groovy.github.io/gmaven
+RedirectMatch permanent groovy/(.*)$ http://groovy.github.io/gmaven
