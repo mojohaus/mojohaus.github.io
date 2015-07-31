@@ -56,7 +56,7 @@ Plugins
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
 | {{{./jboss-packaging-maven-plugin/} <<<jboss-packaging>>>}}        | 2.2         | Packages various JBoss deployable archive files including AOP, ESB, HAR, SAR, and Spring. | {{{https://github.com/mojohaus/jboss-packaging-maven-plugin/issues}GitHub}}
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| {{{./was6-maven-plugin/} <<<was6>>>}}                              | 1.2.1       | IBM WebSphere Application Server 6.x, 7 & 8.x support.| {{{https://github.com/mojohaus/was6-maven-plugin/issues}GitHub}}
+| {{{./was6-maven-plugin/} <<<was6>>>}}                              | 1.2.1       | IBM WebSphere Application Server 6.x, 7 & 8.x support.| -
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
 | {{{./weblogic-maven-plugin/} <<<weblogic>>>}}                      | 2.9.5       | Supports various tasks within the Weblogic 8.1, 9.x, 10.x, 12.x environment.| -
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
@@ -64,7 +64,7 @@ Plugins
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
 | <<Generators / Compilers / Translators>>                           |             | <Plugins providing support for code generation, compilation and translation.> |
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| {{{./antlr-maven-plugin/} <<<antlr>>>}}                            | 2.2         | Process ANTLRv2 grammars.                    | {{{https://github.com/mojohaus/antlr-maven-plugin/issues}GitHub}}
+| {{{./antlr-maven-plugin/} <<<antlr>>>}}                            | 2.2         | Process ANTLRv2 grammars.                    | -
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
 | {{{./aspectj-maven-plugin/} <<<aspectj>>>}}                        | 1.7         | Weaves aspects with AspectJ.                 | {{{https://github.com/mojohaus/aspectj-maven-plugin/issues}GitHub}}
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
@@ -72,43 +72,43 @@ Plugins
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
 | {{{./castor-maven-plugin/} <<<castor>>>}}                          | 2.5         | Source generation with Castor XML.           | {{{https://github.com/mojohaus/castor-maven-plugin/issues}GitHub}}
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| {{{./commons-attributes-maven-plugin/} <<<commons-attributes>>>}}  | 1.0         | Source generation for Commons Attributes.    | {{{https://github.com/mojohaus/commons-attributes-maven-plugin/issues}GitHub}}
+| {{{./commons-attributes-maven-plugin/} <<<commons-attributes>>>}}  | 1.0         | Source generation for Commons Attributes.    | -
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
 | {{{./gwt-maven-plugin/} <<<GWT>>>}}                                | 2.6.0       | GWT.                                         | {{{https://github.com/mojohaus/gwt-maven-plugin/issues}GitHub}}
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| {{{./hibernate3-maven-plugin/} <<<hibernate3>>>}}                  | 3.0         | Integration with Hibernate 3.x               | {{{https://github.com/mojohaus/hibernate3-maven-plugin/issues}GitHub}}
+| {{{./hibernate3-maven-plugin/} <<<hibernate3>>>}}                  | 3.0         | Integration with Hibernate 3.x               | -
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| {{{./idlj-maven-plugin/} <<<idlj>>>}}                              | 1.2.1       | Process IDL files into Java sources.         | {{{https://github.com/mojohaus/idlj-maven-plugin/issues}GitHub}}
+| {{{./idlj-maven-plugin/} <<<idlj>>>}}                              | 1.2.1       | Process IDL files into Java sources.         | -
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
 | {{{./javacc-maven-plugin/} <<<javacc>>>}}                          | 2.6         | Process JavaCC grammars.                     | {{{https://github.com/mojohaus/javacc-maven-plugin/issues}GitHub}}
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
 | {{{./jaxb2-maven-plugin/} <<<jaxb2>>>}}                            | 2.1         | Generates Java classes from XML Schemas (and binding files) and creates XML Schemas from annotated Java classes, using JAXB2. | {{{https://github.com/mojohaus/jaxb2-maven-plugin/issues}GitHub}}
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| {{{./jpox-maven-plugin/} <<<jpox>>>}}                              | 1.1.6       | Support for JPOX JDO.                        | {{{https://github.com/mojohaus/jpox-maven-plugin/issues}GitHub}}
+| {{{./jpox-maven-plugin/} <<<jpox>>>}}                              | 1.1.6       | Support for JPOX JDO.                        | -
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| {{{./jslint-maven-plugin/} <<<jslint>>>}}                          | 1.0.0       | Provides fast and efficient JSLint code validation when developing JavaScript applications. | {{{https://github.com/mojohaus/jslint-maven-plugin/issues}GitHub}}
+| {{{./jslint-maven-plugin/} <<<jslint>>>}}                          | 1.0.0       | Provides fast and efficient JSLint code validation when developing JavaScript applications. | -
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| {{{./js-import-maven-plugin/} <<<js import>>>}}                    | 1.0.1       | Provides Maven dependency management for JavaScript applications.                           | {{{https://github.com/mojohaus/js-import-maven-plugin/issues}GitHub}}
+| {{{./js-import-maven-plugin/} <<<js import>>>}}                    | 1.0.1       | Provides Maven dependency management for JavaScript applications.                           | -
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
 | {{{./jspc-maven-plugin/} <<<jspc>>>}}                              | 1.4.6       | Provides support for JSP compilation.        | -
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| {{{./openjpa-maven-plugin/} <<<openjpa>>>}}                        | 1.2         | Compiletime enhancement, SQL and Mapping Generation for OpenJPA. | {{{https://github.com/mojohaus/openjpa-maven-plugin/issues}GitHub}}
+| {{{./openjpa-maven-plugin/} <<<openjpa>>>}}                        | 1.2         | Compiletime enhancement, SQL and Mapping Generation for OpenJPA. | -
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| {{{./rmic-maven-plugin/} <<<rmic>>>}}                              | 1.2.0       | Generates rmi (Remote Method Invocation) stub and skeleton classes. | {{{https://github.com/mojohaus/rmic-maven-plugin/issues}GitHub}}
+| {{{./rmic-maven-plugin/} <<<rmic>>>}}                              | 1.2.0       | Generates rmi (Remote Method Invocation) stub and skeleton classes. | -
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| {{{./sablecc-maven-plugin/} <<<sablecc>>>}}                        | 2.0         | Process SableCC grammars.                    | {{{https://github.com/mojohaus/sablecc-maven-plugin/issues}GitHub}}
+| {{{./sablecc-maven-plugin/} <<<sablecc>>>}}                        | 2.0         | Process SableCC grammars.                    | -
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
 | {{{./sqlj-maven-plugin/} <<<sqlj>>>}}                              | 1.3         | Translates SQLJ source code to Java source code. | {{{https://github.com/mojohaus/sqlj-maven-plugin/issues}GitHub}}
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| {{{./xdoclet-maven-plugin/} <<<xdoclet>>>}}                        | 1.0         | Provides XDoclet functionality to Maven.     | {{{https://github.com/mojohaus/xdoclet-maven-plugin/issues}GitHub}}
+| {{{./xdoclet-maven-plugin/} <<<xdoclet>>>}}                        | 1.0         | Provides XDoclet functionality to Maven.     | -
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| {{{./xmlbeans-maven-plugin/} <<<xmlbeans>>>}}                      | 2.3.3       | XML to Java binding via XMLBeans.            | {{{https://github.com/mojohaus/xmlbeans-maven-plugin/issues}GitHub}}
+| {{{./xmlbeans-maven-plugin/} <<<xmlbeans>>>}}                      | 2.3.3       | XML to Java binding via XMLBeans.            | -
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
 |
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
 | <<IDEs>> | | <Plugins that support integration with integrated developer environments.>
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| {{{./nbm-maven/nbm-maven-plugin/} <<<nbm>>>}}                      | 3.7         | Creates NetBeans Platform modules and applications. | {{{https://github.com/mojohaus/nbm-maven/issues}GitHub}}
+| {{{./nbm-maven/nbm-maven-plugin/} <<<nbm>>>}}                      | 3.7         | Creates NetBeans Platform modules and applications. | {{{https://github.com/mojohaus/nbm-maven-plugin/issues}GitHub}}
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
 |
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
@@ -118,7 +118,7 @@ Plugins
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
 | {{{./cobertura-maven-plugin/} <<<cobertura>>>}}                    | 2.7         | Code coverage via Cobertura.                 | {{{https://github.com/mojohaus/cobertura-maven-plugin/issues}GitHub}}
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| {{{./scmchangelog-maven-plugin/} <<<scmchangelog>>>}}              | 1.3         | Simple Reporter that creates a changelog report using comments and tags from Subversion. | {{{https://github.com/mojohaus/scmchangelog-maven-plugin/issues}GitHub}}
+| {{{./scmchangelog-maven-plugin/} <<<scmchangelog>>>}}              | 1.3         | Simple Reporter that creates a changelog report using comments and tags from Subversion. | -
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
 | {{{./sonar-maven-plugin/} <<<sonar>>>}}                            | 2.6         | Inspect code with {{{http://www.sonarqube.org/}SonarQube}}. | {{{https://github.com/mojohaus/sonar-maven-plugin/issues}GitHub}}
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
@@ -131,27 +131,27 @@ Plugins
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
 | <<Testing>> | | <Plugins which support testing.>
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| {{{./codenarc-maven-plugin/} <<<codenarc>>>}}                      | 0.17-2      | Generate CodeNarc report against Groovy source code. | {{{https://github.com/mojohaus/codenarc-maven-plugin/issues}GitHub}}
+| {{{./codenarc-maven-plugin/} <<<codenarc>>>}}                      | 0.17-2      | Generate CodeNarc report against Groovy source code. | -
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
 | {{{./findbugs-maven-plugin/} <<<findbugs>>>}}                      | 3.0.0       | Generates a FindBugs report.                 | {{{https://github.com/mojohaus/findbugs-maven-plugin/issues}GitHub}}
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| {{{./fitnesse-maven-plugin/} <<<fitnesse>>>}}                      | 1.1-beta-1  | Fully integrated standalone wiki, and acceptance testing framework. | {{{https://github.com/mojohaus/fitnesse-maven-plugin/issues}GitHub}}
+| {{{./fitnesse-maven-plugin/} <<<fitnesse>>>}}                      | 1.1-beta-1  | Fully integrated standalone wiki, and acceptance testing framework. | -
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| {{{./selenium-maven-plugin/} <<<selenium>>>}}                      | 2.3         | Supports automated web-application testing.  | {{{https://github.com/mojohaus/selenium-maven-plugin/issues}GitHub}}
+| {{{./selenium-maven-plugin/} <<<selenium>>>}}                      | 2.3         | Supports automated web-application testing.  | -
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| {{{./webtest-maven-plugin/} <<<webtest>>>}}                        | 1.0.0       | Supports automated web-application testing using Canoo WebTest | {{{https://github.com/mojohaus/webtest-maven-plugin/issues}GitHub}}
+| {{{./webtest-maven-plugin/} <<<webtest>>>}}                        | 1.0.0       | Supports automated web-application testing using Canoo WebTest | -
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| {{{./chronos/} <<<chronos-jmeter>>>}}                              | 1.1.0       | Execute performancetests with jmeter and analyze the results. | {{{https://github.com/mojohaus/chronos/issues}GitHub}}
+| {{{./chronos/} <<<chronos-jmeter>>>}}                              | 1.1.0       | Execute performancetests with jmeter and analyze the results. | -
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| {{{./chronos/} <<<chronos-surefire>>>}}                            | 1.1.0       | Analyze time spent in unittests used to measure performance | {{{https://github.com/mojohaus/chronos/issues}GitHub}}
+| {{{./chronos/} <<<chronos-surefire>>>}}                            | 1.1.0       | Analyze time spent in unittests used to measure performance | -
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| {{{./chronos/} <<<chronos-report>>>}}                              | 1.1.0       | Create reports of performance testresults.   | {{{https://github.com/mojohaus/chronos/issues}GitHub}}
+| {{{./chronos/} <<<chronos-report>>>}}                              | 1.1.0       | Create reports of performance testresults.   | -
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
 |
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
 | <<Tools>>  | | <Miscellaneous tools available through Maven.>
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| {{{./animal-sniffer-maven-plugin/} <<<animal-sniffer>>>}}          | 1.13         | Verifies classes against API signatures.     | {{{https://github.com/mojohaus/animal-sniffer-maven-plugin/issues}GitHub}}
+| {{{./animal-sniffer-maven-plugin/} <<<animal-sniffer>>>}}          | 1.13         | Verifies classes against API signatures.     | {{{https://github.com/mojohaus/animal-sniffer/issues}GitHub}}
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
 | {{{./appassembler/appassembler-maven-plugin/} <<<appassembler>>>}} | 1.9       | Generates bin and Java Service Wrapper scripts for Java applications. | {{{https://github.com/mojohaus/appassembler/issues}GitHub}}
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
@@ -167,23 +167,23 @@ Plugins
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
 | {{{./keytool/keytool-maven-plugin/} <<<keytool>>>}}                | 1.5         | Manipulates keys and keystores.              | {{{https://github.com/mojohaus/keytool/issues}GitHub}}
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| {{{./latex-maven-plugin/} <<<latex>>>}}                            | 1.1         | Builds PDF documents from LaTeX, BibTeX and such. | {{{https://github.com/mojohaus/latex-maven-plugin/issues}GitHub}}
+| {{{./latex-maven-plugin/} <<<latex>>>}}                            | 1.1         | Builds PDF documents from LaTeX, BibTeX and such. | {{{https://github.com/mojohaus/latex-maven/issues}GitHub}}
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
 | {{{./license-maven-plugin/} <<<license>>>}}                        | 1.8         | Tools to deal with licenses and thirdparties of a maven project. | {{{https://github.com/mojohaus/license-maven-plugin/issues}GitHub}}
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| {{{./ounce-maven-plugin/} <<<ounce>>>}}                            | 1.3         | Perform Ouncelabs Ounce code security scans. | {{{https://github.com/mojohaus/ounce-maven-plugin/issues}GitHub}}
+| {{{./ounce-maven-plugin/} <<<ounce>>>}}                            | 1.3         | Perform Ouncelabs Ounce code security scans. | -
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
 | {{{./rpm-maven-plugin/} <<<rpm>>>}}                                | 2.1.1         | Assembles files into an RPM package.         | {{{https://github.com/mojohaus/rpm-maven-plugin/issues}GitHub}}
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| {{{./siteskinner-maven-plugin/} <<<siteskinner>>>}}                | 1.0         | Apply a new skin on a published site generated by Maven | {{{https://github.com/mojohaus/siteskinner-maven-plugin/issues}GitHub}}
+| {{{./siteskinner-maven-plugin/} <<<siteskinner>>>}}                | 1.0         | Apply a new skin on a published site generated by Maven | -
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
 | {{{./sql-maven-plugin/} <<<sql>>>}}                                | 1.5         | Execution of SQL statements.                 | {{{https://github.com/mojohaus/sql-maven-plugin/issues}GitHub}}
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| {{{./truezip-maven-plugin/} <<<truezip>>>}}                        | 1.1         | Manipulates archive files.                   | {{{https://github.com/mojohaus/truezip-maven-plugin/issues}GitHub}}
+| {{{./truezip-maven-plugin/} <<<truezip>>>}}                        | 1.1         | Manipulates archive files.                   | {{{https://github.com/mojohaus/truezip/issues}GitHub}}
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
 | {{{./versions-maven-plugin/} <<<versions>>>}}                      | 2.1         | Supports various tasks for updating the versions of components in the POM. | {{{https://github.com/mojohaus/versions-maven-plugin/issues}GitHub}}
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| {{{./vfs-maven-plugin/} <<<vfs>>>}}                                | 1.0.1       | Maven plugin for {{{http://commons.apache.org/proper/commons-vfs/} Apache Commons Virtual File System (VFS)}}. | {{{https://github.com/mojohaus/vfs-maven-plugin/issues}GitHub}}
+| {{{./vfs-maven-plugin/} <<<vfs>>>}}                                | 1.0.1       | Maven plugin for {{{http://commons.apache.org/proper/commons-vfs/} Apache Commons Virtual File System (VFS)}}. | {{{https://github.com/mojohaus/vfs/issues}GitHub}}
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
 | {{{./xml-maven-plugin/} <<<xml>>>}}                                | 1.0         | XML transformation and validation.           | {{{https://github.com/mojohaus/xml-maven-plugin/issues}GitHub}}
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
