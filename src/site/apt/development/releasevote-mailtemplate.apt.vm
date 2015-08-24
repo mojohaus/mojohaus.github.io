@@ -35,7 +35,7 @@ Mail Template for a Release Vote
 *---------+--------------------------------------------------------------------+
 | Subject | [VOTE] Release PROJECT_NAME version PROJECT_VERSION
 *---------+--------------------------------------------------------------------+
-| To      | dev@mojo.codehaus.org
+| To      | mojohaus-dev@googlegroups.com
 *---------+--------------------------------------------------------------------+
 
 -------------------------------------------------------------------------------
@@ -46,20 +46,18 @@ I'd like to release version PROJECT_VERSION of the PROJECT_NAME
 PROJECT_DESCRIPTION
 
 We solved NR_OF_SOLVED_ISSUES issues:
-http://jira.codehaus.org/secure/ReleaseNote.jspa?PROJECTID_AND_VERSION
+https://github.com/mojohaus/PROJECT_NAME/issues?q=milestone%3APROJECT_VERSION+is%3Aclosed
 
-There are still a couple of issues left in JIRA:
-http://jira.codehaus.org/secure/IssueNavigator.jspa?A_LOT_OF_PARAMETERS
+There are still a couple of issues left in GitHub:
+https://github.com/mojohaus/PROJECT_NAME/issues
 
 Staging Repositories:
-General:  https://nexus.codehaus.org/content/groups/staging/
-Exclusive: https://nexus.codehaus.org/content/repositories/SOME_SPECIFIC_STAGING_VERSION
+Exclusive: https://oss.sonatype.org/content/repositories/SOME_SPECIFIC_STAGING_VERSION
 
 (Staging) Site:
-PROJECT_URL AND/OR STAGING_SITE_URL
+http://www.mojohaus.org/PROJECT_NAME
 
-SCM Tag:
-PROJECT_SCM_URL
+Diff: https://github.com/mojohaus/PROJECT_NAME/compare/PROJECT_NAME-PROJECT_PREVIOUS_VERSION...PROJECT_NAME-PROJECT_VERSION
 
 ADDITIONAL_INFORMATION
 

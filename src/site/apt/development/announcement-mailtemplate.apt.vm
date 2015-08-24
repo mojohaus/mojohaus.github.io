@@ -35,7 +35,7 @@ Mail Template for an Announcement
 *---------+--------------------------------------------------------------------+
 | Subject | [ANN] PROJECT_NAME PROJECT_VERSION Released
 *---------+--------------------------------------------------------------------+
-| To      | announce@mojo.codehaus.org, dev@mojo.codehaus.org, user@mojo.codehaus.org, users@maven.apache.org
+| To      | mojohaus-dev@googlegroups.com, users@maven.apache.org
 *---------+--------------------------------------------------------------------+
 
 -------------------------------------------------------------------------------

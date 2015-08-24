@@ -64,14 +64,15 @@ Development Guidelines
 
 * {Mojo Parents}
 
- Released plugins should derive from the Mojo parent:
+ Released plugins should derive from the Mojo parent, for the latest version see
+ {{{http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22org.codehaus.mojo%22%20AND%20a%3A%22mojo-parent%22}Maven Central}}:
 
 +---------------------------------------+
 <project>
   <parent>
     <groupId>org.codehaus.mojo</groupId>
     <artifactId>mojo-parent</artifactId>
-    <version>34</version>
+    <version>37</version>
   </parent>
   ...
 </project>
