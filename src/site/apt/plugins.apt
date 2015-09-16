@@ -180,11 +180,11 @@ Plugins
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
 | {{{./sql-maven-plugin/} <<<sql>>>}}                                | 1.5         | Execution of SQL statements.                 | {{{https://github.com/mojohaus/sql-maven-plugin/issues}GitHub}}
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| {{{./truezip-maven-plugin/} <<<truezip>>>}}                        | 1.1         | Manipulates archive files.                   | {{{https://github.com/mojohaus/truezip/issues}GitHub}}
+| {{{./truezip/truezip-maven-plugin/} <<<truezip>>>}}                        | 1.1         | Manipulates archive files.                   | {{{https://github.com/mojohaus/truezip/issues}GitHub}}
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
 | {{{./versions-maven-plugin/} <<<versions>>>}}                      | 2.1         | Supports various tasks for updating the versions of components in the POM. | {{{https://github.com/mojohaus/versions-maven-plugin/issues}GitHub}}
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| {{{./vfs-maven-plugin/} <<<vfs>>>}}                                | 1.0.1       | Maven plugin for {{{http://commons.apache.org/proper/commons-vfs/} Apache Commons Virtual File System (VFS)}}. | {{{https://github.com/mojohaus/vfs/issues}GitHub}}
+| {{{./vfs/vfs-maven-plugin/} <<<vfs>>>}}                                | 1.0.1       | Maven plugin for {{{http://commons.apache.org/proper/commons-vfs/} Apache Commons Virtual File System (VFS)}}. | {{{https://github.com/mojohaus/vfs/issues}GitHub}}
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
 | {{{./xml-maven-plugin/} <<<xml>>>}}                                | 1.0         | XML transformation and validation.           | {{{https://github.com/mojohaus/xml-maven-plugin/issues}GitHub}}
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
