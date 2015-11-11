@@ -4,8 +4,6 @@
  ------
  ------
 
-~~ $Id$
-
 ~~
 ~~ Licensed to the Apache Software Foundation (ASF) under one
 ~~ or more contributor license agreements.  See the NOTICE file
@@ -85,6 +83,8 @@ Plugins
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
 | {{{./jaxb2-maven-plugin/} <<<jaxb2>>>}}                            | 2.1         | Generates Java classes from XML Schemas (and binding files) and creates XML Schemas from annotated Java classes, using JAXB2. | {{{https://github.com/mojohaus/jaxb2-maven-plugin/issues}GitHub}}
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
+| {{{./jaxws-maven-plugin/} <<<jaxws>>>}}                            | 2.4         | JAX-WS wsgen/wsimport tooling support.       | {{{https://github.com/mojohaus/jaxws-maven-plugin/issues}GitHub}} 
+*--------------------------------------------------------------------+------------------------------------------------------------+
 | {{{./jpox-maven-plugin/} <<<jpox>>>}}                              | 1.1.6       | Support for JPOX JDO.                        | -
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
 | {{{./jslint-maven-plugin/} <<<jslint>>>}}                          | 1.0.0       | Provides fast and efficient JSLint code validation when developing JavaScript applications. | -
@@ -387,8 +387,6 @@ Plugins
 | {{{./failsafe-maven-plugin/} <<<failsafe>>>}}                      | Moved to {{{https://github.com/mojohaus/failsafe-maven-plugin/issues} Maven Failsafe Plugin}}.
 *--------------------------------------------------------------------+------------------------------------------------------------+
 | {{{./groovy/} <<<groovy>>>}}                                       | Moved to {{{https://github.com/mojohaus/groovy/issues} GMaven}}.
-*--------------------------------------------------------------------+------------------------------------------------------------+
-| {{{./jaxws-maven-plugin/} <<<jaxws>>>}}                            | Moved to {{{https://github.com/mojohaus/jaxws-maven-plugin/issues}JAX-WS Commons}} at java.net.
 *--------------------------------------------------------------------+------------------------------------------------------------+
 | {{{./jboss-maven-plugin/} <<<jboss>>>}}                            | Superceded by {{{https://github.com/mojohaus/jboss-maven-plugin/issues}JBoss AS7 Deployment Plugin}}
 *--------------------------------------------------------------------+------------------------------------------------------------+
