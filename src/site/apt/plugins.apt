@@ -298,7 +298,7 @@ Plugins
  These are plugins which have been contributed but have not gained the attention of users or
  a committer interested in seeing it released. If you are looking for a plugin but do not see
  it in this list or the lists above, you should also check the
- {{{https://svn.codehaus.org/mojo/trunk/sandbox}subversion repository}}
+ {{{https://github.com/mojohaus/}MojoHaus team page}}
  in case the plugin hasn't been added to the list below yet.
 
 *--------------------------------------------------------------------+------------------------------------------------------------+
