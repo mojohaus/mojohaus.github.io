@@ -134,7 +134,7 @@ Plugins
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
 | {{{./codenarc-maven-plugin/} <<<codenarc>>>}}                      | 0.17-2      | Generate CodeNarc report against Groovy source code. | -
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| {{{./findbugs-maven-plugin/} <<<findbugs>>>}}                      | 3.0.0       | Generates a FindBugs report.                 | {{{https://github.com/mojohaus/findbugs-maven-plugin/issues}GitHub}}
+| {{{./findbugs-maven-plugin/} <<<findbugs>>>}}                      | 3.0.3       | Generates a FindBugs report.                 | {{{https://github.com/mojohaus/findbugs-maven-plugin/issues}GitHub}}
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
 | {{{./fitnesse-maven-plugin/} <<<fitnesse>>>}}                      | 1.1-beta-1  | Fully integrated standalone wiki, and acceptance testing framework. | -
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
