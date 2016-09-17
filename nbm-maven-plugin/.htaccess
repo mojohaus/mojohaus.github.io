@@ -1,0 +1,2 @@
+RedirectMatch permanent nbm-maven-plugin/(.*)$ http://www.mojohaus.org/nbm-maven/nbm-maven-plugin/$1
+RedirectMatch permanent nbm-maven-plugin http://www.mojohaus.org/nbm-maven/nbm-maven-plugin

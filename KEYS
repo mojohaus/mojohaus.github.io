@@ -1,4 +1,4 @@
-Edit this file in SVN at https://github.com/mojohaus/mojohaus.github.io/blob/site/src/site/resources/KEYS
+Edit this file in SVN at https://svn.codehaus.org/mojo/site/src/site/resources/KEYS
 File will be updated with the next site-deployment
 
 pub   2048R/D6179A28 2013-03-19 [expires: 2017-03-19]
@@ -4364,41 +4364,4 @@ yl7vcEReKLH/FNQ3Q6Y32m3SlhtfkTG8dPMx+3WISQQYEQIACQUCSaF6/wIbDAAK
 CRBlJf1wzDA2Va9KAKC5mR0wkd/X8CSU693AAc/544zULwCg0goAeKquoZuBm9KX
 UWlDeLuHu6Q=
 =n9eY
------END PGP PUBLIC KEY BLOCK-----
-
-pub   2048R/7E54F847 2016-01-12
-uid                  Julien HENRY <henryju@yahoo.fr>
-sig 3        7E54F847 2016-01-12  Julien HENRY <henryju@yahoo.fr>
-sub   2048R/11784E76 2016-01-12
-sig          7E54F847 2016-01-12  Julien HENRY <henryju@yahoo.fr>
-
------BEGIN PGP PUBLIC KEY BLOCK-----
-Version: GnuPG v1
-
-mQENBFaU3tUBCADZZVVpJZLwr1ZQmIdJ2U6y0ALe/ekUJCN+f05/Wc018Ojnye7u
-B7ZZ11sFwzPpsCdZFBa8GIwI16V5jlX3HbKOMxspUTd76x85dlpuM2eYLzxN2gq+
-GHIPUsBORsDmmIh+G9yPPWMzeiFIV5BGRgI05mPBJMtLQ8TBxOczdHjFGIbMRsSz
-PxvUOu4tSVBen3dvA8FnEodt3wOrXtdxV3pg4CXJx9+q1p2ui717IOJ8DhS4RmCC
-n5hfL3jQOZC2H6Q/we5EFrPXrkJ+VGbnwy7/Q1igoczWltMlUj0Z1EsiWqT3tJzP
-B0f3Aiyz0ow/21x7lO0dMUiNokwUBAgsB9JpABEBAAG0H0p1bGllbiBIRU5SWSA8
-aGVucnlqdUB5YWhvby5mcj6JATgEEwECACIFAlaU3tUCGwMGCwkIBwMCBhUIAgkK
-CwQWAgMBAh4BAheAAAoJEFyS0Yh+VPhH8o4IALMV8CfGOLJUC7jMnUzvDLwHXAYw
-b/21u2oQh45zE+8fsp1q6M8xVoWE7H8cNRL5DR7i/vpw3zemIccuHRVFO/vCIhta
-8vnDH5T7aF/sZATdSfrLowiWx1dCQ+lS7kyTwME/glIRk45bk0SCKjN0RE3cWief
-a5lPDoATvmTdlWaKlAra7TJio69T2wzmB+Ym6UHGJnMZyd+12P4mhCOT9ofq8Jvo
-MvWMf6jYKVQjjfCPpCfMyIeFVRtDy1jh6ObEy/I7Xxlq534F+9NxuzLhx3cLLR6n
-YRHybeT5qr6VL2l9X8dQYyGMQoDPf9mm7PU2xTJb6Qba3/k58uKZdyghbdq5AQ0E
-VpTe1QEIALEpFLT2WUAjSDl9Qr4Hlf5aYO9fES2ZqjrDqW89eSkr3Si8mWNbgtY9
-rsaH2rTaVWZETeAT67/yhciPPdhvG/Yz4U3e/jtHA7AcP9bvqfSfgjyLtZJ186XE
-To0lSzorMZqApq5iatkdFo2359nJtahIEnUrGmEErgZRbSmFqgo16HjSh1wRMeHN
-9Sq9QlhzIT0PiCSNmS5SYW04I7urCmQtK+Q3mQiHMBGpSzdbZjA4ngl7RQUkIhU6
-lAvzmyVoSMuWuyFZQNmrupt3OgGShBNnHM9AFxOW5F/q7ID7qtwpEE9bPdXnScb+
-5TEM7g/D5ZpHqexc0IPFvJ04Dr3rO+UAEQEAAYkBHwQYAQIACQUCVpTe1QIbDAAK
-CRBcktGIflT4R8pCB/0VHCw79z4LhgJ99b8lUfUTweUwMoojqN6gGd4fGFtQGWi1
-ZdP6nYl4L5h0UWw+sS+MWh/RBnbC1eSjLmm2zI7Y9tQMgU+85prOmJxJDZfVh57q
-jbb+0NBTHp2Aaff5gqIh4nVp20QicMq83CP+GQKAEGwyvEPveJWIdpwNpx3jHXGq
-K9Kwc7igyoTceSk1II0AL53mW57eZGcWo1AXqizF1G7qy9XYXsLf8eGDwcYi7TAh
-2DXsuUxkj7nyJL6p2TZJg3PmdJhlNTsSL2odzKLTJSwdbMruD0p8kust+xLj06Ok
-11kxKgixNLdMmLj2YVwqMVuXfMRUg3tMvuy1MV2E
-=ViEr
 -----END PGP PUBLIC KEY BLOCK-----
