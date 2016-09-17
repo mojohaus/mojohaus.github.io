@@ -81,7 +81,7 @@ Plugins
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
 | {{{./javacc-maven-plugin/} <<<javacc>>>}}                          | 2.6         | Process JavaCC grammars.                     | {{{https://github.com/mojohaus/javacc-maven-plugin/issues}GitHub}}
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| {{{./jaxb2-maven-plugin/} <<<jaxb2>>>}}                            | 2.3         | Generates Java classes from XML Schemas (and binding files) and creates XML Schemas from annotated Java classes, using JAXB2. | {{{https://github.com/mojohaus/jaxb2-maven-plugin/issues}GitHub}}
+| {{{https://github.com/mojohaus/jaxb2-maven-plugin}jaxb2}}                            | 2.3         | Generates Java classes from XML Schemas (and binding files) and creates XML Schemas from annotated Java classes, using JAXB2. | {{{https://github.com/mojohaus/jaxb2-maven-plugin/issues}GitHub}}
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
 | {{{./jaxws-maven-plugin/} <<<jaxws>>>}}                            | 2.4         | JAX-WS wsgen/wsimport tooling support.       | {{{https://github.com/mojohaus/jaxws-maven-plugin/issues}GitHub}} 
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
