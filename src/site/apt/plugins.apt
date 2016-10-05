@@ -164,6 +164,8 @@ Plugins
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
 | {{{./exec-maven-plugin/} <<<exec>>>}}                              | 1.5.0       | Execution of system and Java programs.       | {{{https://github.com/mojohaus/exec-maven-plugin/issues}GitHub}}
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
+| {{{./flatten-maven-plugin/} <<<flatten>>>}}                        | 1.0.0       | Flattens your pom.xml before install or deploy. | {{{https://github.com/mojohaus/flatten-maven-plugin/issues}GitHub}}
+*--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
 | {{{./keytool/keytool-maven-plugin/} <<<keytool>>>}}                | 1.5         | Manipulates keys and keystores.              | {{{https://github.com/mojohaus/keytool/issues}GitHub}}
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
 | {{{./latex-maven-plugin/} <<<latex>>>}}                            | 1.1         | Builds PDF documents from LaTeX, BibTeX and such. | {{{https://github.com/mojohaus/latex-maven/issues}GitHub}}
@@ -206,13 +208,13 @@ Plugins
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./enchanter/} <<<enchanter>>>}}                                 | 1.0-beta-1  | Execute expect like scripts over telnet/ssh sessions.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
-| {{{./flatten-maven-plugin/} <<<flatten>>>}}                        | 1.0.0-beta-2| Flatten Maven Plugin generates a flattened version of your pom.xml.
-*--------------------------------------------------------------------+-------------+-----------------------------------------------+
 | {{{./jspc/} <<<jspc>>>}}                                           | 2.0-alpha-3 | Support for JSP compilation w/pluggable JSP compiler implementations.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./maven-native/native-maven-plugin/} <<<native>>>}}             | 1.0-alpha-8 | Compile C and C++ sources.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./retrotranslator-maven-plugin/} <<<retrotranslator>>>}}        | 1.0-alpha-4 | Translates JDK 5.0 classes to be compatible with a 1.4 JVM.
+*--------------------------------------------------------------------+-------------+----------------------------------------------+
+| {{{./servicedoc-maven-plugin/} <<<servicedoc>>>}}                  | 1.0-beta-3  | Generates nice REST Documentation from JAX-RS
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./smc-maven-plugin/} <<<smc>>>}}                                | 1.0-alpha-1 | State Machine Compiler.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
