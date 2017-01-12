@@ -170,7 +170,7 @@ Plugins
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
 | {{{./latex-maven-plugin/} <<<latex>>>}}                            | 1.1         | Builds PDF documents from LaTeX, BibTeX and such. | {{{https://github.com/mojohaus/latex-maven/issues}GitHub}}
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| {{{./license-maven-plugin/} <<<license>>>}}                        | 1.11        | Tools to deal with licenses and thirdparties of a maven project. | {{{https://github.com/mojohaus/license-maven-plugin/issues}GitHub}}
+| {{{./license-maven-plugin/} <<<license>>>}}                        | 1.12        | Tools to deal with licenses and thirdparties of a maven project. | {{{https://github.com/mojohaus/license-maven-plugin/issues}GitHub}}
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
 | {{{./ounce-maven-plugin/} <<<ounce>>>}}                            | 1.3         | Perform Ouncelabs Ounce code security scans. | -
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
