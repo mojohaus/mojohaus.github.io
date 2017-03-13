@@ -234,16 +234,19 @@ mvn docck:check
 
   * Execute <<<mvn release:perform>>>
 
-     This will build the plugin, javadocs and source. Everything will be deployed to the Nexus Repository Manager, 
-     ready to be staged.
-     <<Be aware, that the site will be built and deployed as well>>. 
-     This means the site will up to date before the voting has even started. Trying to update the site afterwards seems 
-     to be much more complicated, this way we can assure the site will reflect the intended version.    
-     
-  * Verify that the plugin site deployment occurred successfully.
-  
+     This will build the plugin, javadocs and source. Everything will be deployed to the Nexus Repository Manager
+     of Sonatype OSSRH, ready to be staged. (This will typically not build the site.)
+
   * Log into {{https://oss.sonatype.org/}} and "Close" the staging repository.
+
+  * Build and deploy the plugin site
   
+     Typically, the command is
+     <<<cd target/checkout>>>
+     <<<mvn verify site site:stage scm-publish:publish-scm>>>
+     but could vary. Consult the mojo's README file.
+
+  * Verify that the plugin site deployment occurred successfully.
 
 * {Call a Vote}
  
