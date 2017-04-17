@@ -1,0 +1,2 @@
+RedirectMatch permanent gwt-maven-plugin http://gwt-maven-plugin.github.io/gwt-maven-plugin
+RedirectMatch permanent gwt-maven-plugin/(.*)$ http://gwt-maven-plugin.github.io/gwt-maven-plugin
