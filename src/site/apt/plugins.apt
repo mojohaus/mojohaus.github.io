@@ -421,5 +421,5 @@ Plugins
 *--------------------------------------------------------------------+------------------------------------------------------------+
 | {{{./xfire-maven-plugin/} <<<xfire>>>}}                            | Deprecated use the {{{https://github.com/mojohaus/xfire-maven-plugin/issues}Maven cxf plugins}} instead.
 *--------------------------------------------------------------------+------------------------------------------------------------+
-| {{{./xslt-maven-plugin/} <<<xslt>>>}}                              | Deprecated use the {{{https://github.com/mojohaus/xslt-maven-plugin/issues}xml-maven-plugin}} instead.
+| {{{./xslt-maven-plugin/} <<<xslt>>>}}                              | Deprecated use the {{{http://www.mojohaus.org/xml-maven-plugin/}xml-maven-plugin}} instead.
 *--------------------------------------------------------------------+------------------------------------------------------------+
