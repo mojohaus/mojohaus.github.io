@@ -81,9 +81,9 @@ Plugins
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
 | {{{./javacc-maven-plugin/} <<<javacc>>>}}                          | 2.6         | Process JavaCC grammars.                     | {{{https://github.com/mojohaus/javacc-maven-plugin/issues}GitHub}}
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| {{{https://github.com/mojohaus/jaxb2-maven-plugin}jaxb2}}                            | 2.3         | Generates Java classes from XML Schemas (and binding files) and creates XML Schemas from annotated Java classes, using JAXB2. | {{{https://github.com/mojohaus/jaxb2-maven-plugin/issues}GitHub}}
+| {{{https://github.com/mojohaus/jaxb2-maven-plugin} <<<jaxb2>>>}}   | 2.3.1       | Generates Java classes from XML Schemas (and binding files) and creates XML Schemas from annotated Java classes, using JAXB2. | {{{https://github.com/mojohaus/jaxb2-maven-plugin/issues}GitHub}}
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| {{{./jaxws-maven-plugin/} <<<jaxws>>>}}                            | 2.4         | JAX-WS wsgen/wsimport tooling support.       | {{{https://github.com/mojohaus/jaxws-maven-plugin/issues}GitHub}} 
+| {{{./jaxws-maven-plugin/} <<<jaxws>>>}}                            | 2.5         | JAX-WS wsgen/wsimport tooling support.       | {{{https://github.com/mojohaus/jaxws-maven-plugin/issues}GitHub}} 
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
 | {{{./jpox-maven-plugin/} <<<jpox>>>}}                              | 1.1.6       | Support for JPOX JDO.                        | -
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
@@ -126,6 +126,7 @@ Plugins
 | {{{./javancss-maven-plugin/} <<<javancss>>>}}                      | 2.1         | Source measurement suite for Java. | {{{https://github.com/mojohaus/javancss-maven-plugin/issues}GitHub}}
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
 | {{{./jdepend-maven-plugin/} <<<jdepend>>>}}                        | 2.0         | Generates JDepend reports.                   | {{{https://github.com/mojohaus/jdepend-maven-plugin/issues}GitHub}}
+*--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
 |
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
 | <<Testing>> | | <Plugins which support testing.>
@@ -150,11 +151,11 @@ Plugins
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
 | <<Tools>>  | | <Miscellaneous tools available through Maven.>
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| {{{./animal-sniffer/animal-sniffer-maven-plugin/} <<<animal-sniffer>>>}}          | 1.15         | Verifies classes against API signatures.     | {{{https://github.com/mojohaus/animal-sniffer/issues}GitHub}}
+| {{{./animal-sniffer/animal-sniffer-maven-plugin/} <<<animal-sniffer>>>}} | 1.15         | Verifies classes against API signatures.     | {{{https://github.com/mojohaus/animal-sniffer/issues}GitHub}}
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| {{{./appassembler/appassembler-maven-plugin/} <<<appassembler>>>}} | 1.10       | Generates bin and Java Service Wrapper scripts for Java applications. | {{{https://github.com/mojohaus/appassembler/issues}GitHub}}
+| {{{./appassembler/appassembler-maven-plugin/} <<<appassembler>>>}} | 1.10        | Generates bin and Java Service Wrapper scripts for Java applications. | {{{https://github.com/mojohaus/appassembler/issues}GitHub}}
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| {{{./build-helper-maven-plugin/} <<<build-helper>>>}}              | 1.10       | Miscellaneous goals to support build process. | {{{https://github.com/mojohaus/build-helper-maven-plugin/issues}GitHub}}
+| {{{./build-helper-maven-plugin/} <<<build-helper>>>}}              | 3.0.0       | Miscellaneous goals to support build process. | {{{https://github.com/mojohaus/build-helper-maven-plugin/issues}GitHub}}
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
 | {{{./buildnumber-maven-plugin/} <<<buildnumber>>>}}                | 1.4         | Creates unique build number for each build.  | {{{https://github.com/mojohaus/buildnumber-maven-plugin/issues}GitHub}}
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
@@ -170,9 +171,9 @@ Plugins
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
 | {{{./latex-maven-plugin/} <<<latex>>>}}                            | 1.1         | Builds PDF documents from LaTeX, BibTeX and such. | {{{https://github.com/mojohaus/latex-maven/issues}GitHub}}
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| {{{./license-maven-plugin/} <<<license>>>}}                        | 1.12        | Tools to deal with licenses and thirdparties of a maven project. | {{{https://github.com/mojohaus/license-maven-plugin/issues}GitHub}}
+| {{{./license-maven-plugin/} <<<license>>>}}                        | 1.13        | Tools to deal with licenses and thirdparties of a maven project. | {{{https://github.com/mojohaus/license-maven-plugin/issues}GitHub}}
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| {{{./mrm/mrm-maven-plugin/} <<<mrm>>>}}                                | 1.1.0       | Hosts a mock Maven Repository Manager for use when integration testing Maven plugins. | {{{https://github.com/mojohaus/mrm/issues}GitHub}}
+| {{{./mrm/mrm-maven-plugin/} <<<mrm>>>}}                            | 1.1.0       | Hosts a mock Maven Repository Manager for use when integration testing Maven plugins. | {{{https://github.com/mojohaus/mrm/issues}GitHub}}
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
 | {{{./ounce-maven-plugin/} <<<ounce>>>}}                            | 1.3         | Perform Ouncelabs Ounce code security scans. | -
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
@@ -183,12 +184,16 @@ Plugins
 | {{{./sql-maven-plugin/} <<<sql>>>}}                                | 1.5         | Execution of SQL statements.                 | {{{https://github.com/mojohaus/sql-maven-plugin/issues}GitHub}}
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
 | {{{./templating-maven-plugin/} <<<templating>>>}}                  | 1.0.0       | Filters sources the Maven Right Way.         | {{{https://github.com/mojohaus/templating-maven-plugin/issues}GitHub}}
-*--------------------------------------------------------------------+-------------+----------------------------------------------+---+
+*--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
+| {{{./tidy-maven-plugin/} <<<tidy>>>}}                              | 1.0.0       | Sorts the sections of a <<<pom.xml>>> into the canonical order. | {{{https://github.com/mojohaus/tidy-maven-plugin/issues}GitHub}}
+*--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
 | {{{./truezip/truezip-maven-plugin/} <<<truezip>>>}}                | 1.1         | Manipulates archive files.                   | {{{https://github.com/mojohaus/truezip/issues}GitHub}}
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| {{{./versions-maven-plugin/} <<<versions>>>}}                      | 2.1         | Supports various tasks for updating the versions of components in the POM. | {{{https://github.com/mojohaus/versions-maven-plugin/issues}GitHub}}
+| {{{./versions-maven-plugin/} <<<versions>>>}}                      | 2.4         | Supports various tasks for updating the versions of components in the POM. | {{{https://github.com/mojohaus/versions-maven-plugin/issues}GitHub}}
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
 | {{{./vfs/vfs-maven-plugin/} <<<vfs>>>}}                            | 1.0.1       | Maven plugin for {{{http://commons.apache.org/proper/commons-vfs/} Apache Commons Virtual File System (VFS)}}. | {{{https://github.com/mojohaus/vfs/issues}GitHub}}
+*--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
+| {{{./wagon-maven-plugin/} <<<wagon>>>}}                            | 1.0         | Transfer files between URLs.                 | {{{https://github.com/mojohaus/wagon-maven-plugin/issues}GitHub}}
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
 | {{{./xml-maven-plugin/} <<<xml>>>}}                                | 1.0         | XML transformation and validation.           | {{{https://github.com/mojohaus/xml-maven-plugin/issues}GitHub}}
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
@@ -280,13 +285,9 @@ Plugins
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./ship-maven-plugin/} <<<ship>>>}}                              | 1.0-alpha-2 | Helps shipping releases when doing Continuous Deployment.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
-| {{{./tidy-maven-plugin/} <<<tidy>>>}}                              | 1.0-beta-1 | Sorts the sections of a <<<pom.xml>>> into the canonical order.
-*--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./solaris/solaris-maven-plugin/} <<<solaris>>>}}                | 1.0-alpha-2 | Creates System V packages.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./unix/} <<<unix>>>}}                                           | 1.0-alpha-3 | Creates packages for all common UNIX platforms.
-*--------------------------------------------------------------------+-------------+----------------------------------------------+
-| {{{./wagon-maven-plugin/} <<<wagon>>>}}                            | 1.0         | Transfer files between URLs.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./webminifier-maven-plugin/} <<<webminifier>>>}}                |             | Provides JavaScript and CSS minification for Maven projects.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
