@@ -153,7 +153,7 @@ Plugins
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
 | {{{./animal-sniffer/animal-sniffer-maven-plugin/} <<<animal-sniffer>>>}} | 1.15         | Verifies classes against API signatures.     | {{{https://github.com/mojohaus/animal-sniffer/issues}GitHub}}
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| {{{./appassembler/appassembler-maven-plugin/} <<<appassembler>>>}} | 1.10        | Generates bin and Java Service Wrapper scripts for Java applications. | {{{https://github.com/mojohaus/appassembler/issues}GitHub}}
+| {{{./appassembler/appassembler-maven-plugin/} <<<appassembler>>>}} | 2.0.0       | Generates bin and Java Service Wrapper scripts for Java applications. | {{{https://github.com/mojohaus/appassembler/issues}GitHub}}
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
 | {{{./build-helper-maven-plugin/} <<<build-helper>>>}}              | 3.0.0       | Miscellaneous goals to support build process. | {{{https://github.com/mojohaus/build-helper-maven-plugin/issues}GitHub}}
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
