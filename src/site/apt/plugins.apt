@@ -151,7 +151,7 @@ Plugins
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
 | <<Tools>>  | | <Miscellaneous tools available through Maven.>
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| {{{./animal-sniffer/animal-sniffer-maven-plugin/} <<<animal-sniffer>>>}} | 1.15         | Verifies classes against API signatures.     | {{{https://github.com/mojohaus/animal-sniffer/issues}GitHub}}
+| {{{./animal-sniffer/animal-sniffer-maven-plugin/} <<<animal-sniffer>>>}} | 1.16         | Verifies classes against API signatures.     | {{{https://github.com/mojohaus/animal-sniffer/issues}GitHub}}
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
 | {{{./appassembler/appassembler-maven-plugin/} <<<appassembler>>>}} | 2.0.0       | Generates bin and Java Service Wrapper scripts for Java applications. | {{{https://github.com/mojohaus/appassembler/issues}GitHub}}
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
