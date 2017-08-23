@@ -43,6 +43,8 @@ Development Guidelines
  * Use the <<<[Project] Maven Plugin>>> convention to name your plugin e.g. "Acme Maven Plugin", unless [Project]
    reflects a trademark. In such case use either "Mojo's Acme Maven Plugin" or "Mojo's Maven Plugin for Acme" to clarify
    it is a plugin <for> this product and not <by> this product.
+   
+ * Sanity check all mojo parameters and throw a MojoExecutionException for invalid parameters.
 
  * Use the {{{http://maven.apache.org/developers/committer-environment.html#Maven_Code_Style}Maven code style}} when
    formatting your code.
