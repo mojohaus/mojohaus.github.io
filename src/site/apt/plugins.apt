@@ -93,8 +93,6 @@ Plugins
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
 | {{{./jspc-maven-plugin/} <<<jspc>>>}}                              | 1.4.6       | Provides support for JSP compilation.        | -
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| {{{./openjpa-maven-plugin/} <<<openjpa>>>}}                        | 1.2         | Compiletime enhancement, SQL and Mapping Generation for OpenJPA. | -
-*--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
 | {{{./rmic-maven-plugin/} <<<rmic>>>}}                              | 1.2.0       | Generates rmi (Remote Method Invocation) stub and skeleton classes. | -
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
 | {{{./sablecc-maven-plugin/} <<<sablecc>>>}}                        | 2.0         | Process SableCC grammars.                    | -
@@ -404,6 +402,8 @@ Plugins
 | {{{./cbuild-parent/cbuild-plugin-parent/project-sources-maven-plugin} <<<project-sources>>>}}     | Deprecated use {{{./wagon-maven-plugin} wagon-maven-plugin}} or {{{https://github.com/mojohaus/cbuild-parent/issues} maven-dependency-plugin}} instead.
 *--------------------------------------------------------------------+------------------------------------------------------------+
 | {{{./netbeans-freeform-maven-plugin/} <<<netbeans-freeform>>>}}    | NetBeans has developed its own Maven support: {{http://netbeans.org/features/ide/build-tools.html}}
+*--------------------------------------------------------------------+------------------------------------------------------------+
+| {{{./openjpa-maven-plugin/} <<<openjpa>>>}}                        | Moved to and maintained by the Apache OpenJPA project: {{http://openjpa.apache.org/enhancement-with-maven.html}}
 *--------------------------------------------------------------------+------------------------------------------------------------+
 | {{{./rat-maven-plugin/} <<<rat>>>}}                                | Moved to the {{{https://github.com/mojohaus/rat-maven-plugin/issues} Apache Creadur Project}}.
 *--------------------------------------------------------------------+------------------------------------------------------------+
