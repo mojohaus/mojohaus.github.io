@@ -90,7 +90,8 @@ Performing a Release
   * Ensure the plugin complies with its intended minimum JRE requirement. For instance, if Java 1.5 is to be supported,
     actually set your <<<JAVA_HOME>>> to a JDK 1.5 and run <<<mvn clean verify>>>. This will catch references to classes
     or methods that were accidentally used but are only available in later versions of Java. 
-    Also consider to add our {{{http://www.mojohaus.org/animal-sniffer-maven-plugin/}animal-sniffer-maven-plugin}} which can check the code against the signature of the required JDK version.
+    Also consider to add our {{{http://www.mojohaus.org/animal-sniffer/animal-sniffer-maven-plugin/}animal-sniffer-maven-plugin}}
+    which can check the code against the signature of the required JDK version.
     
   * To <generate> the documentation of the plugin, you will need to use at least Maven 2.1.0 because of the 
     {{{http://maven.apache.org/plugins/maven-site-plugin/}maven-site-plugin}} preconfigured in the mojo-parent.
@@ -120,11 +121,11 @@ Performing a Release
   * Ensure that you update any corresponding Continuous Integration plans to reflect the above svn location.
 
   * Change the POM parent from <<<mojo-sandbox-parent>>> to <<<mojo-parent>>> noting the parent's most
-	recent version from {{{http://svn.codehaus.org/mojo/tags/}the mojo-parent svn tags folder}}.
+	recent version in {{{http://search.maven.org/#search%7Cgav%7C1%7Cg:%22org.codehaus.mojo%22%20AND%20a:%22mojo-parent%22}central}}.
 
   * Move the plugin site link on the plugin list from the section "Sandbox Plugins" to "Pre-release Plugins" by editing the
-    <<<{{{http://svn.codehaus.org/mojo/site/src/site/apt/plugins.apt}plugins.apt}}>>> document. Redeploy the site and
-    verify that it is functional.
+    <<<{{{https://github.com/mojohaus/mojohaus.github.io/blob/site/src/site/apt/plugins.apt}plugins.apt}}>>> document.
+    Redeploy the site and verify that it is functional.
 
 * {Preparing for the First Production Release}
 
@@ -153,7 +154,7 @@ mvn docck:check
 * {Making GPG Keys}
 
   Before releasing for the first time you have to generate a GPG key and publish it.
-  Information can also be found on Sonatype's {{{https://docs.sonatype.org/display/Repository/How+To+Generate+PGP+Signatures+With+Maven}How To Generate PGP Signatures With Maven}}.
+  Information can also be found on Sonatype's {{{http://blog.sonatype.com/2010/01/how-to-generate-pgp-signatures-with-maven/}How to Generate PGP Signatures with Maven}}.
 
   * Download GPG from {{http://www.gnupg.org/download/}} , follow the instructions and install it to your system. Verify your gpg installation by running gpg with the version flag, i.e. <<<gpg --version>>>
   
