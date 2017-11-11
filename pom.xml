@@ -76,10 +76,10 @@
   </mailingLists>
 
   <scm>
-    <connection>scm:git:git@github.com:mojohaus/mojohaus.github.io.git</connection>
-    <developerConnection>scm:git:git@github.com:mojohaus/mojohaus.github.io.git</developerConnection>
+    <connection>scm:git:https://github.com/mojohaus/mojohaus.github.io.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/mojohaus/mojohaus.github.io.git</developerConnection>
     <url>https://github.com/mojohaus/mojohaus.github.io</url>
-    <tag>site</tag>
+    <tag>site</tag><!-- see https://help.github.com/articles/user-organization-and-project-pages/ -->
   </scm>
   <issueManagement>
     <system>github</system>
@@ -88,7 +88,7 @@
   <distributionManagement>
     <site>
       <id>github</id>
-      <url>scm:git:git@github.com:mojohaus/mojohaus.github.io.git</url>
+      <url>${project.scm.developerConnection}</url>
     </site>
   </distributionManagement>
 
