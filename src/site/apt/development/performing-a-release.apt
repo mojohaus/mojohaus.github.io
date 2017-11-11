@@ -5,8 +5,6 @@
  ------
  ------
 
-~~ $Id$
-
 ~~ 
 ~~ Licensed to the Apache Software Foundation (ASF) under one
 ~~ or more contributor license agreements.  See the NOTICE file
@@ -82,8 +80,6 @@ Performing a Release
 </project>
 +---------------------------------------+
 
-    * Examples
-
   * Verify that the project doesn't depend on SNAPSHOTs anymore (the {{{http://maven.apache.org/plugins/maven-release-plugin/examples/prepare-release.html}maven-release-plugin}} will check this too)
 
   * Ensure the plugin complies with its intended minimum JRE requirement. For instance, if Java 1.5 is to be supported,
@@ -96,7 +92,8 @@ Performing a Release
     {{{http://maven.apache.org/plugins/maven-site-plugin/}maven-site-plugin}} preconfigured in the mojo-parent.
     To <deploy> you can't use Maven 2.1.0 or 2.2.0, because they produce incorrect GPG signatures and checksums respectively.
     This means it requires at least Maven 2.2.1 to perform a complete release. But this doesn't mean you can't use an earlier version 
-    of Maven to <build> or <use> this plugin.        
+    of Maven to <build> or <use> this plugin.
+~~ TODO is this paragraph about Maven 2 still relevant?        
 
   * Check that the POM properly declares its dependencies, i.e. run <<<mvn dependency:analyze>>> and fix any problems.
   
@@ -117,12 +114,12 @@ Performing a Release
   * Call a vote for the graduation on the dev mailing list. See below for more
     info on how to do this. You can use a {{{./promotevote-mailtemplate.html}template}} for this call for promotion. 
 
-  * Ensure that you update any corresponding Continuous Integration plans to reflect the above svn location.
+  * Ensure that you update any corresponding Continuous Integration plans to reflect the above git location.
 
   * Change the POM parent from <<<mojo-sandbox-parent>>> to <<<mojo-parent>>> noting the parent's most
 	recent version in {{{http://search.maven.org/#search%7Cgav%7C1%7Cg:%22org.codehaus.mojo%22%20AND%20a:%22mojo-parent%22}central}}.
 
-  * Move the plugin site link on the plugin list from the section "Sandbox Plugins" to "Pre-release Plugins" by editing the
+  * Move the plugin site link on {{{/plugins.html}the plugin}} list from the section "Sandbox Plugins" to "Pre-release Plugins" by editing the
     <<<{{{https://github.com/mojohaus/mojohaus.github.io/blob/site/src/site/apt/plugins.apt}plugins.apt}}>>> document.
     Redeploy the site and verify that it is functional.
 
@@ -132,17 +129,14 @@ Performing a Release
  or beta release) there are a couple of extra things that needs to be taken
  care of:
 
-  * Create a separate JIRA project for the plugin. Every production plugin must
-    have its own JIRA project. Pre-production plugins share the MOJO project in
-    JIRA. If you don't know how to do this, or don't have the necessary karma,
-    just ask for help on the dev mailing list.
+  * Check GitHub issue configuration.
 
   * Make sure that the plugin's site passes the documentation checker plugin
     test. Run 
 
-+-----
++-----+
 mvn docck:check
-+-----
++-----+
 
     If there are any errors - fix them. There are a couple of errors that might
     not need to be fixed. As an example: it's better <not> to add an FAQ
@@ -155,7 +149,8 @@ mvn docck:check
   Before releasing for the first time you have to generate a GPG key and publish it.
   Information can also be found on Sonatype's {{{http://blog.sonatype.com/2010/01/how-to-generate-pgp-signatures-with-maven/}How to Generate PGP Signatures with Maven}}.
 
-  * Download GPG from {{http://www.gnupg.org/download/}} , follow the instructions and install it to your system. Verify your gpg installation by running gpg with the version flag, i.e. <<<gpg --version>>>
+  * Download GPG from {{http://www.gnupg.org/download/}}, follow the instructions and install it to your system.
+    Verify your gpg installation by running gpg with the version flag, i.e. <<<gpg --version>>>
   
   * Execute <<<gpg --gen-key>>> and answer the questions. Most of the time you can use the default.
     
