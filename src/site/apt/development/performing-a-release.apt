@@ -56,8 +56,7 @@ Performing a Release
 
   * Make sure the site documentation is up to date and follows the {{{./guidelines.html}Development Guidelines}}.
 
-  * All open GitHub issues should be closed or agreed to be scheduled for a future
-    version. 
+  * All open GitHub issues should be closed or agreed to be scheduled for a future version. 
 
   * Plugin must be documented and preferably have unit and integration tests.
 
@@ -90,7 +89,7 @@ Performing a Release
   * Ensure the plugin complies with its intended minimum JRE requirement. For instance, if Java 1.5 is to be supported,
     actually set your <<<JAVA_HOME>>> to a JDK 1.5 and run <<<mvn clean verify>>>. This will catch references to classes
     or methods that were accidentally used but are only available in later versions of Java. 
-    Also consider to add our {{{http://www.mojohaus.org/animal-sniffer/animal-sniffer-maven-plugin/}animal-sniffer-maven-plugin}}
+    Also consider to add our {{{/animal-sniffer/animal-sniffer-maven-plugin/}animal-sniffer-maven-plugin}}
     which can check the code against the signature of the required JDK version.
     
   * To <generate> the documentation of the plugin, you will need to use at least Maven 2.1.0 because of the 
@@ -243,9 +242,16 @@ mvn docck:check
   * Build and deploy the plugin site
   
      Typically, the command is
-     <<<cd target/checkout>>>
-     <<<mvn verify site site:stage scm-publish:publish-scm>>>
+     <<<cd target/checkout>>> then
+     <<<mvn verify site site:stage scm-publish:publish-scm>>> on a mono-module plugin
      but could vary. Consult the mojo's README file.
+
+     You may need to configure a ssh key to your GitHub account: see GitHub's
+     {{{https://help.github.com/articles/connecting-to-github-with-ssh/} Connecting to GitHub with SSH}} guide.
+
+     For the first site deployment, when <<<gh-pages>>> branch does not exist yet, you'll need to do the job by hand:
+     create an orphan branch <<<git checkout --orphan gh-pages>>>, then clean it <<<rm .git/index ; git clean -fdx>>> before
+     copying initial site content, committing and pushing.
 
   * Verify that the plugin site deployment occurred successfully.
 
