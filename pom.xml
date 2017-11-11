@@ -30,8 +30,8 @@
   </description>
 
   <scm>
-    <connection>scm:git:git@github.com:mojohaus/mojohaus.github.io.git</connection>
-    <developerConnection>scm:git:git@github.com:mojohaus/mojohaus.github.io.git</developerConnection>
+    <connection>scm:git:https://github.com/mojohaus/mojohaus.github.io.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/mojohaus/mojohaus.github.io.git</developerConnection>
     <url>https://github.com/mojohaus/mojohaus.github.io/tree/site</url>
   </scm>
 </project>
