@@ -78,7 +78,7 @@
   <scm>
     <connection>scm:git:https://github.com/mojohaus/mojohaus.github.io.git</connection>
     <developerConnection>scm:git:ssh://git@github.com/mojohaus/mojohaus.github.io.git</developerConnection>
-    <url>https://github.com/mojohaus/mojohaus.github.io</url>
+    <url>https://github.com/mojohaus/mojohaus.github.io/tree/${project.scm.tag}</url>
     <tag>site</tag><!-- see https://help.github.com/articles/user-organization-and-project-pages/ -->
   </scm>
   <issueManagement>
@@ -98,7 +98,7 @@
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-site-plugin</artifactId>
-          <version>3.5</version>
+          <version>3.7</version>
           <configuration>
             <skipDeploy>true</skipDeploy><!-- don't deploy site with maven-site-plugin -->
           </configuration>
