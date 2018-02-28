@@ -270,8 +270,7 @@ mvn docck:check
   * Wait some time and find the artifacts synced on central. 
         The synchronization typically occurs every 4 hours but allow for it take up to 24 hrs.
 
-  * Record the release date for the version in the plugin's GitHub project and create a new version for future
-        development/issues.
+  * Close the current milestone in github, and create new milestone(s) as required.
 
   * Send out an annoucement email to {{{mailto:mojohaus-dev@googlegroups.com}mojohaus-dev@googlegroups.com}} and
         {{{mailto:users@maven.apache.org}users@maven.apache.org}}. 
