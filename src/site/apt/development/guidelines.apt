@@ -47,10 +47,7 @@ Development Guidelines
  * Use the {{{http://maven.apache.org/developers/committer-environment.html#Maven_Code_Style}Maven code style}} when
    formatting your code.
 
- * Configure your SVN client to properly add <<<svn:eol-style>>> and other properties to source files. See
-   {{{http://maven.apache.org/developers/svn-eol-style.txt}the example svn config file}} for details.
-
- * Do not check IDE specific files into version control but rather add those to <<<svn:ignore>>>.
+ * Do not check IDE specific files into version control but rather add those to <<<.gitignore>>>.
 
 * {Licensing}
 
