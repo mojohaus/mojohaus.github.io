@@ -6,7 +6,7 @@
  ------
  ------
 
-~~ 
+~~
 ~~ Licensed to the Apache Software Foundation (ASF) under one
 ~~ or more contributor license agreements.  See the NOTICE file
 ~~ distributed with this work for additional information
@@ -60,7 +60,7 @@ Development Process
 
  Plugins can have snapshot versions deployed for testing, or beta/alpha releases deployed for wider testing and a bit more stability.
  All releases deployed to the Codehaus repository are synced to the Central Repository. Sandbox plugins should only use snapshot versions.
- 
+
  Once a plugin is ready for another release or is about to graduate from the sandbox, follow the checklist for
  {{{./performing-a-release.html}performing a release}}.
 
@@ -69,20 +69,6 @@ Development Process
  To debug Maven 2/3 with IDEA use this command:
 
 +-----+
-MAVEN_OPTS="-Xdebug -Xnoagent -Djava.compiler=NONE -Xrunjdwp:transport=dt_socket,server=y,suspend=y,address=5005" 
+MAVEN_OPTS="-Xdebug -Xnoagent -Djava.compiler=NONE -Xrunjdwp:transport=dt_socket,server=y,suspend=y,address=5005"
 mvn install
 +-----+
-
-
-* {Applying patches}
-
-  With git-svn more and more patches are contributed in a format you can't directly apply on our svn repository.
-  For most of the operating systems there's a program called <<<patch>>> available, but not for Windows. 
-  Probably the easiest way for Windows users is to install {{{http://www.cygwin.com/}CygWin}} and put the <<<%CYGWIN_HOME%\\bin>>> on their <<<Path>>>.
-  
-  To be able to apply patches run:
-  
-+---
-patch -p1 < bugfix.patch
-+---
-  

@@ -5,7 +5,7 @@
  ------
  ------
 
-~~ 
+~~
 ~~ Licensed to the Apache Software Foundation (ASF) under one
 ~~ or more contributor license agreements.  See the NOTICE file
 ~~ distributed with this work for additional information
@@ -29,10 +29,10 @@ Development Guidelines
  All plugins in the Mojo project should follow these guidelines.
 
  * Use the package <<<org.codehaus.mojo.>>><\<plugin\>>, e.g.: <<<org.codehaus.mojo.jpox>>>.
- 
- * Name the mojos like this: <<<SomethingMojo>>>. The name should reflect the goal of this mojo 
+
+ * Name the mojos like this: <<<SomethingMojo>>>. The name should reflect the goal of this mojo
    (i.e. the <<<@goal>>> javadoctag of the class).
- 
+
  * Use <<<org.codehaus.mojo>>> for the groupId of any developed Maven plugin. Other projects/artifacts could use
    this groupId or a sub-context.
 
@@ -41,16 +41,13 @@ Development Guidelines
  * Use the <<<[Project] Maven Plugin>>> convention to name your plugin e.g. "Acme Maven Plugin", unless [Project]
    reflects a trademark. In such case use either "Mojo's Acme Maven Plugin" or "Mojo's Maven Plugin for Acme" to clarify
    it is a plugin <for> this product and not <by> this product.
-   
+
  * Sanity check all mojo parameters and throw a MojoExecutionException for invalid parameters.
 
  * Use the {{{http://maven.apache.org/developers/committer-environment.html#Maven_Code_Style}Maven code style}} when
    formatting your code.
 
- * Configure your SVN client to properly add <<<svn:eol-style>>> and other properties to source files. See
-   {{{http://maven.apache.org/developers/svn-eol-style.txt}the example svn config file}} for details.
-
- * Do not check IDE specific files into version control but rather add those to <<<svn:ignore>>>.
+ * Do not check IDE specific files into version control but rather add those to <<<.gitignore>>>.
 
 * {Licensing}
 
@@ -97,16 +94,16 @@ Development Guidelines
 * {Plugin Site Template}
 
  Plugins should have a site that conforms to:
- 
+
    * The Codehaus site template, see below
-   
+
    * The {{{http://maven.apache.org/guides/development/guide-plugin-documentation.html}
      Plugin Documentation Standard}}
-     
+
    * The {{{http://maven.apache.org/plugins/maven-docck-plugin/}Maven Documentation Checker Plugin}}
-   
-   [] 
-   
+
+   []
+
 ** For Mojo Parent 16 and Newer
 
   Mojo parent 16 introduces a common <<<site.xml>>> file that is included in
@@ -114,7 +111,7 @@ Development Guidelines
   This means that there are less things that you have to specify yourself. If
   you are using Mojo parent 16 or newer, place this in your plugin's
   <<<src/site/site.xml>>>:
-   
+
 +---------------------------------------+
 <project xmlns="http://maven.apache.org/DECORATION/1.3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/DECORATION/1.3.0 http://maven.apache.org/xsd/decoration-1.3.0.xsd">
@@ -135,15 +132,15 @@ Development Guidelines
 
   Also make sure that the <<<\<name\>>>> element in your plugin's
   <<<pom.xml>>> contains this text:
-   
+
 -----
   <name>XXXXX Maven Plugin</name>
------   
-  
-  This name is used in the title of the pages in the generated site.  
-   
+-----
+
+  This name is used in the title of the pages in the generated site.
+
 ** For Mojo Parent 15 and Older
-   
+
   Place this in your plugin's <<<src/site/site.xml>>> for a starting point:
 
 +---------------------------------------+
