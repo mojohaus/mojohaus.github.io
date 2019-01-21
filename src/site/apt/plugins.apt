@@ -105,12 +105,6 @@ Plugins
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
 |
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| <<IDEs>> | | <Plugins that support integration with integrated developer environments.>
-*--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| {{{./nbm-maven-plugin/} <<<nbm>>>}}                                | {{{http://search.maven.org/#search%7Cgav%7C1%7Cg:%22org.codehaus.mojo%22%20AND%20a:%22nbm-maven-plugin%22}central}} | Creates NetBeans Platform modules and applications. | {{{https://github.com/mojohaus/nbm-maven-plugin/issues}GitHub}}
-*--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-|
-*--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
 | <<Reporting>> | | <Plugins which generate reports.>
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
 | {{{./clirr-maven-plugin/} <<<clirr>>>}}                            | {{{http://search.maven.org/#search%7Cgav%7C1%7Cg:%22org.codehaus.mojo%22%20AND%20a:%22clirr-maven-plugin%22}central}} | Checks Java libraries for binary and source compatibility with older releases. | {{{https://github.com/mojohaus/clirr-maven-plugin/issues}GitHub}}
@@ -402,6 +396,10 @@ Plugins
 | <<<project-sources>>>           | Deprecated use {{{./wagon-maven-plugin} wagon-maven-plugin}} or {{{https://github.com/mojohaus/cbuild-parent/issues} maven-dependency-plugin}} instead.
 *---------------------------------+------------------------------------------------------------+
 | <<<netbeans-freeform>>>         | NetBeans has developed its own Maven support: {{http://netbeans.org/features/ide/build-tools.html}}
+*---------------------------------+------------------------------------------------------------+
+| <<<nb-repository-plugin>>>      | Moved to Apache NetBeans (incubator) : {{http://bits.netbeans.org/mavenutilities/nb-repository-plugin/}}
+*---------------------------------+------------------------------------------------------------+
+| <<<nbm-maven-plugin>>>          | Moved to Apache NetBeans (incubator) : {{http://bits.netbeans.org/mavenutilities/nbm-maven-plugin/}}
 *---------------------------------+------------------------------------------------------------+
 | <<<openjpa>>>                   | Moved to and maintained by the Apache OpenJPA project: {{http://openjpa.apache.org/enhancement-with-maven.html}}
 *---------------------------------+------------------------------------------------------------+
