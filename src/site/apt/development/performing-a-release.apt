@@ -250,6 +250,14 @@ mvn docck:check
 
   * Verify that the plugin site deployment occurred successfully.
 
+  * Draft a release in GitHub
+
+     Go to the release tag in GitHub: https://github.com/mojohaus/PLUGIN_NAME/releases and select the release you've staged
+     
+     Via "Edit Tag" provide a link to the Changelog in for this release in the description (e.g. linking to the GitHub milestone list of closed tickets)
+     
+     Mark the release as "pre-release" while it's under the voting process
+
 * {Call a Vote}
  
  Before a release can occur, a vote typically takes place. This is initiated with an email to the {{{mailto:mojohaus-dev@googlegroups.com}dev list}}, preferrably
@@ -271,6 +279,8 @@ mvn docck:check
         The synchronization typically occurs every 4 hours but allow for it take up to 24 hrs.
 
   * Close the current milestone in github, and create new milestone(s) as required.
+
+  * Remove the "pre-release" tag from the release tag in GitHub
 
   * Send out an annoucement email to {{{mailto:mojohaus-dev@googlegroups.com}mojohaus-dev@googlegroups.com}} and
         {{{mailto:users@maven.apache.org}users@maven.apache.org}}. 
