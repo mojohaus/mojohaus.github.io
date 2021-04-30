@@ -4589,3 +4589,26 @@ uHQP4ZM0nyN0Sek32tfpESm+2lAI5kq8h7JbvHo/dLOs+IPUOBoxycvD+QGbs6Us
 Xva5
 =d1/N
 -----END PGP PUBLIC KEY BLOCK-----
+
+
+pub   ed25519 2021-04-29 [SC] [expires: 2023-04-29]
+      80E6F43CE94C0504A9C763197687FAEE87BB7980
+uid           [ultimate] Pierre Guillot <pierre.guillot@sonarsource.com>
+sig 3        7687FAEE87BB7980 2021-04-29  Pierre Guillot <pierre.guillot@sonarsource.com>
+sub   cv25519 2021-04-29 [E] [expires: 2023-04-29]
+sig          7687FAEE87BB7980 2021-04-29  Pierre Guillot <pierre.guillot@sonarsource.com>
+
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+
+mDMEYIrCgBYJKwYBBAHaRw8BAQdABvIdQ7xW+SkvoWx2cS/C7rOa7LiSyx5EOjAH
+fOCLw/+0L1BpZXJyZSBHdWlsbG90IDxwaWVycmUuZ3VpbGxvdEBzb25hcnNvdXJj
+ZS5jb20+iJoEExYKAEIWIQSA5vQ86UwFBKnHYxl2h/ruh7t5gAUCYIrCgAIbAwUJ
+A8JnAAULCQgHAgMiAgEGFQoJCAsCBBYCAwECHgcCF4AACgkQdof67oe7eYACSQEA
+hY9GeDJlhZkpLnlhIy2yQi4W+uq/2gWcsXeU7dz3OAYA/Rpr1tcuzBJKo2N2Lc2o
+SF5TXuJlWDuur/mFuUvvIbEFuDgEYIrCgBIKKwYBBAGXVQEFAQEHQFutQTXQk5Wh
+n5IoV28D7U+YUBtpnFak2MnjBQgZf5QnAwEIB4h+BBgWCgAmFiEEgOb0POlMBQSp
+x2MZdof67oe7eYAFAmCKwoACGwwFCQPCZwAACgkQdof67oe7eYBJQwEAnoQgy5QG
+Moma3kmEyM5yn4TQgWd8G/rNiWqk+czbwqIBAJZxvXt2H0NKNAU4Q4HoYVSur1SM
+BW33wZwdb0T7NVIP
+=PJ+B
+-----END PGP PUBLIC KEY BLOCK-----
