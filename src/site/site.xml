@@ -21,7 +21,7 @@
   <skin>
     <groupId>org.apache.maven.skins</groupId>
     <artifactId>maven-fluido-skin</artifactId>
-    <version>1.7</version> 
+    <version>1.9</version> 
   </skin>
   <edit>${project.scm.url}</edit>
 
@@ -45,7 +45,7 @@
   <bannerLeft>
     <name>Mojo</name>
     <src>/images/mojo_logo.png</src>
-    <href>http://www.mojohaus.org/</href>
+    <href>https://www.mojohaus.org/</href>
   </bannerLeft>
   
   <publishDate format="yyyy-MM-dd" position="right" />
@@ -53,10 +53,10 @@
 
   <body>
     <links>
-      <item name="Maven" href="http://maven.apache.org/"/>
+      <item name="Maven" href="https://maven.apache.org/"/>
     </links>
     <breadcrumbs>
-      <item name="MojoHaus" href="http://www.mojohaus.org/"/>
+      <item name="MojoHaus" href="https://www.mojohaus.org/"/>
     </breadcrumbs>
     
     <menu name="Mojo">
