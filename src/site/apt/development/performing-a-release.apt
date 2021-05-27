@@ -152,37 +152,50 @@ mvn docck:check
   * Download GPG from {{http://www.gnupg.org/download/}}, follow the instructions and install it to your system.
     Verify your gpg installation by running gpg with the version flag, i.e. <<<gpg --version>>>
   
-  * Execute <<<gpg --gen-key>>> and answer the questions. Most of the time you can use the default.
-    
+  * Execute <<<gpg --full-generate-key>>> and answer the questions. Most of the time you can use the default.
+
 *-----------------------------------------------------+-------------+
-| Please select what kind of key you want:            | 
-|  (1) DSA and Elgamal (default)                      | 1
-|  (2) DSA (sign only)                                |
-|  (5) RSA (sign only)                                |
+| Please select what kind of key you want:\           |
+|    (1) RSA and RSA (default)\                       |
+|    (2) DSA and Elgamal\                             |
+|    (3) DSA (sign only)\                             |
+|    (4) RSA (sign only)\                             |
+|    (7) DSA (set your own capabilities)\             |
+|    (8) RSA (set your own capabilities)\             |
+|    (9) ECC and ECC\                                 |
+|   (10) ECC (sign only)\                             |
+|   (11) ECC (set your own capabilities)\             |
+|   (13) Existing key\                                |
+|   (14) Existing key from card                       | 9
 *-----------------------------------------------------+-------------+
-| What keysize do you want? (2048)                    | 2048
+| Please select which elliptic curve you want:\       |
+|    (1) Curve 25519\                                 |
+|    (3) NIST P-256\                                  |
+|    (4) NIST P-384\                                  |
+|    (5) NIST P-521\                                  |
+|    (6) Brainpool P-256\                             |
+|    (7) Brainpool P-384\                             |
+|    (8) Brainpool P-512\                             |
+|    (9) secp256k1                                    | 1
 *-----------------------------------------------------+-------------+
-| Please specify how long the key should be valid.    | 
-|    0 = key does not expire                          |
-| <n>  = key expires in n days                        |
-| <n>w = key expires in n weeks                       |
-| <n>m = key expires in n months                      |
-| <n>y = key expires in n years                       |
-| Key is valid for? (0)                               | 0
-*-----------------------------------------------------+-------------+
-| Key does not expire at all                          |
-| Is this correct? (y/N)                              | y
+| Please specify how long the key should be valid.\   |
+|          0 = key does not expire\                   |
+|       <n>  = key expires in n days\                 |
+|       <n>w = key expires in n weeks\                |
+|       <n>m = key expires in n months\               |
+|       <n>y = key expires in n years                 | 4y
 *-----------------------------------------------------+-------------+
 | Real name:                                          | <your real name>
 *-----------------------------------------------------+-------------+
 | Email address:                                      | <your email address>
 *-----------------------------------------------------+-------------+
+| Comment                                             | <empty>
+*-----------------------------------------------------+-------------+
 | Change (N)ame, (C)omment, (E)mail or (O)kay/(Q)uit? | O
 *-----------------------------------------------------+-------------+
 
-  
   * Execute <<<gpg --list-sigs ">>><your real name><<<" && gpg --armor --export ">>><your real name><<<">>> and
-  visit {{http://pgp.mit.edu/}} to distribute your public key, so users can verify your files. 
+  visit {{https://hkps.pool.sks-keyservers.net/}} to distribute your public key, so users can verify your files.
   This webpage contains a form where you have to copy your key. 
   
   * Update {{https://github.com/mojohaus/mojohaus.github.io/blob/site/src/site/resources/KEYS}} by expanding this file with your key. 
