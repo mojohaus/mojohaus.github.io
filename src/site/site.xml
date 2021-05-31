@@ -84,7 +84,6 @@
     
     <menu name="Sub-projects">
       <item name="Animal sniffer" href="animal-sniffer"/>
-      <item name="API Signatures" href="signatures"/>
       <item name="Extra enforcer rules" href="extra-enforcer-rules"/>
       <item name="Mock Repository Manager" href="mrm"/>
     </menu>
