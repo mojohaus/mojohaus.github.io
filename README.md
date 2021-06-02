@@ -1,6 +1,6 @@
 # Sources of www.mojohaus.org
 
 
-[![Build Status](https://travis-ci.org/mojohaus/mojohaus.github.io.svg?branch=site)](https://travis-ci.org/mojohaus/mojohaus.github.io)
+[![GitHub CI](https://github.com/mojohaus/mojohaus.github.io/actions/workflows/maven.yml/badge.svg)](https://github.com/mojohaus/mojohaus.github.io/actions/workflows/maven.yml)
 
 Edit and just run `mvn clean site-deploy` to publish!

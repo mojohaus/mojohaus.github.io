@@ -1,0 +1,33 @@
+name: Maven CI
+
+on:
+  workflow_dispatch: {}
+  push:
+    branches:
+      - '*'
+      - '!master'
+  pull_request:
+    branches:
+      - '*'
+      - '!master'
+
+jobs:
+  site:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Set up JDK
+        uses: actions/setup-java@v2.1.0
+        with:
+          java-version: 8
+          distribution: adopt-openj9
+
+      - name: Set up Maven
+        shell: bash
+        run: mvn -N "io.takari:maven:0.7.7:wrapper" "-Dmaven=3.8.1"
+
+      - name: Build with Maven
+        shell: bash
+        run: ./mvnw --show-version --errors --batch-mode "-Prun-its,docs" clean site
