@@ -1,0 +1,122 @@
+name: GitHub CI
+
+on:
+  workflow_dispatch: {}
+  push:
+    branches:
+      - 'site'
+  pull_request:
+    branches:
+      - 'site'
+
+jobs:
+  site:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Set up cache for ~./m2/repository
+        uses: actions/cache@v2.1.3
+        with:
+          path: |
+            ~/.m2/repository
+            !~/.m2/repository/org/codehaus/mojo/aspectj-maven-plugin
+          key: maven-${{ matrix.os }}-java${{ matrix.java }}-${{ hashFiles('**/pom.xml') }}
+          restore-keys: |
+            maven-${{ matrix.os }}-java${{ matrix.java }}-
+            maven-${{ matrix.os }}-
+      - name: Set up JDK
+        uses: actions/setup-java@v2.1.0
+        with:
+          java-version: 8
+          distribution: adopt-openj9
+
+      - name: Build with Maven
+        shell: bash
+        run: mvn --show-version --errors --batch-mode "-Prun-its,docs" clean site
+
+  site-all:
+
+    needs: site
+
+    strategy:
+      matrix:
+        maven: [ '3.3.9', '3.8.1' ]
+        os: [ ubuntu-latest, windows-latest, macOS-latest ]
+        java:
+          # Hotspot VM, the "default" VM
+          - version: 8
+            dist: adopt-hotspot
+          - version: 11
+            dist: adopt-hotspot
+          - version: 16
+            dist: adopt-hotspot
+          # Zulu VM, based on Hotspot
+          - version: 8
+            dist: zulu
+          - version: 11
+            dist: zulu
+          - version: 16
+            dist: zulu
+          # OpenJ9, an alternate JVM implementation.
+          - version: 8
+            dist: adopt-openj9
+          - version: 11
+            dist: adopt-openj9
+          - version: 16
+            dist: adopt-openj9
+        exclude:
+          # exclude some builds, because MacOs builds have fewer resources available.
+          # excludes java 16 on macOS.
+          - os: macOS-latest
+            java:
+              version: 16
+          # exclude adopt-hotspot on MacOS. zulu (also hotspot) and OpenJ9 are sufficient.
+          - os: macOS-latest
+            java:
+              dist: adopt-hotspot
+          # exclude old maven versions on MacOS.
+          - os: macOS-latest
+            maven: '3.3.9'
+          # exclude old maven version with various JDKs, one will do.
+          - maven: '3.3.9'
+            java:
+              dist: adopt-hotspot
+          - maven: '3.3.9'
+            java:
+              dist: zulu
+
+      fail-fast: false
+
+    runs-on: ${{ matrix.os }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Set up cache for ~./m2/repository
+        uses: actions/cache@v2.1.6
+        with:
+          path: |
+            ~/.m2/repository
+            !~/.m2/repository/org/codehaus/mojo/aspectj-maven-plugin
+          key: maven-${{ matrix.os }}-java${{ matrix.java }}-${{ hashFiles('**/pom.xml') }}
+          restore-keys: |
+            maven-${{ matrix.os }}-java${{ matrix.java }}-
+            maven-${{ matrix.os }}-
+
+      - name: Set up JDK
+        uses: actions/setup-java@v2.1.0
+        with:
+          java-version: ${{ matrix.java.version }}
+          distribution: ${{ matrix.java.dist }}
+
+      - name: Set up Maven
+        shell: bash
+        run: mvn -N "io.takari:maven:0.7.7:wrapper" "-Dmaven=${{ matrix.maven }}"
+
+      - name: Build with Maven
+        shell: bash
+        run: ./mvnw --show-version --errors --batch-mode "-Prun-its,docs" clean site
+
