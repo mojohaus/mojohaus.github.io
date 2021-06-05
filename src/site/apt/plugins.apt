@@ -44,7 +44,8 @@ Plugins
 * {Production Plugins}
 
  The following plugins have been released and are generally available for production use. However after the move from Codehaus
- to MojoHaus a lot of plugins have not been migrated (yet), so when the issue tracking is missing, the plugin has not been migrated.
+ to MojoHaus a lot of plugins have not been migrated ([yet](https://github.com/mojohaus/convert-to-git)), so when the issue tracking is missing,
+ the plugin has not been migrated: if you want to migrate a plugin to contribute, please ask on the [mailing list](/mail-lists.html).
 
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
 || Plugin                                                            || Version    || Description                                 || Issue tracking ||
