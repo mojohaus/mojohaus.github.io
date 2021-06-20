@@ -87,6 +87,7 @@
       <item name="API Signatures" href="signatures"/>
       <item name="Extra enforcer rules" href="extra-enforcer-rules"/>
       <item name="Mock Repository Manager" href="mrm"/>
+      <item name="Mojo Parent" href="mojo-parent"/>
     </menu>
 
     <menu name="Project Information">
