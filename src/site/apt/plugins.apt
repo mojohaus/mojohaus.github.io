@@ -30,8 +30,8 @@ Plugins
   plugin can eventually reach production state.
 
   In order to guard against corrupted downloads/installations, it is highly recommended to
-  {{{http://www.apache.org/dev/release-signing#verifying-signature}verify the signature}} of the release bundles against the public
-  {{{http://www.mojohaus.org/KEYS}KEYS}} used by the Codehaus Mojo developers.
+  {{{https://www.apache.org/dev/release-signing#verifying-signature}verify the signature}} of the release bundles against the public
+  {{{https://www.mojohaus.org/KEYS}KEYS}} used by the Codehaus Mojo developers.
 
   * {{{Production_Plugins}Production Plugins}}
 
@@ -184,7 +184,7 @@ Plugins
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
 | {{{./versions-maven-plugin/} <<<versions>>>}}                      | {{{https://search.maven.org/artifact/org.codehaus.mojo/versions-maven-plugin}central}} | Supports various tasks for updating the versions of components in the POM. | {{{https://github.com/mojohaus/versions-maven-plugin/issues}GitHub}}
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| {{{./vfs/vfs-maven-plugin/} <<<vfs>>>}}                            | {{{https://search.maven.org/artifact/org.codehaus.mojo/vfs-maven-plugin}central}} | Maven plugin for {{{http://commons.apache.org/proper/commons-vfs/} Apache Commons Virtual File System (VFS)}}. | {{{https://github.com/mojohaus/vfs/issues}GitHub}}
+| {{{./vfs/vfs-maven-plugin/} <<<vfs>>>}}                            | {{{https://search.maven.org/artifact/org.codehaus.mojo/vfs-maven-plugin}central}} | Maven plugin for {{{https://commons.apache.org/proper/commons-vfs/} Apache Commons Virtual File System (VFS)}}. | {{{https://github.com/mojohaus/vfs/issues}GitHub}}
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
 | {{{./wagon-maven-plugin/} <<<wagon>>>}}                            | {{{https://search.maven.org/artifact/org.codehaus.mojo/wagon-maven-plugin}central}} | Transfer files between URLs.                 | {{{https://github.com/mojohaus/wagon-maven-plugin/issues}GitHub}}
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
@@ -396,13 +396,13 @@ Plugins
 *---------------------------------+------------------------------------------------------------+
 | <<<project-sources>>>           | Deprecated use {{{./wagon-maven-plugin} wagon-maven-plugin}} or {{{https://github.com/mojohaus/cbuild-parent/issues} maven-dependency-plugin}} instead.
 *---------------------------------+------------------------------------------------------------+
-| <<<netbeans-freeform>>>         | NetBeans has developed its own Maven support: {{http://netbeans.org/features/ide/build-tools.html}}
+| <<<netbeans-freeform>>>         | NetBeans has developed its own Maven support: {{https://netbeans.org/features/ide/build-tools.html}}
 *---------------------------------+------------------------------------------------------------+
-| <<<nb-repository-plugin>>>      | Moved to Apache NetBeans (incubator) : {{http://bits.netbeans.org/mavenutilities/nb-repository-plugin/}}
+| <<<nb-repository-plugin>>>      | Moved to Apache NetBeans (incubator) : {{https://bits.netbeans.org/mavenutilities/nb-repository-plugin/}}
 *---------------------------------+------------------------------------------------------------+
-| <<<nbm-maven-plugin>>>          | Moved to Apache NetBeans (incubator) : {{http://bits.netbeans.org/mavenutilities/nbm-maven-plugin/}}
+| <<<nbm-maven-plugin>>>          | Moved to Apache NetBeans (incubator) : {{https://bits.netbeans.org/mavenutilities/nbm-maven-plugin/}}
 *---------------------------------+------------------------------------------------------------+
-| <<<openjpa>>>                   | Moved to and maintained by the Apache OpenJPA project: {{http://openjpa.apache.org/enhancement-with-maven.html}}
+| <<<openjpa>>>                   | Moved to and maintained by the Apache OpenJPA project: {{https://openjpa.apache.org/enhancement-with-maven.html}}
 *---------------------------------+------------------------------------------------------------+
 | <<<rat>>>                       | Moved to the {{{https://github.com/mojohaus/rat-maven-plugin/issues} Apache Creadur Project}}.
 *---------------------------------+------------------------------------------------------------+
@@ -420,5 +420,5 @@ Plugins
 *---------------------------------+------------------------------------------------------------+
 | <<<xfire>>>                     | Deprecated use the {{{https://github.com/mojohaus/xfire-maven-plugin/issues}Maven cxf plugins}} instead.
 *---------------------------------+------------------------------------------------------------+
-| <<<xslt>>>                      | Deprecated use the {{{http://www.mojohaus.org/xml-maven-plugin/}xml-maven-plugin}} instead.
+| <<<xslt>>>                      | Deprecated use the {{{https://www.mojohaus.org/xml-maven-plugin/}xml-maven-plugin}} instead.
 *---------------------------------+------------------------------------------------------------+
