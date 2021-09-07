@@ -44,7 +44,7 @@ Development Guidelines
 
  * Sanity check all mojo parameters and throw a MojoExecutionException for invalid parameters.
 
- * Use the {{{http://maven.apache.org/developers/committer-environment.html#Maven_Code_Style}Maven code style}} when
+ * Use the {{{https://maven.apache.org/developers/committer-environment.html#Maven_Code_Style}Maven code style}} when
    formatting your code.
 
  * Do not check IDE specific files into version control but rather add those to <<<.gitignore>>>.
@@ -98,10 +98,10 @@ Development Guidelines
 
    * The Codehaus site template, see below
 
-   * The {{{http://maven.apache.org/guides/development/guide-plugin-documentation.html}
+   * The {{{https://maven.apache.org/guides/development/guide-plugin-documentation.html}
      Plugin Documentation Standard}}
 
-   * The {{{http://maven.apache.org/plugins/maven-docck-plugin/}Maven Documentation Checker Plugin}}
+   * The {{{https://maven.apache.org/plugins/maven-docck-plugin/}Maven Documentation Checker Plugin}}
 
    []
 
