@@ -111,7 +111,7 @@ Performing a Release
 
   * Make sure the site follows the {{{./guidelines.html}Development Guidelines}}.
 
-  * Call a vote for the graduation on the dev mailing list. See below for more
+  * Optional Call a vote for the graduation on the dev mailing list. See below for more
     info on how to do this. You can use a {{{./promotevote-mailtemplate.html}template}} for this call for promotion. 
 
   * Ensure that you update any corresponding Continuous Integration plans to reflect the above git location.
@@ -273,7 +273,7 @@ mvn docck:check
 
 * {Call a Vote}
  
- Before a release can occur, a vote typically takes place. This is initiated with an email to the {{{mailto:mojohaus-dev@googlegroups.com}dev list}}, preferrably
+ Before a release can occur, an optional vote may take place. This is initiated with an email to the {{{mailto:mojohaus-dev@googlegroups.com}dev list}}, preferrably
  with a subject that starts with <<<[VOTE]>>>. Explain the plugin, status and any other info you feel relevant. The
  standard is to wait 72 hours for responses. This gives other developers time to verify the quality of the plugin
  before placing their vote. See the {{{http://www.apache.org/foundation/voting.html}Apache Voting Guidelines}} for more
@@ -282,7 +282,7 @@ mvn docck:check
    
 * {Promoting the Release}
 
-  When the vote has passed, do the following:
+  When the vote (if any) has passed, do the following:
 
   * Reply to the latest vote and summarize the result and prefix the subject with <<[RESULT]>>.
 
