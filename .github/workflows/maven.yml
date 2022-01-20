@@ -19,14 +19,15 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Set up JDK
-        uses: actions/setup-java@v2.1.0
+        uses: actions/setup-java@v2
         with:
-          java-version: 8
-          distribution: adopt-openj9
+          java-version: '11'
+          distribution: 'temurin'
+          cache: 'maven'
 
       - name: Set up Maven
         shell: bash
-        run: mvn -N "io.takari:maven:0.7.7:wrapper" "-Dmaven=3.8.1"
+        run: mvn -N "io.takari:maven:0.7.7:wrapper" "-Dmaven=3.8.3"
 
       - name: Build with Maven
         shell: bash
