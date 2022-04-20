@@ -19,9 +19,14 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>org.codehaus.mojo</groupId>
+  <parent>
+    <groupId>org.codehaus.mojo</groupId>
+    <artifactId>mojo-parent</artifactId>
+    <version>67</version>
+  </parent>
+
   <artifactId>mojo-site</artifactId>
-  <version>2-SNAPSHOT</version>
+  <version>3-SNAPSHOT</version>
 
   <name>Mojo Haus Site</name>
   <url>http://www.mojohaus.org/</url><!-- see https://help.github.com/articles/about-custom-domains-for-github-pages-sites/ -->
@@ -98,7 +103,7 @@
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-site-plugin</artifactId>
-          <version>3.11.0</version>
+          <version>3.12.0</version>
           <configuration>
             <skipDeploy>true</skipDeploy><!-- don't deploy site with maven-site-plugin -->
           </configuration>
@@ -110,6 +115,13 @@
           <configuration>
             <scmBranch>master</scmBranch><!-- see https://help.github.com/articles/user-organization-and-project-pages/ -->
             <content>${project.reporting.outputDirectory}</content><!-- mono-module doesn't require site:stage -->
+          </configuration>
+        </plugin>
+         <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-surefire-plugin</artifactId>
+          <configuration>
+            <skip>true</skip>
           </configuration>
         </plugin>
       </plugins>
