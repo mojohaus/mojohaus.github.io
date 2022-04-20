@@ -141,8 +141,8 @@
         <reportSets>
           <reportSet>
             <reports>
-              <report>mailing-list</report>
-              <report>issue-tracking</report>
+              <report>mailing-lists</report>
+              <report>issue-management</report>
               <report>scm</report>
             </reports>
           </reportSet>
