@@ -31,13 +31,13 @@ Submitting a Plugin
  This document describes the steps for submitting a plugin to the MojoHaus project. These steps might not apply to
  everyone, but should be a general guideline.
 
- Subscribe to the {{{../mail-lists.html}developer mailing list}} and ask if there is an interest in the plugin. If there
+ Subscribe to the {{{../mailing-lists.html}developer mailing list}} and ask if there is an interest in the plugin. If there
  is an interest, package the plugin in a tarball or a zip file, create an issue for the component "Plugin Submission"
- in our {{{../issue-tracking.html}issue tracker}} and attach the source code
- there. Make sure that you try to follow our {{{../development/guidelines.html}development guidelines}}.
+ in our {{{../issue-management.html}issue tracker}} and attach the source code
+ there (or point to an existing Git repository). Make sure that you try to follow our {{{../development/guidelines.html}development guidelines}}.
 
- Once accepted it will be put in the sandbox so all mojo-committers can continue to develop and maintain it. A new Mojo component will
- be added in {{{http://jira.codehaus.org/browse/MOJO}Jira}} so everybody can create issues and provide patches. The plugin will
+ Once accepted it will be put in the sandbox so all mojo-committers can continue to develop and maintain it. A new Mojo GitHub repository will
+ be added in {{{https://github.com/mojohaus}MojoHaus GitHub organisation}} so everybody can create issues and provide patches. The plugin will
  generally be kept in the sandbox until the first release of the plugin is made.
 
  Note that you will not automatically become a committer on the project. If you stick around and keep on maintaining
