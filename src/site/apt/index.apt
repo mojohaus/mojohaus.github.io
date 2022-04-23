@@ -31,7 +31,7 @@ Welcome to the MojoHaus Project (previously known as Mojo@Codehaus)
 
  Releases of the plugins are available from the {{{https://repo1.maven.org/maven2/org/codehaus/mojo/}Maven Central repository}}.
  {{{https://oss.sonatype.org/content/repositories/snapshots/org/codehaus/mojo/}Snapshots}} are available on request through 
- the {{{./mail-lists.html}development list}} or by emailing the maintainer. Each plugin has a list of people involved in
+ the {{{./mailing-lists.html}development list}} or by emailing the maintainer. Each plugin has a list of people involved in
  creating or supporting it.
 
 * Plugins
@@ -47,12 +47,12 @@ Welcome to the MojoHaus Project (previously known as Mojo@Codehaus)
 * Getting Support
 
  If you have problems or concerns with plugins in the Mojo project please contact the author, ask on
- the regular {{{./mail-lists.html}Maven Users mailing list}} or join us on {{{./irc.html}IRC}}. There are also instructions on
+ the regular {{{./mailing-lists.html}Maven Users mailing list}} or join us on {{{./irc.html}IRC}}. There are also instructions on
  {{{./contribution/reporting-an-issue.html}how to report an issue}} should you run into one.
 
 * Development
 
  If you would like to contribute to the project, either through {{{./contribution/submitting-a-patch.html}fixing an existing plugin}}
  or by {{{./contribution/submitting-a-plugin.html}donating a new plugin}},
- contact us on the {{{./mail-lists.html}development list}} or join us on {{{./irc.html}IRC}}.
+ contact us on the {{{./mailing-lists.html}development list}} or join us on {{{./irc.html}IRC}}.
 
