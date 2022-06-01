@@ -49,23 +49,14 @@
       <unsubscribe>users-unsubscribe@maven.apache.org</unsubscribe>
       <post>users@maven.apache.org</post>
       <archive>http://mail-archives.apache.org/mod_mbox/maven-users/</archive>
-      <otherArchives>
-        <otherArchive>http://maven.40175.n5.nabble.com/Maven-Users-f40176.html</otherArchive>
-      </otherArchives>
     </mailingList>
     <mailingList>
       <name>Former (pre-2015-06) Development List</name>
       <archive>http://markmail.org/list/org.codehaus.mojo.dev</archive>
-      <otherArchives>
-        <otherArchive>http://mojo.10943.n7.nabble.com/Developer-f3.html</otherArchive>
-      </otherArchives>
     </mailingList>
     <mailingList>
       <name>Former (pre-2015-06) User List</name>
       <archive>http://markmail.org/list/org.codehaus.mojo.user</archive>
-      <otherArchives>
-        <otherArchive>http://mojo.10943.n7.nabble.com/User-f34162.html</otherArchive>
-      </otherArchives>
     </mailingList>
     <mailingList>
       <name>Former (pre-2015-06) Commits List</name>
@@ -74,9 +65,6 @@
     <mailingList>
       <name>Former (pre-2015-06) Announcements List</name>
       <archive>http://markmail.org/list/org.codehaus.mojo.announce</archive>
-      <otherArchives>
-        <otherArchive>http://mojo.10943.n7.nabble.com/Announce-f38303.html</otherArchive>
-      </otherArchives>
     </mailingList>
   </mailingLists>
 
