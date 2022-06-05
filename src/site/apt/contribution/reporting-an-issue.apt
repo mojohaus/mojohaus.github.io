@@ -31,7 +31,7 @@ Reporting an Issue
   What to do when a plugin doesn't work as expected? First, make sure it's not just a misconfiguration of the plugin
   in your POM and have a second glance at the documentation of the plugin, in particular the usage guide and examples.
   If the documentation doesn't help either, you should contact the community via the
-  {{{../mail-lists.html}user mailing list}} or via {{{../irc.html}IRC}}.
+  {{{../mailing-lists.html}user mailing list}}.
 
   If the issue you are facing happens to be a bug in the plugin itself, it's time to visit our issue tracking system.
   Where is that? The exact URL to the issue tracker for a plugin is documented on the web site of that particular
