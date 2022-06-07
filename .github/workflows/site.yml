@@ -1,0 +1,48 @@
+name: Site CI
+
+on:
+  push:
+    branches:
+      - '*'
+      - '!master'
+  pull_request:
+    branches:
+      - '*'
+      - '!master'
+
+jobs:
+
+  check-keys:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: check keys file format
+        run: ./.github/workflows/check_keys.sh
+
+  site:
+    runs-on: ubuntu-latest
+    needs: check-keys
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Set up JDK
+        uses: actions/setup-java@v3
+        with:
+          java-version: '11'
+          distribution: 'temurin'
+          cache: 'maven'
+
+      - name: Setup deploy
+        id: setup
+        if: github.event_name == 'push' && github.repository_owner = 'mojohaus' && github.ref == 'refs/heads/site'
+        run: |
+          git config --global user.email "${{ github.head_commit.author.email }}"
+          git config --global user.name "${{ github.head_commit.author.name }}"
+          echo "::set-output name=deploy::-deploy -Dusername=git -Dpassword=${{ github.token }}"
+
+      - name: Build with Maven
+        run: mvn --show-version --errors --batch-mode -DskipReports clean site
