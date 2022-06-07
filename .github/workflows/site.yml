@@ -45,4 +45,4 @@ jobs:
           echo "::set-output name=deploy::-deploy -Dusername=git -Dpassword=${{ github.token }}"
 
       - name: Build with Maven
-        run: mvn --show-version --errors --batch-mode -DskipReports clean site
+        run: mvn --show-version --errors --batch-mode -DskipReports clean site${{ steps.setup.outputs.deploy }}
