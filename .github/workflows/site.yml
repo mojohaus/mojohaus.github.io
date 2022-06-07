@@ -40,8 +40,8 @@ jobs:
         id: setup
         if: github.event_name == 'push' && github.repository_owner == 'mojohaus' && github.ref == 'refs/heads/site'
         run: |
-          git config --global user.email "${{ github.head_commit.author.email }}"
-          git config --global user.name "${{ github.head_commit.author.name }}"
+          git config --global user.email "${{ github.event.head_commit.author.email }}"
+          git config --global user.name "${{ github.event.head_commit.author.name }}"
           echo "::set-output name=deploy::-deploy -Dusername=git -Dpassword=${{ github.token }}"
 
       - name: Build with Maven
