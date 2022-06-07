@@ -75,10 +75,17 @@
     <url>https://github.com/mojohaus/mojohaus.github.io/tree/${project.scm.tag}</url>
     <tag>site</tag><!-- see https://help.github.com/articles/user-organization-and-project-pages/ -->
   </scm>
+
+  <ciManagement>
+    <system>github</system>
+    <url>https://github.com/mojohaus/mojohaus.github.io/actions</url>
+  </ciManagement>
+
   <issueManagement>
     <system>github</system>
     <url>https://github.com/mojohaus/mojohaus.github.io/issues</url>
   </issueManagement>
+
   <distributionManagement>
     <site>
       <id>github</id>
