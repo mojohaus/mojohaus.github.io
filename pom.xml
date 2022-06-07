@@ -85,6 +85,23 @@
     </site>
   </distributionManagement>
 
+  <!-- need to resolve parent in snapshot version -->
+  <repositories>
+    <repository>
+      <id>ossrh-snapshots</id>
+      <layout>default</layout>
+      <name>ossrh-snapshots</name>
+      <releases>
+        <enabled>false</enabled>
+      </releases>
+      <snapshots>
+        <checksumPolicy>fail</checksumPolicy>
+        <enabled>true</enabled>
+      </snapshots>
+      <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+    </repository>
+  </repositories>
+
   <build>
     <pluginManagement>
       <plugins>
