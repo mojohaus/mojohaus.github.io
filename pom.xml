@@ -156,6 +156,7 @@
         <reportSets>
           <reportSet>
             <reports>
+              <report>ci-management</report>
               <report>mailing-lists</report>
               <report>issue-management</report>
               <report>scm</report>
