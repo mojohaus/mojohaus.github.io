@@ -29,7 +29,7 @@
   <version>3-SNAPSHOT</version>
 
   <name>Mojo Haus Site</name>
-  <url>http://www.mojohaus.org/</url><!-- see https://help.github.com/articles/about-custom-domains-for-github-pages-sites/ -->
+  <url>https://www.mojohaus.org/</url><!-- see https://help.github.com/articles/about-custom-domains-for-github-pages-sites/ -->
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -118,6 +118,7 @@
           <artifactId>maven-site-plugin</artifactId>
           <configuration>
             <skipDeploy>true</skipDeploy><!-- don't deploy site with maven-site-plugin -->
+            <relativizeDecorationLinks>false</relativizeDecorationLinks>
           </configuration>
         </plugin>
         <plugin>
