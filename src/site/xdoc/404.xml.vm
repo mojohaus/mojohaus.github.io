@@ -26,7 +26,13 @@ under the License.
     <title>Page Not Found</title>
     <!-- the base URL for all relative address in a document. -->
     <!-- Not Found page can be displayed in any level -->
-    <base href="https://www.mojohaus.org/" />
+    <base href="${project.url}" />
+    <!-- need to import styles by hand since the generated html has them relative and before the base tag -->
+    <!-- TODO - extract fluido version to property -->
+    <link rel="stylesheet" href="${project.url}css/apache-maven-fluido-1.11.0.min.css" />
+    <link rel="stylesheet" href="${project.url}css/site.css" />
+    <link rel="stylesheet" href="${project.url}css/print.css" media="print" />
+    <script type="text/javascript" src="${project.url}js/apache-maven-fluido-1.11.0.min.js" />
   </head>
 
   <body>
