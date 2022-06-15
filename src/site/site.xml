@@ -16,20 +16,11 @@
     limitations under the License.
 -->
 
-<project name="Mojo" xmlns="http://maven.apache.org/DECORATION/1.8.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<project name="MojoHaus" xmlns="http://maven.apache.org/DECORATION/1.8.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/DECORATION/1.8.0 http://maven.apache.org/xsd/decoration-1.8.0.xsd">
-  <skin>
-    <groupId>org.apache.maven.skins</groupId>
-    <artifactId>maven-fluido-skin</artifactId>
-    <version>1.11.0</version>
-  </skin>
-  <edit>${project.scm.url}</edit>
 
   <custom>
     <fluidoSkin>
-      <googleSearch>
-        <sitesearch>www.mojohaus.org</sitesearch>
-      </googleSearch>
       <gitHub>
         <projectId>mojohaus/mojohaus.github.io</projectId>
         <ribbonOrientation>right</ribbonOrientation>
@@ -38,24 +29,14 @@
     </fluidoSkin>
   </custom>
 
-  <bannerLeft>
-    <name>Mojo</name>
-    <src>/images/mojo_logo.png</src>
-    <href>https://www.mojohaus.org/</href>
-  </bannerLeft>
-  
-  <publishDate format="yyyy-MM-dd" position="right" />
   <version position="none"/>
 
   <body>
-    <links>
-      <item name="Maven" href="https://maven.apache.org/"/>
-    </links>
     <breadcrumbs>
       <item name="MojoHaus" href="https://www.mojohaus.org/"/>
     </breadcrumbs>
     
-    <menu name="Mojo">
+    <menu name="MojoHaus">
       <item name="Introduction" href="index.html"/>
       <item name="Plugins" href="plugins.html"/>
       <item name="FAQ" href="faq.html"/>

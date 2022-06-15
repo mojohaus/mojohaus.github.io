@@ -36,39 +36,6 @@
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
   </properties>
 
-  <mailingLists>
-    <mailingList>
-      <name>MojoHaus Development List</name>
-      <subscribe>mojohaus-dev+subscribe@googlegroups.com</subscribe>
-      <unsubscribe>mojohaus-dev+unsubscribe@googlegroups.com</unsubscribe>
-      <post>mojohaus-dev@googlegroups.com</post>
-      <archive>https://groups.google.com/forum/#!forum/mojohaus-dev</archive>
-    </mailingList>
-    <mailingList>
-      <name>Maven Users List</name>
-      <subscribe>users-subscribe@maven.apache.org</subscribe>
-      <unsubscribe>users-unsubscribe@maven.apache.org</unsubscribe>
-      <post>users@maven.apache.org</post>
-      <archive>http://mail-archives.apache.org/mod_mbox/maven-users/</archive>
-    </mailingList>
-    <mailingList>
-      <name>Former (pre-2015-06) Development List</name>
-      <archive>http://markmail.org/list/org.codehaus.mojo.dev</archive>
-    </mailingList>
-    <mailingList>
-      <name>Former (pre-2015-06) User List</name>
-      <archive>http://markmail.org/list/org.codehaus.mojo.user</archive>
-    </mailingList>
-    <mailingList>
-      <name>Former (pre-2015-06) Commits List</name>
-      <archive>http://markmail.org/list/org.codehaus.mojo.scm</archive>
-    </mailingList>
-    <mailingList>
-      <name>Former (pre-2015-06) Announcements List</name>
-      <archive>http://markmail.org/list/org.codehaus.mojo.announce</archive>
-    </mailingList>
-  </mailingLists>
-
   <scm>
     <connection>scm:git:https://github.com/mojohaus/mojohaus.github.io.git</connection>
     <developerConnection>scm:git:https://github.com/mojohaus/mojohaus.github.io.git</developerConnection>
