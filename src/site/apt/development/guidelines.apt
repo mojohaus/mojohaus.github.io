@@ -69,7 +69,7 @@ Development Guidelines
   <parent>
     <groupId>org.codehaus.mojo</groupId>
     <artifactId>mojo-parent</artifactId>
-    <version>63</version>
+    <version>68</version>
   </parent>
   ...
 </project>
