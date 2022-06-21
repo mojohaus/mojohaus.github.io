@@ -152,6 +152,8 @@ Plugins
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
 | {{{./buildnumber-maven-plugin/} <<<buildnumber>>>}}                | {{{https://search.maven.org/artifact/org.codehaus.mojo/buildnumber-maven-plugin}central}} | Creates unique build number for each build.  | {{{https://github.com/mojohaus/buildnumber-maven-plugin/issues}GitHub}}
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
+| {{{./buildplan-maven-plugin/} <<<buildplan>>>}}                    | {{{https://search.maven.org/artifact/org.codehaus.mojo/buildplan-maven-plugin}central}} | Inspects the lifecycle of your project.  | {{{https://github.com/mojohaus/buildplan-maven-plugin/issues}GitHub}}
+*--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
 | {{{./cassandra-maven-plugin/} <<<cassandra>>>}}                    | {{{https://search.maven.org/artifact/org.codehaus.mojo/cassandra-maven-plugin}central}} | Mojo's plugin for Apache Maven to allow controlling Apache Cassandra. | {{{https://github.com/mojohaus/cassandra-maven-plugin/issues}GitHub}}
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
 | {{{./ditaot-maven-plugin/} <<<ditaot>>>}}                          | {{{https://search.maven.org/artifact/org.codehaus.mojo/ditaot-maven-plugin}central}} | Support for DITA transformations using DITA Open Toolkit.      | {{{https://github.com/mojohaus/ditaot-maven-plugin/issues}GitHub}}
