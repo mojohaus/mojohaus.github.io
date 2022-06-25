@@ -29,7 +29,7 @@ Development Process
 
  * Anyone can start a plugin in the sandbox at any time.
 
- * Once in a fairly useable state, the plugin should be listed on the sandbox section of the mojo site and snapshots be deployed. If no site is available, try to at least post a link to the SVN location. This advertises the existence of the plugin, which will hopefully generate more interest and developers.
+ * Once in a fairly useable state, the plugin should be listed on the sandbox section of the MojoHaus site and snapshots be deployed. If no site is available, try to at least post a link to the SVN location. This advertises the existence of the plugin, which will hopefully generate more interest and developers.
 
  * Deploying snapshots lowers the bar to entrance for potential users.
 

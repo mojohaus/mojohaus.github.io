@@ -26,7 +26,7 @@
 
 Development Guidelines
 
- All plugins in the Mojo project should follow these guidelines.
+ All plugins in the MojoHaus project should follow these guidelines.
 
  * Use the package <<<org.codehaus.mojo.>>><\<plugin\>>, e.g.: <<<org.codehaus.mojo.jpox>>>.
 
@@ -39,7 +39,7 @@ Development Guidelines
  * Use the <\<plugin\>><<<-maven-plugin>>> convention for the artifactId of any developed Maven plugin.
 
  * Use the <<<[Project] Maven Plugin>>> convention to name your plugin e.g. "Acme Maven Plugin", unless [Project]
-   reflects a trademark. In such case use either "Mojo's Acme Maven Plugin" or "Mojo's Maven Plugin for Acme" to clarify
+   reflects a trademark. In such case use either "MojoHaus's Acme Maven Plugin" or "MojoHaus's Maven Plugin for Acme" to clarify
    it is a plugin <for> this product and not <by> this product.
 
  * Sanity check all mojo parameters and throw a MojoExecutionException for invalid parameters.
@@ -59,9 +59,9 @@ Development Guidelines
   Make sure that you include the license in a file called <<<LICENSE.txt>>> in the root of your project and that
  all files include the license at the top of the file.
 
-* {Mojo Parents}
+* {MojoHaus Parents}
 
- Released plugins should derive from {{{/mojo-parent/}the Mojo parent}}, for the latest version see
+ Released plugins should derive from {{{/mojo-parent/}the MojoHaus parent}}, for the latest version see
  {{{https://search.maven.org/artifact/org.codehaus.mojo/mojo-parent}Maven Central}}:
 
 +---------------------------------------+
@@ -75,7 +75,7 @@ Development Guidelines
 </project>
 +---------------------------------------+
 
- Sandbox (new) plugins should derive from the Mojo sandbox parent, for the latest version see
+ Sandbox (new) plugins should derive from the MojoHaus sandbox parent, for the latest version see
  {{{https://search.maven.org/artifact/org.codehaus.mojo/mojo-sandbox-parent}Maven Central}}:
 
 +---------------------------------------+

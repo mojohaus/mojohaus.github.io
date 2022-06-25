@@ -36,7 +36,7 @@ Submitting a Plugin
  in our {{{../issue-management.html}issue tracker}} and attach the source code
  there (or point to an existing Git repository). Make sure that you try to follow our {{{../development/guidelines.html}development guidelines}}.
 
- Once accepted it will be put in the sandbox so all mojo-committers can continue to develop and maintain it. A new Mojo GitHub repository will
+ Once accepted it will be put in the sandbox so all MojoHaus committers can continue to develop and maintain it. A new MojoHaus GitHub repository will
  be added in {{{https://github.com/mojohaus}MojoHaus GitHub organisation}} so everybody can create issues and provide patches. The plugin will
  generally be kept in the sandbox until the first release of the plugin is made.
 
