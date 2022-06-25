@@ -23,9 +23,9 @@
   <artifactId>mojo-site</artifactId>
   <version>2-SNAPSHOT</version>
 
-  <name>Mojo Haus Site - generated HTML branch</name>
+  <name>MojoHaus Site - generated HTML branch</name>
   <description>
-    This is master branch of Mojo Haus Site: this branch contains generated HTML.
+    This is master branch of MojoHaus Site: this branch contains generated HTML.
     Please switch to site branch to edit site source, build and publish content.
   </description>
 
