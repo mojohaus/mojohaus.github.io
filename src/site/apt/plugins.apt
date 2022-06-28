@@ -112,6 +112,8 @@ Plugins
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
 | {{{./cobertura-maven-plugin/} <<<cobertura>>>}}                    | {{{https://search.maven.org/artifact/org.codehaus.mojo/cobertura-maven-plugin}central}} | Code coverage via Cobertura.                 | {{{https://github.com/mojohaus/cobertura-maven-plugin/issues}GitHub}}
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
+| {{{./l10n-maven-plugin/} <<<l10n>>>}}                              | {{{https://search.maven.org/artifact/org.codehaus.mojo/l10n-maven-plugin}central}} | The Localization Tools Maven Plugin helps with internationalization and localization of your projects. | {{{https://github.com/mojohaus/l10n-maven-plugin/issues}GitHub}}
+*--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
 | {{{./scmchangelog-maven-plugin/} <<<scmchangelog>>>}}              | {{{https://search.maven.org/artifact/org.codehaus.mojo/scmchangelog-maven-plugin}central}} | Simple Reporter that creates a changelog report using comments and tags from Subversion. | -
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
 | {{{./taglist-maven-plugin/} <<<taglist>>>}}                        | {{{https://search.maven.org/artifact/org.codehaus.mojo/taglist-maven-plugin}central}} | Generates a report on various tags found in the code. | {{{https://github.com/mojohaus/taglist-maven-plugin/issues}GitHub}}
@@ -267,8 +269,6 @@ Plugins
 | {{{./jalopy-maven-plugin/} <<<jalopy>>>}}                          | {{{https://search.maven.org/artifact/org.codehaus.mojo/jalopy-maven-plugin}central}} | Formats java source files following a coding convention.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./jasperreports-maven-plugin/} <<<jasperreports>>>}}            | {{{https://search.maven.org/artifact/org.codehaus.mojo/jasperreports-maven-plugin}central}} | Compiles Jasper Report Design Files.
-*--------------------------------------------------------------------+-------------+----------------------------------------------+
-| {{{./l10n-maven-plugin/} <<<l10n>>>}}                              | {{{https://search.maven.org/artifact/org.codehaus.mojo/l10n-maven-plugin}central}} | The Localization Tools Maven Plugin helps with internationalization and localization of your projects.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./native2ascii-maven-plugin/} <<<native2ascii>>>}}              | {{{https://search.maven.org/artifact/org.codehaus.mojo/native2ascii-maven-plugin}central}} | Converts text file encodings.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
