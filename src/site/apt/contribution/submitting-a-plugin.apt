@@ -5,8 +5,6 @@
  ------
  ------
 
-~~ $Id$
-
 ~~ 
 ~~ Licensed to the Apache Software Foundation (ASF) under one
 ~~ or more contributor license agreements.  See the NOTICE file
@@ -28,17 +26,26 @@
 
 Submitting a Plugin
 
- This document describes the steps for submitting a plugin to the MojoHaus project. These steps might not apply to
+ This document describes the steps for submitting a plugin to the <<MojoHaus>> project. These steps might not apply to
  everyone, but should be a general guideline.
 
- Subscribe to the {{{../mailing-lists.html}developer mailing list}} and ask if there is an interest in the plugin. If there
- is an interest, package the plugin in a tarball or a zip file, create an issue for the component "Plugin Submission"
- in our {{{../issue-management.html}issue tracker}} and attach the source code
- there (or point to an existing Git repository). Make sure that you try to follow our {{{../development/guidelines.html}development guidelines}}.
+ * Subscribe to the {{{../mailing-lists.html}developer mailing list}} and ask if there is an interest in the plugin.
 
- Once accepted it will be put in the sandbox so all MojoHaus committers can continue to develop and maintain it. A new MojoHaus GitHub repository will
- be added in {{{https://github.com/mojohaus}MojoHaus GitHub organisation}} so everybody can create issues and provide patches. The plugin will
- generally be kept in the sandbox until the first release of the plugin is made.
+ * Point us the GitHub repository where your plugin code exist.
 
- Note that you will not automatically become a committer on the project. If you stick around and keep on maintaining
+ * If there is an interest, make sure that you try to follow our {{{../development/guidelines.html}development guidelines}}.
+
+ []
+
+ Once accepted, we will agree with you method of transferring your repository to <<MojoHaus>> GitHub organization.
+
+ After transferring all <<MojoHaus>> committers can continue to develop and maintain it,
+ everybody will be able to create issues and provide a pull requests.
+
+ We will make first release under <<MojoHaus>> organization when we will be sure that it is ready to be used by all
+ and meet our requirements.
+
+ <<Note>>
+
+ You will not automatically become a committer on the project. If you stick around and keep on maintaining
  the plugin we'll most likely grant you commit rights once we feel comfortable with you and your work.
