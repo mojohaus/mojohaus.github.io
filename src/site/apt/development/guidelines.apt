@@ -26,7 +26,7 @@
 
 Development Guidelines
 
- All plugins in the MojoHaus project should follow these guidelines.
+ All plugins in the <<MojoHaus>> project should follow these guidelines.
 
  * Use the package <<<org.codehaus.mojo.>>><\<plugin\>>, e.g.: <<<org.codehaus.mojo.jpox>>>.
 
@@ -69,7 +69,7 @@ Development Guidelines
   <parent>
     <groupId>org.codehaus.mojo</groupId>
     <artifactId>mojo-parent</artifactId>
-    <version>68</version>
+    <version>69</version>
   </parent>
   ...
 </project>
