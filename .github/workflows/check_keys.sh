@@ -1,55 +1,25 @@
 #!/bin/bash
 set -euo pipefail
-IFS=$'\n\r'
 
-declare -a SIGFILES
-GNUPG_HOME="$(mktemp -d)"
-MARKER_START="-----BEGIN PGP PUBLIC KEY BLOCK-----"
-MARKER_END="-----END PGP PUBLIC KEY BLOCK-----"
+GNUPGHOME=$(mktemp -d)
+export GNUPGHOME
 
-function check_key() {
-  local key
-  local pubsigfile
-  key="${1}"
-  pubsigfile=$(mktemp --suffix=.asc)
-  SIGFILES+=("$pubsigfile")
+trap "exit 1"               HUP INT PIPE QUIT TERM
+trap 'rm -rf "$GNUPGHOME"'  EXIT
 
-  echo "$key" > "$pubsigfile"
+echo "::group::Importing keys"
+gpg --allow-weak-key-signatures --import src/site/resources/KEYS
+echo "::endgroup::"
 
-  gpg --homedir "$GNUPG_HOME" -v --import-options show-only --keyid-format=0xlong --import "$pubsigfile"
-  gpg --list-packets "$pubsigfile"
-  echo ""
-  rm -f "$pubsigfile"
-}
+EXPIRED=`gpg --list-keys --with-colons --with-fingerprint | awk -F ":" -- '/^pub:e:/ { print $5 }'`
 
-# reads the key blocks from the KEYS file line by line
-function read_keys() {
-  local key
-  key=""
-  while read -r keyline; do
-    key+="
-$keyline"
-
-    if [[ "$keyline" == *"$MARKER_END"* ]]; then
-      # KEY completed, now check it.
-      check_key "$key"
-      key=""
-    fi
-  done < <(sed -n "/$MARKER_START/,/$MARKER_END/p" src/site/resources/KEYS)
-}
-
-function cleanup() {
-  for sigfile in "${SIGFILES[@]}"; do
-    rm -f "$sigfile"
-  done
-  rm -rf "$GNUPG_HOME"
-}
-
-trap cleanup EXIT
-
-main() {
-  read_keys
-}
-
-main
+if [ -n "$EXPIRED" ]; then
+    echo "::group::Expired keys"
+    for KEY in $EXPIRED; do
+        KEY_DESC=`gpg --list-keys --keyid-format=0xlong $KEY | grep "pub"`
+        echo "::warning::$KEY_DESC"
+        gpg --list-keys --keyid-format=0xlong $KEY
+    done
+    echo "::endgroup::"
+fi
 
