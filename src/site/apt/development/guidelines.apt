@@ -75,28 +75,11 @@ Development Guidelines
 </project>
 +---------------------------------------+
 
- Sandbox (new) plugins should derive from the MojoHaus sandbox parent, for the latest version see
- {{{https://search.maven.org/artifact/org.codehaus.mojo/mojo-sandbox-parent}Maven Central}}:
-
-+---------------------------------------+
-<project>
-  <parent>
-    <groupId>org.codehaus.mojo</groupId>
-    <artifactId>mojo-sandbox-parent</artifactId>
-    <version>15</version>
-  </parent>
-  ...
-</project>
-+---------------------------------------+
-
- See the {{{../faq.html#what-is-the-sandbox}FAQ}} and {{{./performing-a-release.html#Graduating_from_the_Sandbox}Graduating from the Sandbox}}
- for more details on sandbox development.
-
 * {Plugin Site Template}
 
  Plugins should have a site that conforms to:
 
-   * The Codehaus site template, see below
+   * The <<MojoHaus>> site template, see below
 
    * The {{{https://maven.apache.org/guides/development/guide-plugin-documentation.html}
      Plugin Documentation Standard}}

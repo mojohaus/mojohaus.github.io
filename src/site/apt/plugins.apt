@@ -25,19 +25,13 @@
 
 Plugins
 
-  Depending on their maturity, the available plugins are organized into groups as shown below. While using a
-  pre-release or sandbox plugin might seem risky, it is your chance to provide feedback to the community such that the
-  plugin can eventually reach production state.
-
   In order to guard against corrupted downloads/installations, it is highly recommended to
   {{{https://www.apache.org/dev/release-signing#verifying-signature}verify the signature}} of the release bundles against the public
-  {{{https://www.mojohaus.org/KEYS}KEYS}} used by the MojoHaus developers.
+  {{{https://www.mojohaus.org/KEYS}KEYS}} used by the <<MojoHaus>> developers.
 
   * {{{Production_Plugins}Production Plugins}}
 
   * {{{Pre-release_Plugins}Pre-release Plugins}}
-
-  * {{{Sandbox_Plugins}Sandbox Plugins}}
 
   * {{{Plugin_Graveyard}Plugin Graveyard}}
 
@@ -288,88 +282,6 @@ Plugins
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./webstart/webstart-maven-plugin/} <<<webstart>>>}}             | {{{https://search.maven.org/artifact/org.codehaus.mojo/webstart-maven-plugin}central}} | Prepare webstart applications.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
-
-* {Sandbox Plugins}
-
- These are plugins which have been contributed but have not gained the attention of users or
- a committer interested in seeing it released. If you are looking for a plugin but do not see
- it in this list or the lists above, you should also check the
- {{{https://github.com/mojohaus/}MojoHaus team page}}
- in case the plugin hasn't been added to the list below yet.
-
-*--------------------------------------------------------------------+------------------------------------------------------------+
-|| Plugin                                                            || Description
-*--------------------------------------------------------------------+------------------------------------------------------------+
-| <<<apidocs>>>                                                      | (no site)
-*--------------------------------------------------------------------+------------------------------------------------------------+
-| {{{./argouml-maven-plugin/} <<<argouml>>>}}                        | Generates images from ArgoUML diagrams.
-*--------------------------------------------------------------------+------------------------------------------------------------+
-| {{{./axis-archetype/} <<<axis-archetype>>>}}                       | This archetype is an example of using the Axistools and Cargo Maven Plugins.
-*--------------------------------------------------------------------+------------------------------------------------------------+
-| {{{./ckjm-maven-plugin/} <<<ckjm>>>}}                              | Executes the Ckjm bytecode analysis utility against a project.
-*--------------------------------------------------------------------+------------------------------------------------------------+
-| {{{./cruisecontrol-maven-plugin/} <<<cruisecontrol>>>}}            | (no site)
-*--------------------------------------------------------------------+------------------------------------------------------------+
-| {{{./deb-maven-plugin/} <<<deb>>>}}                                | Debian Packaging tasks.
-*--------------------------------------------------------------------+------------------------------------------------------------+
-| <<<delicious>>>                                                    | (no site)
-*--------------------------------------------------------------------+------------------------------------------------------------+
-| {{{./ec2-maven-plugin/} <<<ec2>>>}}                                | Amazon Elastic Compute Cloud EC2 tasks.
-*--------------------------------------------------------------------+------------------------------------------------------------+
-| {{{./ejbdoclet-maven-plugin/} <<<ejbdoclet>>>}}                    | Uses JaxMe 2 to generate JAXB source files from an XML schema.
-*--------------------------------------------------------------------+------------------------------------------------------------+
-| {{{./enchanter/} <<<enchanter>>>}}                                 | Execute expect like scripts over telnet/ssh sessions.
-*--------------------------------------------------------------------+------------------------------------------------------------+
-| <<<eve>>>                                                          | (no site)
-*--------------------------------------------------------------------+------------------------------------------------------------+
-| {{{./graphing-maven-plugin/} <<<graphing>>>}}                      | Project graphing.
-*--------------------------------------------------------------------+------------------------------------------------------------+
-| {{{./hibernatedoclet-maven-plugin/} <<<hibernatedoclet>>>}}        | Hibernate Doclet Plugin.
-*--------------------------------------------------------------------+------------------------------------------------------------+
-| {{{./j2me-maven-plugin/} <<<j2me>>>}}                              | Enable Maven users to develop applications for the Java Platform, Micro Edition.
-*--------------------------------------------------------------------+------------------------------------------------------------+
-| {{{./jardiff-maven-plugin/} <<<jardiff>>>}}                        | Generate an API difference report between two or more versions of code.
-*--------------------------------------------------------------------+------------------------------------------------------------+
-| <<<jarjar>>>                                                       | (no site)
-*--------------------------------------------------------------------+------------------------------------------------------------+
-| <<<jcoverage>>>                                                    | (no site)
-*--------------------------------------------------------------------+------------------------------------------------------------+
-| <<<jelly-maven-tools>>>                                            | (no site)
-*--------------------------------------------------------------------+------------------------------------------------------------+
-| {{{./kodo-maven-plugin/} <<<kodo>>>}}                              | Enhance files using Solarmetric's Kodo-JDO.
-*--------------------------------------------------------------------+------------------------------------------------------------+
-| {{{./macker-maven-plugin/} <<<macker>>>}}                          | Executes the Macker architectural rule checking utility against a project.
-*--------------------------------------------------------------------+------------------------------------------------------------+
-| <<<mant>>>                                                         | (no site)
-*--------------------------------------------------------------------+------------------------------------------------------------+
-| {{{./naturaldocs-maven-plugin/} <<<naturaldocs-maven-plugin>>>}}   | Provides NaturalDocs capability to Maven.
-*--------------------------------------------------------------------+------------------------------------------------------------+
-| {{{./pomtools-maven-plugin/} <<<pomtools>>>}}                      | Provides console based editing of the project's pom.xml.
-*--------------------------------------------------------------------+------------------------------------------------------------+
-| {{{./retroweaver-maven-plugin/} <<<retroweaver>>>}}                | Retroweaver Maven Plugin.
-*--------------------------------------------------------------------+------------------------------------------------------------+
-| {{{./runtime-builder-maven-plugin/} <<<runtime>>>}}                | Provides a declarative mechanism for describing the runtime enviroment of Java applications.
-*--------------------------------------------------------------------+------------------------------------------------------------+
-| {{{./setup/setup-maven-plugin/} <<<setup>>>}}                      | Helps configure Maven-related configuration files, such as settings.xml, toolchains.xml and various scm settings files.
-*--------------------------------------------------------------------+------------------------------------------------------------+
-| {{{./simian-report-maven-plugin/} <<<simian-report>>>}}            | Similarity analysis reports.
-*--------------------------------------------------------------------+------------------------------------------------------------+
-| <<<slimdog>>>                                                      | (no site)
-*--------------------------------------------------------------------+------------------------------------------------------------+
-| {{{./maven-springbeandoc-plugin/} <<<springbeandoc>>>}}            | Generates String BeanDoc reports from Spring configs.
-*--------------------------------------------------------------------+------------------------------------------------------------+
-| {{{./springdoclet-maven-plugin/} <<<springdoclet>>>}}              | Spring Doclet Maven Plugin.
-*--------------------------------------------------------------------+------------------------------------------------------------+
-| {{{./syslog-maven-plugin/} <<<syslog>>>}}                          | Provides goals to send and receive syslog.
-*--------------------------------------------------------------------+------------------------------------------------------------+
-| {{{./visibroker-maven-plugin/} <<<visibroker>>>}}                  | Maven adapter of VisiBroker command line tools.
-*--------------------------------------------------------------------+------------------------------------------------------------+
-| {{{./webdoclet-maven-plugin/} <<<webdoclet>>>}}                    | Uses JaxMe 2 to generate JAXB source files from an XML schema.
-*--------------------------------------------------------------------+------------------------------------------------------------+
-| {{{./xjc-maven-plugin/} <<<xjc>>>}}                                | Generates Java classes from a given XML schema document using the Sun xjc task.
-*--------------------------------------------------------------------+------------------------------------------------------------+
-| <<<xsltc>>>                                                        | Uses XSLTC to compile an XSL stylesheet into a translet (a set of Java classes).
-*--------------------------------------------------------------------+------------------------------------------------------------+
 
 * {Plugin Graveyard}
 

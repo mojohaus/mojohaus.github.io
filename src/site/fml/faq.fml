@@ -22,7 +22,7 @@
 
     <part id="about">
         <faq id="why-mojo">
-            <question>Why was the Mojo project created?</question>
+            <question>Why was the MojoHaus project created?</question>
             <answer>
                 <p>
                     Well, this allows a bunch of people,
@@ -50,30 +50,6 @@
                     <li>If it is specific to a plugin, prefix the subject with the plugin name, e.g. <code>[jalopy]</code>.</li>
                     <li>Try and summarise and send it to the list if there was some decisions were made there.</li>
                 </ul>
-            </answer>
-        </faq>
-        <faq id="what-is-the-sandbox">
-            <question>What is the sandbox?</question>
-            <answer>
-                <p>
-                    The sandbox is used to "incubate" new plugins. Sandbox plugins will not be released to the repositories and if you
-                    are interested in trying it out you will probably have to build it from source.
-                </p>
-                
-                <p>
-                    All new code should be put in the sandbox so we can make sure that the plugin uses the correct code style,
-                    that is has proper documentation and generally has the expected quality.
-                </p>
-            </answer>
-        </faq>
-        
-        <faq id="where-is-sandbox">
-            <question>Where is the sandbox?</question>
-            <answer>
-                <p>
-                    Most plugins have sites published and linked from the <a href="plugins.html">Mojo Plugin List</a>.
-                    Others can be found in <a href="https://github.com/mojohaus/">Github</a>.
-                </p>
             </answer>
         </faq>
     </part>
