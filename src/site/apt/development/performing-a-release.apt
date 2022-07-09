@@ -30,8 +30,6 @@ Performing a Release
 
   * {{{Preparing_to_Release}Preparing to Release}}
 
-  * {{{Graduating_from_the_Sandbox}Graduating from the Sandbox}}
-
   * {{{Preparing_for_the_First_Production_Release}Preparing for the First Production Release}}
   
   * {{{Making_GPG_Keys}Making GPG Keys}}
@@ -103,25 +101,6 @@ Performing a Release
   * Be sure you have generated a gpg-key before performing the release. 
 
   []
-
-* {Graduating from the Sandbox}
-
- If the plugin is making its first official release, it should graduate from the sandbox. When this occurs, the
- following steps should be followed:
-
-  * Make sure the site follows the {{{./guidelines.html}Development Guidelines}}.
-
-  * Optional Call a vote for the graduation on the dev mailing list. See below for more
-    info on how to do this. You can use a {{{./promotevote-mailtemplate.html}template}} for this call for promotion. 
-
-  * Ensure that you update any corresponding Continuous Integration plans to reflect the above git location.
-
-  * Change the POM parent from <<<mojo-sandbox-parent>>> to <<<mojo-parent>>> noting the parent's most
-	recent version in {{{http://search.maven.org/#search%7Cgav%7C1%7Cg:%22org.codehaus.mojo%22%20AND%20a:%22mojo-parent%22}central}}.
-
-  * Move the plugin site link on {{{/plugins.html}the plugin}} list from the section "Sandbox Plugins" to "Pre-release Plugins" by editing the
-    <<<{{{https://github.com/mojohaus/mojohaus.github.io/blob/site/src/site/apt/plugins.apt}plugins.apt}}>>> document.
-    Redeploy the site and verify that it is functional.
 
 * {Preparing for the First Production Release}
 

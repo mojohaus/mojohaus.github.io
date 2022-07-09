@@ -39,11 +39,6 @@ Welcome to the MojoHaus Project (previously known as Mojo@Codehaus)
  For information on the plugins hosted at the MojoHaus project see the {{{./plugins.html}plugins list}}. Detailed information and
  instructions for each plugin can be found on its Maven site.
 
- You can also check out other plugins from the subversion repository and build them yourself for 
- general usage, including the sandbox plugins. See {{{./using-sandbox-plugins.html}using 
- sandbox plugins}} for information about building from source and retrieving sandbox snapshot
- releases.
-
 * Getting Support
 
  If you have problems or concerns with plugins in the MojoHaus project please contact the author, ask on

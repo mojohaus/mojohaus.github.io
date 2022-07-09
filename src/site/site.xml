@@ -53,12 +53,7 @@
       <item name="Development Process" href="development/process.html"/>
       <item name="Performing a Release" href="development/performing-a-release.html"/>
     </menu>
-    
-    <menu name="The Sandbox">
-      <item name="What is the Sandbox" href="faq.html#what-is-the-sandbox"/>
-      <item name="Using Sandbox Plugins" href="using-sandbox-plugins.html"/>
-    </menu>
-    
+
     <menu name="Sub-projects">
       <item name="Animal sniffer" href="animal-sniffer"/>
       <item name="API Signatures" href="signatures"/>

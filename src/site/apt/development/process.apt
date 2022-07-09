@@ -27,10 +27,6 @@
 
 Development Process
 
- * Anyone can start a plugin in the sandbox at any time.
-
- * Once in a fairly useable state, the plugin should be listed on the sandbox section of the MojoHaus site and snapshots be deployed. If no site is available, try to at least post a link to the SVN location. This advertises the existence of the plugin, which will hopefully generate more interest and developers.
-
  * Deploying snapshots lowers the bar to entrance for potential users.
 
  * Plugins on the website should gather people willing to work on them. We hope at least 2 people will know how an
@@ -59,9 +55,8 @@ Development Process
  []
 
  Plugins can have snapshot versions deployed for testing, or beta/alpha releases deployed for wider testing and a bit more stability.
- All releases deployed to the Codehaus repository are synced to the Central Repository. Sandbox plugins should only use snapshot versions.
 
- Once a plugin is ready for another release or is about to graduate from the sandbox, follow the checklist for
+ Once a plugin is ready for another release, follow the checklist for
  {{{./performing-a-release.html}performing a release}}.
 
 * {Debugging Tips}
