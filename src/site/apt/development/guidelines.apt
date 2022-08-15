@@ -44,8 +44,8 @@ Development Guidelines
 
  * Sanity check all mojo parameters and throw a MojoExecutionException for invalid parameters.
 
- * Use the {{{https://maven.apache.org/developers/committer-environment.html#Maven_Code_Style}Maven code style}} when
-   formatting your code.
+ * Use the {{{https://maven.apache.org/developers/conventions/code.html}Maven Code Style}}
+   when formatting your code.
 
  * Do not check IDE specific files into version control but rather add those to <<<.gitignore>>>.
 
