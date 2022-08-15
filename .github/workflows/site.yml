@@ -42,7 +42,7 @@ jobs:
         run: |
           git config --global user.email "${{ github.event.head_commit.author.email }}"
           git config --global user.name "${{ github.event.head_commit.author.name }}"
-          echo "::set-output name=deploy::-deploy -Dusername=git -Dpassword=${{ github.token }}"
+          echo "::set-output name=deploy::-deploy -Dusername=git -Dpassword=${{ github.token }} -Dscmpublish.checkinComment='Site checkin for ${{ github.event.head_commit.id }}'"
 
       - name: Build with Maven
         run: mvn --show-version --errors --batch-mode --update-snapshots clean site${{ steps.setup.outputs.deploy }}
