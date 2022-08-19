@@ -96,8 +96,6 @@ Plugins
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
 | {{{./xdoclet-maven-plugin/} <<<xdoclet>>>}}                        | {{{https://search.maven.org/artifact/org.codehaus.mojo/xdoclet-maven-plugin}central}} | Provides XDoclet functionality to Maven.     | -
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| {{{./xmlbeans-maven-plugin/} <<<xmlbeans>>>}}                      | {{{https://search.maven.org/artifact/org.codehaus.mojo/xmlbeans-maven-plugin}central}} | XML to Java binding via XMLBeans.            | -
-*--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
 |
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
 | <<Reporting>> | | <Plugins which generate reports.>
@@ -333,6 +331,8 @@ Plugins
 | <<<wsdl2java>>>                 | Deprecated use the {{{https://github.com/mojohaus/wsdl2java-maven-plugin/issues} axistools-maven-plugin}} instead.
 *---------------------------------+------------------------------------------------------------+
 | <<<xfire>>>                     | Deprecated use the {{{https://github.com/mojohaus/xfire-maven-plugin/issues}Maven cxf plugins}} instead.
+*---------------------------------+------------------------------------------------------------+
+| <<<xmlbeans>>>                  | Superseded by {{{https://xmlbeans.apache.org/guide/Maven.html} XmlBeans Maven Plugin}}.
 *---------------------------------+------------------------------------------------------------+
 | <<<xslt>>>                      | Deprecated use the {{{https://www.mojohaus.org/xml-maven-plugin/}xml-maven-plugin}} instead.
 *---------------------------------+------------------------------------------------------------+
