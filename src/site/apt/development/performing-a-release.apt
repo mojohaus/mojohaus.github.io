@@ -178,7 +178,7 @@ mvn docck:check
   This webpage contains a form where you have to copy your key. 
   
   * Update {{https://github.com/mojohaus/mojohaus.github.io/blob/site/src/site/resources/KEYS}} by expanding this file with your key. 
-  If you deploy the site by running <<<mvn verify site site:stage scm-publish:publish-scm>>> the key will become available on the mojo-site. 
+  If you deploy the site by running <<<mvn -Preporting verify site site:stage scm-publish:publish-scm>>> the key will become available on the mojo-site. 
   Since all mojo-developers should put their key here it's easy for users to verify mojo-artifacts. 
 
 * {Preparing your environment}
