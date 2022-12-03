@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<document xmlns="http://maven.apache.org/XDOC/2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://maven.apache.org/XDOC/2.0 https://maven.apache.org/xsd/xdoc-2.0.xsd">
+
+  <head>
+    <title/>
+    <meta http-equiv="refresh" content="0; URL=https://www.mojohaus.org/versions/versions-maven-plugin/use-latest-snapshots-mojo.html"/>
+  </head>
+
+  <body>
+    <section name="Site - redirect">
+      <p>Please go to a new site address
+        <a href="https://www.mojohaus.org/versions/versions-maven-plugin/use-latest-snapshots-mojo.html">https://www.mojohaus.org/versions/versions-maven-plugin/use-latest-snapshots-mojo.html</a>
+      </p>
+    </section>
+  </body>
+</document>
