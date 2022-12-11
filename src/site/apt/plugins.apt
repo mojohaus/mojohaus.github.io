@@ -316,7 +316,7 @@ Plugins
 *---------------------------------+------------------------------------------------------------+
 | <<<openjpa>>>                   | Moved to and maintained by the Apache OpenJPA project: {{https://openjpa.apache.org/enhancement-with-maven.html}}
 *---------------------------------+------------------------------------------------------------+
-| <<<rat>>>                       | Moved to the {{{https://github.com/mojohaus/rat-maven-plugin/issues} Apache Creadur Project}}.
+| <<<rat>>>                       | Moved to the {{{https://creadur.apache.org/rat/apache-rat-plugin/} Apache Creadur Project}}.
 *---------------------------------+------------------------------------------------------------+
 | <<<remote-source>>>             | Deprecated use {{{./wagon-maven-plugin} wagon-maven-plugin}} or {{{https://github.com/mojohaus/cbuild-parent/issues} maven-dependency-plugin}} instead.
 *---------------------------------+------------------------------------------------------------+
