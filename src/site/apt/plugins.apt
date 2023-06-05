@@ -88,6 +88,8 @@ Plugins
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
 | {{{./jspc-maven-plugin/} <<<jspc>>>}}                              | {{{https://search.maven.org/artifact/org.codehaus.mojo/jspc-maven-plugin}central}} | Provides support for JSP compilation.        | -
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
+| {{{./native2ascii-maven-plugin/} <<<native2ascii>>>}}              | {{{https://search.maven.org/artifact/org.codehaus.mojo/native2ascii-maven-plugin}central}} | Converts files with characters in any supported character encoding to one with ASCII and/or Unicode escapes. | {{{https://github.com/mojohaus/native2ascii-maven-plugin/issues}GitHub}}
+*--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
 | {{{./rmic-maven-plugin/} <<<rmic>>>}}                              | {{{https://search.maven.org/artifact/org.codehaus.mojo/rmic-maven-plugin}central}} | Generates rmi (Remote Method Invocation) stub and skeleton classes. | -
 *--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
 | {{{./sablecc-maven-plugin/} <<<sablecc>>>}}                        | {{{https://search.maven.org/artifact/org.codehaus.mojo/sablecc-maven-plugin}central}} | Process SableCC grammars.                    | -
@@ -261,8 +263,6 @@ Plugins
 | {{{./jalopy-maven-plugin/} <<<jalopy>>>}}                          | {{{https://search.maven.org/artifact/org.codehaus.mojo/jalopy-maven-plugin}central}} | Formats java source files following a coding convention.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./jasperreports-maven-plugin/} <<<jasperreports>>>}}            | {{{https://search.maven.org/artifact/org.codehaus.mojo/jasperreports-maven-plugin}central}} | Compiles Jasper Report Design Files.
-*--------------------------------------------------------------------+-------------+----------------------------------------------+
-| {{{./native2ascii-maven-plugin/} <<<native2ascii>>>}}              | {{{https://search.maven.org/artifact/org.codehaus.mojo/native2ascii-maven-plugin}central}} | Converts text file encodings.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
 | {{{./nsis-maven-plugin/} <<<nsis>>>}}                              | {{{https://search.maven.org/artifact/org.codehaus.mojo/nsis-maven-plugin}central}} | Utilizes the NSIS command line installer script compiler to generate a Windows installer exe from a setup.nsi script.
 *--------------------------------------------------------------------+-------------+----------------------------------------------+
