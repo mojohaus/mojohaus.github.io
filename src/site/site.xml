@@ -23,8 +23,6 @@
     <fluidoSkin>
       <gitHub>
         <projectId>mojohaus/mojohaus.github.io</projectId>
-        <ribbonOrientation>right</ribbonOrientation>
-        <ribbonColor>gray</ribbonColor>
       </gitHub>
     </fluidoSkin>
   </custom>
