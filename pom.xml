@@ -22,7 +22,7 @@
   <parent>
     <groupId>org.codehaus.mojo</groupId>
     <artifactId>mojo-parent</artifactId>
-    <version>75-SNAPSHOT</version>
+    <version>77</version>
   </parent>
 
   <artifactId>mojo-site</artifactId>
