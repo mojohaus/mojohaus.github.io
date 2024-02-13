@@ -41,6 +41,7 @@
     </menu>
     
     <menu name="Contribution">
+      <item name="Mailing Lists" href="mailing-lists.html" />
       <item name="Reporting an Issue" href="contribution/reporting-an-issue.html"/>
       <item name="Submitting a Patch" href="contribution/submitting-a-patch.html"/>
       <item name="Submitting a Plugin" href="contribution/submitting-a-plugin.html"/>
