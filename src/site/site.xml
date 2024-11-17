@@ -52,5 +52,5 @@
       <item name="Mock Repository Manager" href="mrm"/>
       <item name="Mojo Parent" href="mojo-parent"/>
     </menu>
-  </site>
-</project>
+  </body>
+</site>
