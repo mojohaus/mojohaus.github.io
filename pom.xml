@@ -15,7 +15,6 @@
   See the License for the specific language governing permissions and
   limitations under the License.
 -->
-
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
@@ -29,7 +28,33 @@
   <version>3-SNAPSHOT</version>
 
   <name>Mojo Haus Site</name>
-  <url>https://www.mojohaus.org/</url><!-- see https://help.github.com/articles/about-custom-domains-for-github-pages-sites/ -->
+  <url>https://www.mojohaus.org/</url>
+
+  <scm>
+    <connection>scm:git:https://github.com/mojohaus/mojohaus.github.io.git</connection>
+    <developerConnection>scm:git:https://github.com/mojohaus/mojohaus.github.io.git</developerConnection>
+    <tag>site</tag>
+    <url>https://github.com/mojohaus/mojohaus.github.io/tree/${project.scm.tag}</url>
+    <!-- see https://help.github.com/articles/user-organization-and-project-pages/ -->
+  </scm>
+
+  <issueManagement>
+    <system>github</system>
+    <url>https://github.com/mojohaus/mojohaus.github.io/issues</url>
+  </issueManagement>
+
+  <ciManagement>
+    <system>github</system>
+    <url>https://github.com/mojohaus/mojohaus.github.io/actions</url>
+  </ciManagement>
+
+  <distributionManagement>
+    <site>
+      <id>github</id>
+      <url>${project.scm.developerConnection}</url>
+    </site>
+  </distributionManagement>
+  <!-- see https://help.github.com/articles/about-custom-domains-for-github-pages-sites/ -->
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -38,60 +63,36 @@
     <fluidoVersion>${maven-fluido-skin.version}</fluidoVersion>
   </properties>
 
-  <scm>
-    <connection>scm:git:https://github.com/mojohaus/mojohaus.github.io.git</connection>
-    <developerConnection>scm:git:https://github.com/mojohaus/mojohaus.github.io.git</developerConnection>
-    <url>https://github.com/mojohaus/mojohaus.github.io/tree/${project.scm.tag}</url>
-    <tag>site</tag><!-- see https://help.github.com/articles/user-organization-and-project-pages/ -->
-  </scm>
-
-  <ciManagement>
-    <system>github</system>
-    <url>https://github.com/mojohaus/mojohaus.github.io/actions</url>
-  </ciManagement>
-
-  <issueManagement>
-    <system>github</system>
-    <url>https://github.com/mojohaus/mojohaus.github.io/issues</url>
-  </issueManagement>
-
-  <distributionManagement>
-    <site>
-      <id>github</id>
-      <url>${project.scm.developerConnection}</url>
-    </site>
-  </distributionManagement>
-
   <!-- need to resolve parent in snapshot version -->
   <repositories>
     <repository>
-      <id>ossrh-snapshots</id>
-      <layout>default</layout>
-      <name>ossrh-snapshots</name>
       <releases>
         <enabled>false</enabled>
       </releases>
       <snapshots>
-        <checksumPolicy>fail</checksumPolicy>
         <enabled>true</enabled>
+        <checksumPolicy>fail</checksumPolicy>
       </snapshots>
+      <id>ossrh-snapshots</id>
+      <name>ossrh-snapshots</name>
       <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+      <layout>default</layout>
     </repository>
   </repositories>
 
   <pluginRepositories>
     <pluginRepository>
-      <id>ossrh-snapshots</id>
-      <layout>default</layout>
-      <name>ossrh-snapshots</name>
       <releases>
         <enabled>false</enabled>
       </releases>
       <snapshots>
-        <checksumPolicy>fail</checksumPolicy>
         <enabled>true</enabled>
+        <checksumPolicy>fail</checksumPolicy>
       </snapshots>
+      <id>ossrh-snapshots</id>
+      <name>ossrh-snapshots</name>
       <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+      <layout>default</layout>
     </pluginRepository>
   </pluginRepositories>
 
@@ -102,7 +103,8 @@
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-site-plugin</artifactId>
           <configuration>
-            <skipDeploy>true</skipDeploy><!-- don't deploy site with maven-site-plugin -->
+            <skipDeploy>true</skipDeploy>
+            <!-- don't deploy site with maven-site-plugin -->
             <relativizeDecorationLinks>false</relativizeDecorationLinks>
           </configuration>
         </plugin>
@@ -110,11 +112,13 @@
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-scm-publish-plugin</artifactId>
           <configuration>
-            <scmBranch>master</scmBranch><!-- see https://help.github.com/articles/user-organization-and-project-pages/ -->
-            <content>${project.reporting.outputDirectory}</content><!-- mono-module doesn't require site:stage -->
+            <scmBranch>master</scmBranch>
+            <!-- see https://help.github.com/articles/user-organization-and-project-pages/ -->
+            <content>${project.reporting.outputDirectory}</content>
+            <!-- mono-module doesn't require site:stage -->
           </configuration>
         </plugin>
-         <plugin>
+        <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-surefire-plugin</artifactId>
           <configuration>
@@ -130,10 +134,11 @@
         <executions>
           <execution>
             <id>scm-publish</id>
-            <phase>site-deploy</phase><!-- deploy site with maven-scm-publish-plugin -->
+            <!-- deploy site with maven-scm-publish-plugin -->
             <goals>
               <goal>publish-scm</goal>
             </goals>
+            <phase>site-deploy</phase>
           </execution>
         </executions>
       </plugin>
