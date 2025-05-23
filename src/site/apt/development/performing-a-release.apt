@@ -192,14 +192,13 @@ mvn docck:check
           xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 http://maven.apache.org/xsd/settings-1.0.0.xsd">
   <servers>
     <server>
-      <id>ossrh-staging</id> <!-- used for release deployment -->
-      <username>jqhacker</username> <!-- oss-sonatype.username -->
-      <password>SeCrEt</password> <!-- oss-sonatype.password -->
-    </server>    	
-    <server>
-      <id>ossrh-snapshots</id> <!-- used for snapshot deployment -->
-      <username>jqhacker</username> <!-- oss-sonatype.username -->
-      <password>SeCrEt</password> <!-- oss-sonatype.password -->
+      <id>sonatype-cp</id>
+      <username>jqhacker</username> <!-- central portal token -->
+      <password>SeCrEt</password> <!-- central portal token -->
+      <configuration>
+        <njord.publisher>sonatype-cp</njord.publisher>
+        <njord.releaseUrl>njord:template:release-sca</njord.releaseUrl>
+      </configuration>
     </server>
   </servers>
 </settings>          
