@@ -183,9 +183,9 @@ mvn docck:check
 
 * {Preparing your environment}
 
-  For any deployment you have to make contact with oss.sonatype.org, for which authentication is required. 
-  The best way to do this is to include the following sections in your personal <<<settings.xml>>> and fill in the
-  <<<oss-sonatype.username>>> and <<<oss-sonatype.password>>> properties with your own credentials.
+  For any deployment you have to make contact with https://central.sonatype.com/, for which authentication is required.
+  The best way to do this is to include the following sections in your personal <<<settings.xml>>>
+  and fill in the properties with your own token generated in the portal.
   
 +---------------------------------------+
 <settings xmlns="http://maven.apache.org/SETTINGS/1.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
