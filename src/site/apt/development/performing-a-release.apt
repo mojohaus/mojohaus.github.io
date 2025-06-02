@@ -183,16 +183,16 @@ mvn docck:check
 
 * {Preparing your environment}
 
-  For any deployment you have to make contact with https://central.sonatype.com/, for which authentication is required.
+  For any deployment you have to make contact with {{https://central.sonatype.com/}}, for which authentication is required.
   The best way to do this is to include the following sections in your personal <<<settings.xml>>>
   and fill in the properties with your own token generated in the portal.
   
 +---------------------------------------+
-<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-          xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 http://maven.apache.org/xsd/settings-1.0.0.xsd">
+<settings xmlns="http://maven.apache.org/SETTINGS/1.2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.2.0 https://maven.apache.org/xsd/settings-1.2.0.xsd">
   <servers>
     <server>
-      <id>sonatype-cp</id>
+      <id>sonatype-central-portal</id>
       <username>jqhacker</username> <!-- central portal token -->
       <password>SeCrEt</password> <!-- central portal token -->
       <configuration>
