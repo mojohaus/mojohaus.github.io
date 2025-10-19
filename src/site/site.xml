@@ -53,6 +53,7 @@
       <item name="Development Guidelines" href="development/guidelines.html"/>
       <item name="Development Process" href="development/process.html"/>
       <item name="Performing a Release" href="development/performing-a-release.html"/>
+      <item name="Testing Development Plugins" href="development/guide-testing-development-plugins.html"/>
     </menu>
 
     <menu name="Sub-projects">
