@@ -1,61 +1,17 @@
- ------
- Reporting an Issue
- ------
- Benjamin Bentmann
- ------
- ------
+# Reporting an Issue
 
-~~ $Id$
+What to do when a plugin doesn't work as expected? First, make sure it's not just a misconfiguration of the plugin in your POM and have a second glance at the documentation of the plugin, in particular the usage guide and examples. If the documentation doesn't help either, you should contact the community via the [user mailing list](../mailing-lists.html).
 
-~~ 
-~~ Licensed to the Apache Software Foundation (ASF) under one
-~~ or more contributor license agreements.  See the NOTICE file
-~~ distributed with this work for additional information
-~~ regarding copyright ownership.  The ASF licenses this file
-~~ to you under the Apache License, Version 2.0 (the
-~~ "License"); you may not use this file except in compliance
-~~ with the License.  You may obtain a copy of the License at
-~~
-~~  http://www.apache.org/licenses/LICENSE-2.0
-~~
-~~ Unless required by applicable law or agreed to in writing,
-~~ software distributed under the License is distributed on an
-~~ "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
-~~ KIND, either express or implied.  See the License for the
-~~ specific language governing permissions and limitations
-~~ under the License.
-~~
+If the issue you are facing happens to be a bug in the plugin itself, it's time to visit our issue tracking system. Where is that? The exact URL to the issue tracker for a plugin is documented on the web site of that particular plugin. Watch out for the page "Issue Tracking" in the menu "Project Information" of the left navigation pane.
 
-Reporting an Issue
+When creating the bug report, please be precise in what problem you have and how to reproduce it. It's very much appreciated if you provide a minimal test project that exhibits the issue. While this might require some additional work for you, it can accelerate the resolution of the problem. Furthermore, details about your environment could be key to reproduce a problem, i.e. tell us about your:
 
-  What to do when a plugin doesn't work as expected? First, make sure it's not just a misconfiguration of the plugin
-  in your POM and have a second glance at the documentation of the plugin, in particular the usage guide and examples.
-  If the documentation doesn't help either, you should contact the community via the
-  {{{../mailing-lists.html}user mailing list}}.
+- Operating system (Windows, Linux, Solaris, OS/X etc.)
+- Java version (1.4, 1.5, 1.6 etc.)
+- Java vendor (Sun, IBM, Apple etc.)
+- Maven version
+- Plugin versions
 
-  If the issue you are facing happens to be a bug in the plugin itself, it's time to visit our issue tracking system.
-  Where is that? The exact URL to the issue tracker for a plugin is documented on the web site of that particular
-  plugin. Watch out for the page "Issue Tracking" in the menu "Project Information" of the left navigation pane.
+Most of this information can easily be collected and reported if you simply provide a debug log of the failing Maven build, e.g. run `mvn ... -X > debug.log` and attach the resulting `debug.log` file to the JIRA issue.
 
-  When creating the bug report, please be precise in what problem you have and how to reproduce it. It's very much
-  appreciated if you provide a minimal test project that exhibits the issue. While this might require some additional
-  work for you, it can accelerate the resolution of the problem. Furthermore, details about your environment could be
-  key to reproduce a problem, i.e. tell us about your
-  
-  * Operating system (Windows, Linux, Solaris, OS/X etc.)
-  
-  * Java version (1.4, 1.5, 1.6 etc.)
-  
-  * Java vendor (Sun, IBM, Apple etc.)
-  
-  * Maven version
-  
-  * Plugin versions
-  
-  []
-  
-  Most of this information can easily be collected and reported if you simply provide a debug log of the failing Maven
-  build, e.g. run <<<mvn ... -X \> debug.log>>> and attach the resulting <<<debug.log>>> file to the JIRA issue.
-
-  Of course, your contribution need not stop at this point. Helping hands are always welcome, so feel free to
-  {{{./submitting-a-patch.html}provide a patch}} as well.
+Of course, your contribution need not stop at this point. Helping hands are always welcome, so feel free to [provide a patch](./submitting-a-patch.html) as well.

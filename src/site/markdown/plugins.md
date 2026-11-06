@@ -1,334 +1,153 @@
- ------
- Plugins
- ------
- ------
- ------
+# Plugins
 
-~~
-~~ Licensed to the Apache Software Foundation (ASF) under one
-~~ or more contributor license agreements.  See the NOTICE file
-~~ distributed with this work for additional information
-~~ regarding copyright ownership.  The ASF licenses this file
-~~ to you under the Apache License, Version 2.0 (the
-~~ "License"); you may not use this file except in compliance
-~~ with the License.  You may obtain a copy of the License at
-~~
-~~  http://www.apache.org/licenses/LICENSE-2.0
-~~
-~~ Unless required by applicable law or agreed to in writing,
-~~ software distributed under the License is distributed on an
-~~ "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
-~~ KIND, either express or implied.  See the License for the
-~~ specific language governing permissions and limitations
-~~ under the License.
-~~
+In order to guard against corrupted downloads/installations, it is highly recommended to
+[verify the signature](https://www.apache.org/dev/release-signing#verifying-signature) of the release bundles against the public
+[KEYS](https://www.mojohaus.org/KEYS) used by the **MojoHaus** developers.
 
-Plugins
+* [Production Plugins](#Production_Plugins)
+* [Pre-release Plugins](#Pre-release_Plugins)
+* [Plugin Graveyard](#Plugin_Graveyard)
 
-  In order to guard against corrupted downloads/installations, it is highly recommended to
-  {{{https://www.apache.org/dev/release-signing#verifying-signature}verify the signature}} of the release bundles against the public
-  {{{https://www.mojohaus.org/KEYS}KEYS}} used by the <<MojoHaus>> developers.
+## Production Plugins
 
-  * {{{Production_Plugins}Production Plugins}}
+The following plugins have been released and are generally available for production use. However after the move from **Codehaus** to **MojoHaus** a lot of plugins have not been migrated ([yet](https://github.com/mojohaus/convert-to-git)), so when the issue tracking is missing, the plugin has not been migrated: if you want to migrate a plugin to contribute, please ask on the [mailing list](/mailing-lists.html).
 
-  * {{{Pre-release_Plugins}Pre-release Plugins}}
+|  | Plugin |  | Version |  | Description |  | Issue tracking |  |
+| **Application Server** |  | *Plugins that support integration with application servers.* |
+| [***jboss-packaging***](./jboss-packaging-maven-plugin/) | [central](https://search.maven.org/artifact/org.codehaus.mojo/jboss-packaging-maven-plugin) | Packages various JBoss deployable archive files including AOP, ESB, HAR, SAR, and Spring. | [GitHub](https://github.com/mojohaus/jboss-packaging-maven-plugin/issues) |
+| [***was6***](./was6-maven-plugin/) | [central](https://search.maven.org/artifact/org.codehaus.mojo/was6-maven-plugin) | IBM WebSphere Application Server 6.x, 7 & 8.x support. | - |
+| [***weblogic***](./weblogic-maven-plugin/) | [central](https://search.maven.org/artifact/org.codehaus.mojo/weblogic-maven-plugin) | Supports various tasks within the Weblogic 8.1, 9.x, 10.x, 12.x environment. | - |
+| **Generators / Compilers / Translators** |  | *Plugins providing support for code generation, compilation and translation.* |
+| [***antlr***](./antlr-maven-plugin/) | [central](https://search.maven.org/artifact/org.codehaus.mojo/antlr-maven-plugin) | Process ANTLRv2 grammars. | - |
+| [***aspectj***](./aspectj-maven-plugin/) | [central](https://search.maven.org/artifact/org.codehaus.mojo/aspectj-maven-plugin) | Weaves aspects with AspectJ. | [GitHub](https://github.com/mojohaus/aspectj-maven-plugin/issues) |
+| [***axistools***](./axistools-maven-plugin/) | [central](https://search.maven.org/artifact/org.codehaus.mojo/axistools-maven-plugin) | Axis wsdl2java and java2wsdl support. | [GitHub](https://github.com/mojohaus/axistools-maven-plugin/issues) |
+| [***castor***](./castor-maven-plugin/) | [central](https://search.maven.org/artifact/org.codehaus.mojo/castor-maven-plugin) | Source generation with Castor XML. | [GitHub](https://github.com/mojohaus/castor-maven-plugin/issues) |
+| [***commons-attributes***](./commons-attributes-maven-plugin/) | [central](https://search.maven.org/artifact/org.codehaus.mojo/commons-attributes-maven-plugin) | Source generation for Commons Attributes. | - |
+| [***GWT***](./gwt-maven-plugin/) | [central](https://search.maven.org/artifact/org.codehaus.mojo/gwt-maven-plugin) | GWT. | [GitHub](https://github.com/mojohaus/gwt-maven-plugin/issues) |
+| [***hibernate3***](./hibernate3-maven-plugin/) | [central](https://search.maven.org/artifact/org.codehaus.mojo/hibernate3-maven-plugin) | Integration with Hibernate 3.x | - |
+| [***idlj***](./idlj-maven-plugin/) | [central](https://search.maven.org/artifact/org.codehaus.mojo/idlj-maven-plugin) | Process IDL files into Java sources. | - |
+| [***javacc***](./javacc-maven-plugin/) | [central](https://search.maven.org/artifact/org.codehaus.mojo/javacc-maven-plugin) | Process JavaCC grammars. | [GitHub](https://github.com/mojohaus/javacc-maven-plugin/issues) |
+| [***jaxb2***](./jaxb2-maven-plugin) | [central](https://search.maven.org/artifact/org.codehaus.mojo/jaxb2-maven-plugin) | Generates Java classes from XML Schemas (and binding files) and creates XML Schemas from annotated Java classes, using JAXB2. | [GitHub](https://github.com/mojohaus/jaxb2-maven-plugin/issues) |
+| [***jaxws***](./jaxws-maven-plugin/) | [central](https://search.maven.org/artifact/org.codehaus.mojo/jaxws-maven-plugin) | JAX-WS wsgen/wsimport tooling support. | [GitHub](https://github.com/mojohaus/jaxws-maven-plugin/issues) |
+| [***jpox***](./jpox-maven-plugin/) | [central](https://search.maven.org/artifact/org.codehaus.mojo/jpox-maven-plugin) | Support for JPOX JDO. | - |
+| [***jslint***](./jslint-maven-plugin/) | [central](https://search.maven.org/artifact/org.codehaus.mojo/jslint-maven-plugin) | Provides fast and efficient JSLint code validation when developing JavaScript applications. | - |
+| [***js import***](./js-import-maven-plugin/) | [central](https://search.maven.org/artifact/org.codehaus.mojo/js-import-maven-plugin) | Provides Maven dependency management for JavaScript applications. | - |
+| [***jspc***](./jspc-maven-plugin/) | [central](https://search.maven.org/artifact/org.codehaus.mojo/jspc-maven-plugin) | Provides support for JSP compilation. | - |
+| [***native2ascii***](./native2ascii-maven-plugin/) | [central](https://search.maven.org/artifact/org.codehaus.mojo/native2ascii-maven-plugin) | Converts files with characters in any supported character encoding to one with ASCII and/or Unicode escapes. | [GitHub](https://github.com/mojohaus/native2ascii-maven-plugin/issues) |
+| [***rmic***](./rmic-maven-plugin/) | [central](https://search.maven.org/artifact/org.codehaus.mojo/rmic-maven-plugin) | Generates rmi (Remote Method Invocation) stub and skeleton classes. | - |
+| [***sablecc***](./sablecc-maven-plugin/) | [central](https://search.maven.org/artifact/org.codehaus.mojo/sablecc-maven-plugin) | Process SableCC grammars. | - |
+| [***sqlj***](./sqlj-maven-plugin/) | [central](https://search.maven.org/artifact/org.codehaus.mojo/sqlj-maven-plugin) | Translates SQLJ source code to Java source code. | [GitHub](https://github.com/mojohaus/sqlj-maven-plugin/issues) |
+| [***xdoclet***](./xdoclet-maven-plugin/) | [central](https://search.maven.org/artifact/org.codehaus.mojo/xdoclet-maven-plugin) | Provides XDoclet functionality to Maven. | - |
+| **Reporting** |  | *Plugins which generate reports.* |
+| [***clirr***](./clirr-maven-plugin/) | [central](https://search.maven.org/artifact/org.codehaus.mojo/clirr-maven-plugin) | Checks Java libraries for binary and source compatibility with older releases. | [GitHub](https://github.com/mojohaus/clirr-maven-plugin/issues) |
+| [***cobertura***](./cobertura-maven-plugin/) | [central](https://search.maven.org/artifact/org.codehaus.mojo/cobertura-maven-plugin) | Code coverage via Cobertura. | [GitHub](https://github.com/mojohaus/cobertura-maven-plugin/issues) |
+| [***l10n***](./l10n-maven-plugin/) | [central](https://search.maven.org/artifact/org.codehaus.mojo/l10n-maven-plugin) | The Localization Tools Maven Plugin helps with internationalization and localization of your projects. | [GitHub](https://github.com/mojohaus/l10n-maven-plugin/issues) |
+| [***scmchangelog***](./scmchangelog-maven-plugin/) | [central](https://search.maven.org/artifact/org.codehaus.mojo/scmchangelog-maven-plugin) | Simple Reporter that creates a changelog report using comments and tags from Subversion. | - |
+| [***taglist***](./taglist-maven-plugin/) | [central](https://search.maven.org/artifact/org.codehaus.mojo/taglist-maven-plugin) | Generates a report on various tags found in the code. | [GitHub](https://github.com/mojohaus/taglist-maven-plugin/issues) |
+| [***javancss***](./javancss-maven-plugin/) | [central](https://search.maven.org/artifact/org.codehaus.mojo/javancss-maven-plugin) | Source measurement suite for Java. | [GitHub](https://github.com/mojohaus/javancss-maven-plugin/issues) |
+| [***jdepend***](./jdepend-maven-plugin/) | [central](https://search.maven.org/artifact/org.codehaus.mojo/jdepend-maven-plugin) | Generates JDepend reports. | [GitHub](https://github.com/mojohaus/jdepend-maven-plugin/issues) |
+| **Testing** |  | *Plugins which support testing.* |
+| [***codenarc***](./codenarc-maven-plugin/) | [central](https://search.maven.org/artifact/org.codehaus.mojo/codenarc-maven-plugin) | Generate CodeNarc report against Groovy source code. | - |
+| [***findbugs***](./findbugs-maven-plugin/) | [central](https://search.maven.org/artifact/org.codehaus.mojo/findbugs-maven-plugin) | Generates a FindBugs report. | [GitHub](https://github.com/mojohaus/findbugs-maven-plugin/issues) |
+| [***fitnesse***](./fitnesse-maven-plugin/) | [central](https://search.maven.org/artifact/org.codehaus.mojo/fitnesse-maven-plugin) | Fully integrated standalone wiki, and acceptance testing framework. | - |
+| [***selenium***](./selenium-maven-plugin/) | [central](https://search.maven.org/artifact/org.codehaus.mojo/selenium-maven-plugin) | Supports automated web-application testing. | - |
+| [***webtest***](./webtest-maven-plugin/) | [central](https://search.maven.org/artifact/org.codehaus.mojo/webtest-maven-plugin) | Supports automated web-application testing using Canoo WebTest | - |
+| [***chronos-jmeter***](./chronos/) | [central](https://search.maven.org/artifact/org.codehaus.mojo/chronos-jmeter-maven-plugin) | Execute performancetests with jmeter and analyze the results. | - |
+| [***chronos-surefire***](./chronos/) | [central](https://search.maven.org/artifact/org.codehaus.mojo/chronos-surefire-maven-plugin) | Analyze time spent in unittests used to measure performance | - |
+| [***chronos-report***](./chronos/) | [central](https://search.maven.org/artifact/org.codehaus.mojo/chronos-report-maven-plugin) | Create reports of performance testresults. | - |
+| **Tools** |  | *Miscellaneous tools available through Maven.* |
+| [***animal-sniffer***](./animal-sniffer/animal-sniffer-maven-plugin/) | [central](https://search.maven.org/artifact/org.codehaus.mojo/animal-sniffer-maven-plugin) | Verifies classes against API signatures. | [GitHub](https://github.com/mojohaus/animal-sniffer/issues) |
+| [***appassembler***](./appassembler/appassembler-maven-plugin/) | [central](https://search.maven.org/artifact/org.codehaus.mojo/appassembler-maven-plugin) | Generates bin and Java Service Wrapper scripts for Java applications. | [GitHub](https://github.com/mojohaus/appassembler/issues) |
+| [***build-helper***](./build-helper-maven-plugin/) | [central](https://search.maven.org/artifact/org.codehaus.mojo/build-helper-maven-plugin) | Miscellaneous goals to support build process. | [GitHub](https://github.com/mojohaus/build-helper-maven-plugin/issues) |
+| [***buildnumber***](./buildnumber-maven-plugin/) | [central](https://search.maven.org/artifact/org.codehaus.mojo/buildnumber-maven-plugin) | Creates unique build number for each build. | [GitHub](https://github.com/mojohaus/buildnumber-maven-plugin/issues) |
+| [***buildplan***](./buildplan-maven-plugin/) | [central](https://search.maven.org/artifact/org.codehaus.mojo/buildplan-maven-plugin) | Inspects the lifecycle of your project. | [GitHub](https://github.com/mojohaus/buildplan-maven-plugin/issues) |
+| [***cassandra***](./cassandra-maven-plugin/) | [central](https://search.maven.org/artifact/org.codehaus.mojo/cassandra-maven-plugin) | Mojo's plugin for Apache Maven to allow controlling Apache Cassandra. | [GitHub](https://github.com/mojohaus/cassandra-maven-plugin/issues) |
+| [***ditaot***](./ditaot-maven-plugin/) | [central](https://search.maven.org/artifact/org.codehaus.mojo/ditaot-maven-plugin) | Support for DITA transformations using DITA Open Toolkit. | [GitHub](https://github.com/mojohaus/ditaot-maven-plugin/issues) |
+| [***exec***](./exec-maven-plugin/) | [central](https://search.maven.org/artifact/org.codehaus.mojo/exec-maven-plugin) | Execution of system and Java programs. | [GitHub](https://github.com/mojohaus/exec-maven-plugin/issues) |
+| [***flatten***](./flatten-maven-plugin/) | [central](https://search.maven.org/artifact/org.codehaus.mojo/flatten-maven-plugin) | Flattens your pom.xml before install or deploy. | [GitHub](https://github.com/mojohaus/flatten-maven-plugin/issues) |
+| [***keytool***](./keytool/keytool-maven-plugin/) | [central](https://search.maven.org/artifact/org.codehaus.mojo/keytool-maven-plugin) | Manipulates keys and keystores. | [GitHub](https://github.com/mojohaus/keytool/issues) |
+| [***latex***](./latex-maven-plugin/) | [central](https://search.maven.org/artifact/org.codehaus.mojo/latex-maven-plugin) | Builds PDF documents from LaTeX, BibTeX and such. | [GitHub](https://github.com/mojohaus/latex-maven/issues) |
+| [***license***](./license-maven-plugin/) | [central](https://search.maven.org/artifact/org.codehaus.mojo/license-maven-plugin) | Tools to deal with licenses and thirdparties of a maven project. | [GitHub](https://github.com/mojohaus/license-maven-plugin/issues) |
+| [***mrm***](./mrm/mrm-maven-plugin/) | [central](https://search.maven.org/artifact/org.codehaus.mojo/mrm-maven-plugin) | Hosts a mock Maven Repository Manager for use when integration testing Maven plugins. | [GitHub](https://github.com/mojohaus/mrm/issues) |
+| [***ounce***](./ounce-maven-plugin/) | [central](https://search.maven.org/artifact/org.codehaus.mojo/ounce-maven-plugin) | Perform Ouncelabs Ounce code security scans. | - |
+| [***rpm***](./rpm-maven-plugin/) | [central](https://search.maven.org/artifact/org.codehaus.mojo/rpm-maven-plugin) | Assembles files into an RPM package. | [GitHub](https://github.com/mojohaus/rpm-maven-plugin/issues) |
+| [***siteskinner***](./siteskinner-maven-plugin/) | [central](https://search.maven.org/artifact/org.codehaus.mojo/siteskinner-maven-plugin) | Apply a new skin on a published site generated by Maven | [GitHub](https://github.com/mojohaus/siteskinner-maven-plugin/issues) |
+| [***sql***](./sql-maven-plugin/) | [central](https://search.maven.org/artifact/org.codehaus.mojo/sql-maven-plugin) | Execution of SQL statements. | [GitHub](https://github.com/mojohaus/sql-maven-plugin/issues) |
+| [***templating***](./templating-maven-plugin/) | [central](https://search.maven.org/artifact/org.codehaus.mojo/templating-maven-plugin) | Filters sources the Maven Right Way. | [GitHub](https://github.com/mojohaus/templating-maven-plugin/issues) |
+| [***tidy***](./tidy-maven-plugin/) | [central](https://search.maven.org/artifact/org.codehaus.mojo/tidy-maven-plugin) | Sorts the sections of a ***pom.xml*** into the canonical order. | [GitHub](https://github.com/mojohaus/tidy-maven-plugin/issues) |
+| [***truezip***](./truezip/truezip-maven-plugin/) | [central](https://search.maven.org/artifact/org.codehaus.mojo/truezip-maven-plugin) | Manipulates archive files. | [GitHub](https://github.com/mojohaus/truezip/issues) |
+| [***versions***](./versions-maven-plugin/) | [central](https://search.maven.org/artifact/org.codehaus.mojo/versions-maven-plugin) | Supports various tasks for updating the versions of components in the POM. | [GitHub](https://github.com/mojohaus/versions-maven-plugin/issues) |
+| [***vfs***](./vfs/vfs-maven-plugin/) | [central](https://search.maven.org/artifact/org.codehaus.mojo/vfs-maven-plugin) | Maven plugin for [Apache Commons Virtual File System (VFS)](https://commons.apache.org/proper/commons-vfs/). | [GitHub](https://github.com/mojohaus/vfs/issues) |
+| [***wagon***](./wagon-maven-plugin/) | [central](https://search.maven.org/artifact/org.codehaus.mojo/wagon-maven-plugin) | Transfer files between URLs. | [GitHub](https://github.com/mojohaus/wagon-maven-plugin/issues) |
+| [***xml***](./xml-maven-plugin/) | [central](https://search.maven.org/artifact/org.codehaus.mojo/xml-maven-plugin) | XML transformation and validation. | [GitHub](https://github.com/mojohaus/xml-maven-plugin/issues) |
 
-  * {{{Plugin_Graveyard}Plugin Graveyard}}
+## Pre-release Plugins
 
-* {Production Plugins}
+The following are pre-releases of plugins. They have had releases, but are not deemed ready for production use yet.
 
- The following plugins have been released and are generally available for production use. However after the move from <<Codehaus>>
- to <<MojoHaus>> a lot of plugins have not been migrated ({{{https://github.com/mojohaus/convert-to-git}yet}}), so when the issue tracking is missing,
- the plugin has not been migrated: if you want to migrate a plugin to contribute, please ask on the {{{/mailing-lists.html}mailing list}}.
+|  | Plugin |  | Version |  | Description |
+| **Generators / Compilers / Translators** |  | *Plugins providing support for code generation, compilation and translation.* |
+| [***apt***](./apt-maven-plugin/) | [central](https://search.maven.org/artifact/org.codehaus.mojo/apt-maven-plugin) | Annotation Processing Tool. |
+| [***cbuilds***](./cbuild-parent/) | [central](https://search.maven.org/artifact/org.codehaus.mojo/rpm-cbuild-maven-plugin) | Convert Autoconf projects into RPMs. |
+| [***enchanter***](./enchanter/) | [central](https://search.maven.org/artifact/org.codehaus.mojo/enchanter-maven-plugin) | Execute expect like scripts over telnet/ssh sessions. |
+| [***jspc***](./jspc/) | [central](https://search.maven.org/artifact/org.codehaus.mojo.jspc/jspc-maven-plugin) | Support for JSP compilation w/pluggable JSP compiler implementations. |
+| [***native***](./maven-native/native-maven-plugin/) | [central](https://search.maven.org/artifact/org.codehaus.mojo/native-maven-plugin) | Compile C and C++ sources. |
+| [***retrotranslator***](./retrotranslator-maven-plugin/) | [central](https://search.maven.org/artifact/org.codehaus.mojo/retrotranslator-maven-plugin) | Translates JDK 5.0 classes to be compatible with a 1.4 JVM. |
+| [***servicedoc***](./servicedoc-maven-plugin/) | [central](https://search.maven.org/artifact/org.codehaus.mojo/servicedocgen-maven-plugin) | Generates nice REST Documentation from JAX-RS |
+| [***smc***](./smc-maven-plugin/) | [central](https://search.maven.org/artifact/org.codehaus.mojo/smc-maven-plugin) | State Machine Compiler. |
+| [***springws***](./springws-maven-plugin/) | [central](https://search.maven.org/artifact/org.codehaus.mojo/springws-maven-plugin) | Spring ws plugin for extracting .wsdl files. |
+| **IDEs** |  | *Plugins that support integration with integrated developer environments.* |
+| [***ideauidesigner***](./ideauidesigner-maven-plugin/) | [central](https://search.maven.org/artifact/org.codehaus.mojo/ideauidesigner-maven-plugin) | Intellij IDEA form generation. |
+| **Reporting** |  | *Plugins which generate reports.* |
+| [***dashboard***](./dashboard-maven-plugin/) | [central](https://search.maven.org/artifact/org.codehaus.mojo/dashboard-maven-plugin) | Aggregate results from Checkstyle, Cobertura, Clover, Surefire, PMD, CPD, FindBugs, Taglist reports. |
+| [***docbook***](./docbook-maven-plugin/) | [central](https://search.maven.org/artifact/org.codehaus.mojo/docbook-maven-plugin) | Support for Docbook transformations. |
+| [***emma***](./emma-maven-plugin/) | [central](https://search.maven.org/artifact/org.codehaus.mojo/emma-maven-plugin) | [EMMA](https://github.com/mojohaus/emma-maven-plugin/issues) plugin for Maven 2. |
+| [***jdiff***](./jdiff-maven-plugin/) | [central](https://search.maven.org/artifact/org.codehaus.mojo/jdiff-maven-plugin) | Generates JDiff report. |
+| **Scripting** |  | *Plugins which support script languages.* |
+| [***javascript tools***](./javascript-maven-tools/) | [central](https://search.maven.org/artifact/org.codehaus.mojo/javascript-maven-tools) | A set of tools to bring maven support to JavaScript developers. |
+| [***jruby***](./jruby-maven-plugin/) | [central](https://search.maven.org/artifact/org.codehaus.mojo/jruby-maven-plugin) | JRuby scripting support for Maven. |
+| **Tools** |  | *Miscellaneous tools available through Maven.* |
+| [***batik***](./batik-maven-plugin/) | [central](https://search.maven.org/artifact/org.codehaus.mojo/batik-maven-plugin) | Rasterizes SVGs using Apache Batik. |
+| [***dbupgrade***](./dbupgrade/dbupgrade-maven-plugin/) | [central](https://search.maven.org/artifact/org.codehaus.mojo/dbupgrade-maven-plugin) | Incremental Database Upgrade. |
+| [***ianal***](./ianal-maven-plugin/) | [central](https://search.maven.org/artifact/org.codehaus.mojo/ianal-maven-plugin) | "I am not a lawyer." |
+| [***jalopy***](./jalopy-maven-plugin/) | [central](https://search.maven.org/artifact/org.codehaus.mojo/jalopy-maven-plugin) | Formats java source files following a coding convention. |
+| [***jasperreports***](./jasperreports-maven-plugin/) | [central](https://search.maven.org/artifact/org.codehaus.mojo/jasperreports-maven-plugin) | Compiles Jasper Report Design Files. |
+| [***nsis***](./nsis-maven-plugin/) | [central](https://search.maven.org/artifact/org.codehaus.mojo/nsis-maven-plugin) | Utilizes the NSIS command line installer script compiler to generate a Windows installer exe from a setup.nsi script. |
+| [***osxappbundle***](./osxappbundle-maven-plugin/) | [central](https://search.maven.org/artifact/org.codehaus.mojo/osxappbundle-maven-plugin) | Bundles Maven projects as OS X applications. |
+| [***properties***](./properties-maven-plugin/) | [central](https://search.maven.org/artifact/org.codehaus.mojo/properties-maven-plugin) | Read and write properties files. |
+| [***ship***](./ship-maven-plugin/) | [central](https://search.maven.org/artifact/org.codehaus.mojo/ship-maven-plugin) | Helps shipping releases when doing Continuous Deployment. |
+| [***solaris***](./solaris/solaris-maven-plugin/) | [central](https://search.maven.org/artifact/org.codehaus.mojo/solaris-maven-plugin) | Creates System V packages. |
+| [***unix***](./unix/) | [central](https://search.maven.org/artifact/org.codehaus.mojo/unix-maven-plugin) | Creates packages for all common UNIX platforms. |
+| [***webminifier***](./webminifier-maven-plugin/) | [central](https://search.maven.org/artifact/org.codehaus.mojo/webminifier-maven-plugin) | Provides JavaScript and CSS minification for Maven projects. |
+| [***webstart***](./webstart/webstart-maven-plugin/) | [central](https://search.maven.org/artifact/org.codehaus.mojo/webstart-maven-plugin) | Prepare webstart applications. |
 
-*--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-|| Plugin                                                            || Version    || Description                                 || Issue tracking ||
-*--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-|
-*--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| <<Application Server>>                                             |             | <Plugins that support integration with application servers.>
-*--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| {{{./jboss-packaging-maven-plugin/} <<<jboss-packaging>>>}}        | {{{https://search.maven.org/artifact/org.codehaus.mojo/jboss-packaging-maven-plugin}central}} | Packages various JBoss deployable archive files including AOP, ESB, HAR, SAR, and Spring. | {{{https://github.com/mojohaus/jboss-packaging-maven-plugin/issues}GitHub}}
-*--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| {{{./was6-maven-plugin/} <<<was6>>>}}                              | {{{https://search.maven.org/artifact/org.codehaus.mojo/was6-maven-plugin}central}} | IBM WebSphere Application Server 6.x, 7 & 8.x support.| -
-*--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| {{{./weblogic-maven-plugin/} <<<weblogic>>>}}                      | {{{https://search.maven.org/artifact/org.codehaus.mojo/weblogic-maven-plugin}central}} | Supports various tasks within the Weblogic 8.1, 9.x, 10.x, 12.x environment.| -
-*--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-|
-*--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| <<Generators / Compilers / Translators>>                           |             | <Plugins providing support for code generation, compilation and translation.> |
-*--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| {{{./antlr-maven-plugin/} <<<antlr>>>}}                            | {{{https://search.maven.org/artifact/org.codehaus.mojo/antlr-maven-plugin}central}} | Process ANTLRv2 grammars.                    | -
-*--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| {{{./aspectj-maven-plugin/} <<<aspectj>>>}}                        | {{{https://search.maven.org/artifact/org.codehaus.mojo/aspectj-maven-plugin}central}} | Weaves aspects with AspectJ.                 | {{{https://github.com/mojohaus/aspectj-maven-plugin/issues}GitHub}}
-*--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| {{{./axistools-maven-plugin/} <<<axistools>>>}}                    | {{{https://search.maven.org/artifact/org.codehaus.mojo/axistools-maven-plugin}central}} | Axis wsdl2java and java2wsdl support.        | {{{https://github.com/mojohaus/axistools-maven-plugin/issues}GitHub}}
-*--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| {{{./castor-maven-plugin/} <<<castor>>>}}                          | {{{https://search.maven.org/artifact/org.codehaus.mojo/castor-maven-plugin}central}} | Source generation with Castor XML.           | {{{https://github.com/mojohaus/castor-maven-plugin/issues}GitHub}}
-*--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| {{{./commons-attributes-maven-plugin/} <<<commons-attributes>>>}}  | {{{https://search.maven.org/artifact/org.codehaus.mojo/commons-attributes-maven-plugin}central}} | Source generation for Commons Attributes.    | -
-*--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| {{{./gwt-maven-plugin/} <<<GWT>>>}}                                | {{{https://search.maven.org/artifact/org.codehaus.mojo/gwt-maven-plugin}central}} | GWT.                                         | {{{https://github.com/mojohaus/gwt-maven-plugin/issues}GitHub}}
-*--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| {{{./hibernate3-maven-plugin/} <<<hibernate3>>>}}                  | {{{https://search.maven.org/artifact/org.codehaus.mojo/hibernate3-maven-plugin}central}} | Integration with Hibernate 3.x               | -
-*--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| {{{./idlj-maven-plugin/} <<<idlj>>>}}                              | {{{https://search.maven.org/artifact/org.codehaus.mojo/idlj-maven-plugin}central}} | Process IDL files into Java sources.         | -
-*--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| {{{./javacc-maven-plugin/} <<<javacc>>>}}                          | {{{https://search.maven.org/artifact/org.codehaus.mojo/javacc-maven-plugin}central}} | Process JavaCC grammars.                     | {{{https://github.com/mojohaus/javacc-maven-plugin/issues}GitHub}}
-*--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| {{{./jaxb2-maven-plugin} <<<jaxb2>>>}}                             | {{{https://search.maven.org/artifact/org.codehaus.mojo/jaxb2-maven-plugin}central}} | Generates Java classes from XML Schemas (and binding files) and creates XML Schemas from annotated Java classes, using JAXB2. | {{{https://github.com/mojohaus/jaxb2-maven-plugin/issues}GitHub}}
-*--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| {{{./jaxws-maven-plugin/} <<<jaxws>>>}}                            | {{{https://search.maven.org/artifact/org.codehaus.mojo/jaxws-maven-plugin}central}} | JAX-WS wsgen/wsimport tooling support.       | {{{https://github.com/mojohaus/jaxws-maven-plugin/issues}GitHub}} 
-*--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| {{{./jpox-maven-plugin/} <<<jpox>>>}}                              | {{{https://search.maven.org/artifact/org.codehaus.mojo/jpox-maven-plugin}central}} | Support for JPOX JDO.                        | -
-*--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| {{{./jslint-maven-plugin/} <<<jslint>>>}}                          | {{{https://search.maven.org/artifact/org.codehaus.mojo/jslint-maven-plugin}central}} | Provides fast and efficient JSLint code validation when developing JavaScript applications. | -
-*--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| {{{./js-import-maven-plugin/} <<<js import>>>}}                    | {{{https://search.maven.org/artifact/org.codehaus.mojo/js-import-maven-plugin}central}} | Provides Maven dependency management for JavaScript applications.                           | -
-*--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| {{{./jspc-maven-plugin/} <<<jspc>>>}}                              | {{{https://search.maven.org/artifact/org.codehaus.mojo/jspc-maven-plugin}central}} | Provides support for JSP compilation.        | -
-*--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| {{{./native2ascii-maven-plugin/} <<<native2ascii>>>}}              | {{{https://search.maven.org/artifact/org.codehaus.mojo/native2ascii-maven-plugin}central}} | Converts files with characters in any supported character encoding to one with ASCII and/or Unicode escapes. | {{{https://github.com/mojohaus/native2ascii-maven-plugin/issues}GitHub}}
-*--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| {{{./rmic-maven-plugin/} <<<rmic>>>}}                              | {{{https://search.maven.org/artifact/org.codehaus.mojo/rmic-maven-plugin}central}} | Generates rmi (Remote Method Invocation) stub and skeleton classes. | -
-*--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| {{{./sablecc-maven-plugin/} <<<sablecc>>>}}                        | {{{https://search.maven.org/artifact/org.codehaus.mojo/sablecc-maven-plugin}central}} | Process SableCC grammars.                    | -
-*--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| {{{./sqlj-maven-plugin/} <<<sqlj>>>}}                              | {{{https://search.maven.org/artifact/org.codehaus.mojo/sqlj-maven-plugin}central}} | Translates SQLJ source code to Java source code. | {{{https://github.com/mojohaus/sqlj-maven-plugin/issues}GitHub}}
-*--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| {{{./xdoclet-maven-plugin/} <<<xdoclet>>>}}                        | {{{https://search.maven.org/artifact/org.codehaus.mojo/xdoclet-maven-plugin}central}} | Provides XDoclet functionality to Maven.     | -
-*--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-|
-*--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| <<Reporting>> | | <Plugins which generate reports.>
-*--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| {{{./clirr-maven-plugin/} <<<clirr>>>}}                            | {{{https://search.maven.org/artifact/org.codehaus.mojo/clirr-maven-plugin}central}} | Checks Java libraries for binary and source compatibility with older releases. | {{{https://github.com/mojohaus/clirr-maven-plugin/issues}GitHub}}
-*--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| {{{./cobertura-maven-plugin/} <<<cobertura>>>}}                    | {{{https://search.maven.org/artifact/org.codehaus.mojo/cobertura-maven-plugin}central}} | Code coverage via Cobertura.                 | {{{https://github.com/mojohaus/cobertura-maven-plugin/issues}GitHub}}
-*--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| {{{./l10n-maven-plugin/} <<<l10n>>>}}                              | {{{https://search.maven.org/artifact/org.codehaus.mojo/l10n-maven-plugin}central}} | The Localization Tools Maven Plugin helps with internationalization and localization of your projects. | {{{https://github.com/mojohaus/l10n-maven-plugin/issues}GitHub}}
-*--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| {{{./scmchangelog-maven-plugin/} <<<scmchangelog>>>}}              | {{{https://search.maven.org/artifact/org.codehaus.mojo/scmchangelog-maven-plugin}central}} | Simple Reporter that creates a changelog report using comments and tags from Subversion. | -
-*--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| {{{./taglist-maven-plugin/} <<<taglist>>>}}                        | {{{https://search.maven.org/artifact/org.codehaus.mojo/taglist-maven-plugin}central}} | Generates a report on various tags found in the code. | {{{https://github.com/mojohaus/taglist-maven-plugin/issues}GitHub}}
-*--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| {{{./javancss-maven-plugin/} <<<javancss>>>}}                      | {{{https://search.maven.org/artifact/org.codehaus.mojo/javancss-maven-plugin}central}} | Source measurement suite for Java. | {{{https://github.com/mojohaus/javancss-maven-plugin/issues}GitHub}}
-*--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| {{{./jdepend-maven-plugin/} <<<jdepend>>>}}                        | {{{https://search.maven.org/artifact/org.codehaus.mojo/jdepend-maven-plugin}central}} | Generates JDepend reports.                   | {{{https://github.com/mojohaus/jdepend-maven-plugin/issues}GitHub}}
-*--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-|
-*--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| <<Testing>> | | <Plugins which support testing.>
-*--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| {{{./codenarc-maven-plugin/} <<<codenarc>>>}}                      | {{{https://search.maven.org/artifact/org.codehaus.mojo/codenarc-maven-plugin}central}} | Generate CodeNarc report against Groovy source code. | -
-*--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| {{{./findbugs-maven-plugin/} <<<findbugs>>>}}                      | {{{https://search.maven.org/artifact/org.codehaus.mojo/findbugs-maven-plugin}central}} | Generates a FindBugs report.                 | {{{https://github.com/mojohaus/findbugs-maven-plugin/issues}GitHub}}
-*--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| {{{./fitnesse-maven-plugin/} <<<fitnesse>>>}}                      | {{{https://search.maven.org/artifact/org.codehaus.mojo/fitnesse-maven-plugin}central}} | Fully integrated standalone wiki, and acceptance testing framework. | -
-*--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| {{{./selenium-maven-plugin/} <<<selenium>>>}}                      | {{{https://search.maven.org/artifact/org.codehaus.mojo/selenium-maven-plugin}central}} | Supports automated web-application testing.  | -
-*--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| {{{./webtest-maven-plugin/} <<<webtest>>>}}                        | {{{https://search.maven.org/artifact/org.codehaus.mojo/webtest-maven-plugin}central}} | Supports automated web-application testing using Canoo WebTest | -
-*--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| {{{./chronos/} <<<chronos-jmeter>>>}}                              | {{{https://search.maven.org/artifact/org.codehaus.mojo/chronos-jmeter-maven-plugin}central}} | Execute performancetests with jmeter and analyze the results. | -
-*--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| {{{./chronos/} <<<chronos-surefire>>>}}                            | {{{https://search.maven.org/artifact/org.codehaus.mojo/chronos-surefire-maven-plugin}central}} | Analyze time spent in unittests used to measure performance | -
-*--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| {{{./chronos/} <<<chronos-report>>>}}                              | {{{https://search.maven.org/artifact/org.codehaus.mojo/chronos-report-maven-plugin}central}} | Create reports of performance testresults.   | -
-*--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-|
-*--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| <<Tools>>  | | <Miscellaneous tools available through Maven.>
-*--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| {{{./animal-sniffer/animal-sniffer-maven-plugin/} <<<animal-sniffer>>>}} | {{{https://search.maven.org/artifact/org.codehaus.mojo/animal-sniffer-maven-plugin}central}} | Verifies classes against API signatures.     | {{{https://github.com/mojohaus/animal-sniffer/issues}GitHub}}
-*--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| {{{./appassembler/appassembler-maven-plugin/} <<<appassembler>>>}} | {{{https://search.maven.org/artifact/org.codehaus.mojo/appassembler-maven-plugin}central}} | Generates bin and Java Service Wrapper scripts for Java applications. | {{{https://github.com/mojohaus/appassembler/issues}GitHub}}
-*--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| {{{./build-helper-maven-plugin/} <<<build-helper>>>}}              | {{{https://search.maven.org/artifact/org.codehaus.mojo/build-helper-maven-plugin}central}} | Miscellaneous goals to support build process. | {{{https://github.com/mojohaus/build-helper-maven-plugin/issues}GitHub}}
-*--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| {{{./buildnumber-maven-plugin/} <<<buildnumber>>>}}                | {{{https://search.maven.org/artifact/org.codehaus.mojo/buildnumber-maven-plugin}central}} | Creates unique build number for each build.  | {{{https://github.com/mojohaus/buildnumber-maven-plugin/issues}GitHub}}
-*--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| {{{./buildplan-maven-plugin/} <<<buildplan>>>}}                    | {{{https://search.maven.org/artifact/org.codehaus.mojo/buildplan-maven-plugin}central}} | Inspects the lifecycle of your project.  | {{{https://github.com/mojohaus/buildplan-maven-plugin/issues}GitHub}}
-*--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| {{{./cassandra-maven-plugin/} <<<cassandra>>>}}                    | {{{https://search.maven.org/artifact/org.codehaus.mojo/cassandra-maven-plugin}central}} | Mojo's plugin for Apache Maven to allow controlling Apache Cassandra. | {{{https://github.com/mojohaus/cassandra-maven-plugin/issues}GitHub}}
-*--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| {{{./ditaot-maven-plugin/} <<<ditaot>>>}}                          | {{{https://search.maven.org/artifact/org.codehaus.mojo/ditaot-maven-plugin}central}} | Support for DITA transformations using DITA Open Toolkit.      | {{{https://github.com/mojohaus/ditaot-maven-plugin/issues}GitHub}}
-*--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| {{{./exec-maven-plugin/} <<<exec>>>}}                              | {{{https://search.maven.org/artifact/org.codehaus.mojo/exec-maven-plugin}central}} | Execution of system and Java programs.       | {{{https://github.com/mojohaus/exec-maven-plugin/issues}GitHub}}
-*--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| {{{./flatten-maven-plugin/} <<<flatten>>>}}                        | {{{https://search.maven.org/artifact/org.codehaus.mojo/flatten-maven-plugin}central}} | Flattens your pom.xml before install or deploy. | {{{https://github.com/mojohaus/flatten-maven-plugin/issues}GitHub}}
-*--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| {{{./keytool/keytool-maven-plugin/} <<<keytool>>>}}                | {{{https://search.maven.org/artifact/org.codehaus.mojo/keytool-maven-plugin}central}} | Manipulates keys and keystores.              | {{{https://github.com/mojohaus/keytool/issues}GitHub}}
-*--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| {{{./latex-maven-plugin/} <<<latex>>>}}                            | {{{https://search.maven.org/artifact/org.codehaus.mojo/latex-maven-plugin}central}} | Builds PDF documents from LaTeX, BibTeX and such. | {{{https://github.com/mojohaus/latex-maven/issues}GitHub}}
-*--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| {{{./license-maven-plugin/} <<<license>>>}}                        | {{{https://search.maven.org/artifact/org.codehaus.mojo/license-maven-plugin}central}} | Tools to deal with licenses and thirdparties of a maven project. | {{{https://github.com/mojohaus/license-maven-plugin/issues}GitHub}}
-*--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| {{{./mrm/mrm-maven-plugin/} <<<mrm>>>}}                            | {{{https://search.maven.org/artifact/org.codehaus.mojo/mrm-maven-plugin}central}} | Hosts a mock Maven Repository Manager for use when integration testing Maven plugins. | {{{https://github.com/mojohaus/mrm/issues}GitHub}}
-*--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| {{{./ounce-maven-plugin/} <<<ounce>>>}}                            | {{{https://search.maven.org/artifact/org.codehaus.mojo/ounce-maven-plugin}central}} | Perform Ouncelabs Ounce code security scans. | -
-*--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| {{{./rpm-maven-plugin/} <<<rpm>>>}}                                | {{{https://search.maven.org/artifact/org.codehaus.mojo/rpm-maven-plugin}central}} | Assembles files into an RPM package.         | {{{https://github.com/mojohaus/rpm-maven-plugin/issues}GitHub}}
-*--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| {{{./siteskinner-maven-plugin/} <<<siteskinner>>>}}                | {{{https://search.maven.org/artifact/org.codehaus.mojo/siteskinner-maven-plugin}central}} | Apply a new skin on a published site generated by Maven | {{{https://github.com/mojohaus/siteskinner-maven-plugin/issues}GitHub}}
-*--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| {{{./sql-maven-plugin/} <<<sql>>>}}                                | {{{https://search.maven.org/artifact/org.codehaus.mojo/sql-maven-plugin}central}} | Execution of SQL statements.                 | {{{https://github.com/mojohaus/sql-maven-plugin/issues}GitHub}}
-*--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| {{{./templating-maven-plugin/} <<<templating>>>}}                  | {{{https://search.maven.org/artifact/org.codehaus.mojo/templating-maven-plugin}central}} | Filters sources the Maven Right Way.         | {{{https://github.com/mojohaus/templating-maven-plugin/issues}GitHub}}
-*--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| {{{./tidy-maven-plugin/} <<<tidy>>>}}                              | {{{https://search.maven.org/artifact/org.codehaus.mojo/tidy-maven-plugin}central}} | Sorts the sections of a <<<pom.xml>>> into the canonical order. | {{{https://github.com/mojohaus/tidy-maven-plugin/issues}GitHub}}
-*--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| {{{./truezip/truezip-maven-plugin/} <<<truezip>>>}}                | {{{https://search.maven.org/artifact/org.codehaus.mojo/truezip-maven-plugin}central}} | Manipulates archive files.                   | {{{https://github.com/mojohaus/truezip/issues}GitHub}}
-*--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| {{{./versions-maven-plugin/} <<<versions>>>}}                      | {{{https://search.maven.org/artifact/org.codehaus.mojo/versions-maven-plugin}central}} | Supports various tasks for updating the versions of components in the POM. | {{{https://github.com/mojohaus/versions-maven-plugin/issues}GitHub}}
-*--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| {{{./vfs/vfs-maven-plugin/} <<<vfs>>>}}                            | {{{https://search.maven.org/artifact/org.codehaus.mojo/vfs-maven-plugin}central}} | Maven plugin for {{{https://commons.apache.org/proper/commons-vfs/} Apache Commons Virtual File System (VFS)}}. | {{{https://github.com/mojohaus/vfs/issues}GitHub}}
-*--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| {{{./wagon-maven-plugin/} <<<wagon>>>}}                            | {{{https://search.maven.org/artifact/org.codehaus.mojo/wagon-maven-plugin}central}} | Transfer files between URLs.                 | {{{https://github.com/mojohaus/wagon-maven-plugin/issues}GitHub}}
-*--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
-| {{{./xml-maven-plugin/} <<<xml>>>}}                                | {{{https://search.maven.org/artifact/org.codehaus.mojo/xml-maven-plugin}central}} | XML transformation and validation.           | {{{https://github.com/mojohaus/xml-maven-plugin/issues}GitHub}}
-*--------------------------------------------------------------------+-------------+----------------------------------------------+-----------------+
+## Plugin Graveyard
 
-* {Pre-release Plugins}
+These are plugins which been deprecated or are no longer being maintained.
 
- The following are pre-releases of plugins. They have had releases, but are not deemed ready for production use yet.
-
-*--------------------------------------------------------------------+-------------+----------------------------------------------+
-|| Plugin                                                            || Version    || Description
-*--------------------------------------------------------------------+-------------+----------------------------------------------+
-|
-*--------------------------------------------------------------------+-------------+----------------------------------------------+
-| <<Generators / Compilers / Translators>> | | <Plugins providing support for code generation, compilation and translation.>
-*--------------------------------------------------------------------+-------------+----------------------------------------------+
-| {{{./apt-maven-plugin/} <<<apt>>>}}                                | {{{https://search.maven.org/artifact/org.codehaus.mojo/apt-maven-plugin}central}} | Annotation Processing Tool.
-*--------------------------------------------------------------------+-------------+----------------------------------------------+
-| {{{./cbuild-parent/} <<<cbuilds>>>}}                               | {{{https://search.maven.org/artifact/org.codehaus.mojo/rpm-cbuild-maven-plugin}central}} | Convert Autoconf projects into RPMs.
-*--------------------------------------------------------------------+-------------+----------------------------------------------+
-| {{{./enchanter/} <<<enchanter>>>}}                                 | {{{https://search.maven.org/artifact/org.codehaus.mojo/enchanter-maven-plugin}central}} | Execute expect like scripts over telnet/ssh sessions.
-*--------------------------------------------------------------------+-------------+----------------------------------------------+
-| {{{./jspc/} <<<jspc>>>}}                                           | {{{https://search.maven.org/artifact/org.codehaus.mojo.jspc/jspc-maven-plugin}central}} | Support for JSP compilation w/pluggable JSP compiler implementations.
-*--------------------------------------------------------------------+-------------+----------------------------------------------+
-| {{{./maven-native/native-maven-plugin/} <<<native>>>}}             | {{{https://search.maven.org/artifact/org.codehaus.mojo/native-maven-plugin}central}} | Compile C and C++ sources.
-*--------------------------------------------------------------------+-------------+----------------------------------------------+
-| {{{./retrotranslator-maven-plugin/} <<<retrotranslator>>>}}        | {{{https://search.maven.org/artifact/org.codehaus.mojo/retrotranslator-maven-plugin}central}} | Translates JDK 5.0 classes to be compatible with a 1.4 JVM.
-*--------------------------------------------------------------------+-------------+----------------------------------------------+
-| {{{./servicedoc-maven-plugin/} <<<servicedoc>>>}}                  | {{{https://search.maven.org/artifact/org.codehaus.mojo/servicedocgen-maven-plugin}central}} | Generates nice REST Documentation from JAX-RS
-*--------------------------------------------------------------------+-------------+----------------------------------------------+
-| {{{./smc-maven-plugin/} <<<smc>>>}}                                | {{{https://search.maven.org/artifact/org.codehaus.mojo/smc-maven-plugin}central}} | State Machine Compiler.
-*--------------------------------------------------------------------+-------------+----------------------------------------------+
-| {{{./springws-maven-plugin/} <<<springws>>>}}                      | {{{https://search.maven.org/artifact/org.codehaus.mojo/springws-maven-plugin}central}} | Spring ws plugin for extracting .wsdl files.
-*--------------------------------------------------------------------+-------------+----------------------------------------------+
-|
-*--------------------------------------------------------------------+-------------+----------------------------------------------+
-| <<IDEs>> | | <Plugins that support integration with integrated developer environments.>
-*--------------------------------------------------------------------+-------------+----------------------------------------------+
-| {{{./ideauidesigner-maven-plugin/} <<<ideauidesigner>>>}}          | {{{https://search.maven.org/artifact/org.codehaus.mojo/ideauidesigner-maven-plugin}central}} | Intellij IDEA form generation.
-*--------------------------------------------------------------------+-------------+----------------------------------------------+
-|
-*--------------------------------------------------------------------+-------------+----------------------------------------------+
-| <<Reporting>> | | <Plugins which generate reports.>
-*--------------------------------------------------------------------+-------------+----------------------------------------------+
-| {{{./dashboard-maven-plugin/} <<<dashboard>>>}}                    | {{{https://search.maven.org/artifact/org.codehaus.mojo/dashboard-maven-plugin}central}} | Aggregate results from Checkstyle, Cobertura, Clover, Surefire, PMD, CPD, FindBugs, Taglist reports.
-*--------------------------------------------------------------------+-------------+----------------------------------------------+
-| {{{./docbook-maven-plugin/} <<<docbook>>>}}                        | {{{https://search.maven.org/artifact/org.codehaus.mojo/docbook-maven-plugin}central}} | Support for Docbook transformations.
-*--------------------------------------------------------------------+-------------+----------------------------------------------+
-| {{{./emma-maven-plugin/} <<<emma>>>}}                              | {{{https://search.maven.org/artifact/org.codehaus.mojo/emma-maven-plugin}central}} | {{{https://github.com/mojohaus/emma-maven-plugin/issues}EMMA}} plugin for Maven 2.
-*--------------------------------------------------------------------+-------------+----------------------------------------------+
-| {{{./jdiff-maven-plugin/} <<<jdiff>>>}}                            | {{{https://search.maven.org/artifact/org.codehaus.mojo/jdiff-maven-plugin}central}} | Generates JDiff report.
-*--------------------------------------------------------------------+-------------+----------------------------------------------+
-|
-*--------------------------------------------------------------------+-------------+----------------------------------------------+
-| <<Scripting>> | | <Plugins which support script languages.>
-*--------------------------------------------------------------------+-------------+----------------------------------------------+
-| {{{./javascript-maven-tools/} <<<javascript tools>>>}}             | {{{https://search.maven.org/artifact/org.codehaus.mojo/javascript-maven-tools}central}} | A set of tools to bring maven support to JavaScript developers.
-*--------------------------------------------------------------------+-------------+-----------------------------------------------+
-| {{{./jruby-maven-plugin/} <<<jruby>>>}}                            | {{{https://search.maven.org/artifact/org.codehaus.mojo/jruby-maven-plugin}central}} | JRuby scripting support for Maven.
-*--------------------------------------------------------------------+-------------+----------------------------------------------+
-|
-*--------------------------------------------------------------------+-------------+----------------------------------------------+
-| <<Tools>>  | | <Miscellaneous tools available through Maven.>
-*--------------------------------------------------------------------+-------------+----------------------------------------------+
-| {{{./batik-maven-plugin/} <<<batik>>>}}                            | {{{https://search.maven.org/artifact/org.codehaus.mojo/batik-maven-plugin}central}} | Rasterizes SVGs using Apache Batik.
-*--------------------------------------------------------------------+-------------+----------------------------------------------+
-| {{{./dbupgrade/dbupgrade-maven-plugin/} <<<dbupgrade>>>}}          | {{{https://search.maven.org/artifact/org.codehaus.mojo/dbupgrade-maven-plugin}central}} | Incremental Database Upgrade.
-*--------------------------------------------------------------------+-------------+----------------------------------------------+
-| {{{./ianal-maven-plugin/} <<<ianal>>>}}                            | {{{https://search.maven.org/artifact/org.codehaus.mojo/ianal-maven-plugin}central}} | "I am not a lawyer."
-*--------------------------------------------------------------------+-------------+----------------------------------------------+
-| {{{./jalopy-maven-plugin/} <<<jalopy>>>}}                          | {{{https://search.maven.org/artifact/org.codehaus.mojo/jalopy-maven-plugin}central}} | Formats java source files following a coding convention.
-*--------------------------------------------------------------------+-------------+----------------------------------------------+
-| {{{./jasperreports-maven-plugin/} <<<jasperreports>>>}}            | {{{https://search.maven.org/artifact/org.codehaus.mojo/jasperreports-maven-plugin}central}} | Compiles Jasper Report Design Files.
-*--------------------------------------------------------------------+-------------+----------------------------------------------+
-| {{{./nsis-maven-plugin/} <<<nsis>>>}}                              | {{{https://search.maven.org/artifact/org.codehaus.mojo/nsis-maven-plugin}central}} | Utilizes the NSIS command line installer script compiler to generate a Windows installer exe from a setup.nsi script.
-*--------------------------------------------------------------------+-------------+----------------------------------------------+
-| {{{./osxappbundle-maven-plugin/} <<<osxappbundle>>>}}              | {{{https://search.maven.org/artifact/org.codehaus.mojo/osxappbundle-maven-plugin}central}} | Bundles Maven projects as OS X applications.
-*--------------------------------------------------------------------+-------------+----------------------------------------------+
-| {{{./properties-maven-plugin/} <<<properties>>>}}                  | {{{https://search.maven.org/artifact/org.codehaus.mojo/properties-maven-plugin}central}} | Read and write properties files.
-*--------------------------------------------------------------------+-------------+----------------------------------------------+
-| {{{./ship-maven-plugin/} <<<ship>>>}}                              | {{{https://search.maven.org/artifact/org.codehaus.mojo/ship-maven-plugin}central}} | Helps shipping releases when doing Continuous Deployment.
-*--------------------------------------------------------------------+-------------+----------------------------------------------+
-| {{{./solaris/solaris-maven-plugin/} <<<solaris>>>}}                | {{{https://search.maven.org/artifact/org.codehaus.mojo/solaris-maven-plugin}central}} | Creates System V packages.
-*--------------------------------------------------------------------+-------------+----------------------------------------------+
-| {{{./unix/} <<<unix>>>}}                                           | {{{https://search.maven.org/artifact/org.codehaus.mojo/unix-maven-plugin}central}} | Creates packages for all common UNIX platforms.
-*--------------------------------------------------------------------+-------------+----------------------------------------------+
-| {{{./webminifier-maven-plugin/} <<<webminifier>>>}}                | {{{https://search.maven.org/artifact/org.codehaus.mojo/webminifier-maven-plugin}central}} | Provides JavaScript and CSS minification for Maven projects.
-*--------------------------------------------------------------------+-------------+----------------------------------------------+
-| {{{./webstart/webstart-maven-plugin/} <<<webstart>>>}}             | {{{https://search.maven.org/artifact/org.codehaus.mojo/webstart-maven-plugin}central}} | Prepare webstart applications.
-*--------------------------------------------------------------------+-------------+----------------------------------------------+
-
-* {Plugin Graveyard}
-
- These are plugins which been deprecated or are no longer being maintained.
-
-*---------------------------------+------------------------------------------------------------+
-| <<Plugin>>                      | <<Description>>
-*---------------------------------+------------------------------------------------------------+
-| <<<antlr3>>>                    | Superseded by {{{https://github.com/mojohaus/antlr3-maven-plugin/issues} Maven plugin for ANTLR V3}}.
-*---------------------------------+------------------------------------------------------------+
-| <<<dbunit>>>                    | Moved to {{{https://github.com/dbunit/dbunit-maven-plugin} Maven plugin for dbUnit}}.
-*---------------------------------+------------------------------------------------------------+
-| <<<failsafe>>>                  | Moved to {{{https://github.com/mojohaus/failsafe-maven-plugin/issues} Maven Failsafe Plugin}}.
-*---------------------------------+------------------------------------------------------------+
-| <<<groovy>>>                    | Moved to {{{https://github.com/mojohaus/groovy/issues} GMaven}}.
-*---------------------------------+------------------------------------------------------------+
-| <<<jboss>>>                     | Superseded by {{{https://github.com/mojohaus/jboss-maven-plugin/issues}JBoss AS7 Deployment Plugin}}
-*---------------------------------+------------------------------------------------------------+
-| <<<jboss-sar>>>                 | Deprecated use the {{{https://github.com/mojohaus/jboss-sar-maven-plugin/issues} jboss-packaging}} plugin instead.
-*---------------------------------+------------------------------------------------------------+
-| <<<jetty>>>                     | Superseded by {{{https://github.com/mojohaus/jetty-maven-plugin/issues} Mortbay official Jetty maven plugin}}.
-*---------------------------------+------------------------------------------------------------+
-| <<<lesscss>>>                   | Moved to {{{https://github.com/mojohaus/lesscss-maven-plugin/issues} LESS CSS Maven Plugin}} at GitHub.
-*---------------------------------+------------------------------------------------------------+
-| <<<minijar>>>                   | Added as minimizeJar parameter to the {{{https://github.com/mojohaus/minijar-maven-plugin/issues}maven-shade-plugin}}.
-*---------------------------------+------------------------------------------------------------+
-| <<<platform-detector>>>         | Deprecated use the {{{https://github.com/mojohaus/cbuild-parent/issues} rpm-cbuild:platform-detect}} goal instead.
-*---------------------------------+------------------------------------------------------------+
-| <<<project-sources>>>           | Deprecated use {{{./wagon-maven-plugin} wagon-maven-plugin}} or {{{https://github.com/mojohaus/cbuild-parent/issues} maven-dependency-plugin}} instead.
-*---------------------------------+------------------------------------------------------------+
-| <<<netbeans-freeform>>>         | NetBeans has developed its own Maven support: {{https://netbeans.org/features/ide/build-tools.html}}
-*---------------------------------+------------------------------------------------------------+
-| <<<nb-repository-plugin>>>      | Moved to Apache NetBeans (incubator) : {{https://bits.netbeans.org/mavenutilities/nb-repository-plugin/}}
-*---------------------------------+------------------------------------------------------------+
-| <<<nbm-maven-plugin>>>          | Moved to Apache NetBeans (incubator) : {{https://bits.netbeans.org/mavenutilities/nbm-maven-plugin/}}
-*---------------------------------+------------------------------------------------------------+
-| <<<openjpa>>>                   | Moved to and maintained by the Apache OpenJPA project: {{https://openjpa.apache.org/enhancement-with-maven.html}}
-*---------------------------------+------------------------------------------------------------+
-| <<<rat>>>                       | Moved to the {{{https://creadur.apache.org/rat/apache-rat-plugin/} Apache Creadur Project}}.
-*---------------------------------+------------------------------------------------------------+
-| <<<remote-source>>>             | Deprecated use {{{./wagon-maven-plugin} wagon-maven-plugin}} or {{{https://github.com/mojohaus/cbuild-parent/issues} maven-dependency-plugin}} instead.
-*---------------------------------+------------------------------------------------------------+
-| <<<shade>>>                     | Moved to the official Maven plugins and is now maintained as {{{https://github.com/mojohaus/shade-maven-plugin/issues}Maven Shade Plugin}}.
-*---------------------------------+------------------------------------------------------------+
-| <<<shitty>>>                    | Superseded by the official {{{https://github.com/mojohaus/shitty-maven-plugin/issues}Maven Invoker Plugin}}.
-*---------------------------------+------------------------------------------------------------+
-| <<<sysdeo-tomcat>>>             | Superseded by {{{https://github.com/mojohaus/sysdeo-tomcat-maven-plugin/issues}Eclipse WTP}}
-*---------------------------------+------------------------------------------------------------+
-| <<<tomcat>>>                    | Moved to the official Maven plugins and is now maintained in The Tomcat Project : {{{https://github.com/mojohaus/tomcat-maven-plugin/issues} tomcat-maven-plugin}}
-*---------------------------------+------------------------------------------------------------+
-| <<<wsdl2java>>>                 | Deprecated use the {{{https://github.com/mojohaus/wsdl2java-maven-plugin/issues} axistools-maven-plugin}} instead.
-*---------------------------------+------------------------------------------------------------+
-| <<<xfire>>>                     | Deprecated use the {{{https://github.com/mojohaus/xfire-maven-plugin/issues}Maven cxf plugins}} instead.
-*---------------------------------+------------------------------------------------------------+
-| <<<xmlbeans>>>                  | Superseded by {{{https://xmlbeans.apache.org/guide/Maven.html} XmlBeans Maven Plugin}}.
-*---------------------------------+------------------------------------------------------------+
-| <<<xslt>>>                      | Deprecated use the {{{https://www.mojohaus.org/xml-maven-plugin/}xml-maven-plugin}} instead.
-*---------------------------------+------------------------------------------------------------+
+| **Plugin** | **Description** |
+| ***antlr3*** | Superseded by [Maven plugin for ANTLR V3](https://github.com/mojohaus/antlr3-maven-plugin/issues). |
+| ***dbunit*** | Moved to [Maven plugin for dbUnit](https://github.com/dbunit/dbunit-maven-plugin). |
+| ***failsafe*** | Moved to [Maven Failsafe Plugin](https://github.com/mojohaus/failsafe-maven-plugin/issues). |
+| ***groovy*** | Moved to [GMaven](https://github.com/mojohaus/groovy/issues). |
+| ***jboss*** | Superseded by [JBoss AS7 Deployment Plugin](https://github.com/mojohaus/jboss-maven-plugin/issues) |
+| ***jboss-sar*** | Deprecated use the [jboss-packaging](https://github.com/mojohaus/jboss-sar-maven-plugin/issues) plugin instead. |
+| ***jetty*** | Superseded by [Mortbay official Jetty maven plugin](https://github.com/mojohaus/jetty-maven-plugin/issues). |
+| ***lesscss*** | Moved to [LESS CSS Maven Plugin](https://github.com/mojohaus/lesscss-maven-plugin/issues) at GitHub. |
+| ***minijar*** | Added as minimizeJar parameter to the [maven-shade-plugin](https://github.com/mojohaus/minijar-maven-plugin/issues). |
+| ***platform-detector*** | Deprecated use the [rpm-cbuild:platform-detect](https://github.com/mojohaus/cbuild-parent/issues) goal instead. |
+| ***project-sources*** | Deprecated use [wagon-maven-plugin](./wagon-maven-plugin) or [maven-dependency-plugin](https://github.com/mojohaus/cbuild-parent/issues) instead. |
+| ***netbeans-freeform*** | NetBeans has developed its own Maven support: *https://netbeans.org/features/ide/build-tools.html* |
+| ***nb-repository-plugin*** | Moved to Apache NetBeans (incubator) : *https://bits.netbeans.org/mavenutilities/nb-repository-plugin/* |
+| ***nbm-maven-plugin*** | Moved to Apache NetBeans (incubator) : *https://bits.netbeans.org/mavenutilities/nbm-maven-plugin/* |
+| ***openjpa*** | Moved to and maintained by the Apache OpenJPA project: *https://openjpa.apache.org/enhancement-with-maven.html* |
+| ***rat*** | Moved to the [Apache Creadur Project](https://creadur.apache.org/rat/apache-rat-plugin/). |
+| ***remote-source*** | Deprecated use [wagon-maven-plugin](./wagon-maven-plugin) or [maven-dependency-plugin](https://github.com/mojohaus/cbuild-parent/issues) instead. |
+| ***shade*** | Moved to the official Maven plugins and is now maintained as [Maven Shade Plugin](https://github.com/mojohaus/shade-maven-plugin/issues). |
+| ***shitty*** | Superseded by the official [Maven Invoker Plugin](https://github.com/mojohaus/shitty-maven-plugin/issues). |
+| ***sysdeo-tomcat*** | Superseded by [Eclipse WTP](https://github.com/mojohaus/sysdeo-tomcat-maven-plugin/issues) |
+| ***tomcat*** | Moved to the official Maven plugins and is now maintained in The Tomcat Project : [tomcat-maven-plugin](https://github.com/mojohaus/tomcat-maven-plugin/issues) |
+| ***wsdl2java*** | Deprecated use the [axistools-maven-plugin](https://github.com/mojohaus/wsdl2java-maven-plugin/issues) instead. |
+| ***xfire*** | Deprecated use the [Maven cxf plugins](https://github.com/mojohaus/xfire-maven-plugin/issues) instead. |
+| ***xmlbeans*** | Superseded by [XmlBeans Maven Plugin](https://xmlbeans.apache.org/guide/Maven.html). |
+| ***xslt*** | Deprecated use the [xml-maven-plugin](https://www.mojohaus.org/xml-maven-plugin/) instead. |

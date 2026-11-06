@@ -1,53 +1,27 @@
- ------
- MojoHaus Maven Plugins Project
- ------
- Trygve Laugstol
- ------
- ------
-
-~~ 
-~~ Licensed to the Apache Software Foundation (ASF) under one
-~~ or more contributor license agreements.  See the NOTICE file
-~~ distributed with this work for additional information
-~~ regarding copyright ownership.  The ASF licenses this file
-~~ to you under the Apache License, Version 2.0 (the
-~~ "License"); you may not use this file except in compliance
-~~ with the License.  You may obtain a copy of the License at
-~~
-~~  http://www.apache.org/licenses/LICENSE-2.0
-~~
-~~ Unless required by applicable law or agreed to in writing,
-~~ software distributed under the License is distributed on an
-~~ "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
-~~ KIND, either express or implied.  See the License for the
-~~ specific language governing permissions and limitations
-~~ under the License.
-~~
+# MojoHaus Maven Plugins Project
 
 Welcome to the MojoHaus Project (previously known as Mojo@Codehaus)
 
+The MojoHaus project is a collection of plugins for Apache Maven.
 
- The MojoHaus project is a collection of plugins for Apache Maven.
+Releases of the plugins are available from the [Maven Central repository](https://repo1.maven.org/maven2/org/codehaus/mojo/).
+[Snapshots](https://oss.sonatype.org/content/repositories/snapshots/org/codehaus/mojo/) are available on request through 
+the [development list](./mailing-lists.html) or by emailing the maintainer. Each plugin has a list of people involved in
+creating or supporting it.
 
- Releases of the plugins are available from the {{{https://repo1.maven.org/maven2/org/codehaus/mojo/}Maven Central repository}}.
- {{{https://oss.sonatype.org/content/repositories/snapshots/org/codehaus/mojo/}Snapshots}} are available on request through 
- the {{{./mailing-lists.html}development list}} or by emailing the maintainer. Each plugin has a list of people involved in
- creating or supporting it.
+## Plugins
 
-* Plugins
+For information on the plugins hosted at the MojoHaus project see the [plugins list](./plugins.html). Detailed information and
+instructions for each plugin can be found on its Maven site.
 
- For information on the plugins hosted at the MojoHaus project see the {{{./plugins.html}plugins list}}. Detailed information and
- instructions for each plugin can be found on its Maven site.
+## Getting Support
 
-* Getting Support
+If you have problems or concerns with plugins in the MojoHaus project please contact the author, ask on
+the regular [Maven Users mailing list](./mailing-lists.html). There are also instructions on
+[how to report an issue](./contribution/reporting-an-issue.html) should you run into one.
 
- If you have problems or concerns with plugins in the MojoHaus project please contact the author, ask on
- the regular {{{./mailing-lists.html}Maven Users mailing list}}. There are also instructions on
- {{{./contribution/reporting-an-issue.html}how to report an issue}} should you run into one.
+## Development
 
-* Development
-
- If you would like to contribute to the project, either through {{{./contribution/submitting-a-patch.html}fixing an existing plugin}}
- or by {{{./contribution/submitting-a-plugin.html}donating a new plugin}},
- contact us on the {{{./mailing-lists.html}development list}}.
-
+If you would like to contribute to the project, either through [fixing an existing plugin](./contribution/submitting-a-patch.html)
+or by [donating a new plugin](./contribution/submitting-a-plugin.html),
+contact us on the [development list](./mailing-lists.html).

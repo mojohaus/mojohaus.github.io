@@ -1,57 +1,20 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!--
-    Licensed to the Apache Software Foundation (ASF) under one or more
-    contributor license agreements.  See the NOTICE file distributed with
-    this work for additional information regarding copyright ownership.
-    The ASF licenses this file to You under the Apache License, Version 2.0
-    (the "License"); you may not use this file except in compliance with
-    the License.  You may obtain a copy of the License at
+# About Mojo
 
-       http://www.apache.org/licenses/LICENSE-2.0
+## Frequently Asked Questions
 
-    Unless required by applicable law or agreed to in writing, software
-    distributed under the License is distributed on an "AS IS" BASIS,
-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-    See the License for the specific language governing permissions and
-    limitations under the License.
--->
+1. [Why was the MojoHaus project created?](#why-mojo)
+2. [How can we communicate?](#how-can-we-communicate)
 
-<faqs title="About Mojo" xmlns="http://maven.apache.org/FML/1.0.1"
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/FML/1.0.1 http://maven.apache.org/xsd/fml-1.0.1.xsd">
+<a id="why-mojo"></a>
+### Why was the MojoHaus project created?
 
-    <part id="about">
-        <faq id="why-mojo">
-            <question>Why was the MojoHaus project created?</question>
-            <answer>
-                <p>
-                    Well, this allows a bunch of people,
-                    not necessarily involved with the Maven project, to come along and build
-                    some plugins. They are free to look after just that plugin, though I hope that they'll get involved in the
-                    community of people here and work on other plugins as well as help maintain the common infrastructure like the
-                    site.
-                </p>
-                
-                <p>
-                    Maven plugins may also be developed here because they are not compatible with the <a href="http://www.apache.org/licenses/">Apache license</a>. Plugin
-                    authors may choose to use other licenses (BSD, GPL, MPL ...) to license their work or may be forced to because
-                    of the nature of the plugin and its dependencies. These plugin authors are responsible for working with their
-                    plugins license but the mailing lists are a great place to get help if people get confused on what can or can
-                    not be done within the mojo project. 
-                </p>
-            </answer>
-        </faq>
-        
-        <faq id="how-can-we-communicate">
-            <question>How can we communicate?</question>
-            <answer>
-                <ul>
-                    <li>Use the <a href="mailing-lists.html">mailing list</a> where possible as more people can get involved and so an archive is available.</li>
-                    <li>If it is specific to a plugin, prefix the subject with the plugin name, e.g. <code>[jalopy]</code>.</li>
-                    <li>Try and summarise and send it to the list if there was some decisions were made there.</li>
-                </ul>
-            </answer>
-        </faq>
-    </part>
+Well, this allows a bunch of people, not necessarily involved with the Maven project, to come along and build some plugins. They are free to look after just that plugin, though I hope that they'll get involved in the community of people here and work on other plugins as well as help maintain the common infrastructure like the site.
 
-</faqs>
+Maven plugins may also be developed here because they are not compatible with the [Apache license](http://www.apache.org/licenses/). Plugin authors may choose to use other licenses (BSD, GPL, MPL ...) to license their work or may be forced to because of the nature of the plugin and its dependencies. These plugin authors are responsible for working with their plugins license but the mailing lists are a great place to get help if people get confused on what can or can not be done within the mojo project.
+
+<a id="how-can-we-communicate"></a>
+### How can we communicate?
+
+- Use the [mailing list](mailing-lists.html) where possible as more people can get involved and so an archive is available.
+- If it is specific to a plugin, prefix the subject with the plugin name, e.g. `[jalopy]`.
+- Try and summarise and send it to the list if there was some decisions were made there.
