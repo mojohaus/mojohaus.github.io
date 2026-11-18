@@ -52,7 +52,7 @@ When a plugin is ready to have its first production release (i.e. not an alpha o
 mvn docck:check
 ```
 
-  If there are any errors - fix them. There are a couple of errors that might not need to be fixed. As an example: it's better *not* to add an FAQ document than to add a bogus one.
+If there are any errors - fix them. There are a couple of errors that might not need to be fixed. As an example: it's better *not* to add an FAQ document than to add a bogus one.
 
 ## Making GPG Keys
 
@@ -62,15 +62,15 @@ Information can also be found on Sonatype's [How to Generate PGP Signatures with
 * Download GPG from <http://www.gnupg.org/download/>, follow the instructions and install it to your system. Verify your gpg installation by running gpg with the version flag, i.e. `gpg --version`
 * Execute `gpg --full-generate-key` and answer the questions. Most of the time you can use the default.
 
-| Prompt | Selection |
-|---|---|
-| Please select what kind of key you want:<br>(1) RSA and RSA (default)<br>(2) DSA and Elgamal<br>(3) DSA (sign only)<br>(4) RSA (sign only)<br>(7) DSA (set your own capabilities)<br>(8) RSA (set your own capabilities)<br>(9) ECC and ECC<br>(10) ECC (sign only)<br>(11) ECC (set your own capabilities)<br>(13) Existing key<br>(14) Existing key from card | 9 |
-| Please select which elliptic curve you want:<br>(1) Curve 25519<br>(3) NIST P-256<br>(4) NIST P-384<br>(5) NIST P-521<br>(6) Brainpool P-256<br>(7) Brainpool P-384<br>(8) Brainpool P-512<br>(9) secp256k1 | 1 |
-| Please specify how long the key should be valid.<br>0 = key does not expire<br>&lt;n&gt; = key expires in n days<br>&lt;n&gt;w = key expires in n weeks<br>&lt;n&gt;m = key expires in n months<br>&lt;n&gt;y = key expires in n years | 4y |
-| Real name: | &lt;your real name&gt; |
-| Email address: | &lt;your email address&gt; |
-| Comment: | &lt;empty&gt; |
-| Change (N)ame, (C)omment, (E)mail or (O)kay/(Q)uit? | O |
+|                                                                                                                                                                             Prompt                                                                                                                                                                              |         Selection          |
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------|
+| Please select what kind of key you want:<br>(1) RSA and RSA (default)<br>(2) DSA and Elgamal<br>(3) DSA (sign only)<br>(4) RSA (sign only)<br>(7) DSA (set your own capabilities)<br>(8) RSA (set your own capabilities)<br>(9) ECC and ECC<br>(10) ECC (sign only)<br>(11) ECC (set your own capabilities)<br>(13) Existing key<br>(14) Existing key from card | 9                          |
+| Please select which elliptic curve you want:<br>(1) Curve 25519<br>(3) NIST P-256<br>(4) NIST P-384<br>(5) NIST P-521<br>(6) Brainpool P-256<br>(7) Brainpool P-384<br>(8) Brainpool P-512<br>(9) secp256k1                                                                                                                                                     | 1                          |
+| Please specify how long the key should be valid.<br>0 = key does not expire<br>&lt;n&gt; = key expires in n days<br>&lt;n&gt;w = key expires in n weeks<br>&lt;n&gt;m = key expires in n months<br>&lt;n&gt;y = key expires in n years                                                                                                                          | 4y                         |
+| Real name:                                                                                                                                                                                                                                                                                                                                                      | &lt;your real name&gt;     |
+| Email address:                                                                                                                                                                                                                                                                                                                                                  | &lt;your email address&gt; |
+| Comment:                                                                                                                                                                                                                                                                                                                                                        | &lt;empty&gt;              |
+| Change (N)ame, (C)omment, (E)mail or (O)kay/(Q)uit?                                                                                                                                                                                                                                                                                                             | O                          |
 
 * Execute `gpg --list-sigs "<your real name>" && gpg --armor --export "<your real name>"` and visit <https://hkps.pool.sks-keyservers.net/> to distribute your public key, so users can verify your files. This webpage contains a form where you have to copy your key.
 * Update <https://github.com/mojohaus/mojohaus.github.io/blob/site/src/site/resources/KEYS> by expanding this file with your key. If you deploy the site by running `mvn -Preporting verify site site:stage scm-publish:publish-scm` the key will become available on the mojo-site. Since all mojo-developers should put their key here it's easy for users to verify mojo-artifacts.
@@ -162,12 +162,13 @@ Of course, to release the Mojo Parent POM, a vote takes place just for an ordina
 1. Execute `mvn release:prepare`
 2. Execute `mvn release:perform -Dgoals=deploy`
 
-  The important thing to note here is the parameter `-Dgoals=deploy`. By default, the Release Plugin would execute the phases `deploy` and `site-deploy` on the parent POM. However, the site of the parent POM is not meant to be deployed, we have a separate project for this. The configuration of the site distribution in the parent POM exists solely for the purpose of inheritance by the plugins. Accidentally deploying the parent's site would damage the Mojo website, most notably the `index.html`.
+The important thing to note here is the parameter `-Dgoals=deploy`. By default, the Release Plugin would execute the phases `deploy` and `site-deploy` on the parent POM. However, the site of the parent POM is not meant to be deployed, we have a separate project for this. The configuration of the site distribution in the parent POM exists solely for the purpose of inheritance by the plugins. Accidentally deploying the parent's site would damage the Mojo website, most notably the `index.html`.
 
 3. Test that the new parent is working
 
-  Manually update (without committing) one or two plugins on your local machine to use the new parent. Then run:
+Manually update (without committing) one or two plugins on your local machine to use the new parent. Then run:
 
-  `mvn clean verify site -Pmojo-release`
+`mvn clean verify site -Pmojo-release`
 
 4. Update the [Development Guidelines](./guidelines.html) to indicate the new POM version.
+

@@ -12,7 +12,7 @@ Snapshots are for testing purposes only and are not official releases.
 
 ## How do I do this?
 
-Development versions of MojoHaus plugins are periodically published to the OSS Sonatype snapshot repository: 
+Development versions of MojoHaus plugins are periodically published to the OSS Sonatype snapshot repository:
 <https://oss.sonatype.org/content/repositories/snapshots/>
 
 The first step is to include this in your project:
