@@ -31,7 +31,7 @@ Released plugins should derive from [the MojoHaus parent](/mojo-parent/), for th
   <parent>
     <groupId>org.codehaus.mojo</groupId>
     <artifactId>mojo-parent</artifactId>
-    <version>70</version>
+    <version>97</version>
   </parent>
   ...
 </project>
@@ -116,3 +116,4 @@ Place this in your plugin's `src/site/site.xml` for a starting point:
   </body>
 </project>
 ```
+

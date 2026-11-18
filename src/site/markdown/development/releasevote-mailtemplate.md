@@ -4,10 +4,10 @@ This template contains most of the data developers expect to do validate a vote.
 Replace all `UPPER_CASE_TERMS` with its equivalent value.
 You're free to add or skip sections, just see this as a good starting point.
 
-| Header | Value |
-|---|---|
+|   Header    |                        Value                        |
+|-------------|-----------------------------------------------------|
 | **Subject** | [VOTE] Release PROJECT_NAME version PROJECT_VERSION |
-| **To** | mojohaus-dev@googlegroups.com |
+| **To**      | mojohaus-dev@googlegroups.com                       |
 
 ```text
 Hi,
@@ -44,3 +44,4 @@ Regards / Cheers /
 
 YOUR_NAME
 ```
+
