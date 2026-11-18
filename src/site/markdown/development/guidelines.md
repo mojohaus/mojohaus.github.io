@@ -13,10 +13,8 @@ All plugins in the **MojoHaus** project should follow these guidelines.
 
 ## Licensing
 
-We accept any plugins that follow Codehaus's rules for licensing. We recommend that you use
-[Codehaus's recommended license](http://hausmates.codehaus.org/) which is the MIT license. This license is usable
-for both ASL and GPL covered software. For other acceptable licenses please read the
-[Codehaus license overview](http://codehaus.org/customs/licenses.html).
+Each plugin chooses its own license, which must be documented in its `LICENSE.txt` file and be one of the
+licenses listed at <https://www.apache.org/licenses/>.
 
 Make sure that you include the license in a file called `LICENSE.txt` in the root of your project and that
 all files include the license at the top of the file.
@@ -89,17 +87,17 @@ Place this in your plugin's `src/site/site.xml` for a starting point:
   xsi:schemaLocation="http://maven.apache.org/DECORATION/1.3.0 http://maven.apache.org/xsd/decoration-1.3.0.xsd">
   <bannerLeft>
     <name>Mojo</name>
-    <src>http://mojo.codehaus.org/images/mojo_logo.png</src>
-    <href>http://mojo.codehaus.org</href>
+    <src>https://www.mojohaus.org/images/mojo_logo.png</src>
+    <href>https://www.mojohaus.org/</href>
   </bannerLeft>
   <bannerRight>
     <name>Codehaus</name>
-    <src>http://mojo.codehaus.org/images/codehaus-small.png</src>
-    <href>http://www.codehaus.org</href>
+    <src>https://www.mojohaus.org/images/codehaus-small.png</src>
+    <href>https://www.mojohaus.org/</href>
   </bannerRight>
   <body>
     <links>
-      <item name="Mojo" href="http://mojo.codehaus.org"/>
+      <item name="Mojo" href="https://www.mojohaus.org/"/>
       <item name="Maven" href="http://maven.apache.org/"/>
     </links>
     <menu name="Overview">

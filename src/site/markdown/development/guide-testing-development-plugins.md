@@ -13,7 +13,7 @@ Snapshots are for testing purposes only and are not official releases.
 ## How do I do this?
 
 Development versions of MojoHaus plugins are periodically published to the OSS Sonatype snapshot repository:
-<https://oss.sonatype.org/content/repositories/snapshots/>
+<https://central.sonatype.com/repository/maven-snapshots/>
 
 The first step is to include this in your project:
 
@@ -23,7 +23,7 @@ The first step is to include this in your project:
   <pluginRepositories>
     <pluginRepository>
       <id>ossrh-snapshots</id>
-      <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
+      <url>https://central.sonatype.com/repository/maven-snapshots/</url>
       <snapshots>
         <enabled>true</enabled>
       </snapshots>
@@ -48,7 +48,7 @@ After this is included, there are three ways to use the updated versions:
   <pluginRepositories>
     <pluginRepository>
       <id>ossrh-snapshots</id>
-      <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
+      <url>https://central.sonatype.com/repository/maven-snapshots/</url>
       <snapshots>
         <enabled>true</enabled>
         <updatePolicy>interval:15</updatePolicy>
@@ -85,7 +85,7 @@ Once in your local repository Maven can successfully resolve the dependencies an
         <pluginRepository>
           <id>ossrh-snapshots</id>
           <name>MojoHaus Plugin Snapshots</name>
-          <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
+          <url>https://central.sonatype.com/repository/maven-snapshots/</url>
           <releases>
             <enabled>false</enabled>
           </releases>
