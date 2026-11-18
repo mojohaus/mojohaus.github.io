@@ -5,7 +5,7 @@ Welcome to the MojoHaus Project (previously known as Mojo@Codehaus)
 The MojoHaus project is a collection of plugins for Apache Maven.
 
 Releases of the plugins are available from the [Maven Central repository](https://repo1.maven.org/maven2/org/codehaus/mojo/).
-[Snapshots](https://oss.sonatype.org/content/repositories/snapshots/org/codehaus/mojo/) are available on request through
+[Snapshots](https://central.sonatype.com/repository/maven-snapshots/org/codehaus/mojo/) are available on request through
 the [development list](./mailing-lists.html) or by emailing the maintainer. Each plugin has a list of people involved in
 creating or supporting it.
 
