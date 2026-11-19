@@ -96,7 +96,7 @@
 <p>You are highly encouraged to join the development list for the project and provide your feedback, or help promote release of the plugin in question.</p>
 <p><strong>Note:</strong> This is <strong>not</strong> recommended as an everyday or in production practice! Snapshots are for testing purposes only and are not official releases.</p></section><section><a id="How_do_I_do_this.3F"></a>
 <h2>How do I do this?</h2>
-<p>Development versions of MojoHaus plugins are periodically published to the OSS Sonatype snapshot repository: <a href="https://oss.sonatype.org/content/repositories/snapshots/" class="externalLink">https://oss.sonatype.org/content/repositories/snapshots/</a></p>
+<p>Development versions of MojoHaus plugins are periodically published to the OSS Sonatype snapshot repository: <a href="https://central.sonatype.com/repository/maven-snapshots/" class="externalLink">https://central.sonatype.com/repository/maven-snapshots/</a></p>
 <p>The first step is to include this in your project:</p>
 
 <pre class="prettyprint"><code class="language-xml">&lt;project xmlns=&quot;http://maven.apache.org/POM/4.0.0&quot;&gt;
@@ -104,7 +104,7 @@
   &lt;pluginRepositories&gt;
     &lt;pluginRepository&gt;
       &lt;id&gt;ossrh-snapshots&lt;/id&gt;
-      &lt;url&gt;https://oss.sonatype.org/content/repositories/snapshots/&lt;/url&gt;
+      &lt;url&gt;https://central.sonatype.com/repository/maven-snapshots/&lt;/url&gt;
       &lt;snapshots&gt;
         &lt;enabled&gt;true&lt;/enabled&gt;
       &lt;/snapshots&gt;
@@ -129,7 +129,7 @@
   &lt;pluginRepositories&gt;
     &lt;pluginRepository&gt;
       &lt;id&gt;ossrh-snapshots&lt;/id&gt;
-      &lt;url&gt;https://oss.sonatype.org/content/repositories/snapshots/&lt;/url&gt;
+      &lt;url&gt;https://central.sonatype.com/repository/maven-snapshots/&lt;/url&gt;
       &lt;snapshots&gt;
         &lt;enabled&gt;true&lt;/enabled&gt;
         &lt;updatePolicy&gt;interval:15&lt;/updatePolicy&gt;
@@ -157,7 +157,7 @@
         &lt;pluginRepository&gt;
           &lt;id&gt;ossrh-snapshots&lt;/id&gt;
           &lt;name&gt;MojoHaus Plugin Snapshots&lt;/name&gt;
-          &lt;url&gt;https://oss.sonatype.org/content/repositories/snapshots/&lt;/url&gt;
+          &lt;url&gt;https://central.sonatype.com/repository/maven-snapshots/&lt;/url&gt;
           &lt;releases&gt;
             &lt;enabled&gt;false&lt;/enabled&gt;
           &lt;/releases&gt;
