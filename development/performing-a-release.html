@@ -207,7 +207,7 @@
   &lt;/servers&gt;
 &lt;/settings&gt;
 </code></pre>
-<p>(Note that using <a href="https://maven.apache.org/guides/mini/guide-encryption.html#How_to_encrypt_server_passwords" class="externalLink">Maven password encryption</a> is possible but may not work in combination with the <code>oss-sonatype.password</code> property, perhaps due to difficulties with brace expansion. Instead, duplicate your encrypted password into each of the <code>server</code> sections.)</p></section><section><a id="Staging_the_Release"></a>
+<p>(Note that <a href="https://maven.apache.org/guides/mini/guide-encryption.html#How_to_encrypt_server_passwords" class="externalLink">Maven password encryption</a> can be used for the <code>sonatype-central-portal</code> server password. If brace expansion causes problems with an encrypted password, duplicate the encrypted value directly into the <code>server</code> section.)</p></section><section><a id="Staging_the_Release"></a>
 <h2>Staging the Release</h2>
 <p>The release process should be done using the <a href="https://maven.apache.org/plugins/maven-release-plugin/" class="externalLink">Maven Release Plugin</a>:</p>
 <ul>
@@ -217,9 +217,7 @@
 <p>This will make sure all code is checked in, tag the release and make sure the POM has no snapshot dependencies. Make sure that you are able to push changes and tags via SSH.</p></li>
 <li>
 <p>Execute <code>mvn release:perform</code></p>
-<p>This will build the plugin, javadocs and source. Everything will be deployed to the Nexus Repository Manager of Sonatype OSSRH, ready to be staged. (This will typically not build the site.)</p></li>
-<li>
-<p>Log into <a href="https://oss.sonatype.org/" class="externalLink">https://oss.sonatype.org/</a> and &#x201c;Close&#x201d; the staging repository.</p></li>
+<p>This will build the plugin, javadocs and source. The artifacts are deployed through the <code>njord</code> extension enabled by the <code>mojo-release</code> profile in the MojoHaus parent POM, using the <code>sonatype-central-portal</code> server from your <code>settings.xml</code>. Publishing to Maven Central is automatic (<code>njord.autoPublish=true</code>). (This will typically not build the site.)</p></li>
 <li>
 <p>Build and deploy the plugin site</p>
 <p>Typically, the command is <code>cd target/checkout</code> then <code>mvn verify site site:stage scm-publish:publish-scm</code> on a mono-module plugin but could vary. Consult the mojo's README file.</p>
@@ -240,8 +238,7 @@
 <ul>
 
 <li>Reply to the latest vote and summarize the result and prefix the subject with <strong>[RESULT]</strong>.</li>
-<li>Log into <a href="https://oss.sonatype.org/" class="externalLink">https://oss.sonatype.org/</a> and &#x201c;Release&#x201d; the staging repository.</li>
-<li>Wait some time and find the artifacts synced on central. The synchronization typically occurs every 4 hours but allow for it take up to 24 hrs.</li>
+<li>Wait for the artifacts to appear on Maven Central. Publishing is automatic, but synchronization typically takes a few hours; allow up to 24 hours.</li>
 <li>Close the current milestone in github, and create new milestone(s) as required.</li>
 <li>Remove the &#x201c;pre-release&#x201d; tag from the release tag in GitHub.</li>
 <li>Send out an announcement email to <a href="mailto:mojohaus-dev@googlegroups.com" class="externalLink">mojohaus-dev@googlegroups.com</a> and <a href="mailto:users@maven.apache.org" class="externalLink">users@maven.apache.org</a>. You can use a <a href="./announcement-mailtemplate.html">template</a> to be sure your email contains all the expected information. Ensure you've subscribed to all these mailing lists, otherwise the message will be bounced.</li>
@@ -251,7 +248,7 @@
 <p>If the vote failed, the following steps have to be taken:</p>
 <ul>
 
-<li>Log into <a href="https://oss.sonatype.org/" class="externalLink">https://oss.sonatype.org/</a> and &#x201c;Drop&#x201d; the staging repository.</li>
+<li>With Central Portal automatic publishing there is no OSSRH staging repository to drop, so that old step no longer applies. A failed vote after publication is handled by publishing a corrected release.</li>
 <li>Rollback any SCM-changes. Be aware that the <code>release:rollback</code> doesn't remove the tag. You must do this by hand, use <code>git tag -d myplugin-1.2.3</code>.</li>
 <li>To remove a remote tag on GitHub, use <code>git push origin :refs/tags/myplugin-1.2.3</code>.</li>
 <li>Run <code>siteskinner:skin -DsiteDeploy</code> to restore the documentation of the latest released plugin.</li>
