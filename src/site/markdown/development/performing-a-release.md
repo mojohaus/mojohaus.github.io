@@ -2,6 +2,8 @@
 
 This is a check list of stuff that has to be done before a new version of a plugin is released.
 
+The MojoHaus maintainers own this checklist and review it annually against the current publishing process; the next scheduled review is November 2027. If a step no longer matches the Central Portal or the parent POM, fix it here rather than working around it ad hoc.
+
 * [Preparing to Release](#Preparing_to_Release)
 * [Preparing for the First Production Release](#Preparing_for_the_First_Production_Release)
 * [Making GPG Keys](#Making_GPG_Keys)
