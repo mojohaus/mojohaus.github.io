@@ -96,7 +96,7 @@ For any deployment you have to make contact with <https://central.sonatype.com/>
 </settings>
 ```
 
-(Note that using [Maven password encryption](https://maven.apache.org/guides/mini/guide-encryption.html#How_to_encrypt_server_passwords) is possible but may not work in combination with the `oss-sonatype.password` property, perhaps due to difficulties with brace expansion. Instead, duplicate your encrypted password into each of the `server` sections.)
+(Note that [Maven password encryption](https://maven.apache.org/guides/mini/guide-encryption.html#How_to_encrypt_server_passwords) can be used for the `sonatype-central-portal` server password. If brace expansion causes problems with an encrypted password, duplicate the encrypted value directly into the `server` section.)
 
 ## Staging the Release
 
@@ -108,9 +108,7 @@ The release process should be done using the [Maven Release Plugin](https://mave
 
 * Execute `mvn release:perform`
 
-  This will build the plugin, javadocs and source. Everything will be deployed to the Nexus Repository Manager of Sonatype OSSRH, ready to be staged. (This will typically not build the site.)
-
-* Log into <https://oss.sonatype.org/> and "Close" the staging repository.
+  This will build the plugin, javadocs and source. The artifacts are deployed through the `njord` extension enabled by the `mojo-release` profile in the MojoHaus parent POM, using the `sonatype-central-portal` server from your `settings.xml`. Publishing to Maven Central is automatic (`njord.autoPublish=true`). (This will typically not build the site.)
 
 * Build and deploy the plugin site
 
@@ -139,8 +137,7 @@ Before a release can occur, an optional vote may take place. This is initiated w
 When the vote (if any) has passed, do the following:
 
 * Reply to the latest vote and summarize the result and prefix the subject with **[RESULT]**.
-* Log into <https://oss.sonatype.org/> and "Release" the staging repository.
-* Wait some time and find the artifacts synced on central. The synchronization typically occurs every 4 hours but allow for it take up to 24 hrs.
+* Wait for the artifacts to appear on Maven Central. Publishing is automatic, but synchronization typically takes a few hours; allow up to 24 hours.
 * Close the current milestone in github, and create new milestone(s) as required.
 * Remove the "pre-release" tag from the release tag in GitHub.
 * Send out an announcement email to [mojohaus-dev@googlegroups.com](mailto:mojohaus-dev@googlegroups.com) and [users@maven.apache.org](mailto:users@maven.apache.org). You can use a [template](./announcement-mailtemplate.html) to be sure your email contains all the expected information. Ensure you've subscribed to all these mailing lists, otherwise the message will be bounced.
@@ -150,7 +147,7 @@ When the vote (if any) has passed, do the following:
 
 If the vote failed, the following steps have to be taken:
 
-* Log into <https://oss.sonatype.org/> and "Drop" the staging repository.
+* With Central Portal automatic publishing there is no OSSRH staging repository to drop, so that old step no longer applies. A failed vote after publication is handled by publishing a corrected release.
 * Rollback any SCM-changes. Be aware that the `release:rollback` doesn't remove the tag. You must do this by hand, use `git tag -d myplugin-1.2.3`.
 * To remove a remote tag on GitHub, use `git push origin :refs/tags/myplugin-1.2.3`.
 * Run `siteskinner:skin -DsiteDeploy` to restore the documentation of the latest released plugin.
