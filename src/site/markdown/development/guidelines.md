@@ -13,8 +13,8 @@ All plugins in the **MojoHaus** project should follow these guidelines.
 
 ## Licensing
 
-Each plugin chooses its own license, which must be documented in its `LICENSE.txt` file and be one of the
-licenses listed at <https://www.apache.org/licenses/>.
+We accept plugins under any open-source license. We recommend the MIT license, which is usable for both
+ASL and GPL covered software, but plugin authors may choose another one (Apache, BSD, GPL, MPL ...).
 
 Make sure that you include the license in a file called `LICENSE.txt` in the root of your project and that
 all files include the license at the top of the file.
